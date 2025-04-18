@@ -31,8 +31,10 @@ class MerckVetManualFullSpider(scrapy.Spider):
         """Parse the main veterinary topics page."""
         self.logger.info(f"Parsing main page: {response.url}")
 
-        # Extract all sections
-        sections = response.css('div#bodyContent a[href*="/"]')
+        # Based on the HTML structure from the screenshot:
+        # Target the section items directly with the specific class
+        sections = response.css("div.SectionList_sectionListItem__NNP4c a")
+
         self.logger.info(f"Found {len(sections)} sections")
 
         for section in sections:
@@ -61,20 +63,45 @@ class MerckVetManualFullSpider(scrapy.Spider):
         self.logger.info(f"Parsing section page: {section_title} at {response.url}")
 
         # Extract topics on the section page
+        # Try multiple selectors to catch different page structures
         topics = response.css("div.topic-list a, ul.topic-list li a")
 
         if not topics:
-            # Try alternative selectors if the above doesn't work
-            topics = response.css('div#bodyContent a[href*="/"]')
+            # Try alternative selectors based on common patterns
+            topics = response.css('a[href*="/"]')
+
+            # Filter to links that are likely topics (not navigation, footer, etc.)
+            filtered_topics = []
+            base_path = response.url.rstrip("/")
+
+            for topic in topics:
+                href = topic.css("::attr(href)").get()
+                if href and not href.startswith(("#", "javascript:", "http")):
+                    # Convert to absolute URL
+                    topic_url = response.urljoin(href)
+
+                    # Skip if it's the same as the section page
+                    if topic_url == response.url:
+                        continue
+
+                    # Check if it's a deeper path (likely a topic)
+                    if topic_url.startswith(base_path + "/"):
+                        filtered_topics.append(topic)
+
+            topics = filtered_topics
 
         self.logger.info(f"Found {len(topics)} topics in section {section_title}")
 
         for topic in topics:
-            topic_name = topic.css("::text").get().strip()
+            topic_name = topic.css("::text").get()
+            if not topic_name:
+                continue
+
+            topic_name = topic_name.strip()
             topic_url = response.urljoin(topic.css("::attr(href)").get())
 
-            # Skip if it's the same as the section page or if it's not a valid topic
-            if topic_url == response.url or not topic_name:
+            # Skip if it's not a valid topic
+            if not topic_name:
                 continue
 
             item = TopicItem()
@@ -99,7 +126,7 @@ class MerckVetManualFullSpider(scrapy.Spider):
         self.logger.info(f'Parsing topic page: {item["topic_name"]} at {response.url}')
 
         # Extract main content
-        content_section = response.css("div#bodyContent, div.topic-content")
+        content_section = response.css("div#bodyContent, div.topic-content, article")
         if content_section:
             # Extract text content
             paragraphs = content_section.css("p::text, p *::text").getall()
