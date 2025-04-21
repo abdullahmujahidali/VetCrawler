@@ -1,62 +1,536 @@
 [
   {
     "title": "Respiratory System Introduction",
-    "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-system-introduction"
+    "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-system-introduction",
+    "in_depth_links": [
+      {
+        "title": "The Respiratory System in Animals",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-system-introduction/the-respiratory-system-in-animals"
+      },
+      {
+        "title": "Clinical Signs of Respiratory Disease in Animals",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-system-introduction/clinical-signs-of-respiratory-disease-in-animals"
+      },
+      {
+        "title": "Causes of Respiratory Disease in Animals",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-system-introduction/causes-of-respiratory-disease-in-animals"
+      },
+      {
+        "title": "Diagnostic Techniques for Respiratory Disease in Animals",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-system-introduction/diagnostic-techniques-for-respiratory-disease-in-animals"
+      },
+      {
+        "title": "Control of Respiratory Disease in Animals",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-system-introduction/control-of-respiratory-disease-in-animals"
+      },
+      {
+        "title": "Principles of Therapy for Respiratory Disease in Animals",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-system-introduction/principles-of-therapy-for-respiratory-disease-in-animals"
+      }
+    ]
   },
   {
     "title": "Aspiration Pneumonia in Large Animals",
-    "url": "https://www.merckvetmanual.com/respiratory-system/aspiration-pneumonia-in-large-animals/aspiration-pneumonia-in-large-animals"
+    "url": "https://www.merckvetmanual.com/respiratory-system/aspiration-pneumonia-in-large-animals/aspiration-pneumonia-in-large-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology",
+        "url": "https://www.merckvetmanual.com/respiratory-system/aspiration-pneumonia-in-large-animals/aspiration-pneumonia-in-large-animals#Etiology_v3292811"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/respiratory-system/aspiration-pneumonia-in-large-animals/aspiration-pneumonia-in-large-animals#Clinical-Findings_v3292816"
+      },
+      {
+        "title": "Prevention and Treatment",
+        "url": "https://www.merckvetmanual.com/respiratory-system/aspiration-pneumonia-in-large-animals/aspiration-pneumonia-in-large-animals#Prevention-and-Treatment_v3292822"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/respiratory-system/aspiration-pneumonia-in-large-animals/aspiration-pneumonia-in-large-animals#For-More-Information_v53761942"
+      }
+    ]
   },
   {
     "title": "Bovine Respiratory Disease Complex",
-    "url": "https://www.merckvetmanual.com/respiratory-system/bovine-respiratory-disease-complex"
+    "url": "https://www.merckvetmanual.com/respiratory-system/bovine-respiratory-disease-complex",
+    "in_depth_links": [
+      {
+        "title": "Overview of Bovine Respiratory Disease Complex",
+        "url": "https://www.merckvetmanual.com/respiratory-system/bovine-respiratory-disease-complex/overview-of-bovine-respiratory-disease-complex"
+      },
+      {
+        "title": "Viral Infections Associated with Bovine Respiratory Disease Complex in Cattle",
+        "url": "https://www.merckvetmanual.com/respiratory-system/bovine-respiratory-disease-complex/viral-infections-associated-with-bovine-respiratory-disease-complex-in-cattle"
+      },
+      {
+        "title": "Bacterial Pneumonia in Cattle with Bovine Respiratory Disease Complex",
+        "url": "https://www.merckvetmanual.com/respiratory-system/bovine-respiratory-disease-complex/bacterial-pneumonia-in-cattle-with-bovine-respiratory-disease-complex"
+      }
+    ]
   },
   {
     "title": "Diaphragmatic Hernia",
-    "url": "https://www.merckvetmanual.com/respiratory-system/diaphragmatic-hernia/diaphragmatic-hernia-in-animals"
+    "url": "https://www.merckvetmanual.com/respiratory-system/diaphragmatic-hernia/diaphragmatic-hernia-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology",
+        "url": "https://www.merckvetmanual.com/respiratory-system/diaphragmatic-hernia/diaphragmatic-hernia-in-animals#Etiology_v3292897"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/respiratory-system/diaphragmatic-hernia/diaphragmatic-hernia-in-animals#Clinical-Findings_v3292900"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/respiratory-system/diaphragmatic-hernia/diaphragmatic-hernia-in-animals#Diagnosis_v3292904"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/respiratory-system/diaphragmatic-hernia/diaphragmatic-hernia-in-animals#Treatment_v3292915"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/respiratory-system/diaphragmatic-hernia/diaphragmatic-hernia-in-animals#Key-Points_v54343087"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/respiratory-system/diaphragmatic-hernia/diaphragmatic-hernia-in-animals#For-More-Information_v54343098"
+      }
+    ]
   },
   {
     "title": "Fungal Pneumonia in Small Animals",
-    "url": "https://www.merckvetmanual.com/respiratory-system/fungal-pneumonia-in-small-animals/fungal-pneumonia-in-small-animals"
+    "url": "https://www.merckvetmanual.com/respiratory-system/fungal-pneumonia-in-small-animals/fungal-pneumonia-in-small-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology",
+        "url": "https://www.merckvetmanual.com/respiratory-system/fungal-pneumonia-in-small-animals/fungal-pneumonia-in-small-animals#Etiology_v3293173"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/respiratory-system/fungal-pneumonia-in-small-animals/fungal-pneumonia-in-small-animals#Clinical-Findings_v3293188"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/respiratory-system/fungal-pneumonia-in-small-animals/fungal-pneumonia-in-small-animals#Diagnosis_v3293197"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/respiratory-system/fungal-pneumonia-in-small-animals/fungal-pneumonia-in-small-animals#Treatment_v3293201"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/respiratory-system/fungal-pneumonia-in-small-animals/fungal-pneumonia-in-small-animals#Key-Points_v46176998"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/respiratory-system/fungal-pneumonia-in-small-animals/fungal-pneumonia-in-small-animals#For-More-Information_v46177007"
+      }
+    ]
   },
   {
     "title": "Infectious Respiratory System Diseases in Cattle",
-    "url": "https://www.merckvetmanual.com/respiratory-system/infectious-respiratory-system-diseases-in-cattle"
+    "url": "https://www.merckvetmanual.com/respiratory-system/infectious-respiratory-system-diseases-in-cattle",
+    "in_depth_links": [
+      {
+        "title": "Sinusitis in Cattle",
+        "url": "https://www.merckvetmanual.com/respiratory-system/infectious-respiratory-system-diseases-in-cattle/sinusitis-in-cattle"
+      },
+      {
+        "title": "Necrotic Laryngitis in Cattle",
+        "url": "https://www.merckvetmanual.com/respiratory-system/infectious-respiratory-system-diseases-in-cattle/necrotic-laryngitis-in-cattle"
+      },
+      {
+        "title": "Enzootic Pneumonia of Calves",
+        "url": "https://www.merckvetmanual.com/respiratory-system/infectious-respiratory-system-diseases-in-cattle/enzootic-pneumonia-of-calves"
+      },
+      {
+        "title": "Bacterial Pneumonia Due to Mycoplasma bovis Infection in Cattle",
+        "url": "https://www.merckvetmanual.com/respiratory-system/infectious-respiratory-system-diseases-in-cattle/bacterial-pneumonia-due-to-mycoplasma-bovis-infection-in-cattle"
+      },
+      {
+        "title": "Contagious Bovine Pleuropneumonia",
+        "url": "https://www.merckvetmanual.com/respiratory-system/infectious-respiratory-system-diseases-in-cattle/contagious-bovine-pleuropneumonia"
+      }
+    ]
   },
   {
     "title": "Laryngeal Disorders",
-    "url": "https://www.merckvetmanual.com/respiratory-system/laryngeal-disorders/laryngeal-disorders-in-animals"
+    "url": "https://www.merckvetmanual.com/respiratory-system/laryngeal-disorders/laryngeal-disorders-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/respiratory-system/laryngeal-disorders/laryngeal-disorders-in-animals#Clinical-Findings_v3292936"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/respiratory-system/laryngeal-disorders/laryngeal-disorders-in-animals#Diagnosis_v3292940"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/respiratory-system/laryngeal-disorders/laryngeal-disorders-in-animals#Treatment_v3292943"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/respiratory-system/laryngeal-disorders/laryngeal-disorders-in-animals#Key-Points_v49300548"
+      }
+    ]
   },
   {
     "title": "Lungworm Infection",
-    "url": "https://www.merckvetmanual.com/respiratory-system/lungworm-infection/lungworm-infection-in-animals"
+    "url": "https://www.merckvetmanual.com/respiratory-system/lungworm-infection/lungworm-infection-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Epidemiology",
+        "url": "https://www.merckvetmanual.com/respiratory-system/lungworm-infection/lungworm-infection-in-animals#Epidemiology_v3292980"
+      },
+      {
+        "title": "Pathogenesis",
+        "url": "https://www.merckvetmanual.com/respiratory-system/lungworm-infection/lungworm-infection-in-animals#Pathogenesis_v3292999"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/respiratory-system/lungworm-infection/lungworm-infection-in-animals#Clinical-Findings_v3293024"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/respiratory-system/lungworm-infection/lungworm-infection-in-animals#Diagnosis_v3293039"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/respiratory-system/lungworm-infection/lungworm-infection-in-animals#Treatment_v3293063"
+      },
+      {
+        "title": "Control",
+        "url": "https://www.merckvetmanual.com/respiratory-system/lungworm-infection/lungworm-infection-in-animals#Control_v3293149"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/respiratory-system/lungworm-infection/lungworm-infection-in-animals#Key-Points_v58926892"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/respiratory-system/lungworm-infection/lungworm-infection-in-animals#For-More-Information_v58926903"
+      },
+      {
+        "title": "Some Primary Differential Diagnoses for Bovine Lungworm Disease",
+        "url": "https://www.merckvetmanual.com/respiratory-system/lungworm-infection/lungworm-infection-in-animals#v58926687"
+      },
+      {
+        "title": "Anthelmintic Treatments for Lungworms a",
+        "url": "https://www.merckvetmanual.com/respiratory-system/lungworm-infection/lungworm-infection-in-animals#v3293073"
+      }
+    ]
   },
   {
     "title": "Non-Infectious Respiratory System Diseases in Cattle",
-    "url": "https://www.merckvetmanual.com/respiratory-system/non-infectious-respiratory-system-diseases-in-cattle"
+    "url": "https://www.merckvetmanual.com/respiratory-system/non-infectious-respiratory-system-diseases-in-cattle",
+    "in_depth_links": [
+      {
+        "title": "Allergic Rhinitis and Enzootic Nasal Granuloma in Cattle",
+        "url": "https://www.merckvetmanual.com/respiratory-system/non-infectious-respiratory-system-diseases-in-cattle/allergic-rhinitis-and-enzootic-nasal-granuloma-in-cattle"
+      },
+      {
+        "title": "Tracheal Stenosis Syndrome of Feeder Cattle",
+        "url": "https://www.merckvetmanual.com/respiratory-system/non-infectious-respiratory-system-diseases-in-cattle/tracheal-stenosis-syndrome-of-feeder-cattle"
+      },
+      {
+        "title": "Pulmonary Emphysema, Edema, and Interstitial Pneumonia in Cattle",
+        "url": "https://www.merckvetmanual.com/respiratory-system/non-infectious-respiratory-system-diseases-in-cattle/pulmonary-emphysema-edema-and-interstitial-pneumonia-in-cattle"
+      },
+      {
+        "title": "Anaphylaxis in Cattle",
+        "url": "https://www.merckvetmanual.com/respiratory-system/non-infectious-respiratory-system-diseases-in-cattle/anaphylaxis-in-cattle"
+      },
+      {
+        "title": "Hypersensitivity Pneumonitis in Cattle",
+        "url": "https://www.merckvetmanual.com/respiratory-system/non-infectious-respiratory-system-diseases-in-cattle/hypersensitivity-pneumonitis-in-cattle"
+      },
+      {
+        "title": "Diffuse Fibrosing Alveolitis in Cattle",
+        "url": "https://www.merckvetmanual.com/respiratory-system/non-infectious-respiratory-system-diseases-in-cattle/diffuse-fibrosing-alveolitis-in-cattle"
+      },
+      {
+        "title": "Acute Respiratory Distress Syndrome of Feedlot Cattle",
+        "url": "https://www.merckvetmanual.com/respiratory-system/non-infectious-respiratory-system-diseases-in-cattle/acute-respiratory-distress-syndrome-of-feedlot-cattle"
+      },
+      {
+        "title": "4-Ipomeanol Toxicosis (Moldy Sweet Potato) and Perilla Ketone Toxicosis (Purple Mint Toxicosis) in Cattle",
+        "url": "https://www.merckvetmanual.com/respiratory-system/non-infectious-respiratory-system-diseases-in-cattle/4-ipomeanol-toxicosis-moldy-sweet-potato-and-perilla-ketone-toxicosis-purple-mint-toxicosis-in-cattle"
+      },
+      {
+        "title": "Respiratory Disease in Cattle due to Exposure to Toxic Gases",
+        "url": "https://www.merckvetmanual.com/respiratory-system/non-infectious-respiratory-system-diseases-in-cattle/respiratory-disease-in-cattle-due-to-exposure-to-toxic-gases"
+      },
+      {
+        "title": "Vena Caval Thrombosis and Metastatic Pneumonia in Cattle",
+        "url": "https://www.merckvetmanual.com/respiratory-system/non-infectious-respiratory-system-diseases-in-cattle/vena-caval-thrombosis-and-metastatic-pneumonia-in-cattle"
+      }
+    ]
   },
   {
     "title": "Pharyngitis",
-    "url": "https://www.merckvetmanual.com/respiratory-system/pharyngitis"
+    "url": "https://www.merckvetmanual.com/respiratory-system/pharyngitis",
+    "in_depth_links": [
+      {
+        "title": "Overview of Pharyngitis in Animals",
+        "url": "https://www.merckvetmanual.com/respiratory-system/pharyngitis/overview-of-pharyngitis-in-animals"
+      },
+      {
+        "title": "Pharyngeal Trauma in Animals",
+        "url": "https://www.merckvetmanual.com/respiratory-system/pharyngitis/pharyngeal-trauma-in-animals"
+      }
+    ]
   },
   {
     "title": "Pulmonary Emphysema",
-    "url": "https://www.merckvetmanual.com/respiratory-system/pulmonary-emphysema/pulmonary-emphysema-in-animals"
+    "url": "https://www.merckvetmanual.com/respiratory-system/pulmonary-emphysema/pulmonary-emphysema-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Epidemiology and Pathogenesis",
+        "url": "https://www.merckvetmanual.com/respiratory-system/pulmonary-emphysema/pulmonary-emphysema-in-animals#Epidemiology-and-Pathogenesis_v3293241"
+      },
+      {
+        "title": "Clinical Findings and Diagnosis",
+        "url": "https://www.merckvetmanual.com/respiratory-system/pulmonary-emphysema/pulmonary-emphysema-in-animals#Clinical-Findings-and-Diagnosis_v3293249"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/respiratory-system/pulmonary-emphysema/pulmonary-emphysema-in-animals#Treatment_v3293253"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/respiratory-system/pulmonary-emphysema/pulmonary-emphysema-in-animals#Key-Points_v46138262"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/respiratory-system/pulmonary-emphysema/pulmonary-emphysema-in-animals#For-More-Information_v46138271"
+      }
+    ]
   },
   {
     "title": "Respiratory Diseases of Horses",
-    "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-horses"
+    "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-horses",
+    "in_depth_links": [
+      {
+        "title": "Overview of Respiratory Diseases of Horses",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-horses/overview-of-respiratory-diseases-of-horses"
+      },
+      {
+        "title": "Equine Herpesvirus Infection",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-horses/equine-herpesvirus-infection"
+      },
+      {
+        "title": "Equine Influenza",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-horses/equine-influenza"
+      },
+      {
+        "title": "Equine Viral Arteritis",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-horses/equine-viral-arteritis"
+      },
+      {
+        "title": "Hendra Virus Infection in Horses",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-horses/hendra-virus-infection-in-horses"
+      },
+      {
+        "title": "Pleuropneumonia in Horses",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-horses/pleuropneumonia-in-horses"
+      },
+      {
+        "title": "Rhodococcus equi Pneumonia in Foals",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-horses/rhodococcus-equi-pneumonia-in-foals"
+      },
+      {
+        "title": "Acute Respiratory Distress Syndrome (Acute Bronchointerstitial Pneumonia) in Foals",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-horses/acute-respiratory-distress-syndrome-acute-bronchointerstitial-pneumonia-in-foals"
+      },
+      {
+        "title": "Strangles in Horses",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-horses/strangles-in-horses"
+      },
+      {
+        "title": "Asthma in Horses",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-horses/asthma-in-horses"
+      },
+      {
+        "title": "Exercise-Induced Pulmonary Hemorrhage in Horses",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-horses/exercise-induced-pulmonary-hemorrhage-in-horses"
+      },
+      {
+        "title": "Laryngeal Hemiplegia in Horses",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-horses/laryngeal-hemiplegia-in-horses"
+      },
+      {
+        "title": "Miscellaneous Transient Obstructions of the Larynx During Exercise in Horses",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-horses/miscellaneous-transient-obstructions-of-the-larynx-during-exercise-in-horses"
+      },
+      {
+        "title": "Pharyngeal Lymphoid Hyperplasia in Horses",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-horses/pharyngeal-lymphoid-hyperplasia-in-horses"
+      },
+      {
+        "title": "Dorsal Displacement of the Soft Palate in Horses",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-horses/dorsal-displacement-of-the-soft-palate-in-horses"
+      },
+      {
+        "title": "Arytenoid Chondropathy in Horses",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-horses/arytenoid-chondropathy-in-horses"
+      },
+      {
+        "title": "Epiglottic Entrapment in Horses",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-horses/epiglottic-entrapment-in-horses"
+      },
+      {
+        "title": "Subepiglottic Cyst in Horses",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-horses/subepiglottic-cyst-in-horses"
+      },
+      {
+        "title": "Laryngeal Dysplasia in Horses",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-horses/laryngeal-dysplasia-in-horses"
+      },
+      {
+        "title": "Diseases of the Nasal Passages in Horses",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-horses/diseases-of-the-nasal-passages-in-horses"
+      },
+      {
+        "title": "Diseases of the Paranasal Sinuses in Horses",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-horses/diseases-of-the-paranasal-sinuses-in-horses"
+      },
+      {
+        "title": "Guttural Pouch Disease in Horses",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-horses/guttural-pouch-disease-in-horses"
+      }
+    ]
   },
   {
     "title": "Respiratory Diseases of Pigs",
-    "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-pigs"
+    "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-pigs",
+    "in_depth_links": [
+      {
+        "title": "Overview of Respiratory Diseases of Pigs",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-pigs/overview-of-respiratory-diseases-of-pigs"
+      },
+      {
+        "title": "Atrophic Rhinitis in Pigs",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-pigs/atrophic-rhinitis-in-pigs"
+      },
+      {
+        "title": "Mycoplasmal Pneumonia in Pigs",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-pigs/mycoplasmal-pneumonia-in-pigs"
+      },
+      {
+        "title": "Necrotic Rhinitis in Pigs",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-pigs/necrotic-rhinitis-in-pigs"
+      },
+      {
+        "title": "Pasteurellosis in Pigs",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-pigs/pasteurellosis-in-pigs"
+      },
+      {
+        "title": "Pleuropneumonia in Pigs",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-pigs/pleuropneumonia-in-pigs"
+      },
+      {
+        "title": "Influenza A Virus in Swine",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-pigs/influenza-a-virus-in-swine"
+      }
+    ]
   },
   {
     "title": "Respiratory Diseases of Sheep and Goats",
-    "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-sheep-and-goats"
+    "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-sheep-and-goats",
+    "in_depth_links": [
+      {
+        "title": "Overview of Respiratory Diseases of Sheep and Goats",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-sheep-and-goats/overview-of-respiratory-diseases-of-sheep-and-goats"
+      },
+      {
+        "title": "Sheep Nasal Bot Myiasis",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-sheep-and-goats/sheep-nasal-bot-myiasis"
+      },
+      {
+        "title": "Mycoplasma Pneumonias in Goats",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-sheep-and-goats/mycoplasma-pneumonias-in-goats"
+      },
+      {
+        "title": "Bacterial Bronchopneumonia in Sheep and Goats",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-sheep-and-goats/bacterial-bronchopneumonia-in-sheep-and-goats"
+      },
+      {
+        "title": "Lentivirus Pneumonia in Sheep and Goats",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-sheep-and-goats/lentivirus-pneumonia-in-sheep-and-goats"
+      },
+      {
+        "title": "Ovine Pulmonary Adenocarcinoma",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-sheep-and-goats/ovine-pulmonary-adenocarcinoma"
+      }
+    ]
   },
   {
     "title": "Respiratory Diseases of Small Animals",
-    "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-small-animals"
+    "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-small-animals",
+    "in_depth_links": [
+      {
+        "title": "Overview of Respiratory Diseases of Dogs and Cats",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-small-animals/overview-of-respiratory-diseases-of-dogs-and-cats"
+      },
+      {
+        "title": "Allergic Pneumonitis in Dogs and Cats",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-small-animals/allergic-pneumonitis-in-dogs-and-cats"
+      },
+      {
+        "title": "Canine Influenza (Flu)",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-small-animals/canine-influenza-flu"
+      },
+      {
+        "title": "Canine Nasal Mites",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-small-animals/canine-nasal-mites"
+      },
+      {
+        "title": "Feline Bronchial Asthma",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-small-animals/feline-bronchial-asthma"
+      },
+      {
+        "title": "Feline Respiratory Disease Complex",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-small-animals/feline-respiratory-disease-complex"
+      },
+      {
+        "title": "Kennel Cough",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-small-animals/kennel-cough"
+      },
+      {
+        "title": "Laryngeal Paralysis in Dogs and Cats",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-small-animals/laryngeal-paralysis-in-dogs-and-cats"
+      },
+      {
+        "title": "Lung Flukes in Dogs and Cats",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-small-animals/lung-flukes-in-dogs-and-cats"
+      },
+      {
+        "title": "Lung Nematodes in Small Animals",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-small-animals/lung-nematodes-in-small-animals"
+      },
+      {
+        "title": "Neoplasia of the Respiratory System in Dogs and Cats",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-small-animals/neoplasia-of-the-respiratory-system-in-dogs-and-cats"
+      },
+      {
+        "title": "Pneumonia in Dogs and Cats",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-small-animals/pneumonia-in-dogs-and-cats"
+      },
+      {
+        "title": "Pulmonary Thromboembolism in Dogs and Cats",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-small-animals/pulmonary-thromboembolism-in-dogs-and-cats"
+      },
+      {
+        "title": "Rhinitis and Sinusitis in Dogs and Cats",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-small-animals/rhinitis-and-sinusitis-in-dogs-and-cats"
+      },
+      {
+        "title": "Tonsillitis in Dogs and Cats",
+        "url": "https://www.merckvetmanual.com/respiratory-system/respiratory-diseases-of-small-animals/tonsillitis-in-dogs-and-cats"
+      }
+    ]
   }
 ]

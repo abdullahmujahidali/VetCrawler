@@ -1,14 +1,100 @@
 [
   {
     "title": "Fluid Therapy",
-    "url": "https://www.merckvetmanual.com/therapeutics/fluid-therapy"
+    "url": "https://www.merckvetmanual.com/therapeutics/fluid-therapy",
+    "in_depth_links": [
+      {
+        "title": "Fluid Therapy in Animals",
+        "url": "https://www.merckvetmanual.com/therapeutics/fluid-therapy/fluid-therapy-in-animals"
+      },
+      {
+        "title": "Body Fluid Compartments and Fluid Dynamics in Animals",
+        "url": "https://www.merckvetmanual.com/therapeutics/fluid-therapy/body-fluid-compartments-and-fluid-dynamics-in-animals"
+      },
+      {
+        "title": "The Fluid Resuscitation Plan in Animals",
+        "url": "https://www.merckvetmanual.com/therapeutics/fluid-therapy/the-fluid-resuscitation-plan-in-animals"
+      },
+      {
+        "title": "Assessment of Resuscitation Efforts in Animals",
+        "url": "https://www.merckvetmanual.com/therapeutics/fluid-therapy/assessment-of-resuscitation-efforts-in-animals"
+      },
+      {
+        "title": "Maintenance Fluid Plan in Animals",
+        "url": "https://www.merckvetmanual.com/therapeutics/fluid-therapy/maintenance-fluid-plan-in-animals"
+      }
+    ]
   },
   {
     "title": "Pain Assessment and Management",
-    "url": "https://www.merckvetmanual.com/therapeutics/pain-assessment-and-management"
+    "url": "https://www.merckvetmanual.com/therapeutics/pain-assessment-and-management",
+    "in_depth_links": [
+      {
+        "title": "Overview of Pain Assessment and Management in Animals",
+        "url": "https://www.merckvetmanual.com/therapeutics/pain-assessment-and-management/overview-of-pain-assessment-and-management-in-animals"
+      },
+      {
+        "title": "Pain Perception in Animals",
+        "url": "https://www.merckvetmanual.com/therapeutics/pain-assessment-and-management/pain-perception-in-animals"
+      },
+      {
+        "title": "Recognition and Assessment of Pain in Animals",
+        "url": "https://www.merckvetmanual.com/therapeutics/pain-assessment-and-management/recognition-and-assessment-of-pain-in-animals"
+      },
+      {
+        "title": "Pain Alleviation in Animals",
+        "url": "https://www.merckvetmanual.com/therapeutics/pain-assessment-and-management/pain-alleviation-in-animals"
+      },
+      {
+        "title": "Analgesics Used in Animals",
+        "url": "https://www.merckvetmanual.com/therapeutics/pain-assessment-and-management/analgesics-used-in-animals"
+      },
+      {
+        "title": "Local and Regional Analgesic Techniques in Animals",
+        "url": "https://www.merckvetmanual.com/therapeutics/pain-assessment-and-management/local-and-regional-analgesic-techniques-in-animals"
+      },
+      {
+        "title": "Chronic Pain in Animals",
+        "url": "https://www.merckvetmanual.com/therapeutics/pain-assessment-and-management/chronic-pain-in-animals"
+      }
+    ]
   },
   {
     "title": "Stem Cells and Regenerative Medicine",
-    "url": "https://www.merckvetmanual.com/therapeutics/stem-cells-and-regenerative-medicine/stem-cells-and-regenerative-medicine-in-animals"
+    "url": "https://www.merckvetmanual.com/therapeutics/stem-cells-and-regenerative-medicine/stem-cells-and-regenerative-medicine-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Mesenchymal Stem Cells",
+        "url": "https://www.merckvetmanual.com/therapeutics/stem-cells-and-regenerative-medicine/stem-cells-and-regenerative-medicine-in-animals#Mesenchymal-Stem-Cells_v67028444"
+      },
+      {
+        "title": "Platelet-Rich Plasma",
+        "url": "https://www.merckvetmanual.com/therapeutics/stem-cells-and-regenerative-medicine/stem-cells-and-regenerative-medicine-in-animals#Platelet-Rich-Plasma_v67028465"
+      },
+      {
+        "title": "Autologous Conditioned Serum",
+        "url": "https://www.merckvetmanual.com/therapeutics/stem-cells-and-regenerative-medicine/stem-cells-and-regenerative-medicine-in-animals#Autologous-Conditioned-Serum_v67028474"
+      },
+      {
+        "title": "Autologous Protein Solution",
+        "url": "https://www.merckvetmanual.com/therapeutics/stem-cells-and-regenerative-medicine/stem-cells-and-regenerative-medicine-in-animals#Autologous-Protein-Solution_v67028482"
+      },
+      {
+        "title": "Alpha-2-Macroglobulin",
+        "url": "https://www.merckvetmanual.com/therapeutics/stem-cells-and-regenerative-medicine/stem-cells-and-regenerative-medicine-in-animals#Alpha-2-Macroglobulin_v92629973"
+      },
+      {
+        "title": "Federal Regulation of Regenerative Treatments",
+        "url": "https://www.merckvetmanual.com/therapeutics/stem-cells-and-regenerative-medicine/stem-cells-and-regenerative-medicine-in-animals#Federal-Regulation-of-Regenerative-Treatments_v67028487"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/therapeutics/stem-cells-and-regenerative-medicine/stem-cells-and-regenerative-medicine-in-animals#For-More-Information_v67028493"
+      },
+      {
+        "title": "References",
+        "url": "https://www.merckvetmanual.com/therapeutics/stem-cells-and-regenerative-medicine/stem-cells-and-regenerative-medicine-in-animals#References_v92629998"
+      }
+    ]
   }
 ]

@@ -1,26 +1,83 @@
 [
   {
     "title": "Overview of Public Health",
-    "url": "https://www.merckvetmanual.com/public-health/overview-of-public-health"
+    "url": "https://www.merckvetmanual.com/public-health/overview-of-public-health",
+    "in_depth_links": []
   },
   {
     "title": "Biosecurity",
-    "url": "https://www.merckvetmanual.com/public-health/biosecurity"
+    "url": "https://www.merckvetmanual.com/public-health/biosecurity",
+    "in_depth_links": []
   },
   {
     "title": "Food Safety",
-    "url": "https://www.merckvetmanual.com/public-health/food-safety"
+    "url": "https://www.merckvetmanual.com/public-health/food-safety",
+    "in_depth_links": [
+      {
+        "title": "Food Safety Basics",
+        "url": "https://www.merckvetmanual.com/public-health/food-safety/food-safety-basics"
+      },
+      {
+        "title": "Incidence and Impact of Foodborne Illness",
+        "url": "https://www.merckvetmanual.com/public-health/food-safety/incidence-and-impact-of-foodborne-illness"
+      }
+    ]
   },
   {
     "title": "Occupational Safety and Health",
-    "url": "https://www.merckvetmanual.com/public-health/occupational-safety-and-health"
+    "url": "https://www.merckvetmanual.com/public-health/occupational-safety-and-health",
+    "in_depth_links": []
   },
   {
     "title": "Principles of Epidemiology",
-    "url": "https://www.merckvetmanual.com/public-health/principles-of-epidemiology"
+    "url": "https://www.merckvetmanual.com/public-health/principles-of-epidemiology",
+    "in_depth_links": [
+      {
+        "title": "Basic Principles of Epidemiology",
+        "url": "https://www.merckvetmanual.com/public-health/principles-of-epidemiology/basic-principles-of-epidemiology"
+      },
+      {
+        "title": "Public Health Prevention Strategies",
+        "url": "https://www.merckvetmanual.com/public-health/principles-of-epidemiology/public-health-prevention-strategies"
+      },
+      {
+        "title": "Survival Analysis",
+        "url": "https://www.merckvetmanual.com/public-health/principles-of-epidemiology/survival-analysis"
+      }
+    ]
   },
   {
     "title": "Zoonoses",
-    "url": "https://www.merckvetmanual.com/public-health/zoonoses"
+    "url": "https://www.merckvetmanual.com/public-health/zoonoses",
+    "in_depth_links": [
+      {
+        "title": "Pathogens and Host Species in Zoonoses",
+        "url": "https://www.merckvetmanual.com/public-health/zoonoses/pathogens-and-host-species-in-zoonoses"
+      },
+      {
+        "title": "Transmission of Zoonoses Between Animals and Humans",
+        "url": "https://www.merckvetmanual.com/public-health/zoonoses/transmission-of-zoonoses-between-animals-and-humans"
+      },
+      {
+        "title": "The Spectrum of Illness and the Role of Comorbidities in Zoonosis",
+        "url": "https://www.merckvetmanual.com/public-health/zoonoses/the-spectrum-of-illness-and-the-role-of-comorbidities-in-zoonosis"
+      },
+      {
+        "title": "Emergence and Reemergence of Zoonotic Diseases",
+        "url": "https://www.merckvetmanual.com/public-health/zoonoses/emergence-and-reemergence-of-zoonotic-diseases"
+      },
+      {
+        "title": "Treatment of Zoonoses",
+        "url": "https://www.merckvetmanual.com/public-health/zoonoses/treatment-of-zoonoses"
+      },
+      {
+        "title": "Prevention of Zoonoses",
+        "url": "https://www.merckvetmanual.com/public-health/zoonoses/prevention-of-zoonoses"
+      },
+      {
+        "title": "Zoonotic Diseases",
+        "url": "https://www.merckvetmanual.com/public-health/zoonoses/zoonotic-diseases"
+      }
+    ]
   }
 ]

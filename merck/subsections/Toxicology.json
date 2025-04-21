@@ -1,182 +1,1337 @@
 [
   {
     "title": "Toxicology Introduction",
-    "url": "https://www.merckvetmanual.com/toxicology/toxicology-introduction"
+    "url": "https://www.merckvetmanual.com/toxicology/toxicology-introduction",
+    "in_depth_links": [
+      {
+        "title": "Absorption, Distribution, Metabolism, and Excretion of Toxic Agents in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicology-introduction/absorption-distribution-metabolism-and-excretion-of-toxic-agents-in-animals"
+      },
+      {
+        "title": "Factors Affecting the Activity of Toxic Agents in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicology-introduction/factors-affecting-the-activity-of-toxic-agents-in-animals"
+      },
+      {
+        "title": "Diagnosis of Toxicosis in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicology-introduction/diagnosis-of-toxicosis-in-animals"
+      },
+      {
+        "title": "Principles of Toxicosis Treatment in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicology-introduction/principles-of-toxicosis-treatment-in-animals"
+      }
+    ]
   },
   {
     "title": "Toxicologic Hazards in the Workplace",
-    "url": "https://www.merckvetmanual.com/toxicology/toxicologic-hazards-in-the-workplace"
+    "url": "https://www.merckvetmanual.com/toxicology/toxicologic-hazards-in-the-workplace",
+    "in_depth_links": []
   },
   {
     "title": "Algal Poisoning",
-    "url": "https://www.merckvetmanual.com/toxicology/algal-poisoning/algal-poisoning-of-animals"
+    "url": "https://www.merckvetmanual.com/toxicology/algal-poisoning/algal-poisoning-of-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology, Epidemiology, and Pathogenesis",
+        "url": "https://www.merckvetmanual.com/toxicology/algal-poisoning/algal-poisoning-of-animals#Etiology,-Epidemiology,-and-Pathogenesis_v3348294"
+      },
+      {
+        "title": "Clinical Findings and Lesions",
+        "url": "https://www.merckvetmanual.com/toxicology/algal-poisoning/algal-poisoning-of-animals#Clinical-Findings-and-Lesions_v3348342"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/toxicology/algal-poisoning/algal-poisoning-of-animals#Diagnosis_v3348345"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/toxicology/algal-poisoning/algal-poisoning-of-animals#Treatment_v3348349"
+      },
+      {
+        "title": "Prevention",
+        "url": "https://www.merckvetmanual.com/toxicology/algal-poisoning/algal-poisoning-of-animals#Prevention_v3348352"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/toxicology/algal-poisoning/algal-poisoning-of-animals#Key-Points_v54342456"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/toxicology/algal-poisoning/algal-poisoning-of-animals#For-More-Information_v54342471"
+      }
+    ]
   },
   {
     "title": "Cyanide Poisoning",
-    "url": "https://www.merckvetmanual.com/toxicology/cyanide-poisoning/cyanide-poisoning-in-animals"
+    "url": "https://www.merckvetmanual.com/toxicology/cyanide-poisoning/cyanide-poisoning-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology",
+        "url": "https://www.merckvetmanual.com/toxicology/cyanide-poisoning/cyanide-poisoning-in-animals#Etiology_v3348366"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/toxicology/cyanide-poisoning/cyanide-poisoning-in-animals#Clinical-Findings_v3348386"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/toxicology/cyanide-poisoning/cyanide-poisoning-in-animals#Diagnosis_v3348393"
+      },
+      {
+        "title": "Treatment, Control, and Prevention",
+        "url": "https://www.merckvetmanual.com/toxicology/cyanide-poisoning/cyanide-poisoning-in-animals#Treatment,-Control,-and-Prevention_v3348399"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/toxicology/cyanide-poisoning/cyanide-poisoning-in-animals#Key-Points_v53074875"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/toxicology/cyanide-poisoning/cyanide-poisoning-in-animals#For-More-Information_v53074888"
+      }
+    ]
   },
   {
     "title": "Food Hazards",
-    "url": "https://www.merckvetmanual.com/toxicology/food-hazards"
+    "url": "https://www.merckvetmanual.com/toxicology/food-hazards",
+    "in_depth_links": [
+      {
+        "title": "Garlic and Onion (Allium spp) Toxicosis in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/food-hazards/garlic-and-onion-allium-spp-toxicosis-in-animals"
+      },
+      {
+        "title": "Avocado (Persea spp) Toxicosis in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/food-hazards/avocado-persea-spp-toxicosis-in-animals"
+      },
+      {
+        "title": "Bread Dough Toxicosis in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/food-hazards/bread-dough-toxicosis-in-animals"
+      },
+      {
+        "title": "Chocolate Toxicosis in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/food-hazards/chocolate-toxicosis-in-animals"
+      },
+      {
+        "title": "Macadamia Nut Toxicosis in Dogs",
+        "url": "https://www.merckvetmanual.com/toxicology/food-hazards/macadamia-nut-toxicosis-in-dogs"
+      },
+      {
+        "title": "Grape, Raisin, and Tamarind (Vitis spp, Tamarindus spp) Toxicosis in Dogs",
+        "url": "https://www.merckvetmanual.com/toxicology/food-hazards/grape-raisin-and-tamarind-vitis-spp-tamarindus-spp-toxicosis-in-dogs"
+      },
+      {
+        "title": "Xylitol Toxicosis in Dogs",
+        "url": "https://www.merckvetmanual.com/toxicology/food-hazards/xylitol-toxicosis-in-dogs"
+      }
+    ]
   },
   {
     "title": "Herbicide Poisoning",
-    "url": "https://www.merckvetmanual.com/toxicology/herbicide-poisoning"
+    "url": "https://www.merckvetmanual.com/toxicology/herbicide-poisoning",
+    "in_depth_links": [
+      {
+        "title": "Herbicide Poisoning in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/herbicide-poisoning/herbicide-poisoning-in-animals"
+      },
+      {
+        "title": "Inorganic Herbicides and Organic Arsenicals Toxic to Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/herbicide-poisoning/inorganic-herbicides-and-organic-arsenicals-toxic-to-animals"
+      },
+      {
+        "title": "Organic Herbicides Toxic to Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/herbicide-poisoning/organic-herbicides-toxic-to-animals"
+      }
+    ]
   },
   {
     "title": "Toxicoses From Household Hazards",
-    "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-household-hazards"
+    "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-household-hazards",
+    "in_depth_links": [
+      {
+        "title": "Overview of Household Hazard Toxicoses in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-household-hazards/overview-of-household-hazard-toxicoses-in-animals"
+      },
+      {
+        "title": "Toxicoses From Alcohols in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-household-hazards/toxicoses-from-alcohols-in-animals"
+      },
+      {
+        "title": "Toxicoses From Corrosive Agents in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-household-hazards/toxicoses-from-corrosive-agents-in-animals"
+      },
+      {
+        "title": "Toxicoses From Household Cleaners and Personal Care Products in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-household-hazards/toxicoses-from-household-cleaners-and-personal-care-products-in-animals"
+      },
+      {
+        "title": "Toxicosis From Mothballs in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-household-hazards/toxicosis-from-mothballs-in-animals"
+      },
+      {
+        "title": "Toxicoses From Essential Oils in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-household-hazards/toxicoses-from-essential-oils-in-animals"
+      }
+    ]
   },
   {
     "title": "Mycotoxicoses",
-    "url": "https://www.merckvetmanual.com/toxicology/mycotoxicoses"
+    "url": "https://www.merckvetmanual.com/toxicology/mycotoxicoses",
+    "in_depth_links": [
+      {
+        "title": "Overview of Mycotoxicoses in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/mycotoxicoses/overview-of-mycotoxicoses-in-animals"
+      },
+      {
+        "title": "Aflatoxicosis in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/mycotoxicoses/aflatoxicosis-in-animals"
+      },
+      {
+        "title": "Ergotism in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/mycotoxicoses/ergotism-in-animals"
+      },
+      {
+        "title": "Mycotoxin-Associated Estrogenism and Vulvovaginitis in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/mycotoxicoses/mycotoxin-associated-estrogenism-and-vulvovaginitis-in-animals"
+      },
+      {
+        "title": "Facial Eczema in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/mycotoxicoses/facial-eczema-in-animals"
+      },
+      {
+        "title": "Fescue Poisoning in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/mycotoxicoses/fescue-poisoning-in-animals"
+      },
+      {
+        "title": "Fumonisin Toxicosis in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/mycotoxicoses/fumonisin-toxicosis-in-animals"
+      },
+      {
+        "title": "Mycotoxic Lupinosis in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/mycotoxicoses/mycotoxic-lupinosis-in-animals"
+      },
+      {
+        "title": "Paspalum Staggers in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/mycotoxicoses/paspalum-staggers-in-animals"
+      },
+      {
+        "title": "Slaframine Toxicosis in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/mycotoxicoses/slaframine-toxicosis-in-animals"
+      },
+      {
+        "title": "Tremorgenic Neuromycotoxicosis in Dogs",
+        "url": "https://www.merckvetmanual.com/toxicology/mycotoxicoses/tremorgenic-neuromycotoxicosis-in-dogs"
+      },
+      {
+        "title": "Trichothecene Toxicosis in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/mycotoxicoses/trichothecene-toxicosis-in-animals"
+      }
+    ]
   },
   {
     "title": "Rodenticide Poisoning",
-    "url": "https://www.merckvetmanual.com/toxicology/rodenticide-poisoning"
+    "url": "https://www.merckvetmanual.com/toxicology/rodenticide-poisoning",
+    "in_depth_links": [
+      {
+        "title": "Overview of Rodenticide Poisoning in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/rodenticide-poisoning/overview-of-rodenticide-poisoning-in-animals"
+      },
+      {
+        "title": "Anticoagulant Rodenticide (Warfarin and Congeners) Poisoning in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/rodenticide-poisoning/anticoagulant-rodenticide-warfarin-and-congeners-poisoning-in-animals"
+      },
+      {
+        "title": "Bromethalin Poisoning in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/rodenticide-poisoning/bromethalin-poisoning-in-animals"
+      },
+      {
+        "title": "Cholecalciferol (Vitamin D3) Poisoning in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/rodenticide-poisoning/cholecalciferol-vitamin-d3-poisoning-in-animals"
+      },
+      {
+        "title": "Phosphide (Zinc, Magnesium, Aluminum) Poisoning in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/rodenticide-poisoning/phosphide-zinc-magnesium-aluminum-poisoning-in-animals"
+      },
+      {
+        "title": "Corn Cellulose Poisoning in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/rodenticide-poisoning/corn-cellulose-poisoning-in-animals"
+      },
+      {
+        "title": "Alpha-Chloralose Poisoning in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/rodenticide-poisoning/alpha-chloralose-poisoning-in-animals"
+      },
+      {
+        "title": "Strychnine Toxicosis in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/rodenticide-poisoning/strychnine-toxicosis-in-animals"
+      }
+    ]
   },
   {
     "title": "Smoke Inhalation Injury",
-    "url": "https://www.merckvetmanual.com/toxicology/smoke-inhalation-injury/smoke-inhalation-injury-in-animals"
+    "url": "https://www.merckvetmanual.com/toxicology/smoke-inhalation-injury/smoke-inhalation-injury-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology",
+        "url": "https://www.merckvetmanual.com/toxicology/smoke-inhalation-injury/smoke-inhalation-injury-in-animals#Etiology_v12840130"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/toxicology/smoke-inhalation-injury/smoke-inhalation-injury-in-animals#Clinical-Findings_v12840144"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/toxicology/smoke-inhalation-injury/smoke-inhalation-injury-in-animals#Diagnosis_v12840151"
+      },
+      {
+        "title": "Treatment, Control, and Prevention",
+        "url": "https://www.merckvetmanual.com/toxicology/smoke-inhalation-injury/smoke-inhalation-injury-in-animals#Treatment,-Control,-and-Prevention_v12840162"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/toxicology/smoke-inhalation-injury/smoke-inhalation-injury-in-animals#Key-Points_v56115892"
+      },
+      {
+        "title": "The Parkland Formula",
+        "url": "https://www.merckvetmanual.com/toxicology/smoke-inhalation-injury/smoke-inhalation-injury-in-animals#v56115757"
+      }
+    ]
   },
   {
     "title": "Toxicities from Human Drugs",
-    "url": "https://www.merckvetmanual.com/toxicology/toxicities-from-human-drugs"
+    "url": "https://www.merckvetmanual.com/toxicology/toxicities-from-human-drugs",
+    "in_depth_links": [
+      {
+        "title": "Toxicities from Over-the-Counter Drugs",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicities-from-human-drugs/toxicities-from-over-the-counter-drugs"
+      },
+      {
+        "title": "Cold and Cough Medications (Toxicity)",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicities-from-human-drugs/cold-and-cough-medications-toxicity"
+      },
+      {
+        "title": "Decongestants (Toxicity)",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicities-from-human-drugs/decongestants-toxicity"
+      },
+      {
+        "title": "Multivitamins and Iron (Toxicity)",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicities-from-human-drugs/multivitamins-and-iron-toxicity"
+      },
+      {
+        "title": "Topical Preparations (Toxicity)",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicities-from-human-drugs/topical-preparations-toxicity"
+      },
+      {
+        "title": "Toxicities from Prescription Drugs",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicities-from-human-drugs/toxicities-from-prescription-drugs"
+      },
+      {
+        "title": "Cardiovascular Medications (Toxicity)",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicities-from-human-drugs/cardiovascular-medications-toxicity"
+      },
+      {
+        "title": "Tranquilizers, Antidepressants, Sleep Aids, and Anticonvulsants (Toxicity)",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicities-from-human-drugs/tranquilizers-antidepressants-sleep-aids-and-anticonvulsants-toxicity"
+      },
+      {
+        "title": "Topical Agents (Toxicity)",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicities-from-human-drugs/topical-agents-toxicity"
+      },
+      {
+        "title": "Toxicities from Illicit and Abused Drugs",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicities-from-human-drugs/toxicities-from-illicit-and-abused-drugs"
+      }
+    ]
   },
   {
     "title": "Toxicoses From Human Analgesics",
-    "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-human-analgesics/toxicoses-from-human-analgesics-in-animals"
+    "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-human-analgesics/toxicoses-from-human-analgesics-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Acetaminophen",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-human-analgesics/toxicoses-from-human-analgesics-in-animals#Acetaminophen_v92007489"
+      },
+      {
+        "title": "Gabapentinoids",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-human-analgesics/toxicoses-from-human-analgesics-in-animals#Gabapentinoids_v92007513"
+      },
+      {
+        "title": "Nonsteroidal Anti-Inflammatory Drugs",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-human-analgesics/toxicoses-from-human-analgesics-in-animals#Nonsteroidal-Anti-Inflammatory-Drugs_v92007543"
+      },
+      {
+        "title": "Tramadol",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-human-analgesics/toxicoses-from-human-analgesics-in-animals#Tramadol_v92007608"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-human-analgesics/toxicoses-from-human-analgesics-in-animals#Key-Points_v92007623"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-human-analgesics/toxicoses-from-human-analgesics-in-animals#For-More-Information_v92007632"
+      },
+      {
+        "title": "References",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-human-analgesics/toxicoses-from-human-analgesics-in-animals#References_v92007646"
+      },
+      {
+        "title": "gabapentin",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-human-analgesics/toxicoses-from-human-analgesics-in-animals#v92097128"
+      },
+      {
+        "title": "aspirin toxicosis",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-human-analgesics/toxicoses-from-human-analgesics-in-animals#v92097171"
+      },
+      {
+        "title": "aspirin toxicosis",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-human-analgesics/toxicoses-from-human-analgesics-in-animals#v92097171"
+      }
+    ]
   },
   {
     "title": "Toxicoses From Dietary and Herbal Supplements",
-    "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-dietary-and-herbal-supplements/toxicoses-in-animals-from-human-dietary-and-herbal-supplements"
+    "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-dietary-and-herbal-supplements/toxicoses-in-animals-from-human-dietary-and-herbal-supplements",
+    "in_depth_links": [
+      {
+        "title": "5-Hydroxytryptophan",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-dietary-and-herbal-supplements/toxicoses-in-animals-from-human-dietary-and-herbal-supplements#5-Hydroxytryptophan_v91335838"
+      },
+      {
+        "title": "Hops",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-dietary-and-herbal-supplements/toxicoses-in-animals-from-human-dietary-and-herbal-supplements#Hops_v91335849"
+      },
+      {
+        "title": "Ma Huang (Ephedrine) and Guarana (Caffeine)",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-dietary-and-herbal-supplements/toxicoses-in-animals-from-human-dietary-and-herbal-supplements#Ma-Huang-(Ephedrine)-and-Guarana-(Caffeine)_v91335857"
+      },
+      {
+        "title": "Ginseng",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-dietary-and-herbal-supplements/toxicoses-in-animals-from-human-dietary-and-herbal-supplements#Ginseng_v91335868"
+      },
+      {
+        "title": "Kratom",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-dietary-and-herbal-supplements/toxicoses-in-animals-from-human-dietary-and-herbal-supplements#Kratom_v91335874"
+      },
+      {
+        "title": "Arnica",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-dietary-and-herbal-supplements/toxicoses-in-animals-from-human-dietary-and-herbal-supplements#Arnica_v91335882"
+      },
+      {
+        "title": "St. John's Wort",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-dietary-and-herbal-supplements/toxicoses-in-animals-from-human-dietary-and-herbal-supplements#St.-John's-Wort_v91335890"
+      },
+      {
+        "title": "Ginkgo",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-dietary-and-herbal-supplements/toxicoses-in-animals-from-human-dietary-and-herbal-supplements#Ginkgo_v91335900"
+      },
+      {
+        "title": "Ashwagandha",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-dietary-and-herbal-supplements/toxicoses-in-animals-from-human-dietary-and-herbal-supplements#Ashwagandha_v91335907"
+      },
+      {
+        "title": "Rauwolfia",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-dietary-and-herbal-supplements/toxicoses-in-animals-from-human-dietary-and-herbal-supplements#Rauwolfia_v91335911"
+      },
+      {
+        "title": "Saw Palmetto",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-dietary-and-herbal-supplements/toxicoses-in-animals-from-human-dietary-and-herbal-supplements#Saw-Palmetto_v91335918"
+      },
+      {
+        "title": "Mugwort",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-dietary-and-herbal-supplements/toxicoses-in-animals-from-human-dietary-and-herbal-supplements#Mugwort_v91335922"
+      },
+      {
+        "title": "Alpha-Lipoic Acid",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-dietary-and-herbal-supplements/toxicoses-in-animals-from-human-dietary-and-herbal-supplements#Alpha-Lipoic-Acid_v91335929"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-dietary-and-herbal-supplements/toxicoses-in-animals-from-human-dietary-and-herbal-supplements#Key-Points_v91335938"
+      }
+    ]
   },
   {
     "title": "Toxicoses From Skeletal Muscle Relaxants",
-    "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-skeletal-muscle-relaxants/toxicoses-from-skeletal-muscle-relaxants-in-animals"
+    "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-skeletal-muscle-relaxants/toxicoses-from-skeletal-muscle-relaxants-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Baclofen",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-skeletal-muscle-relaxants/toxicoses-from-skeletal-muscle-relaxants-in-animals#Baclofen_v92007331"
+      },
+      {
+        "title": "Carisoprodol",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-skeletal-muscle-relaxants/toxicoses-from-skeletal-muscle-relaxants-in-animals#Carisoprodol_v92007362"
+      },
+      {
+        "title": "Cyclobenzaprine",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-skeletal-muscle-relaxants/toxicoses-from-skeletal-muscle-relaxants-in-animals#Cyclobenzaprine_v92007374"
+      },
+      {
+        "title": "Methocarbamol",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-skeletal-muscle-relaxants/toxicoses-from-skeletal-muscle-relaxants-in-animals#Methocarbamol_v92007411"
+      },
+      {
+        "title": "Tizanidine",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-skeletal-muscle-relaxants/toxicoses-from-skeletal-muscle-relaxants-in-animals#Tizanidine_v92007422"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-skeletal-muscle-relaxants/toxicoses-from-skeletal-muscle-relaxants-in-animals#Key-Points_v92007435"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-skeletal-muscle-relaxants/toxicoses-from-skeletal-muscle-relaxants-in-animals#For-More-Information_v92007444"
+      },
+      {
+        "title": "References",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-skeletal-muscle-relaxants/toxicoses-from-skeletal-muscle-relaxants-in-animals#References_v92007461"
+      },
+      {
+        "title": "baclofen",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-skeletal-muscle-relaxants/toxicoses-from-skeletal-muscle-relaxants-in-animals#v92097300"
+      },
+      {
+        "title": "baclofen",
+        "url": "https://www.merckvetmanual.com/toxicology/toxicoses-from-skeletal-muscle-relaxants/toxicoses-from-skeletal-muscle-relaxants-in-animals#v92097300"
+      }
+    ]
   },
   {
     "title": "Nonprotein Nitrogen Poisoning",
-    "url": "https://www.merckvetmanual.com/toxicology/nonprotein-nitrogen-poisoning/nonprotein-nitrogen-poisoning-in-animals"
+    "url": "https://www.merckvetmanual.com/toxicology/nonprotein-nitrogen-poisoning/nonprotein-nitrogen-poisoning-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology",
+        "url": "https://www.merckvetmanual.com/toxicology/nonprotein-nitrogen-poisoning/nonprotein-nitrogen-poisoning-in-animals#Etiology_v3353245"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/toxicology/nonprotein-nitrogen-poisoning/nonprotein-nitrogen-poisoning-in-animals#Clinical-Findings_v3353254"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/toxicology/nonprotein-nitrogen-poisoning/nonprotein-nitrogen-poisoning-in-animals#Diagnosis_v3353262"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/toxicology/nonprotein-nitrogen-poisoning/nonprotein-nitrogen-poisoning-in-animals#Treatment_v3353269"
+      },
+      {
+        "title": "Prevention and Control",
+        "url": "https://www.merckvetmanual.com/toxicology/nonprotein-nitrogen-poisoning/nonprotein-nitrogen-poisoning-in-animals#Prevention-and-Control_v3353275"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/toxicology/nonprotein-nitrogen-poisoning/nonprotein-nitrogen-poisoning-in-animals#Key-Points_v53761999"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/toxicology/nonprotein-nitrogen-poisoning/nonprotein-nitrogen-poisoning-in-animals#For-More-Information_v53762008"
+      }
+    ]
   },
   {
     "title": "Ethylene Glycol Toxicosis",
-    "url": "https://www.merckvetmanual.com/toxicology/ethylene-glycol-toxicosis"
+    "url": "https://www.merckvetmanual.com/toxicology/ethylene-glycol-toxicosis",
+    "in_depth_links": [
+      {
+        "title": "Ethylene Glycol Toxicosis in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/ethylene-glycol-toxicosis/ethylene-glycol-toxicosis-in-animals"
+      },
+      {
+        "title": "Propylene Glycol Toxicosis in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/ethylene-glycol-toxicosis/propylene-glycol-toxicosis-in-animals"
+      }
+    ]
   },
   {
     "title": "Nitrate and Nitrite Poisoning",
-    "url": "https://www.merckvetmanual.com/toxicology/nitrate-and-nitrite-poisoning/nitrate-and-nitrite-poisoning-in-animals"
+    "url": "https://www.merckvetmanual.com/toxicology/nitrate-and-nitrite-poisoning/nitrate-and-nitrite-poisoning-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology",
+        "url": "https://www.merckvetmanual.com/toxicology/nitrate-and-nitrite-poisoning/nitrate-and-nitrite-poisoning-in-animals#Etiology_v3353360"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/toxicology/nitrate-and-nitrite-poisoning/nitrate-and-nitrite-poisoning-in-animals#Clinical-Findings_v3353369"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/toxicology/nitrate-and-nitrite-poisoning/nitrate-and-nitrite-poisoning-in-animals#Diagnosis_v3353377"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/toxicology/nitrate-and-nitrite-poisoning/nitrate-and-nitrite-poisoning-in-animals#Treatment_v3353386"
+      },
+      {
+        "title": "Control",
+        "url": "https://www.merckvetmanual.com/toxicology/nitrate-and-nitrite-poisoning/nitrate-and-nitrite-poisoning-in-animals#Control_v3353389"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/toxicology/nitrate-and-nitrite-poisoning/nitrate-and-nitrite-poisoning-in-animals#Key-Points_v53753212"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/toxicology/nitrate-and-nitrite-poisoning/nitrate-and-nitrite-poisoning-in-animals#For-More-Information_v53753221"
+      }
+    ]
   },
   {
     "title": "Petroleum Product Poisoning",
-    "url": "https://www.merckvetmanual.com/toxicology/petroleum-product-poisoning/petroleum-product-poisoning-in-animals"
+    "url": "https://www.merckvetmanual.com/toxicology/petroleum-product-poisoning/petroleum-product-poisoning-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/toxicology/petroleum-product-poisoning/petroleum-product-poisoning-in-animals#Clinical-Findings_v3353428"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/toxicology/petroleum-product-poisoning/petroleum-product-poisoning-in-animals#Diagnosis_v3353438"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/toxicology/petroleum-product-poisoning/petroleum-product-poisoning-in-animals#Treatment_v3353441"
+      },
+      {
+        "title": "Effects of Oil and Gas Fields on Cattle Health and Production",
+        "url": "https://www.merckvetmanual.com/toxicology/petroleum-product-poisoning/petroleum-product-poisoning-in-animals#Effects-of-Oil-and-Gas-Fields-on-Cattle-Health-and-Production_v26443409"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/toxicology/petroleum-product-poisoning/petroleum-product-poisoning-in-animals#Key-Points_v59261098"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/toxicology/petroleum-product-poisoning/petroleum-product-poisoning-in-animals#For-More-Information_v59261107"
+      },
+      {
+        "title": "table",
+        "url": "https://www.merckvetmanual.com/toxicology/petroleum-product-poisoning/petroleum-product-poisoning-in-animals#v59260984"
+      }
+    ]
   },
   {
     "title": "Persistent Halogenated Aromatic Poisoning",
-    "url": "https://www.merckvetmanual.com/toxicology/persistent-halogenated-aromatic-poisoning/poisoning-of-animals-by-persistent-halogenated-pollutants-phps"
+    "url": "https://www.merckvetmanual.com/toxicology/persistent-halogenated-aromatic-poisoning/poisoning-of-animals-by-persistent-halogenated-pollutants-phps",
+    "in_depth_links": [
+      {
+        "title": "Routes of Exposure and Exposure Pathways",
+        "url": "https://www.merckvetmanual.com/toxicology/persistent-halogenated-aromatic-poisoning/poisoning-of-animals-by-persistent-halogenated-pollutants-phps#Routes-of-Exposure-and-Exposure-Pathways_v60373027"
+      },
+      {
+        "title": "Absorption, Biomagnification, Translocation, and Food Safety",
+        "url": "https://www.merckvetmanual.com/toxicology/persistent-halogenated-aromatic-poisoning/poisoning-of-animals-by-persistent-halogenated-pollutants-phps#Absorption,-Biomagnification,-Translocation,-and-Food-Safety_v60373035"
+      },
+      {
+        "title": "Chronic Toxicology",
+        "url": "https://www.merckvetmanual.com/toxicology/persistent-halogenated-aromatic-poisoning/poisoning-of-animals-by-persistent-halogenated-pollutants-phps#Chronic-Toxicology_v60373042"
+      },
+      {
+        "title": "Clinical Findings, Lesions, and Diagnosis",
+        "url": "https://www.merckvetmanual.com/toxicology/persistent-halogenated-aromatic-poisoning/poisoning-of-animals-by-persistent-halogenated-pollutants-phps#Clinical-Findings,-Lesions,-and-Diagnosis_v60373057"
+      },
+      {
+        "title": "Prevention and Treatment",
+        "url": "https://www.merckvetmanual.com/toxicology/persistent-halogenated-aromatic-poisoning/poisoning-of-animals-by-persistent-halogenated-pollutants-phps#Prevention-and-Treatment_v60373061"
+      }
+    ]
   },
   {
     "title": "Insecticide and Acaricide (Organic) Toxicity",
-    "url": "https://www.merckvetmanual.com/toxicology/insecticide-and-acaricide-organic-toxicity"
+    "url": "https://www.merckvetmanual.com/toxicology/insecticide-and-acaricide-organic-toxicity",
+    "in_depth_links": [
+      {
+        "title": "Overview of Insecticide and Acaricide (Organic) Toxicosis in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/insecticide-and-acaricide-organic-toxicity/overview-of-insecticide-and-acaricide-organic-toxicosis-in-animals"
+      },
+      {
+        "title": "Organophosphate Toxicosis in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/insecticide-and-acaricide-organic-toxicity/organophosphate-toxicosis-in-animals"
+      },
+      {
+        "title": "Delayed Neurotoxicity from Triaryl Phosphates and Other Organophosphates and Carbamates in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/insecticide-and-acaricide-organic-toxicity/delayed-neurotoxicity-from-triaryl-phosphates-and-other-organophosphates-and-carbamates-in-animals"
+      },
+      {
+        "title": "Carbamate Toxicosis in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/insecticide-and-acaricide-organic-toxicity/carbamate-toxicosis-in-animals"
+      },
+      {
+        "title": "Plant-Derived Insecticide Toxicosis in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/insecticide-and-acaricide-organic-toxicity/plant-derived-insecticide-toxicosis-in-animals"
+      },
+      {
+        "title": "Neonicotinoid Toxicosis in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/insecticide-and-acaricide-organic-toxicity/neonicotinoid-toxicosis-in-animals"
+      },
+      {
+        "title": "Phenylpyrazole (Fipronil) Toxicosis in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/insecticide-and-acaricide-organic-toxicity/phenylpyrazole-fipronil-toxicosis-in-animals"
+      },
+      {
+        "title": "Triazapentadiene (Amitraz) Toxicosis in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/insecticide-and-acaricide-organic-toxicity/triazapentadiene-amitraz-toxicosis-in-animals"
+      },
+      {
+        "title": "Oxadiazine Toxicosis in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/insecticide-and-acaricide-organic-toxicity/oxadiazine-toxicosis-in-animals"
+      },
+      {
+        "title": "Isoxazoline Toxicosis in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/insecticide-and-acaricide-organic-toxicity/isoxazoline-toxicosis-in-animals"
+      },
+      {
+        "title": "Insect Growth and Development Regulator Toxicosis in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/insecticide-and-acaricide-organic-toxicity/insect-growth-and-development-regulator-toxicosis-in-animals"
+      },
+      {
+        "title": "Pesticide Potentiating Agent Toxicosis in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/insecticide-and-acaricide-organic-toxicity/pesticide-potentiating-agent-toxicosis-in-animals"
+      },
+      {
+        "title": "Other Toxicants in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/insecticide-and-acaricide-organic-toxicity/other-toxicants-in-animals"
+      }
+    ]
   },
   {
     "title": "Metaldehyde Poisoning",
-    "url": "https://www.merckvetmanual.com/toxicology/metaldehyde-poisoning/metaldehyde-poisoning-in-animals"
+    "url": "https://www.merckvetmanual.com/toxicology/metaldehyde-poisoning/metaldehyde-poisoning-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology and Pathogenesis",
+        "url": "https://www.merckvetmanual.com/toxicology/metaldehyde-poisoning/metaldehyde-poisoning-in-animals#Etiology-and-Pathogenesis_v3353904"
+      },
+      {
+        "title": "Clinical Signs and Lesions",
+        "url": "https://www.merckvetmanual.com/toxicology/metaldehyde-poisoning/metaldehyde-poisoning-in-animals#Clinical-Signs-and-Lesions_v3353908"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/toxicology/metaldehyde-poisoning/metaldehyde-poisoning-in-animals#Diagnosis_v3353914"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/toxicology/metaldehyde-poisoning/metaldehyde-poisoning-in-animals#Treatment_v3353917"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/toxicology/metaldehyde-poisoning/metaldehyde-poisoning-in-animals#Key-Points_v53917281"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/toxicology/metaldehyde-poisoning/metaldehyde-poisoning-in-animals#For-More-Information_v53917288"
+      }
+    ]
   },
   {
     "title": "Arsenic Poisoning",
-    "url": "https://www.merckvetmanual.com/toxicology/arsenic-poisoning"
+    "url": "https://www.merckvetmanual.com/toxicology/arsenic-poisoning",
+    "in_depth_links": [
+      {
+        "title": "Overview of Arsenic Poisoning in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/arsenic-poisoning/overview-of-arsenic-poisoning-in-animals"
+      },
+      {
+        "title": "Inorganic Arsenical Toxicosis in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/arsenic-poisoning/inorganic-arsenical-toxicosis-in-animals"
+      },
+      {
+        "title": "Organic Arsenical Toxicosis in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/arsenic-poisoning/organic-arsenical-toxicosis-in-animals"
+      }
+    ]
   },
   {
     "title": "Copper Poisoning",
-    "url": "https://www.merckvetmanual.com/toxicology/copper-poisoning/copper-poisoning-in-animals"
+    "url": "https://www.merckvetmanual.com/toxicology/copper-poisoning/copper-poisoning-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/toxicology/copper-poisoning/copper-poisoning-in-animals#Clinical-Findings_v3353985"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/toxicology/copper-poisoning/copper-poisoning-in-animals#Diagnosis_v3353991"
+      },
+      {
+        "title": "Treatment and Control",
+        "url": "https://www.merckvetmanual.com/toxicology/copper-poisoning/copper-poisoning-in-animals#Treatment-and-Control_v3353994"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/toxicology/copper-poisoning/copper-poisoning-in-animals#Key-Points_v53580358"
+      }
+    ]
   },
   {
     "title": "Fluoride Poisoning",
-    "url": "https://www.merckvetmanual.com/toxicology/fluoride-poisoning/fluoride-poisoning-in-animals"
+    "url": "https://www.merckvetmanual.com/toxicology/fluoride-poisoning/fluoride-poisoning-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology and Pathogenesis",
+        "url": "https://www.merckvetmanual.com/toxicology/fluoride-poisoning/fluoride-poisoning-in-animals#Etiology-and-Pathogenesis_v3354005"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/toxicology/fluoride-poisoning/fluoride-poisoning-in-animals#Clinical-Findings_v3354010"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/toxicology/fluoride-poisoning/fluoride-poisoning-in-animals#Diagnosis_v3354017"
+      },
+      {
+        "title": "Treatment and Control",
+        "url": "https://www.merckvetmanual.com/toxicology/fluoride-poisoning/fluoride-poisoning-in-animals#Treatment-and-Control_v3354021"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/toxicology/fluoride-poisoning/fluoride-poisoning-in-animals#Key-Points_v53580209"
+      }
+    ]
   },
   {
     "title": "Iron Toxicosis in Newborn Pigs",
-    "url": "https://www.merckvetmanual.com/toxicology/iron-toxicosis-in-newborn-pigs/iron-toxicosis-in-newborn-pigs"
+    "url": "https://www.merckvetmanual.com/toxicology/iron-toxicosis-in-newborn-pigs/iron-toxicosis-in-newborn-pigs",
+    "in_depth_links": [
+      {
+        "title": "Etiology",
+        "url": "https://www.merckvetmanual.com/toxicology/iron-toxicosis-in-newborn-pigs/iron-toxicosis-in-newborn-pigs#Etiology_v64286404"
+      },
+      {
+        "title": "Toxicokinetics",
+        "url": "https://www.merckvetmanual.com/toxicology/iron-toxicosis-in-newborn-pigs/iron-toxicosis-in-newborn-pigs#Toxicokinetics_v64286408"
+      },
+      {
+        "title": "Epidemiology",
+        "url": "https://www.merckvetmanual.com/toxicology/iron-toxicosis-in-newborn-pigs/iron-toxicosis-in-newborn-pigs#Epidemiology_v64286434"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/toxicology/iron-toxicosis-in-newborn-pigs/iron-toxicosis-in-newborn-pigs#Clinical-Findings_v64286438"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/toxicology/iron-toxicosis-in-newborn-pigs/iron-toxicosis-in-newborn-pigs#Diagnosis_v64286454"
+      },
+      {
+        "title": "Treatment and Prevention",
+        "url": "https://www.merckvetmanual.com/toxicology/iron-toxicosis-in-newborn-pigs/iron-toxicosis-in-newborn-pigs#Treatment-and-Prevention_v64286458"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/toxicology/iron-toxicosis-in-newborn-pigs/iron-toxicosis-in-newborn-pigs#Key-Points_v64286478"
+      }
+    ]
   },
   {
     "title": "Lead Poisoning",
-    "url": "https://www.merckvetmanual.com/toxicology/lead-poisoning/lead-poisoning-in-animals"
+    "url": "https://www.merckvetmanual.com/toxicology/lead-poisoning/lead-poisoning-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Pathogenesis",
+        "url": "https://www.merckvetmanual.com/toxicology/lead-poisoning/lead-poisoning-in-animals#Pathogenesis_v3354045"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/toxicology/lead-poisoning/lead-poisoning-in-animals#Clinical-Findings_v3354048"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/toxicology/lead-poisoning/lead-poisoning-in-animals#Diagnosis_v3354058"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/toxicology/lead-poisoning/lead-poisoning-in-animals#Treatment_v3354065"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/toxicology/lead-poisoning/lead-poisoning-in-animals#Key-Points_v54076720"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/toxicology/lead-poisoning/lead-poisoning-in-animals#For-More-Information_v54076727"
+      }
+    ]
   },
   {
     "title": "Mercury Poisoning",
-    "url": "https://www.merckvetmanual.com/toxicology/mercury-poisoning/mercury-poisoning-in-animals"
+    "url": "https://www.merckvetmanual.com/toxicology/mercury-poisoning/mercury-poisoning-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Pathogenesis",
+        "url": "https://www.merckvetmanual.com/toxicology/mercury-poisoning/mercury-poisoning-in-animals#Pathogenesis_v3354079"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/toxicology/mercury-poisoning/mercury-poisoning-in-animals#Clinical-Findings_v3354083"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/toxicology/mercury-poisoning/mercury-poisoning-in-animals#Diagnosis_v3354090"
+      },
+      {
+        "title": "Treatment and Control",
+        "url": "https://www.merckvetmanual.com/toxicology/mercury-poisoning/mercury-poisoning-in-animals#Treatment-and-Control_v3354093"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/toxicology/mercury-poisoning/mercury-poisoning-in-animals#Key-Points_v53743731"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/toxicology/mercury-poisoning/mercury-poisoning-in-animals#For-More-Information_v53743740"
+      }
+    ]
   },
   {
     "title": "Molybdenum Toxicity",
-    "url": "https://www.merckvetmanual.com/toxicology/molybdenum-toxicity/molybdenum-toxicity-in-animals"
+    "url": "https://www.merckvetmanual.com/toxicology/molybdenum-toxicity/molybdenum-toxicity-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology",
+        "url": "https://www.merckvetmanual.com/toxicology/molybdenum-toxicity/molybdenum-toxicity-in-animals#Etiology_v3354104"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/toxicology/molybdenum-toxicity/molybdenum-toxicity-in-animals#Clinical-Findings_v3354111"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/toxicology/molybdenum-toxicity/molybdenum-toxicity-in-animals#Diagnosis_v3354119"
+      },
+      {
+        "title": "Treatment and Prevention",
+        "url": "https://www.merckvetmanual.com/toxicology/molybdenum-toxicity/molybdenum-toxicity-in-animals#Treatment-and-Prevention_v3354122"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/toxicology/molybdenum-toxicity/molybdenum-toxicity-in-animals#Key-Points_v53991524"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/toxicology/molybdenum-toxicity/molybdenum-toxicity-in-animals#For-More-Information_v53991533"
+      }
+    ]
   },
   {
     "title": "Salt Toxicosis",
-    "url": "https://www.merckvetmanual.com/toxicology/salt-toxicosis/salt-toxicosis-in-animals"
+    "url": "https://www.merckvetmanual.com/toxicology/salt-toxicosis/salt-toxicosis-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology",
+        "url": "https://www.merckvetmanual.com/toxicology/salt-toxicosis/salt-toxicosis-in-animals#Etiology_v3354135"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/toxicology/salt-toxicosis/salt-toxicosis-in-animals#Clinical-Findings_v3354142"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/toxicology/salt-toxicosis/salt-toxicosis-in-animals#Diagnosis_v3354152"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/toxicology/salt-toxicosis/salt-toxicosis-in-animals#Treatment_v3354156"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/toxicology/salt-toxicosis/salt-toxicosis-in-animals#Key-Points_v66231090"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/toxicology/salt-toxicosis/salt-toxicosis-in-animals#For-More-Information_v66231099"
+      }
+    ]
   },
   {
     "title": "Selenium Toxicosis",
-    "url": "https://www.merckvetmanual.com/toxicology/selenium-toxicosis/selenium-toxicosis-in-animals"
+    "url": "https://www.merckvetmanual.com/toxicology/selenium-toxicosis/selenium-toxicosis-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology and Pathogenesis",
+        "url": "https://www.merckvetmanual.com/toxicology/selenium-toxicosis/selenium-toxicosis-in-animals#Etiology-and-Pathogenesis_v3354169"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/toxicology/selenium-toxicosis/selenium-toxicosis-in-animals#Clinical-Findings_v70105878"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/toxicology/selenium-toxicosis/selenium-toxicosis-in-animals#Diagnosis_v3354186"
+      },
+      {
+        "title": "Treatment and Control",
+        "url": "https://www.merckvetmanual.com/toxicology/selenium-toxicosis/selenium-toxicosis-in-animals#Treatment-and-Control_v70105904"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/toxicology/selenium-toxicosis/selenium-toxicosis-in-animals#Key-Points_v70105917"
+      }
+    ]
   },
   {
     "title": "Zinc Toxicosis",
-    "url": "https://www.merckvetmanual.com/toxicology/zinc-toxicosis/zinc-toxicosis-in-animals"
+    "url": "https://www.merckvetmanual.com/toxicology/zinc-toxicosis/zinc-toxicosis-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Pathogenesis",
+        "url": "https://www.merckvetmanual.com/toxicology/zinc-toxicosis/zinc-toxicosis-in-animals#Pathogenesis_v3354224"
+      },
+      {
+        "title": "Clinical Findings and Lesions",
+        "url": "https://www.merckvetmanual.com/toxicology/zinc-toxicosis/zinc-toxicosis-in-animals#Clinical-Findings-and-Lesions_v3354227"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/toxicology/zinc-toxicosis/zinc-toxicosis-in-animals#Diagnosis_v3354231"
+      },
+      {
+        "title": "Treatment and Prevention",
+        "url": "https://www.merckvetmanual.com/toxicology/zinc-toxicosis/zinc-toxicosis-in-animals#Treatment-and-Prevention_v3354248"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/toxicology/zinc-toxicosis/zinc-toxicosis-in-animals#Key-Points_v54803788"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/toxicology/zinc-toxicosis/zinc-toxicosis-in-animals#For-More-Information_v54803795"
+      }
+    ]
   },
   {
     "title": "Bracken Fern Poisoning",
-    "url": "https://www.merckvetmanual.com/toxicology/bracken-fern-poisoning/bracken-fern-poisoning-in-animals"
+    "url": "https://www.merckvetmanual.com/toxicology/bracken-fern-poisoning/bracken-fern-poisoning-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Syndromes",
+        "url": "https://www.merckvetmanual.com/toxicology/bracken-fern-poisoning/bracken-fern-poisoning-in-animals#Syndromes_v50146202"
+      },
+      {
+        "title": "Human Poisoning",
+        "url": "https://www.merckvetmanual.com/toxicology/bracken-fern-poisoning/bracken-fern-poisoning-in-animals#Human-Poisoning_v50146236"
+      },
+      {
+        "title": "Prevention",
+        "url": "https://www.merckvetmanual.com/toxicology/bracken-fern-poisoning/bracken-fern-poisoning-in-animals#Prevention_v50146241"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/toxicology/bracken-fern-poisoning/bracken-fern-poisoning-in-animals#Treatment_v3354299"
+      }
+    ]
   },
   {
     "title": "Gossypol Poisoning",
-    "url": "https://www.merckvetmanual.com/toxicology/gossypol-poisoning/gossypol-poisoning-in-animals"
+    "url": "https://www.merckvetmanual.com/toxicology/gossypol-poisoning/gossypol-poisoning-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology",
+        "url": "https://www.merckvetmanual.com/toxicology/gossypol-poisoning/gossypol-poisoning-in-animals#Etiology_v3354315"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/toxicology/gossypol-poisoning/gossypol-poisoning-in-animals#Clinical-Findings_v3354325"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/toxicology/gossypol-poisoning/gossypol-poisoning-in-animals#Diagnosis_v3354335"
+      },
+      {
+        "title": "Prevention, Treatment, and Control",
+        "url": "https://www.merckvetmanual.com/toxicology/gossypol-poisoning/gossypol-poisoning-in-animals#Prevention,-Treatment,-and-Control_v3354358"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/toxicology/gossypol-poisoning/gossypol-poisoning-in-animals#Key-Points_v55586885"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/toxicology/gossypol-poisoning/gossypol-poisoning-in-animals#For-More-Information_v55586896"
+      }
+    ]
   },
   {
     "title": "Poisonous Mushrooms",
-    "url": "https://www.merckvetmanual.com/toxicology/poisonous-mushrooms"
+    "url": "https://www.merckvetmanual.com/toxicology/poisonous-mushrooms",
+    "in_depth_links": [
+      {
+        "title": "Overview of Mushrooms Toxic to Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/poisonous-mushrooms/overview-of-mushrooms-toxic-to-animals"
+      },
+      {
+        "title": "Toxin Latent Period ≤3 Hours After Ingestion of Mushrooms",
+        "url": "https://www.merckvetmanual.com/toxicology/poisonous-mushrooms/toxin-latent-period-3-hours-after-ingestion-of-mushrooms"
+      },
+      {
+        "title": "Toxin Latent Period >6 Hours After Ingestion of Mushrooms",
+        "url": "https://www.merckvetmanual.com/toxicology/poisonous-mushrooms/toxin-latent-period-6-hours-after-ingestion-of-mushrooms"
+      },
+      {
+        "title": "Toxin Latent Period >24 Hours After Ingestion of Mushrooms",
+        "url": "https://www.merckvetmanual.com/toxicology/poisonous-mushrooms/toxin-latent-period-24-hours-after-ingestion-of-mushrooms"
+      },
+      {
+        "title": "Miscellaneous Poisonous Mushrooms",
+        "url": "https://www.merckvetmanual.com/toxicology/poisonous-mushrooms/miscellaneous-poisonous-mushrooms"
+      }
+    ]
   },
   {
     "title": "Poisonous Plants",
-    "url": "https://www.merckvetmanual.com/toxicology/poisonous-plants"
+    "url": "https://www.merckvetmanual.com/toxicology/poisonous-plants",
+    "in_depth_links": [
+      {
+        "title": "Houseplants and Ornamentals Toxic to Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/poisonous-plants/houseplants-and-ornamentals-toxic-to-animals"
+      },
+      {
+        "title": "Range Plants of Temperate North America",
+        "url": "https://www.merckvetmanual.com/toxicology/poisonous-plants/range-plants-of-temperate-north-america"
+      },
+      {
+        "title": "Important Poisonous Plants of Australia",
+        "url": "https://www.merckvetmanual.com/toxicology/poisonous-plants/important-poisonous-plants-of-australia"
+      }
+    ]
   },
   {
     "title": "Pyrrolizidine Alkaloidosis",
-    "url": "https://www.merckvetmanual.com/toxicology/pyrrolizidine-alkaloidosis/pyrrolizidine-alkaloidosis-in-animals"
+    "url": "https://www.merckvetmanual.com/toxicology/pyrrolizidine-alkaloidosis/pyrrolizidine-alkaloidosis-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology and Pathogenesis",
+        "url": "https://www.merckvetmanual.com/toxicology/pyrrolizidine-alkaloidosis/pyrrolizidine-alkaloidosis-in-animals#Etiology-and-Pathogenesis_v3357259"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/toxicology/pyrrolizidine-alkaloidosis/pyrrolizidine-alkaloidosis-in-animals#Clinical-Findings_v3357268"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/toxicology/pyrrolizidine-alkaloidosis/pyrrolizidine-alkaloidosis-in-animals#Diagnosis_v3357279"
+      },
+      {
+        "title": "Treatment and Control",
+        "url": "https://www.merckvetmanual.com/toxicology/pyrrolizidine-alkaloidosis/pyrrolizidine-alkaloidosis-in-animals#Treatment-and-Control_v3357282"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/toxicology/pyrrolizidine-alkaloidosis/pyrrolizidine-alkaloidosis-in-animals#For-More-Information_v64283601"
+      }
+    ]
   },
   {
     "title": "Quercus Poisoning",
-    "url": "https://www.merckvetmanual.com/toxicology/quercus-poisoning/quercus-poisoning-in-animals"
+    "url": "https://www.merckvetmanual.com/toxicology/quercus-poisoning/quercus-poisoning-in-animals",
+    "in_depth_links": []
   },
   {
     "title": "Annual Ryegrass Toxicosis",
-    "url": "https://www.merckvetmanual.com/toxicology/annual-ryegrass-toxicosis/annual-ryegrass-toxicosis-in-animals"
+    "url": "https://www.merckvetmanual.com/toxicology/annual-ryegrass-toxicosis/annual-ryegrass-toxicosis-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Pathogenesis",
+        "url": "https://www.merckvetmanual.com/toxicology/annual-ryegrass-toxicosis/annual-ryegrass-toxicosis-in-animals#Pathogenesis_v66231133"
+      },
+      {
+        "title": "Clinical Signs",
+        "url": "https://www.merckvetmanual.com/toxicology/annual-ryegrass-toxicosis/annual-ryegrass-toxicosis-in-animals#Clinical-Signs_v66231137"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/toxicology/annual-ryegrass-toxicosis/annual-ryegrass-toxicosis-in-animals#Diagnosis_v66231148"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/toxicology/annual-ryegrass-toxicosis/annual-ryegrass-toxicosis-in-animals#Treatment_v66231161"
+      },
+      {
+        "title": "Prevention",
+        "url": "https://www.merckvetmanual.com/toxicology/annual-ryegrass-toxicosis/annual-ryegrass-toxicosis-in-animals#Prevention_v66231170"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/toxicology/annual-ryegrass-toxicosis/annual-ryegrass-toxicosis-in-animals#Key-Points_v66231179"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/toxicology/annual-ryegrass-toxicosis/annual-ryegrass-toxicosis-in-animals#For-More-Information_v66231188"
+      }
+    ]
   },
   {
     "title": "Perennial Ryegrass Toxicosis",
-    "url": "https://www.merckvetmanual.com/toxicology/perennial-ryegrass-toxicosis/perennial-ryegrass-toxicosis-in-animals"
+    "url": "https://www.merckvetmanual.com/toxicology/perennial-ryegrass-toxicosis/perennial-ryegrass-toxicosis-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Pathogenesis",
+        "url": "https://www.merckvetmanual.com/toxicology/perennial-ryegrass-toxicosis/perennial-ryegrass-toxicosis-in-animals#Pathogenesis_v66231252"
+      },
+      {
+        "title": "Clinical Signs",
+        "url": "https://www.merckvetmanual.com/toxicology/perennial-ryegrass-toxicosis/perennial-ryegrass-toxicosis-in-animals#Clinical-Signs_v66231257"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/toxicology/perennial-ryegrass-toxicosis/perennial-ryegrass-toxicosis-in-animals#Diagnosis_v66231273"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/toxicology/perennial-ryegrass-toxicosis/perennial-ryegrass-toxicosis-in-animals#Treatment_v66231289"
+      },
+      {
+        "title": "Prevention",
+        "url": "https://www.merckvetmanual.com/toxicology/perennial-ryegrass-toxicosis/perennial-ryegrass-toxicosis-in-animals#Prevention_v66231302"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/toxicology/perennial-ryegrass-toxicosis/perennial-ryegrass-toxicosis-in-animals#Key-Points_v66231315"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/toxicology/perennial-ryegrass-toxicosis/perennial-ryegrass-toxicosis-in-animals#For-More-Information_v66231324"
+      }
+    ]
   },
   {
     "title": "Sorghum Poisoning",
-    "url": "https://www.merckvetmanual.com/toxicology/sorghum-poisoning/sorghum-poisoning-in-horses"
+    "url": "https://www.merckvetmanual.com/toxicology/sorghum-poisoning/sorghum-poisoning-in-horses",
+    "in_depth_links": []
   },
   {
     "title": "Sweet Clover Poisoning",
-    "url": "https://www.merckvetmanual.com/toxicology/sweet-clover-poisoning/sweet-clover-poisoning-in-animals"
+    "url": "https://www.merckvetmanual.com/toxicology/sweet-clover-poisoning/sweet-clover-poisoning-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology",
+        "url": "https://www.merckvetmanual.com/toxicology/sweet-clover-poisoning/sweet-clover-poisoning-in-animals#Etiology_v3357378"
+      },
+      {
+        "title": "Clinical Findings and Lesions",
+        "url": "https://www.merckvetmanual.com/toxicology/sweet-clover-poisoning/sweet-clover-poisoning-in-animals#Clinical-Findings-and-Lesions_v3357384"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/toxicology/sweet-clover-poisoning/sweet-clover-poisoning-in-animals#Diagnosis_v3357388"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/toxicology/sweet-clover-poisoning/sweet-clover-poisoning-in-animals#Treatment_v3357393"
+      },
+      {
+        "title": "Prevention",
+        "url": "https://www.merckvetmanual.com/toxicology/sweet-clover-poisoning/sweet-clover-poisoning-in-animals#Prevention_v3357396"
+      }
+    ]
   },
   {
     "title": "Cantharidin Toxicosis",
-    "url": "https://www.merckvetmanual.com/toxicology/cantharidin-toxicosis/cantharidin-toxicosis-in-animals"
+    "url": "https://www.merckvetmanual.com/toxicology/cantharidin-toxicosis/cantharidin-toxicosis-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Pathogenesis",
+        "url": "https://www.merckvetmanual.com/toxicology/cantharidin-toxicosis/cantharidin-toxicosis-in-animals#Pathogenesis_v3357420"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/toxicology/cantharidin-toxicosis/cantharidin-toxicosis-in-animals#Clinical-Findings_v3357433"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/toxicology/cantharidin-toxicosis/cantharidin-toxicosis-in-animals#Diagnosis_v3357436"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/toxicology/cantharidin-toxicosis/cantharidin-toxicosis-in-animals#Treatment_v3357440"
+      },
+      {
+        "title": "Prevention",
+        "url": "https://www.merckvetmanual.com/toxicology/cantharidin-toxicosis/cantharidin-toxicosis-in-animals#Prevention_v3357443"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/toxicology/cantharidin-toxicosis/cantharidin-toxicosis-in-animals#Key-Points_v61212030"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/toxicology/cantharidin-toxicosis/cantharidin-toxicosis-in-animals#For-More-Information_v61212039"
+      }
+    ]
   },
   {
     "title": "Snakebite",
-    "url": "https://www.merckvetmanual.com/toxicology/snakebite/snakebites-in-animals"
+    "url": "https://www.merckvetmanual.com/toxicology/snakebite/snakebites-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Epidemiology",
+        "url": "https://www.merckvetmanual.com/toxicology/snakebite/snakebites-in-animals#Epidemiology_v61211640"
+      },
+      {
+        "title": "Pathophysiology",
+        "url": "https://www.merckvetmanual.com/toxicology/snakebite/snakebites-in-animals#Pathophysiology_v61211651"
+      },
+      {
+        "title": "Clinical Signs",
+        "url": "https://www.merckvetmanual.com/toxicology/snakebite/snakebites-in-animals#Clinical-Signs_v61211658"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/toxicology/snakebite/snakebites-in-animals#Diagnosis_v61211665"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/toxicology/snakebite/snakebites-in-animals#Treatment_v61211677"
+      },
+      {
+        "title": "Prognosis",
+        "url": "https://www.merckvetmanual.com/toxicology/snakebite/snakebites-in-animals#Prognosis_v61211714"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/toxicology/snakebite/snakebites-in-animals#Key-Points_v61211718"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/toxicology/snakebite/snakebites-in-animals#For-More-Information_v61211727"
+      }
+    ]
   },
   {
     "title": "Toad Poisoning",
-    "url": "https://www.merckvetmanual.com/toxicology/toad-poisoning/toad-poisoning-in-dogs-and-cats"
+    "url": "https://www.merckvetmanual.com/toxicology/toad-poisoning/toad-poisoning-in-dogs-and-cats",
+    "in_depth_links": [
+      {
+        "title": "Clinical Findings and Diagnosis",
+        "url": "https://www.merckvetmanual.com/toxicology/toad-poisoning/toad-poisoning-in-dogs-and-cats#Clinical-Findings-and-Diagnosis_v3357489"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/toxicology/toad-poisoning/toad-poisoning-in-dogs-and-cats#Treatment_v3357493"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/toxicology/toad-poisoning/toad-poisoning-in-dogs-and-cats#Key-Points_v61211760"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/toxicology/toad-poisoning/toad-poisoning-in-dogs-and-cats#For-More-Information_v61211769"
+      }
+    ]
   },
   {
     "title": "Venomous Arthropods",
-    "url": "https://www.merckvetmanual.com/toxicology/venomous-arthropods"
+    "url": "https://www.merckvetmanual.com/toxicology/venomous-arthropods",
+    "in_depth_links": [
+      {
+        "title": "Spider and Scorpion Bites in Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/venomous-arthropods/spider-and-scorpion-bites-in-animals"
+      },
+      {
+        "title": "Wasp, Bee, and Ant Stings to Animals",
+        "url": "https://www.merckvetmanual.com/toxicology/venomous-arthropods/wasp-bee-and-ant-stings-to-animals"
+      }
+    ]
   }
 ]

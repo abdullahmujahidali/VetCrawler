@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 
 
 def scrape_merck_vet_manual_sections():
-    url = "https://www.merckvetmanual.com/circulatory-system"
+    url = "https://www.merckvetmanual.com/ear-disorders/deafness/deafness-in-animals"
 
     # Send HTTP request to the website
     response = requests.get(url)

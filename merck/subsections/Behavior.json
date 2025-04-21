@@ -1,14 +1,100 @@
 [
   {
     "title": "Behavioral Medicine Introduction",
-    "url": "https://www.merckvetmanual.com/behavior/behavioral-medicine-introduction"
+    "url": "https://www.merckvetmanual.com/behavior/behavioral-medicine-introduction",
+    "in_depth_links": [
+      {
+        "title": "Overview of Behavioral Medicine in Animals",
+        "url": "https://www.merckvetmanual.com/behavior/behavioral-medicine-introduction/overview-of-behavioral-medicine-in-animals"
+      },
+      {
+        "title": "Diagnosis of Behavior Problems in Animals",
+        "url": "https://www.merckvetmanual.com/behavior/behavioral-medicine-introduction/diagnosis-of-behavior-problems-in-animals"
+      },
+      {
+        "title": "Prognosis of Behavior Problems in Animals",
+        "url": "https://www.merckvetmanual.com/behavior/behavioral-medicine-introduction/prognosis-of-behavior-problems-in-animals"
+      },
+      {
+        "title": "Treatment of Behavior Problems in Animals",
+        "url": "https://www.merckvetmanual.com/behavior/behavioral-medicine-introduction/treatment-of-behavior-problems-in-animals"
+      }
+    ]
   },
   {
     "title": "Normal Social Behavior and Behavioral Problems of Domestic Animals",
-    "url": "https://www.merckvetmanual.com/behavior/normal-social-behavior-and-behavioral-problems-of-domestic-animals"
+    "url": "https://www.merckvetmanual.com/behavior/normal-social-behavior-and-behavioral-problems-of-domestic-animals",
+    "in_depth_links": [
+      {
+        "title": "Social Behavior of Horses",
+        "url": "https://www.merckvetmanual.com/behavior/normal-social-behavior-and-behavioral-problems-of-domestic-animals/social-behavior-of-horses"
+      },
+      {
+        "title": "Behavioral Problems of Horses",
+        "url": "https://www.merckvetmanual.com/behavior/normal-social-behavior-and-behavioral-problems-of-domestic-animals/behavioral-problems-of-horses"
+      },
+      {
+        "title": "Social Behavior of Cattle",
+        "url": "https://www.merckvetmanual.com/behavior/normal-social-behavior-and-behavioral-problems-of-domestic-animals/social-behavior-of-cattle"
+      },
+      {
+        "title": "Behavioral Problems of Cattle",
+        "url": "https://www.merckvetmanual.com/behavior/normal-social-behavior-and-behavioral-problems-of-domestic-animals/behavioral-problems-of-cattle"
+      },
+      {
+        "title": "Social Behavior of Swine",
+        "url": "https://www.merckvetmanual.com/behavior/normal-social-behavior-and-behavioral-problems-of-domestic-animals/social-behavior-of-swine"
+      },
+      {
+        "title": "Behavioral Problems of Swine",
+        "url": "https://www.merckvetmanual.com/behavior/normal-social-behavior-and-behavioral-problems-of-domestic-animals/behavioral-problems-of-swine"
+      },
+      {
+        "title": "Social Behavior of Sheep",
+        "url": "https://www.merckvetmanual.com/behavior/normal-social-behavior-and-behavioral-problems-of-domestic-animals/social-behavior-of-sheep"
+      },
+      {
+        "title": "Behavioral Problems of Sheep",
+        "url": "https://www.merckvetmanual.com/behavior/normal-social-behavior-and-behavioral-problems-of-domestic-animals/behavioral-problems-of-sheep"
+      },
+      {
+        "title": "Social Behavior of Goats",
+        "url": "https://www.merckvetmanual.com/behavior/normal-social-behavior-and-behavioral-problems-of-domestic-animals/social-behavior-of-goats"
+      },
+      {
+        "title": "Behavioral Problems of Goats",
+        "url": "https://www.merckvetmanual.com/behavior/normal-social-behavior-and-behavioral-problems-of-domestic-animals/behavioral-problems-of-goats"
+      },
+      {
+        "title": "Social Behavior of Dogs",
+        "url": "https://www.merckvetmanual.com/behavior/normal-social-behavior-and-behavioral-problems-of-domestic-animals/social-behavior-of-dogs"
+      },
+      {
+        "title": "Behavioral Problems of Dogs",
+        "url": "https://www.merckvetmanual.com/behavior/normal-social-behavior-and-behavioral-problems-of-domestic-animals/behavioral-problems-of-dogs"
+      },
+      {
+        "title": "Social Behavior of Cats",
+        "url": "https://www.merckvetmanual.com/behavior/normal-social-behavior-and-behavioral-problems-of-domestic-animals/social-behavior-of-cats"
+      },
+      {
+        "title": "Behavioral Problems of Cats",
+        "url": "https://www.merckvetmanual.com/behavior/normal-social-behavior-and-behavioral-problems-of-domestic-animals/behavioral-problems-of-cats"
+      }
+    ]
   },
   {
     "title": "Behavior of Poultry",
-    "url": "https://www.merckvetmanual.com/behavior/behavior-of-poultry"
+    "url": "https://www.merckvetmanual.com/behavior/behavior-of-poultry",
+    "in_depth_links": [
+      {
+        "title": "Behavior of Poultry",
+        "url": "https://www.merckvetmanual.com/behavior/behavior-of-poultry/behavior-of-poultry"
+      },
+      {
+        "title": "Behavior Problems of Poultry",
+        "url": "https://www.merckvetmanual.com/behavior/behavior-of-poultry/behavior-problems-of-poultry"
+      }
+    ]
   }
 ]

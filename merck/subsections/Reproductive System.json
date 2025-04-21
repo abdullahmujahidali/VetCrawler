@@ -1,118 +1,440 @@
 [
   {
     "title": "Reproductive System Introduction",
-    "url": "https://www.merckvetmanual.com/reproductive-system/reproductive-system-introduction"
+    "url": "https://www.merckvetmanual.com/reproductive-system/reproductive-system-introduction",
+    "in_depth_links": [
+      {
+        "title": "The Reproductive System in Animals",
+        "url": "https://www.merckvetmanual.com/reproductive-system/reproductive-system-introduction/the-reproductive-system-in-animals"
+      },
+      {
+        "title": "The Gonads and Tubular Genital Tract in Animals",
+        "url": "https://www.merckvetmanual.com/reproductive-system/reproductive-system-introduction/the-gonads-and-tubular-genital-tract-in-animals"
+      },
+      {
+        "title": "Infertility in Animals",
+        "url": "https://www.merckvetmanual.com/reproductive-system/reproductive-system-introduction/infertility-in-animals"
+      },
+      {
+        "title": "Principles of Treatment for Reproductive Disorders in Animals",
+        "url": "https://www.merckvetmanual.com/reproductive-system/reproductive-system-introduction/principles-of-treatment-for-reproductive-disorders-in-animals"
+      }
+    ]
   },
   {
     "title": "Congenital and Inherited Anomalies of the Reproductive System",
-    "url": "https://www.merckvetmanual.com/reproductive-system/congenital-and-inherited-anomalies-of-the-reproductive-system"
+    "url": "https://www.merckvetmanual.com/reproductive-system/congenital-and-inherited-anomalies-of-the-reproductive-system",
+    "in_depth_links": [
+      {
+        "title": "Intersex Conditions of Animals",
+        "url": "https://www.merckvetmanual.com/reproductive-system/congenital-and-inherited-anomalies-of-the-reproductive-system/intersex-conditions-of-animals"
+      },
+      {
+        "title": "Male Genital Abnormalities of Animals",
+        "url": "https://www.merckvetmanual.com/reproductive-system/congenital-and-inherited-anomalies-of-the-reproductive-system/male-genital-abnormalities-of-animals"
+      },
+      {
+        "title": "Female Genital Abnormalities of Animals",
+        "url": "https://www.merckvetmanual.com/reproductive-system/congenital-and-inherited-anomalies-of-the-reproductive-system/female-genital-abnormalities-of-animals"
+      }
+    ]
   },
   {
     "title": "Abortion in Large Animals",
-    "url": "https://www.merckvetmanual.com/reproductive-system/abortion-in-large-animals"
+    "url": "https://www.merckvetmanual.com/reproductive-system/abortion-in-large-animals",
+    "in_depth_links": [
+      {
+        "title": "Overview of Abortion in Large Animals",
+        "url": "https://www.merckvetmanual.com/reproductive-system/abortion-in-large-animals/overview-of-abortion-in-large-animals"
+      },
+      {
+        "title": "Abortion in Cattle",
+        "url": "https://www.merckvetmanual.com/reproductive-system/abortion-in-large-animals/abortion-in-cattle"
+      },
+      {
+        "title": "Abortion in Sheep",
+        "url": "https://www.merckvetmanual.com/reproductive-system/abortion-in-large-animals/abortion-in-sheep"
+      },
+      {
+        "title": "Abortion in Goats",
+        "url": "https://www.merckvetmanual.com/reproductive-system/abortion-in-large-animals/abortion-in-goats"
+      },
+      {
+        "title": "Abortion in Pigs",
+        "url": "https://www.merckvetmanual.com/reproductive-system/abortion-in-large-animals/abortion-in-pigs"
+      },
+      {
+        "title": "Abortion in Horses",
+        "url": "https://www.merckvetmanual.com/reproductive-system/abortion-in-large-animals/abortion-in-horses"
+      },
+      {
+        "title": "Abortion in Camelids",
+        "url": "https://www.merckvetmanual.com/reproductive-system/abortion-in-large-animals/abortion-in-camelids"
+      }
+    ]
   },
   {
     "title": "Bovine Genital Campylobacteriosis",
-    "url": "https://www.merckvetmanual.com/reproductive-system/bovine-genital-campylobacteriosis/bovine-genital-campylobacteriosis"
+    "url": "https://www.merckvetmanual.com/reproductive-system/bovine-genital-campylobacteriosis/bovine-genital-campylobacteriosis",
+    "in_depth_links": [
+      {
+        "title": "Etiology and Epidemiology",
+        "url": "https://www.merckvetmanual.com/reproductive-system/bovine-genital-campylobacteriosis/bovine-genital-campylobacteriosis#Etiology-and-Epidemiology_v3291221"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/reproductive-system/bovine-genital-campylobacteriosis/bovine-genital-campylobacteriosis#Clinical-Findings_v3291238"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/reproductive-system/bovine-genital-campylobacteriosis/bovine-genital-campylobacteriosis#Diagnosis_v3291241"
+      },
+      {
+        "title": "Treatment and Control",
+        "url": "https://www.merckvetmanual.com/reproductive-system/bovine-genital-campylobacteriosis/bovine-genital-campylobacteriosis#Treatment-and-Control_v3291253"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/reproductive-system/bovine-genital-campylobacteriosis/bovine-genital-campylobacteriosis#Key-Points_v49774277"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/reproductive-system/bovine-genital-campylobacteriosis/bovine-genital-campylobacteriosis#For-More-Information_v97690308"
+      }
+    ]
   },
   {
     "title": "Brucellosis in Large Animals",
-    "url": "https://www.merckvetmanual.com/reproductive-system/brucellosis-in-large-animals"
+    "url": "https://www.merckvetmanual.com/reproductive-system/brucellosis-in-large-animals",
+    "in_depth_links": [
+      {
+        "title": "Overview of Brucellosis in Large Animals",
+        "url": "https://www.merckvetmanual.com/reproductive-system/brucellosis-in-large-animals/overview-of-brucellosis-in-large-animals"
+      },
+      {
+        "title": "Brucellosis in Cattle",
+        "url": "https://www.merckvetmanual.com/reproductive-system/brucellosis-in-large-animals/brucellosis-in-cattle"
+      },
+      {
+        "title": "Brucellosis in Goats",
+        "url": "https://www.merckvetmanual.com/reproductive-system/brucellosis-in-large-animals/brucellosis-in-goats"
+      },
+      {
+        "title": "Brucellosis in Horses",
+        "url": "https://www.merckvetmanual.com/reproductive-system/brucellosis-in-large-animals/brucellosis-in-horses"
+      },
+      {
+        "title": "Brucellosis in Pigs",
+        "url": "https://www.merckvetmanual.com/reproductive-system/brucellosis-in-large-animals/brucellosis-in-pigs"
+      },
+      {
+        "title": "Brucellosis in Sheep",
+        "url": "https://www.merckvetmanual.com/reproductive-system/brucellosis-in-large-animals/brucellosis-in-sheep"
+      }
+    ]
   },
   {
     "title": "Contagious Agalactia",
-    "url": "https://www.merckvetmanual.com/reproductive-system/contagious-agalactia/contagious-agalactia-in-small-ruminants"
+    "url": "https://www.merckvetmanual.com/reproductive-system/contagious-agalactia/contagious-agalactia-in-small-ruminants",
+    "in_depth_links": [
+      {
+        "title": "Etiology and Epidemiology",
+        "url": "https://www.merckvetmanual.com/reproductive-system/contagious-agalactia/contagious-agalactia-in-small-ruminants#Etiology-and-Epidemiology_v3291393"
+      },
+      {
+        "title": "Clinical Findings and Lesions",
+        "url": "https://www.merckvetmanual.com/reproductive-system/contagious-agalactia/contagious-agalactia-in-small-ruminants#Clinical-Findings-and-Lesions_v3291400"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/reproductive-system/contagious-agalactia/contagious-agalactia-in-small-ruminants#Diagnosis_v3291406"
+      },
+      {
+        "title": "Treatment, Control, and Prevention",
+        "url": "https://www.merckvetmanual.com/reproductive-system/contagious-agalactia/contagious-agalactia-in-small-ruminants#Treatment,-Control,-and-Prevention_v3291423"
+      },
+      {
+        "title": "Zoonotic Risk",
+        "url": "https://www.merckvetmanual.com/reproductive-system/contagious-agalactia/contagious-agalactia-in-small-ruminants#Zoonotic-Risk_v3291430"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/reproductive-system/contagious-agalactia/contagious-agalactia-in-small-ruminants#Key-Points_v53072152"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/reproductive-system/contagious-agalactia/contagious-agalactia-in-small-ruminants#For-More-Information_v53072163"
+      }
+    ]
   },
   {
     "title": "Cystic Ovary Disease",
-    "url": "https://www.merckvetmanual.com/reproductive-system/cystic-ovary-disease"
+    "url": "https://www.merckvetmanual.com/reproductive-system/cystic-ovary-disease",
+    "in_depth_links": [
+      {
+        "title": "Cystic Ovary Disease and Cystic Corpus Luteum in Cows",
+        "url": "https://www.merckvetmanual.com/reproductive-system/cystic-ovary-disease/cystic-ovary-disease-and-cystic-corpus-luteum-in-cows"
+      },
+      {
+        "title": "Follicular Cystic Ovary Disease in Cows",
+        "url": "https://www.merckvetmanual.com/reproductive-system/cystic-ovary-disease/follicular-cystic-ovary-disease-in-cows"
+      },
+      {
+        "title": "Luteal Cystic Ovary Disease in Cows",
+        "url": "https://www.merckvetmanual.com/reproductive-system/cystic-ovary-disease/luteal-cystic-ovary-disease-in-cows"
+      },
+      {
+        "title": "Cystic Ovary Disease Herd Problem",
+        "url": "https://www.merckvetmanual.com/reproductive-system/cystic-ovary-disease/cystic-ovary-disease-herd-problem"
+      }
+    ]
   },
   {
     "title": "Equine Coital Exanthema",
-    "url": "https://www.merckvetmanual.com/reproductive-system/equine-coital-exanthema/equine-coital-exanthema"
+    "url": "https://www.merckvetmanual.com/reproductive-system/equine-coital-exanthema/equine-coital-exanthema",
+    "in_depth_links": [
+      {
+        "title": "Etiology and Epidemiology",
+        "url": "https://www.merckvetmanual.com/reproductive-system/equine-coital-exanthema/equine-coital-exanthema#Etiology-and-Epidemiology_v3291507"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/reproductive-system/equine-coital-exanthema/equine-coital-exanthema#Clinical-Findings_v3291512"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/reproductive-system/equine-coital-exanthema/equine-coital-exanthema#Diagnosis_v3291518"
+      },
+      {
+        "title": "Treatment and Prevention",
+        "url": "https://www.merckvetmanual.com/reproductive-system/equine-coital-exanthema/equine-coital-exanthema#Treatment-and-Prevention_v3291521"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/reproductive-system/equine-coital-exanthema/equine-coital-exanthema#Key-Points_v49774308"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/reproductive-system/equine-coital-exanthema/equine-coital-exanthema#For-More-Information_v49774317"
+      },
+      {
+        "title": "References",
+        "url": "https://www.merckvetmanual.com/reproductive-system/equine-coital-exanthema/equine-coital-exanthema#References_v94965005"
+      }
+    ]
   },
   {
     "title": "Mastitis in Large Animals",
-    "url": "https://www.merckvetmanual.com/reproductive-system/mastitis-in-large-animals"
+    "url": "https://www.merckvetmanual.com/reproductive-system/mastitis-in-large-animals",
+    "in_depth_links": [
+      {
+        "title": "Overview of Mastitis in Large Animals",
+        "url": "https://www.merckvetmanual.com/reproductive-system/mastitis-in-large-animals/overview-of-mastitis-in-large-animals"
+      },
+      {
+        "title": "Mastitis in Cattle",
+        "url": "https://www.merckvetmanual.com/reproductive-system/mastitis-in-large-animals/mastitis-in-cattle"
+      },
+      {
+        "title": "Mastitis in Goats",
+        "url": "https://www.merckvetmanual.com/reproductive-system/mastitis-in-large-animals/mastitis-in-goats"
+      },
+      {
+        "title": "Mastitis in Ewes",
+        "url": "https://www.merckvetmanual.com/reproductive-system/mastitis-in-large-animals/mastitis-in-ewes"
+      },
+      {
+        "title": "Mastitis in Mares",
+        "url": "https://www.merckvetmanual.com/reproductive-system/mastitis-in-large-animals/mastitis-in-mares"
+      }
+    ]
   },
   {
     "title": "Neosporosis in Cattle",
-    "url": "https://www.merckvetmanual.com/reproductive-system/neosporosis-in-cattle/neosporosis-in-cattle"
+    "url": "https://www.merckvetmanual.com/reproductive-system/neosporosis-in-cattle/neosporosis-in-cattle",
+    "in_depth_links": [
+      {
+        "title": "Etiology",
+        "url": "https://www.merckvetmanual.com/reproductive-system/neosporosis-in-cattle/neosporosis-in-cattle#Etiology_v93334052"
+      },
+      {
+        "title": "Epidemiology",
+        "url": "https://www.merckvetmanual.com/reproductive-system/neosporosis-in-cattle/neosporosis-in-cattle#Epidemiology_v93334062"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/reproductive-system/neosporosis-in-cattle/neosporosis-in-cattle#Clinical-Findings_v93334101"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/reproductive-system/neosporosis-in-cattle/neosporosis-in-cattle#Diagnosis_v93334113"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/reproductive-system/neosporosis-in-cattle/neosporosis-in-cattle#Treatment_v93334148"
+      },
+      {
+        "title": "Control",
+        "url": "https://www.merckvetmanual.com/reproductive-system/neosporosis-in-cattle/neosporosis-in-cattle#Control_v93334152"
+      },
+      {
+        "title": "Zoonotic Risk",
+        "url": "https://www.merckvetmanual.com/reproductive-system/neosporosis-in-cattle/neosporosis-in-cattle#Zoonotic-Risk_v93334182"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/reproductive-system/neosporosis-in-cattle/neosporosis-in-cattle#Key-Points_v93334186"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/reproductive-system/neosporosis-in-cattle/neosporosis-in-cattle#For-More-Information_v93334195"
+      }
+    ]
   },
   {
     "title": "Posthitis and Vulvitis in Sheep and Goats",
-    "url": "https://www.merckvetmanual.com/reproductive-system/posthitis-and-vulvitis-in-sheep-and-goats"
+    "url": "https://www.merckvetmanual.com/reproductive-system/posthitis-and-vulvitis-in-sheep-and-goats",
+    "in_depth_links": [
+      {
+        "title": "Posthitis and Vulvitis in Sheep and Goats",
+        "url": "https://www.merckvetmanual.com/reproductive-system/posthitis-and-vulvitis-in-sheep-and-goats/posthitis-and-vulvitis-in-sheep-and-goats"
+      },
+      {
+        "title": "Enzootic Posthitis and Vulvitis in Sheep and Goats",
+        "url": "https://www.merckvetmanual.com/reproductive-system/posthitis-and-vulvitis-in-sheep-and-goats/enzootic-posthitis-and-vulvitis-in-sheep-and-goats"
+      },
+      {
+        "title": "Ulcerative Balanoposthitis and Vulvitis in Sheep and Goats",
+        "url": "https://www.merckvetmanual.com/reproductive-system/posthitis-and-vulvitis-in-sheep-and-goats/ulcerative-balanoposthitis-and-vulvitis-in-sheep-and-goats"
+      }
+    ]
   },
   {
     "title": "Postpartum Dysgalactia Syndrome and Mastitis in Sows",
-    "url": "https://www.merckvetmanual.com/reproductive-system/postpartum-dysgalactia-syndrome-and-mastitis-in-sows/postpartum-dysgalactia-syndrome-and-mastitis-in-sows"
+    "url": "https://www.merckvetmanual.com/reproductive-system/postpartum-dysgalactia-syndrome-and-mastitis-in-sows/postpartum-dysgalactia-syndrome-and-mastitis-in-sows",
+    "in_depth_links": [
+      {
+        "title": "Etiology",
+        "url": "https://www.merckvetmanual.com/reproductive-system/postpartum-dysgalactia-syndrome-and-mastitis-in-sows/postpartum-dysgalactia-syndrome-and-mastitis-in-sows#Etiology_v56212495"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/reproductive-system/postpartum-dysgalactia-syndrome-and-mastitis-in-sows/postpartum-dysgalactia-syndrome-and-mastitis-in-sows#Clinical-Findings_v56212503"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/reproductive-system/postpartum-dysgalactia-syndrome-and-mastitis-in-sows/postpartum-dysgalactia-syndrome-and-mastitis-in-sows#Diagnosis_v56212511"
+      },
+      {
+        "title": "Treatment, Control, and Prevention",
+        "url": "https://www.merckvetmanual.com/reproductive-system/postpartum-dysgalactia-syndrome-and-mastitis-in-sows/postpartum-dysgalactia-syndrome-and-mastitis-in-sows#Treatment,-Control,-and-Prevention_v56212529"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/reproductive-system/postpartum-dysgalactia-syndrome-and-mastitis-in-sows/postpartum-dysgalactia-syndrome-and-mastitis-in-sows#Key-Points_v56212541"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/reproductive-system/postpartum-dysgalactia-syndrome-and-mastitis-in-sows/postpartum-dysgalactia-syndrome-and-mastitis-in-sows#For-More-Information_v56212550"
+      }
+    ]
   },
   {
     "title": "Prolonged Gestation in Cattle and Sheep",
-    "url": "https://www.merckvetmanual.com/reproductive-system/prolonged-gestation-in-cattle-and-sheep"
+    "url": "https://www.merckvetmanual.com/reproductive-system/prolonged-gestation-in-cattle-and-sheep",
+    "in_depth_links": [
+      {
+        "title": "Overview of Prolonged Gestation in Cattle and Sheep",
+        "url": "https://www.merckvetmanual.com/reproductive-system/prolonged-gestation-in-cattle-and-sheep/overview-of-prolonged-gestation-in-cattle-and-sheep"
+      },
+      {
+        "title": "Prolonged Gestation Associated with Fetal Mummification in Cattle and Sheep",
+        "url": "https://www.merckvetmanual.com/reproductive-system/prolonged-gestation-in-cattle-and-sheep/prolonged-gestation-associated-with-fetal-mummification-in-cattle-and-sheep"
+      },
+      {
+        "title": "Prolonged Gestation Associated with Fetal Deformity in Cattle and Sheep",
+        "url": "https://www.merckvetmanual.com/reproductive-system/prolonged-gestation-in-cattle-and-sheep/prolonged-gestation-associated-with-fetal-deformity-in-cattle-and-sheep"
+      }
+    ]
   },
   {
     "title": "Pseudopregnancy in Goats",
-    "url": "https://www.merckvetmanual.com/reproductive-system/pseudopregnancy-in-goats/pseudopregnancy-in-goats"
+    "url": "https://www.merckvetmanual.com/reproductive-system/pseudopregnancy-in-goats/pseudopregnancy-in-goats",
+    "in_depth_links": []
   },
   {
     "title": "Retained Fetal Membranes in Large Animals (Retained Placenta)",
-    "url": "https://www.merckvetmanual.com/reproductive-system/retained-fetal-membranes-in-large-animals-retained-placenta"
+    "url": "https://www.merckvetmanual.com/reproductive-system/retained-fetal-membranes-in-large-animals-retained-placenta",
+    "in_depth_links": []
   },
   {
     "title": "Trichomoniasis",
-    "url": "https://www.merckvetmanual.com/reproductive-system/trichomoniasis/trichomoniasis-in-cattle"
+    "url": "https://www.merckvetmanual.com/reproductive-system/trichomoniasis/trichomoniasis-in-cattle",
+    "in_depth_links": []
   },
   {
     "title": "Udder Diseases in Cows",
-    "url": "https://www.merckvetmanual.com/reproductive-system/udder-diseases-in-cows"
+    "url": "https://www.merckvetmanual.com/reproductive-system/udder-diseases-in-cows",
+    "in_depth_links": []
   },
   {
     "title": "Uterine Diseases in Production Animals",
-    "url": "https://www.merckvetmanual.com/reproductive-system/uterine-diseases-in-production-animals"
+    "url": "https://www.merckvetmanual.com/reproductive-system/uterine-diseases-in-production-animals",
+    "in_depth_links": []
   },
   {
     "title": "Uterine Prolapse and Eversion",
-    "url": "https://www.merckvetmanual.com/reproductive-system/uterine-prolapse-and-eversion/uterine-prolapse-and-eversion-in-animals"
+    "url": "https://www.merckvetmanual.com/reproductive-system/uterine-prolapse-and-eversion/uterine-prolapse-and-eversion-in-animals",
+    "in_depth_links": []
   },
   {
     "title": "Vaginal and Cervical Prolapse",
-    "url": "https://www.merckvetmanual.com/reproductive-system/vaginal-and-cervical-prolapse/vaginal-and-cervical-prolapse-in-cattle-and-sheep"
+    "url": "https://www.merckvetmanual.com/reproductive-system/vaginal-and-cervical-prolapse/vaginal-and-cervical-prolapse-in-cattle-and-sheep",
+    "in_depth_links": []
   },
   {
     "title": "Vesicular Adenitis (Vesiculitis) in Bulls",
-    "url": "https://www.merckvetmanual.com/reproductive-system/vesicular-adenitis-vesiculitis-in-bulls/vesicular-adenitis-vesiculitis-in-bulls"
+    "url": "https://www.merckvetmanual.com/reproductive-system/vesicular-adenitis-vesiculitis-in-bulls/vesicular-adenitis-vesiculitis-in-bulls",
+    "in_depth_links": []
   },
   {
     "title": "Vulvitis and Vaginitis in Large Animals",
-    "url": "https://www.merckvetmanual.com/reproductive-system/vulvitis-and-vaginitis-in-large-animals/vulvitis-and-vaginitis-in-large-animals"
+    "url": "https://www.merckvetmanual.com/reproductive-system/vulvitis-and-vaginitis-in-large-animals/vulvitis-and-vaginitis-in-large-animals",
+    "in_depth_links": []
   },
   {
     "title": "Reproductive Diseases of the Female Small Animal",
-    "url": "https://www.merckvetmanual.com/reproductive-system/reproductive-diseases-of-the-female-small-animal"
+    "url": "https://www.merckvetmanual.com/reproductive-system/reproductive-diseases-of-the-female-small-animal",
+    "in_depth_links": []
   },
   {
     "title": "Reproductive System Diseases of Male Dogs and Cats",
-    "url": "https://www.merckvetmanual.com/reproductive-system/reproductive-system-diseases-of-male-dogs-and-cats"
+    "url": "https://www.merckvetmanual.com/reproductive-system/reproductive-system-diseases-of-male-dogs-and-cats",
+    "in_depth_links": []
   },
   {
     "title": "Brucellosis in Dogs",
-    "url": "https://www.merckvetmanual.com/reproductive-system/brucellosis-in-dogs/brucellosis-in-dogs"
+    "url": "https://www.merckvetmanual.com/reproductive-system/brucellosis-in-dogs/brucellosis-in-dogs",
+    "in_depth_links": []
   },
   {
     "title": "Canine Transmissible Venereal Tumor",
-    "url": "https://www.merckvetmanual.com/reproductive-system/canine-transmissible-venereal-tumor/canine-transmissible-venereal-tumor"
+    "url": "https://www.merckvetmanual.com/reproductive-system/canine-transmissible-venereal-tumor/canine-transmissible-venereal-tumor",
+    "in_depth_links": []
   },
   {
     "title": "Mammary Tumors in Cats",
-    "url": "https://www.merckvetmanual.com/reproductive-system/mammary-tumors-in-cats/mammary-tumors-in-cats"
+    "url": "https://www.merckvetmanual.com/reproductive-system/mammary-tumors-in-cats/mammary-tumors-in-cats",
+    "in_depth_links": []
   },
   {
     "title": "Mammary Tumors in Dogs",
-    "url": "https://www.merckvetmanual.com/reproductive-system/mammary-tumors-in-dogs/mammary-tumors-in-dogs"
+    "url": "https://www.merckvetmanual.com/reproductive-system/mammary-tumors-in-dogs/mammary-tumors-in-dogs",
+    "in_depth_links": []
   },
   {
     "title": "Prostatic Diseases",
-    "url": "https://www.merckvetmanual.com/reproductive-system/prostatic-diseases"
+    "url": "https://www.merckvetmanual.com/reproductive-system/prostatic-diseases",
+    "in_depth_links": []
   }
 ]

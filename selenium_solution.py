@@ -34,9 +34,43 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 
+def extract_content_from_page(driver, url, base_section_path):
+    """
+    Extract links from a page - works for both subsections and in-depth pages
+    """
+    # Find all links in the page that match our criteria
+    links = driver.find_elements(By.TAG_NAME, "a")
+    content_links = []
+    base_url = "https://www.merckvetmanual.com"
+    
+    for link in links:
+        try:
+            href = link.get_attribute("href")
+            text = link.text.strip()
+            
+            # Filter links: internal, non-empty text, related to the section, not navigation
+            if (href and text and len(text) > 3 and 
+                href.startswith(base_url) and 
+                href != url and
+                not any(x in text.lower() for x in ['veterinary', 'pet owners', 'resources', 'quizzes', 'about', 
+                                                   'contact', 'disclaimer', 'privacy', 'terms', 'cookie', 
+                                                   'licensing', 'copyright'])):
+                
+                # If it's related to the base section (or it's a deeper link)
+                if base_section_path in href:
+                    content_links.append({
+                        "title": text,
+                        "url": href
+                    })
+        except Exception as e:
+            print(f"  Error processing link: {e}")
+            continue
+    
+    return content_links
+
 def extract_subsections_with_selenium(url, section_title):
     """
-    Extract subsections from a Merck Veterinary Manual section page using Selenium to render JavaScript
+    Extract subsections and their in-depth content from Merck Veterinary Manual section
     """
     print(f"Extracting subsections for {section_title} from {url}")
     
@@ -65,53 +99,80 @@ def extract_subsections_with_selenium(url, section_title):
         section_path = url.split("merckvetmanual.com")[1]
         base_url = "https://www.merckvetmanual.com"
         
-        # Extract subsections
-        subsections = []
+        # Extract first-level subsections
+        print("Extracting first-level subsections...")
+        subsections = extract_content_from_page(driver, url, section_path)
         
-        # Find all links in the page
-        links = driver.find_elements(By.TAG_NAME, "a")
-        
-        for link in links:
-            try:
-                href = link.get_attribute("href")
-                text = link.text.strip()
-                
-                # Filter links: they should be internal, contain the section path, 
-                # and not be the same as the section URL
-                if (href and text and len(text) > 3 and 
-                    href.startswith(base_url) and 
-                    section_path in href and 
-                    href != url and
-                    not any(x in text.lower() for x in ['veterinary', 'pet owners', 'resources', 'quizzes', 'about', 'contact'])):
-                    
-                    # Check URL structure for subsections (e.g., /circulatory-system/anemia)
-                    relative_path = href.replace(base_url, "")
-                    parts = relative_path.strip('/').split('/')
-                    
-                    if len(parts) > 1 and section_path.strip('/') == parts[0]:
-                        subsections.append({
-                            "title": text,
-                            "url": href
-                        })
-                        print(f"Found subsection: {text}")
-            except Exception as e:
-                print(f"Error processing link: {e}")
-                continue
-        
-        # Save the page source for debugging
-        with open(f"{section_title.replace(' ', '_')}_selenium_debug.html", "w", encoding="utf-8") as f:
-            f.write(driver.page_source)
-        
-        # Remove duplicates
-        unique_subsections = []
-        seen_urls = set()
-        
+        # Filter to keep only the subsections directly related to this section
+        filtered_subsections = []
         for item in subsections:
-            if item['url'] not in seen_urls:
-                unique_subsections.append(item)
-                seen_urls.add(item['url'])
+            # Check that the URL structure indicates it's a subsection (e.g., /circulatory-system/anemia)
+            relative_path = item['url'].replace(base_url, "")
+            parts = relative_path.strip('/').split('/')
+            
+            if len(parts) > 1 and section_path.strip('/') == parts[0]:
+                filtered_subsections.append(item)
+                print(f"Found subsection: {item['title']}")
         
-        return unique_subsections
+        # Process each subsection to get in-depth links
+        processed_subsections = []
+        for i, subsection in enumerate(filtered_subsections):
+            print(f"Processing subsection {i+1}/{len(filtered_subsections)}: {subsection['title']}")
+            
+            subsection_data = {
+                "title": subsection['title'],
+                "url": subsection['url'],
+                "in_depth_links": []
+            }
+            
+            # Visit the subsection page
+            try:
+                driver.get(subsection['url'])
+                
+                # Wait for the page to load
+                WebDriverWait(driver, 10).until(
+                    EC.presence_of_element_located((By.TAG_NAME, "body"))
+                )
+                
+                # Give time for JavaScript to execute
+                time.sleep(3)
+                
+                # Check the type of page we're on
+                # Look for indicators that this is a list page (with more links)
+                list_indicators = driver.find_elements(By.CSS_SELECTOR, 
+                                                     "ul li a, div[class*='subsection'] a, div[class*='section'] a")
+                
+                in_depth_links = []
+                
+                # If this might be a list page with more links
+                if list_indicators:
+                    print(f"  Found potential in-depth links on subsection page")
+                    section_base_path = subsection['url'].replace(base_url, "")
+                    in_depth_links = extract_content_from_page(driver, subsection['url'], section_base_path)
+                    
+                    # Filter to only keep links that appear to be deeper than the current subsection
+                    filtered_links = []
+                    for link in in_depth_links:
+                        # Check if it's a deeper link
+                        if section_base_path in link['url'] and link['url'] != subsection['url']:
+                            filtered_links.append(link)
+                            print(f"  Found in-depth link: {link['title']}")
+                    
+                    in_depth_links = filtered_links
+                
+                subsection_data["in_depth_links"] = in_depth_links
+                processed_subsections.append(subsection_data)
+                
+                # Rate limiting between subsection requests (except for the last one)
+                if i < len(filtered_subsections) - 1:
+                    time.sleep(1)
+                    
+            except Exception as e:
+                print(f"  Error processing subsection {subsection['title']}: {e}")
+                # Still add the subsection even if we couldn't get in-depth links
+                processed_subsections.append(subsection_data)
+        
+        return processed_subsections
     
     except Exception as e:
         print(f"Error: {e}")

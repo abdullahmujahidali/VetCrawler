@@ -1,122 +1,931 @@
 [
   {
     "title": "Integumentary System Introduction",
-    "url": "https://www.merckvetmanual.com/integumentary-system/integumentary-system-introduction"
+    "url": "https://www.merckvetmanual.com/integumentary-system/integumentary-system-introduction",
+    "in_depth_links": [
+      {
+        "title": "The Integumentary System in Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/integumentary-system-introduction/the-integumentary-system-in-animals"
+      },
+      {
+        "title": "Dermatitis in Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/integumentary-system-introduction/dermatitis-in-animals"
+      },
+      {
+        "title": "Dermatologic Problems in Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/integumentary-system-introduction/dermatologic-problems-in-animals"
+      },
+      {
+        "title": "Diagnosis of Skin Diseases in Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/integumentary-system-introduction/diagnosis-of-skin-diseases-in-animals"
+      },
+      {
+        "title": "Alopecia in Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/integumentary-system-introduction/alopecia-in-animals"
+      },
+      {
+        "title": "Pruritus in Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/integumentary-system-introduction/pruritus-in-animals"
+      },
+      {
+        "title": "Principles of Topical Therapy in Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/integumentary-system-introduction/principles-of-topical-therapy-in-animals"
+      }
+    ]
   },
   {
     "title": "Acanthosis Nigricans and Postinflammatory Hyperpigmentation",
-    "url": "https://www.merckvetmanual.com/integumentary-system/acanthosis-nigricans-and-postinflammatory-hyperpigmentation/primary-acanthosis-nigricans-and-postinflammatory-hyperpigmentation-in-dogs"
+    "url": "https://www.merckvetmanual.com/integumentary-system/acanthosis-nigricans-and-postinflammatory-hyperpigmentation/primary-acanthosis-nigricans-and-postinflammatory-hyperpigmentation-in-dogs",
+    "in_depth_links": [
+      {
+        "title": "Etiology",
+        "url": "https://www.merckvetmanual.com/integumentary-system/acanthosis-nigricans-and-postinflammatory-hyperpigmentation/primary-acanthosis-nigricans-and-postinflammatory-hyperpigmentation-in-dogs#Etiology_v3281556"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/integumentary-system/acanthosis-nigricans-and-postinflammatory-hyperpigmentation/primary-acanthosis-nigricans-and-postinflammatory-hyperpigmentation-in-dogs#Clinical-Findings_v95696372"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/integumentary-system/acanthosis-nigricans-and-postinflammatory-hyperpigmentation/primary-acanthosis-nigricans-and-postinflammatory-hyperpigmentation-in-dogs#Diagnosis_v3281562"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/integumentary-system/acanthosis-nigricans-and-postinflammatory-hyperpigmentation/primary-acanthosis-nigricans-and-postinflammatory-hyperpigmentation-in-dogs#Treatment_v3281567"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/integumentary-system/acanthosis-nigricans-and-postinflammatory-hyperpigmentation/primary-acanthosis-nigricans-and-postinflammatory-hyperpigmentation-in-dogs#Key-Points_v45302565"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/integumentary-system/acanthosis-nigricans-and-postinflammatory-hyperpigmentation/primary-acanthosis-nigricans-and-postinflammatory-hyperpigmentation-in-dogs#For-More-Information_v45302574"
+      }
+    ]
   },
   {
     "title": "Atopic Dermatitis",
-    "url": "https://www.merckvetmanual.com/integumentary-system/atopic-dermatitis"
+    "url": "https://www.merckvetmanual.com/integumentary-system/atopic-dermatitis",
+    "in_depth_links": [
+      {
+        "title": "Atopic Dermatitis in Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/atopic-dermatitis/atopic-dermatitis-in-animals"
+      },
+      {
+        "title": "Canine Atopic Dermatitis",
+        "url": "https://www.merckvetmanual.com/integumentary-system/atopic-dermatitis/canine-atopic-dermatitis"
+      },
+      {
+        "title": "Feline Atopic Dermatitis",
+        "url": "https://www.merckvetmanual.com/integumentary-system/atopic-dermatitis/feline-atopic-dermatitis"
+      }
+    ]
   },
   {
     "title": "Cattle Grubs",
-    "url": "https://www.merckvetmanual.com/integumentary-system/cattle-grubs"
+    "url": "https://www.merckvetmanual.com/integumentary-system/cattle-grubs",
+    "in_depth_links": [
+      {
+        "title": "Overview of Cattle Grubs",
+        "url": "https://www.merckvetmanual.com/integumentary-system/cattle-grubs/overview-of-cattle-grubs"
+      },
+      {
+        "title": "Hypoderma spp",
+        "url": "https://www.merckvetmanual.com/integumentary-system/cattle-grubs/hypoderma-spp"
+      },
+      {
+        "title": "Dermatobia hominis Hypodermiasis",
+        "url": "https://www.merckvetmanual.com/integumentary-system/cattle-grubs/dermatobia-hominis-hypodermiasis"
+      }
+    ]
   },
   {
     "title": "Congenital and Inherited Anomalies of the Integumentary System",
-    "url": "https://www.merckvetmanual.com/integumentary-system/congenital-and-inherited-anomalies-of-the-integumentary-system"
+    "url": "https://www.merckvetmanual.com/integumentary-system/congenital-and-inherited-anomalies-of-the-integumentary-system",
+    "in_depth_links": [
+      {
+        "title": "Congenital Anomalies of the Skin in Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/congenital-and-inherited-anomalies-of-the-integumentary-system/congenital-anomalies-of-the-skin-in-animals"
+      },
+      {
+        "title": "Hereditary Alopecia and Hypotrichosis in Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/congenital-and-inherited-anomalies-of-the-integumentary-system/hereditary-alopecia-and-hypotrichosis-in-animals"
+      },
+      {
+        "title": "Hyperplastic and Seborrheic Syndromes in Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/congenital-and-inherited-anomalies-of-the-integumentary-system/hyperplastic-and-seborrheic-syndromes-in-animals"
+      },
+      {
+        "title": "Pigmentary Abnormalities in Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/congenital-and-inherited-anomalies-of-the-integumentary-system/pigmentary-abnormalities-in-animals"
+      },
+      {
+        "title": "Defects of Structural Integrity in Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/congenital-and-inherited-anomalies-of-the-integumentary-system/defects-of-structural-integrity-in-animals"
+      },
+      {
+        "title": "Cutaneous Manifestations of Multisystemic and Metabolic Defects in Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/congenital-and-inherited-anomalies-of-the-integumentary-system/cutaneous-manifestations-of-multisystemic-and-metabolic-defects-in-animals"
+      },
+      {
+        "title": "Congenital and Hereditary Neoplasms and Hamartomas in Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/congenital-and-inherited-anomalies-of-the-integumentary-system/congenital-and-hereditary-neoplasms-and-hamartomas-in-animals"
+      }
+    ]
   },
   {
     "title": "Cuterebra Infestation in Small Animals",
-    "url": "https://www.merckvetmanual.com/integumentary-system/cuterebra-infestation-in-small-animals/cuterebra-infestation-in-small-animals"
+    "url": "https://www.merckvetmanual.com/integumentary-system/cuterebra-infestation-in-small-animals/cuterebra-infestation-in-small-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology",
+        "url": "https://www.merckvetmanual.com/integumentary-system/cuterebra-infestation-in-small-animals/cuterebra-infestation-in-small-animals#Etiology_v3278630"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/integumentary-system/cuterebra-infestation-in-small-animals/cuterebra-infestation-in-small-animals#Clinical-Findings_v3278634"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/integumentary-system/cuterebra-infestation-in-small-animals/cuterebra-infestation-in-small-animals#Diagnosis_v96528348"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/integumentary-system/cuterebra-infestation-in-small-animals/cuterebra-infestation-in-small-animals#Treatment_v3278640"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/integumentary-system/cuterebra-infestation-in-small-animals/cuterebra-infestation-in-small-animals#Key-Points_v45305827"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/integumentary-system/cuterebra-infestation-in-small-animals/cuterebra-infestation-in-small-animals#For-More-Information_v45305838"
+      },
+      {
+        "title": "References",
+        "url": "https://www.merckvetmanual.com/integumentary-system/cuterebra-infestation-in-small-animals/cuterebra-infestation-in-small-animals#References_v96528379"
+      }
+    ]
   },
   {
     "title": "Dermatophilosis",
-    "url": "https://www.merckvetmanual.com/integumentary-system/dermatophilosis/dermatophilosis-in-animals"
+    "url": "https://www.merckvetmanual.com/integumentary-system/dermatophilosis/dermatophilosis-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology and Pathogenesis",
+        "url": "https://www.merckvetmanual.com/integumentary-system/dermatophilosis/dermatophilosis-in-animals#Etiology-and-Pathogenesis_v3278032"
+      },
+      {
+        "title": "Epidemiology",
+        "url": "https://www.merckvetmanual.com/integumentary-system/dermatophilosis/dermatophilosis-in-animals#Epidemiology_v3278052"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/integumentary-system/dermatophilosis/dermatophilosis-in-animals#Clinical-Findings_v3278055"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/integumentary-system/dermatophilosis/dermatophilosis-in-animals#Diagnosis_v3278064"
+      },
+      {
+        "title": "Treatment and Control",
+        "url": "https://www.merckvetmanual.com/integumentary-system/dermatophilosis/dermatophilosis-in-animals#Treatment-and-Control_v3278068"
+      },
+      {
+        "title": "Zoonotic Risk",
+        "url": "https://www.merckvetmanual.com/integumentary-system/dermatophilosis/dermatophilosis-in-animals#Zoonotic-Risk_v3278073"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/integumentary-system/dermatophilosis/dermatophilosis-in-animals#Key-Points_v45304790"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/integumentary-system/dermatophilosis/dermatophilosis-in-animals#For-More-Information_v45304801"
+      }
+    ]
   },
   {
     "title": "Dermatophytosis",
-    "url": "https://www.merckvetmanual.com/integumentary-system/dermatophytosis"
+    "url": "https://www.merckvetmanual.com/integumentary-system/dermatophytosis",
+    "in_depth_links": [
+      {
+        "title": "Dermatophytosis in Dogs and Cats",
+        "url": "https://www.merckvetmanual.com/integumentary-system/dermatophytosis/dermatophytosis-in-dogs-and-cats"
+      },
+      {
+        "title": "Dermatophytosis in Horses",
+        "url": "https://www.merckvetmanual.com/integumentary-system/dermatophytosis/dermatophytosis-in-horses"
+      },
+      {
+        "title": "Dermatophytosis in Cattle",
+        "url": "https://www.merckvetmanual.com/integumentary-system/dermatophytosis/dermatophytosis-in-cattle"
+      },
+      {
+        "title": "Dermatophytosis in Pigs, Sheep, and Goats",
+        "url": "https://www.merckvetmanual.com/integumentary-system/dermatophytosis/dermatophytosis-in-pigs-sheep-and-goats"
+      }
+    ]
   },
   {
     "title": "Eosinophilic Inflammatory Skin Diseases",
-    "url": "https://www.merckvetmanual.com/integumentary-system/eosinophilic-inflammatory-skin-diseases"
+    "url": "https://www.merckvetmanual.com/integumentary-system/eosinophilic-inflammatory-skin-diseases",
+    "in_depth_links": [
+      {
+        "title": "Eosinophilic Skin Diseases in Cats",
+        "url": "https://www.merckvetmanual.com/integumentary-system/eosinophilic-inflammatory-skin-diseases/eosinophilic-skin-diseases-in-cats"
+      },
+      {
+        "title": "Eosinophilic Lesions in Dogs",
+        "url": "https://www.merckvetmanual.com/integumentary-system/eosinophilic-inflammatory-skin-diseases/eosinophilic-lesions-in-dogs"
+      },
+      {
+        "title": "Eosinophilic Granuloma in Horses",
+        "url": "https://www.merckvetmanual.com/integumentary-system/eosinophilic-inflammatory-skin-diseases/eosinophilic-granuloma-in-horses"
+      }
+    ]
   },
   {
     "title": "Exudative Epidermitis",
-    "url": "https://www.merckvetmanual.com/integumentary-system/exudative-epidermitis/exudative-epidermitis-in-pigs"
+    "url": "https://www.merckvetmanual.com/integumentary-system/exudative-epidermitis/exudative-epidermitis-in-pigs",
+    "in_depth_links": [
+      {
+        "title": "Clinical Findings and Lesions",
+        "url": "https://www.merckvetmanual.com/integumentary-system/exudative-epidermitis/exudative-epidermitis-in-pigs#Clinical-Findings-and-Lesions_v3278100"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/integumentary-system/exudative-epidermitis/exudative-epidermitis-in-pigs#Diagnosis_v52140389"
+      },
+      {
+        "title": "Treatment and Control",
+        "url": "https://www.merckvetmanual.com/integumentary-system/exudative-epidermitis/exudative-epidermitis-in-pigs#Treatment-and-Control_v3278105"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/integumentary-system/exudative-epidermitis/exudative-epidermitis-in-pigs#Key-Points_v52140409"
+      }
+    ]
   },
   {
     "title": "Fleas and Flea Allergy Dermatitis",
-    "url": "https://www.merckvetmanual.com/integumentary-system/fleas-and-flea-allergy-dermatitis"
+    "url": "https://www.merckvetmanual.com/integumentary-system/fleas-and-flea-allergy-dermatitis",
+    "in_depth_links": [
+      {
+        "title": "Fleas in Dogs and Cats",
+        "url": "https://www.merckvetmanual.com/integumentary-system/fleas-and-flea-allergy-dermatitis/fleas-in-dogs-and-cats"
+      },
+      {
+        "title": "Flea Allergy Dermatitis in Dogs and Cats",
+        "url": "https://www.merckvetmanual.com/integumentary-system/fleas-and-flea-allergy-dermatitis/flea-allergy-dermatitis-in-dogs-and-cats"
+      }
+    ]
   },
   {
     "title": "Flies",
-    "url": "https://www.merckvetmanual.com/integumentary-system/flies"
+    "url": "https://www.merckvetmanual.com/integumentary-system/flies",
+    "in_depth_links": [
+      {
+        "title": "Overview of Flies of Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/flies/overview-of-flies-of-animals"
+      },
+      {
+        "title": "Dipterans with Biting Mouthparts",
+        "url": "https://www.merckvetmanual.com/integumentary-system/flies/dipterans-with-biting-mouthparts"
+      },
+      {
+        "title": "Black Flies of Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/flies/black-flies-of-animals"
+      },
+      {
+        "title": "Sand Flies of Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/flies/sand-flies-of-animals"
+      },
+      {
+        "title": "Biting Midges of Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/flies/biting-midges-of-animals"
+      },
+      {
+        "title": "Mosquitoes of Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/flies/mosquitoes-of-animals"
+      },
+      {
+        "title": "Horse Flies and Deer Flies",
+        "url": "https://www.merckvetmanual.com/integumentary-system/flies/horse-flies-and-deer-flies"
+      },
+      {
+        "title": "Stable Flies",
+        "url": "https://www.merckvetmanual.com/integumentary-system/flies/stable-flies"
+      },
+      {
+        "title": "Horn Flies of Cattle",
+        "url": "https://www.merckvetmanual.com/integumentary-system/flies/horn-flies-of-cattle"
+      },
+      {
+        "title": "Buffalo Flies of Cattle",
+        "url": "https://www.merckvetmanual.com/integumentary-system/flies/buffalo-flies-of-cattle"
+      },
+      {
+        "title": "Tsetse Flies",
+        "url": "https://www.merckvetmanual.com/integumentary-system/flies/tsetse-flies"
+      },
+      {
+        "title": "Sheep Keds",
+        "url": "https://www.merckvetmanual.com/integumentary-system/flies/sheep-keds"
+      },
+      {
+        "title": "Spider Flies/New Forest Flies of Horses",
+        "url": "https://www.merckvetmanual.com/integumentary-system/flies/spider-flies-new-forest-flies-of-horses"
+      },
+      {
+        "title": "Hippoboscid or Louse Flies of Birds",
+        "url": "https://www.merckvetmanual.com/integumentary-system/flies/hippoboscid-or-louse-flies-of-birds"
+      },
+      {
+        "title": "Dipterans with Nonbiting Mouthparts",
+        "url": "https://www.merckvetmanual.com/integumentary-system/flies/dipterans-with-nonbiting-mouthparts"
+      },
+      {
+        "title": "Face Flies of Cattle",
+        "url": "https://www.merckvetmanual.com/integumentary-system/flies/face-flies-of-cattle"
+      },
+      {
+        "title": "Head Flies of Cattle and Sheep",
+        "url": "https://www.merckvetmanual.com/integumentary-system/flies/head-flies-of-cattle-and-sheep"
+      },
+      {
+        "title": "Filth-breeding Flies of Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/flies/filth-breeding-flies-of-animals"
+      },
+      {
+        "title": "Eye Gnats of Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/flies/eye-gnats-of-animals"
+      },
+      {
+        "title": "Dipterans that Produce Myiasis in Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/flies/dipterans-that-produce-myiasis-in-animals"
+      },
+      {
+        "title": "Facultative Myiasis-producing Flies of Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/flies/facultative-myiasis-producing-flies-of-animals"
+      },
+      {
+        "title": "Obligatory Myiasis-producing Flies of Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/flies/obligatory-myiasis-producing-flies-of-animals"
+      },
+      {
+        "title": "Pseudomyiasis in Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/flies/pseudomyiasis-in-animals"
+      }
+    ]
   },
   {
     "title": "Food Allergy",
-    "url": "https://www.merckvetmanual.com/integumentary-system/food-allergy/cutaneous-food-allergy-in-animals"
+    "url": "https://www.merckvetmanual.com/integumentary-system/food-allergy/cutaneous-food-allergy-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology, Pathogenesis, and Epidemiology",
+        "url": "https://www.merckvetmanual.com/integumentary-system/food-allergy/cutaneous-food-allergy-in-animals#Etiology,-Pathogenesis,-and-Epidemiology_v50148497"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/integumentary-system/food-allergy/cutaneous-food-allergy-in-animals#Clinical-Findings_v50148535"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/integumentary-system/food-allergy/cutaneous-food-allergy-in-animals#Diagnosis_v50148549"
+      },
+      {
+        "title": "Dietary-induced Dilated Cardiomyopathy",
+        "url": "https://www.merckvetmanual.com/integumentary-system/food-allergy/cutaneous-food-allergy-in-animals#Dietary-induced-Dilated-Cardiomyopathy_v50148577"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/integumentary-system/food-allergy/cutaneous-food-allergy-in-animals#Key-Points_v50148584"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/integumentary-system/food-allergy/cutaneous-food-allergy-in-animals#For-More-Information_v50148595"
+      },
+      {
+        "title": "Types of Food Allergens in Dogs and Cats",
+        "url": "https://www.merckvetmanual.com/integumentary-system/food-allergy/cutaneous-food-allergy-in-animals#v54970067"
+      }
+    ]
   },
   {
     "title": "Helminths of the Skin",
-    "url": "https://www.merckvetmanual.com/integumentary-system/helminths-of-the-skin"
+    "url": "https://www.merckvetmanual.com/integumentary-system/helminths-of-the-skin",
+    "in_depth_links": [
+      {
+        "title": "Overview of Helminths of the Skin in Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/helminths-of-the-skin/overview-of-helminths-of-the-skin-in-animals"
+      },
+      {
+        "title": "Cutaneous Habronemiasis in Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/helminths-of-the-skin/cutaneous-habronemiasis-in-animals"
+      },
+      {
+        "title": "Dracunculus Infections in Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/helminths-of-the-skin/dracunculus-infections-in-animals"
+      },
+      {
+        "title": "Elaeophorosis in Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/helminths-of-the-skin/elaeophorosis-in-animals"
+      },
+      {
+        "title": "Onchocerciasis in Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/helminths-of-the-skin/onchocerciasis-in-animals"
+      },
+      {
+        "title": "Parafilaria Infection in Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/helminths-of-the-skin/parafilaria-infection-in-animals"
+      },
+      {
+        "title": "Rhabditic Dermatitis in Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/helminths-of-the-skin/rhabditic-dermatitis-in-animals"
+      },
+      {
+        "title": "Stephanofilariasis in Cattle",
+        "url": "https://www.merckvetmanual.com/integumentary-system/helminths-of-the-skin/stephanofilariasis-in-cattle"
+      }
+    ]
   },
   {
     "title": "Hygroma in Dogs",
-    "url": "https://www.merckvetmanual.com/integumentary-system/hygroma-in-dogs/hygroma-in-dogs"
+    "url": "https://www.merckvetmanual.com/integumentary-system/hygroma-in-dogs/hygroma-in-dogs",
+    "in_depth_links": [
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/integumentary-system/hygroma-in-dogs/hygroma-in-dogs#For-More-Information_v45672120"
+      },
+      {
+        "title": "References",
+        "url": "https://www.merckvetmanual.com/integumentary-system/hygroma-in-dogs/hygroma-in-dogs#References_v99419058"
+      }
+    ]
   },
   {
     "title": "Interdigital Furunculosis",
-    "url": "https://www.merckvetmanual.com/integumentary-system/interdigital-furunculosis/interdigital-furunculosis-in-dogs"
+    "url": "https://www.merckvetmanual.com/integumentary-system/interdigital-furunculosis/interdigital-furunculosis-in-dogs",
+    "in_depth_links": [
+      {
+        "title": "Etiology",
+        "url": "https://www.merckvetmanual.com/integumentary-system/interdigital-furunculosis/interdigital-furunculosis-in-dogs#Etiology_v3278118"
+      },
+      {
+        "title": "Epidemiology",
+        "url": "https://www.merckvetmanual.com/integumentary-system/interdigital-furunculosis/interdigital-furunculosis-in-dogs#Epidemiology_v91296091"
+      },
+      {
+        "title": "Clinical Findings and Lesions",
+        "url": "https://www.merckvetmanual.com/integumentary-system/interdigital-furunculosis/interdigital-furunculosis-in-dogs#Clinical-Findings-and-Lesions_v3278124"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/integumentary-system/interdigital-furunculosis/interdigital-furunculosis-in-dogs#Diagnosis_v3278128"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/integumentary-system/interdigital-furunculosis/interdigital-furunculosis-in-dogs#Treatment_v3278133"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/integumentary-system/interdigital-furunculosis/interdigital-furunculosis-in-dogs#Key-Points_v45672089"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/integumentary-system/interdigital-furunculosis/interdigital-furunculosis-in-dogs#For-More-Information_v45672098"
+      }
+    ]
   },
   {
     "title": "Lice",
-    "url": "https://www.merckvetmanual.com/integumentary-system/lice"
+    "url": "https://www.merckvetmanual.com/integumentary-system/lice",
+    "in_depth_links": [
+      {
+        "title": "Overview of Lice in Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/lice/overview-of-lice-in-animals"
+      },
+      {
+        "title": "Lice in Cattle",
+        "url": "https://www.merckvetmanual.com/integumentary-system/lice/lice-in-cattle"
+      },
+      {
+        "title": "Lice in Sheep and Goats",
+        "url": "https://www.merckvetmanual.com/integumentary-system/lice/lice-in-sheep-and-goats"
+      },
+      {
+        "title": "Lice in Horses and Donkeys",
+        "url": "https://www.merckvetmanual.com/integumentary-system/lice/lice-in-horses-and-donkeys"
+      },
+      {
+        "title": "Lice in Pigs",
+        "url": "https://www.merckvetmanual.com/integumentary-system/lice/lice-in-pigs"
+      },
+      {
+        "title": "Lice in Dogs and Cats",
+        "url": "https://www.merckvetmanual.com/integumentary-system/lice/lice-in-dogs-and-cats"
+      }
+    ]
   },
   {
     "title": "Mange",
-    "url": "https://www.merckvetmanual.com/integumentary-system/mange"
+    "url": "https://www.merckvetmanual.com/integumentary-system/mange",
+    "in_depth_links": [
+      {
+        "title": "Overview of Mange in Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/mange/overview-of-mange-in-animals"
+      },
+      {
+        "title": "Mange in Cattle",
+        "url": "https://www.merckvetmanual.com/integumentary-system/mange/mange-in-cattle"
+      },
+      {
+        "title": "Mange in Sheep and Goats",
+        "url": "https://www.merckvetmanual.com/integumentary-system/mange/mange-in-sheep-and-goats"
+      },
+      {
+        "title": "Mange in Horses",
+        "url": "https://www.merckvetmanual.com/integumentary-system/mange/mange-in-horses"
+      },
+      {
+        "title": "Mange in Pigs",
+        "url": "https://www.merckvetmanual.com/integumentary-system/mange/mange-in-pigs"
+      },
+      {
+        "title": "Mange in Dogs and Cats",
+        "url": "https://www.merckvetmanual.com/integumentary-system/mange/mange-in-dogs-and-cats"
+      }
+    ]
   },
   {
     "title": "Miscellaneous Systemic Dermatoses",
-    "url": "https://www.merckvetmanual.com/integumentary-system/miscellaneous-systemic-dermatoses/miscellaneous-systemic-dermatoses-in-animals"
+    "url": "https://www.merckvetmanual.com/integumentary-system/miscellaneous-systemic-dermatoses/miscellaneous-systemic-dermatoses-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Nutritional Dermatoses",
+        "url": "https://www.merckvetmanual.com/integumentary-system/miscellaneous-systemic-dermatoses/miscellaneous-systemic-dermatoses-in-animals#Nutritional-Dermatoses_v77062471"
+      },
+      {
+        "title": "Skin Manifestations of Internal Organ Disorders",
+        "url": "https://www.merckvetmanual.com/integumentary-system/miscellaneous-systemic-dermatoses/miscellaneous-systemic-dermatoses-in-animals#Skin-Manifestations-of-Internal-Organ-Disorders_v77062479"
+      },
+      {
+        "title": "Cutaneous Manifestations of Internal Malignancy",
+        "url": "https://www.merckvetmanual.com/integumentary-system/miscellaneous-systemic-dermatoses/miscellaneous-systemic-dermatoses-in-animals#Cutaneous-Manifestations-of-Internal-Malignancy_v77062500"
+      },
+      {
+        "title": "Cutaneous Manifestations of Renal Disease",
+        "url": "https://www.merckvetmanual.com/integumentary-system/miscellaneous-systemic-dermatoses/miscellaneous-systemic-dermatoses-in-animals#Cutaneous-Manifestations-of-Renal-Disease_v77062507"
+      },
+      {
+        "title": "Toxic Dermatosis",
+        "url": "https://www.merckvetmanual.com/integumentary-system/miscellaneous-systemic-dermatoses/miscellaneous-systemic-dermatoses-in-animals#Toxic-Dermatosis_v77062515"
+      },
+      {
+        "title": "Dermatologic Manifestations of Endocrinopathies",
+        "url": "https://www.merckvetmanual.com/integumentary-system/miscellaneous-systemic-dermatoses/miscellaneous-systemic-dermatoses-in-animals#Dermatologic-Manifestations-of-Endocrinopathies_v77062532"
+      },
+      {
+        "title": "Dermatosis Associated With Neuropathies",
+        "url": "https://www.merckvetmanual.com/integumentary-system/miscellaneous-systemic-dermatoses/miscellaneous-systemic-dermatoses-in-animals#Dermatosis-Associated-With-Neuropathies_v77062566"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/integumentary-system/miscellaneous-systemic-dermatoses/miscellaneous-systemic-dermatoses-in-animals#Key-Points_v77062571"
+      },
+      {
+        "title": "References",
+        "url": "https://www.merckvetmanual.com/integumentary-system/miscellaneous-systemic-dermatoses/miscellaneous-systemic-dermatoses-in-animals#References_v77062581"
+      }
+    ]
   },
   {
     "title": "Nasal Dermatoses of Dogs",
-    "url": "https://www.merckvetmanual.com/integumentary-system/nasal-dermatoses-of-dogs/nasal-dermatoses-of-dogs"
+    "url": "https://www.merckvetmanual.com/integumentary-system/nasal-dermatoses-of-dogs/nasal-dermatoses-of-dogs",
+    "in_depth_links": []
   },
   {
     "title": "Parakeratosis",
-    "url": "https://www.merckvetmanual.com/integumentary-system/parakeratosis/parakeratosis-in-pigs"
+    "url": "https://www.merckvetmanual.com/integumentary-system/parakeratosis/parakeratosis-in-pigs",
+    "in_depth_links": []
   },
   {
     "title": "Photosensitization",
-    "url": "https://www.merckvetmanual.com/integumentary-system/photosensitization"
+    "url": "https://www.merckvetmanual.com/integumentary-system/photosensitization",
+    "in_depth_links": [
+      {
+        "title": "Overview of Photosensitization in Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/photosensitization/overview-of-photosensitization-in-animals"
+      },
+      {
+        "title": "Congenital Photosensitization in Sheep",
+        "url": "https://www.merckvetmanual.com/integumentary-system/photosensitization/congenital-photosensitization-in-sheep"
+      }
+    ]
   },
   {
     "title": "Pityriasis Rosea in Pigs (Porcine juvenile pustular psoriaform dermatitis)",
-    "url": "https://www.merckvetmanual.com/integumentary-system/pityriasis-rosea-in-pigs-porcine-juvenile-pustular-psoriaform-dermatitis/pityriasis-rosea-in-pigs"
+    "url": "https://www.merckvetmanual.com/integumentary-system/pityriasis-rosea-in-pigs-porcine-juvenile-pustular-psoriaform-dermatitis/pityriasis-rosea-in-pigs",
+    "in_depth_links": []
   },
   {
     "title": "Pox Diseases",
-    "url": "https://www.merckvetmanual.com/integumentary-system/pox-diseases"
+    "url": "https://www.merckvetmanual.com/integumentary-system/pox-diseases",
+    "in_depth_links": [
+      {
+        "title": "Pox Diseases in Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/pox-diseases/pox-diseases-in-animals"
+      },
+      {
+        "title": "Contagious Ecthyma in Sheep and Goats",
+        "url": "https://www.merckvetmanual.com/integumentary-system/pox-diseases/contagious-ecthyma-in-sheep-and-goats"
+      },
+      {
+        "title": "Cowpox in Cattle",
+        "url": "https://www.merckvetmanual.com/integumentary-system/pox-diseases/cowpox-in-cattle"
+      },
+      {
+        "title": "Pseudocowpox in Cattle",
+        "url": "https://www.merckvetmanual.com/integumentary-system/pox-diseases/pseudocowpox-in-cattle"
+      },
+      {
+        "title": "Bovine Papular Stomatitis",
+        "url": "https://www.merckvetmanual.com/integumentary-system/pox-diseases/bovine-papular-stomatitis"
+      },
+      {
+        "title": "Lumpy Skin Disease in Cattle",
+        "url": "https://www.merckvetmanual.com/integumentary-system/pox-diseases/lumpy-skin-disease-in-cattle"
+      },
+      {
+        "title": "Sheeppox and Goatpox",
+        "url": "https://www.merckvetmanual.com/integumentary-system/pox-diseases/sheeppox-and-goatpox"
+      },
+      {
+        "title": "Swinepox",
+        "url": "https://www.merckvetmanual.com/integumentary-system/pox-diseases/swinepox"
+      },
+      {
+        "title": "Cowpox Virus Infections in Cats and Other Species",
+        "url": "https://www.merckvetmanual.com/integumentary-system/pox-diseases/cowpox-virus-infections-in-cats-and-other-species"
+      }
+    ]
   },
   {
     "title": "Pyoderma",
-    "url": "https://www.merckvetmanual.com/integumentary-system/pyoderma/pyoderma-in-dogs-and-cats"
+    "url": "https://www.merckvetmanual.com/integumentary-system/pyoderma/pyoderma-in-dogs-and-cats",
+    "in_depth_links": [
+      {
+        "title": "Etiology",
+        "url": "https://www.merckvetmanual.com/integumentary-system/pyoderma/pyoderma-in-dogs-and-cats#Etiology_v3278151"
+      },
+      {
+        "title": "Clinical Findings and Lesions",
+        "url": "https://www.merckvetmanual.com/integumentary-system/pyoderma/pyoderma-in-dogs-and-cats#Clinical-Findings-and-Lesions_v3278172"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/integumentary-system/pyoderma/pyoderma-in-dogs-and-cats#Diagnosis_v3278180"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/integumentary-system/pyoderma/pyoderma-in-dogs-and-cats#Treatment_v3278191"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/integumentary-system/pyoderma/pyoderma-in-dogs-and-cats#Key-Points_v49787189"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/integumentary-system/pyoderma/pyoderma-in-dogs-and-cats#For-More-Information_v49787198"
+      }
+    ]
   },
   {
     "title": "Saddle Sores",
-    "url": "https://www.merckvetmanual.com/integumentary-system/saddle-sores/saddle-sores-in-horses"
+    "url": "https://www.merckvetmanual.com/integumentary-system/saddle-sores/saddle-sores-in-horses",
+    "in_depth_links": [
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/integumentary-system/saddle-sores/saddle-sores-in-horses#Clinical-Findings_v87976335"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/integumentary-system/saddle-sores/saddle-sores-in-horses#Diagnosis_v87976345"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/integumentary-system/saddle-sores/saddle-sores-in-horses#Treatment_v87976354"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/integumentary-system/saddle-sores/saddle-sores-in-horses#Key-Points_v87976371"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/integumentary-system/saddle-sores/saddle-sores-in-horses#For-More-Information_v46973740"
+      }
+    ]
   },
   {
     "title": "Seborrhea",
-    "url": "https://www.merckvetmanual.com/integumentary-system/seborrhea/seborrhea-in-animals"
+    "url": "https://www.merckvetmanual.com/integumentary-system/seborrhea/seborrhea-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology",
+        "url": "https://www.merckvetmanual.com/integumentary-system/seborrhea/seborrhea-in-animals#Etiology_v3281850"
+      },
+      {
+        "title": "Epidemiology",
+        "url": "https://www.merckvetmanual.com/integumentary-system/seborrhea/seborrhea-in-animals#Epidemiology_v88026974"
+      },
+      {
+        "title": "Clinical Signs",
+        "url": "https://www.merckvetmanual.com/integumentary-system/seborrhea/seborrhea-in-animals#Clinical-Signs_v88027001"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/integumentary-system/seborrhea/seborrhea-in-animals#Diagnosis_v88027006"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/integumentary-system/seborrhea/seborrhea-in-animals#Treatment_v3281866"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/integumentary-system/seborrhea/seborrhea-in-animals#Key-Points_v45672275"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/integumentary-system/seborrhea/seborrhea-in-animals#For-More-Information_v45672284"
+      }
+    ]
   },
   {
     "title": "Ticks",
-    "url": "https://www.merckvetmanual.com/integumentary-system/ticks"
+    "url": "https://www.merckvetmanual.com/integumentary-system/ticks",
+    "in_depth_links": [
+      {
+        "title": "Ticks",
+        "url": "https://www.merckvetmanual.com/integumentary-system/ticks/ticks"
+      },
+      {
+        "title": "Important Ixodid Ticks",
+        "url": "https://www.merckvetmanual.com/integumentary-system/ticks/important-ixodid-ticks"
+      },
+      {
+        "title": "Amblyomma spp",
+        "url": "https://www.merckvetmanual.com/integumentary-system/ticks/amblyomma-spp"
+      },
+      {
+        "title": "Anomalohimalaya spp",
+        "url": "https://www.merckvetmanual.com/integumentary-system/ticks/anomalohimalaya-spp"
+      },
+      {
+        "title": "Bothriocroton spp",
+        "url": "https://www.merckvetmanual.com/integumentary-system/ticks/bothriocroton-spp"
+      },
+      {
+        "title": "Cosmiomma sp",
+        "url": "https://www.merckvetmanual.com/integumentary-system/ticks/cosmiomma-sp"
+      },
+      {
+        "title": "Dermacentor spp",
+        "url": "https://www.merckvetmanual.com/integumentary-system/ticks/dermacentor-spp"
+      },
+      {
+        "title": "Haemaphysalis spp",
+        "url": "https://www.merckvetmanual.com/integumentary-system/ticks/haemaphysalis-spp"
+      },
+      {
+        "title": "Hyalomma spp",
+        "url": "https://www.merckvetmanual.com/integumentary-system/ticks/hyalomma-spp"
+      },
+      {
+        "title": "Ixodes spp",
+        "url": "https://www.merckvetmanual.com/integumentary-system/ticks/ixodes-spp"
+      },
+      {
+        "title": "Margaropus spp",
+        "url": "https://www.merckvetmanual.com/integumentary-system/ticks/margaropus-spp"
+      },
+      {
+        "title": "Nosomma sp",
+        "url": "https://www.merckvetmanual.com/integumentary-system/ticks/nosomma-sp"
+      },
+      {
+        "title": "Rhipicentor spp",
+        "url": "https://www.merckvetmanual.com/integumentary-system/ticks/rhipicentor-spp"
+      },
+      {
+        "title": "Rhipicephalus spp",
+        "url": "https://www.merckvetmanual.com/integumentary-system/ticks/rhipicephalus-spp"
+      },
+      {
+        "title": "Important Argasid Ticks",
+        "url": "https://www.merckvetmanual.com/integumentary-system/ticks/important-argasid-ticks"
+      },
+      {
+        "title": "Argas spp",
+        "url": "https://www.merckvetmanual.com/integumentary-system/ticks/argas-spp"
+      },
+      {
+        "title": "Carios spp",
+        "url": "https://www.merckvetmanual.com/integumentary-system/ticks/carios-spp"
+      },
+      {
+        "title": "Ornithodoros spp",
+        "url": "https://www.merckvetmanual.com/integumentary-system/ticks/ornithodoros-spp"
+      },
+      {
+        "title": "Otobius spp",
+        "url": "https://www.merckvetmanual.com/integumentary-system/ticks/otobius-spp"
+      },
+      {
+        "title": "Tick Removal",
+        "url": "https://www.merckvetmanual.com/integumentary-system/ticks/tick-removal"
+      },
+      {
+        "title": "Tick Control",
+        "url": "https://www.merckvetmanual.com/integumentary-system/ticks/tick-control"
+      }
+    ]
   },
   {
     "title": "Tumors of the Skin and Soft Tissues",
-    "url": "https://www.merckvetmanual.com/integumentary-system/tumors-of-the-skin-and-soft-tissues"
+    "url": "https://www.merckvetmanual.com/integumentary-system/tumors-of-the-skin-and-soft-tissues",
+    "in_depth_links": [
+      {
+        "title": "Overview of Tumors of the Skin and Soft Tissues in Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/tumors-of-the-skin-and-soft-tissues/overview-of-tumors-of-the-skin-and-soft-tissues-in-animals"
+      },
+      {
+        "title": "Epidermal and Hair Follicle Tumors in Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/tumors-of-the-skin-and-soft-tissues/epidermal-and-hair-follicle-tumors-in-animals"
+      },
+      {
+        "title": "Equine Sarcoids",
+        "url": "https://www.merckvetmanual.com/integumentary-system/tumors-of-the-skin-and-soft-tissues/equine-sarcoids"
+      },
+      {
+        "title": "Connective Tissue Tumors in Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/tumors-of-the-skin-and-soft-tissues/connective-tissue-tumors-in-animals"
+      },
+      {
+        "title": "Undifferentiated and Anaplastic Sarcomas in Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/tumors-of-the-skin-and-soft-tissues/undifferentiated-and-anaplastic-sarcomas-in-animals"
+      },
+      {
+        "title": "Lymphocytic, Histiocytic, and Related Cutaneous Tumors in Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/tumors-of-the-skin-and-soft-tissues/lymphocytic-histiocytic-and-related-cutaneous-tumors-in-animals"
+      },
+      {
+        "title": "Tumors of Melanocytic Origin in Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/tumors-of-the-skin-and-soft-tissues/tumors-of-melanocytic-origin-in-animals"
+      },
+      {
+        "title": "Metastatic Tumors in Animals",
+        "url": "https://www.merckvetmanual.com/integumentary-system/tumors-of-the-skin-and-soft-tissues/metastatic-tumors-in-animals"
+      }
+    ]
   },
   {
     "title": "Urticaria",
-    "url": "https://www.merckvetmanual.com/integumentary-system/urticaria/urticaria-hives-wheals-in-animals"
+    "url": "https://www.merckvetmanual.com/integumentary-system/urticaria/urticaria-hives-wheals-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology and Pathogenesis",
+        "url": "https://www.merckvetmanual.com/integumentary-system/urticaria/urticaria-hives-wheals-in-animals#Etiology-and-Pathogenesis_v45673647"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/integumentary-system/urticaria/urticaria-hives-wheals-in-animals#Clinical-Findings_v3278007"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/integumentary-system/urticaria/urticaria-hives-wheals-in-animals#Diagnosis_v45673660"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/integumentary-system/urticaria/urticaria-hives-wheals-in-animals#Treatment_v45673670"
+      },
+      {
+        "title": "Prevention",
+        "url": "https://www.merckvetmanual.com/integumentary-system/urticaria/urticaria-hives-wheals-in-animals#Prevention_v45673680"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/integumentary-system/urticaria/urticaria-hives-wheals-in-animals#Key-Points_v45673686"
+      },
+      {
+        "title": "References",
+        "url": "https://www.merckvetmanual.com/integumentary-system/urticaria/urticaria-hives-wheals-in-animals#References_v88009022"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/integumentary-system/urticaria/urticaria-hives-wheals-in-animals#For-More-Information_v45673695"
+      }
+    ]
   }
 ]

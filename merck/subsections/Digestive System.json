@@ -1,182 +1,1495 @@
 [
   {
     "title": "Digestive System Introduction",
-    "url": "https://www.merckvetmanual.com/digestive-system/digestive-system-introduction"
+    "url": "https://www.merckvetmanual.com/digestive-system/digestive-system-introduction",
+    "in_depth_links": [
+      {
+        "title": "The Digestive System in Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/digestive-system-introduction/the-digestive-system-in-animals"
+      },
+      {
+        "title": "Infectious Diseases of the GI Tract in Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/digestive-system-introduction/infectious-diseases-of-the-gi-tract-in-animals"
+      },
+      {
+        "title": "Noninfectious Diseases of the GI Tract in Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/digestive-system-introduction/noninfectious-diseases-of-the-gi-tract-in-animals"
+      },
+      {
+        "title": "Principles of Therapy of GI Disease in Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/digestive-system-introduction/principles-of-therapy-of-gi-disease-in-animals"
+      }
+    ]
   },
   {
     "title": "Congenital and Inherited Anomalies Involving the Digestive System",
-    "url": "https://www.merckvetmanual.com/digestive-system/congenital-and-inherited-anomalies-involving-the-digestive-system"
+    "url": "https://www.merckvetmanual.com/digestive-system/congenital-and-inherited-anomalies-involving-the-digestive-system",
+    "in_depth_links": [
+      {
+        "title": "Congenital and Inherited Anomalies of the Mouth in Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/congenital-and-inherited-anomalies-involving-the-digestive-system/congenital-and-inherited-anomalies-of-the-mouth-in-animals"
+      },
+      {
+        "title": "Congenital and Inherited Anomalies of the Teeth in Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/congenital-and-inherited-anomalies-involving-the-digestive-system/congenital-and-inherited-anomalies-of-the-teeth-in-animals"
+      },
+      {
+        "title": "Congenital Cysts of the Head and Neck in Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/congenital-and-inherited-anomalies-involving-the-digestive-system/congenital-cysts-of-the-head-and-neck-in-animals"
+      },
+      {
+        "title": "Congenital and Inherited Anomalies of the Esophagus in Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/congenital-and-inherited-anomalies-involving-the-digestive-system/congenital-and-inherited-anomalies-of-the-esophagus-in-animals"
+      },
+      {
+        "title": "Hernias in Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/congenital-and-inherited-anomalies-involving-the-digestive-system/hernias-in-animals"
+      },
+      {
+        "title": "Congenital and Inherited Anomalies of the Stomach in Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/congenital-and-inherited-anomalies-involving-the-digestive-system/congenital-and-inherited-anomalies-of-the-stomach-in-animals"
+      },
+      {
+        "title": "Congenital and Inherited Anomalies of the Small and Large Intestines in Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/congenital-and-inherited-anomalies-involving-the-digestive-system/congenital-and-inherited-anomalies-of-the-small-and-large-intestines-in-animals"
+      },
+      {
+        "title": "Congenital and Inherited Anomalies of the Liver in Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/congenital-and-inherited-anomalies-involving-the-digestive-system/congenital-and-inherited-anomalies-of-the-liver-in-animals"
+      }
+    ]
   },
   {
     "title": "Pharyngeal Paralysis",
-    "url": "https://www.merckvetmanual.com/digestive-system/pharyngeal-paralysis/pharyngeal-paralysis-in-animals"
+    "url": "https://www.merckvetmanual.com/digestive-system/pharyngeal-paralysis/pharyngeal-paralysis-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Clinical Findings and Lesions",
+        "url": "https://www.merckvetmanual.com/digestive-system/pharyngeal-paralysis/pharyngeal-paralysis-in-animals#Clinical-Findings-and-Lesions_v3261350"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/digestive-system/pharyngeal-paralysis/pharyngeal-paralysis-in-animals#Diagnosis_v3261353"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/digestive-system/pharyngeal-paralysis/pharyngeal-paralysis-in-animals#Treatment_v3261357"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/digestive-system/pharyngeal-paralysis/pharyngeal-paralysis-in-animals#Key-Points_v56258054"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/digestive-system/pharyngeal-paralysis/pharyngeal-paralysis-in-animals#For-More-Information_v56258063"
+      }
+    ]
   },
   {
     "title": "Diseases of the Rectum and Anus",
-    "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-rectum-and-anus"
+    "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-rectum-and-anus",
+    "in_depth_links": [
+      {
+        "title": "Anal Sac Disease in Dogs and Cats",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-rectum-and-anus/anal-sac-disease-in-dogs-and-cats"
+      },
+      {
+        "title": "Perianal Fistula in Dogs",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-rectum-and-anus/perianal-fistula-in-dogs"
+      },
+      {
+        "title": "Perianal Tumors in Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-rectum-and-anus/perianal-tumors-in-animals"
+      },
+      {
+        "title": "Perineal Hernia in Dogs",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-rectum-and-anus/perineal-hernia-in-dogs"
+      },
+      {
+        "title": "Rectal and Anorectal Strictures in Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-rectum-and-anus/rectal-and-anorectal-strictures-in-animals"
+      },
+      {
+        "title": "Rectal Neoplasms in Dogs and Cats",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-rectum-and-anus/rectal-neoplasms-in-dogs-and-cats"
+      },
+      {
+        "title": "Rectal Polyps in Dogs and Cats",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-rectum-and-anus/rectal-polyps-in-dogs-and-cats"
+      },
+      {
+        "title": "Rectal Prolapse in Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-rectum-and-anus/rectal-prolapse-in-animals"
+      },
+      {
+        "title": "Rectal Tears in Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-rectum-and-anus/rectal-tears-in-animals"
+      }
+    ]
   },
   {
     "title": "Peritonitis",
-    "url": "https://www.merckvetmanual.com/digestive-system/peritonitis/peritonitis-in-animals"
+    "url": "https://www.merckvetmanual.com/digestive-system/peritonitis/peritonitis-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology",
+        "url": "https://www.merckvetmanual.com/digestive-system/peritonitis/peritonitis-in-animals#Etiology_v3273899"
+      },
+      {
+        "title": "Pathogenesis",
+        "url": "https://www.merckvetmanual.com/digestive-system/peritonitis/peritonitis-in-animals#Pathogenesis_v3273962"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/digestive-system/peritonitis/peritonitis-in-animals#Clinical-Findings_v3273967"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/digestive-system/peritonitis/peritonitis-in-animals#Diagnosis_v3273989"
+      },
+      {
+        "title": "Prognosis",
+        "url": "https://www.merckvetmanual.com/digestive-system/peritonitis/peritonitis-in-animals#Prognosis_v3274094"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/digestive-system/peritonitis/peritonitis-in-animals#Treatment_v3274097"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/digestive-system/peritonitis/peritonitis-in-animals#Key-Points_v49777098"
+      },
+      {
+        "title": "ForMore Information",
+        "url": "https://www.merckvetmanual.com/digestive-system/peritonitis/peritonitis-in-animals#ForMore-Information_v49777109"
+      },
+      {
+        "title": "characteristic clinical findings",
+        "url": "https://www.merckvetmanual.com/digestive-system/peritonitis/peritonitis-in-animals#v3273968"
+      },
+      {
+        "title": "characteristic clinical findings",
+        "url": "https://www.merckvetmanual.com/digestive-system/peritonitis/peritonitis-in-animals#v3273968"
+      }
+    ]
   },
   {
     "title": "Enteric Campylobacteriosis",
-    "url": "https://www.merckvetmanual.com/digestive-system/enteric-campylobacteriosis/enteric-campylobacteriosis-in-animals"
+    "url": "https://www.merckvetmanual.com/digestive-system/enteric-campylobacteriosis/enteric-campylobacteriosis-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology",
+        "url": "https://www.merckvetmanual.com/digestive-system/enteric-campylobacteriosis/enteric-campylobacteriosis-in-animals#Etiology_v3261488"
+      },
+      {
+        "title": "Transmission and Epidemiology",
+        "url": "https://www.merckvetmanual.com/digestive-system/enteric-campylobacteriosis/enteric-campylobacteriosis-in-animals#Transmission-and-Epidemiology_v3261534"
+      },
+      {
+        "title": "Pathogenesis",
+        "url": "https://www.merckvetmanual.com/digestive-system/enteric-campylobacteriosis/enteric-campylobacteriosis-in-animals#Pathogenesis_v3261546"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/digestive-system/enteric-campylobacteriosis/enteric-campylobacteriosis-in-animals#Clinical-Findings_v3261552"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/digestive-system/enteric-campylobacteriosis/enteric-campylobacteriosis-in-animals#Diagnosis_v3261613"
+      },
+      {
+        "title": "Treatment and Control",
+        "url": "https://www.merckvetmanual.com/digestive-system/enteric-campylobacteriosis/enteric-campylobacteriosis-in-animals#Treatment-and-Control_v3261623"
+      },
+      {
+        "title": "Zoonotic Risk",
+        "url": "https://www.merckvetmanual.com/digestive-system/enteric-campylobacteriosis/enteric-campylobacteriosis-in-animals#Zoonotic-Risk_v74925646"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/digestive-system/enteric-campylobacteriosis/enteric-campylobacteriosis-in-animals#Key-Points_v74925650"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/digestive-system/enteric-campylobacteriosis/enteric-campylobacteriosis-in-animals#For-More-Information_v74925661"
+      },
+      {
+        "title": "Campylobacter Species That Cause Diseases in Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/enteric-campylobacteriosis/enteric-campylobacteriosis-in-animals#v74925493"
+      }
+    ]
   },
   {
     "title": "Salmonellosis",
-    "url": "https://www.merckvetmanual.com/digestive-system/salmonellosis"
+    "url": "https://www.merckvetmanual.com/digestive-system/salmonellosis",
+    "in_depth_links": [
+      {
+        "title": "Salmonellosis in Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/salmonellosis/salmonellosis-in-animals"
+      },
+      {
+        "title": "Salmonella Dublin Infection in Cattle",
+        "url": "https://www.merckvetmanual.com/digestive-system/salmonellosis/salmonella-dublin-infection-in-cattle"
+      }
+    ]
   },
   {
     "title": "Amebiasis",
-    "url": "https://www.merckvetmanual.com/digestive-system/amebiasis/entamoeba-histolytica-amebiasis"
+    "url": "https://www.merckvetmanual.com/digestive-system/amebiasis/entamoeba-histolytica-amebiasis",
+    "in_depth_links": [
+      {
+        "title": "Etiology",
+        "url": "https://www.merckvetmanual.com/digestive-system/amebiasis/entamoeba-histolytica-amebiasis#Etiology_v71775224"
+      },
+      {
+        "title": "Epidemiology",
+        "url": "https://www.merckvetmanual.com/digestive-system/amebiasis/entamoeba-histolytica-amebiasis#Epidemiology_v71775231"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/digestive-system/amebiasis/entamoeba-histolytica-amebiasis#Clinical-Findings_v3261832"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/digestive-system/amebiasis/entamoeba-histolytica-amebiasis#Diagnosis_v3261836"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/digestive-system/amebiasis/entamoeba-histolytica-amebiasis#Treatment_v3261851"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/digestive-system/amebiasis/entamoeba-histolytica-amebiasis#Key-Points_v71775259"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/digestive-system/amebiasis/entamoeba-histolytica-amebiasis#For-More-Information_v71775270"
+      }
+    ]
   },
   {
     "title": "Coccidiosis",
-    "url": "https://www.merckvetmanual.com/digestive-system/coccidiosis"
+    "url": "https://www.merckvetmanual.com/digestive-system/coccidiosis",
+    "in_depth_links": [
+      {
+        "title": "Overview of Coccidiosis in Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/coccidiosis/overview-of-coccidiosis-in-animals"
+      },
+      {
+        "title": "Coccidiosis of Cattle",
+        "url": "https://www.merckvetmanual.com/digestive-system/coccidiosis/coccidiosis-of-cattle"
+      },
+      {
+        "title": "Coccidiosis of Sheep",
+        "url": "https://www.merckvetmanual.com/digestive-system/coccidiosis/coccidiosis-of-sheep"
+      },
+      {
+        "title": "Coccidiosis of Goats",
+        "url": "https://www.merckvetmanual.com/digestive-system/coccidiosis/coccidiosis-of-goats"
+      },
+      {
+        "title": "Coccidiosis of Pigs",
+        "url": "https://www.merckvetmanual.com/digestive-system/coccidiosis/coccidiosis-of-pigs"
+      },
+      {
+        "title": "Coccidiosis of Cats and Dogs",
+        "url": "https://www.merckvetmanual.com/digestive-system/coccidiosis/coccidiosis-of-cats-and-dogs"
+      }
+    ]
   },
   {
     "title": "Cryptosporidiosis",
-    "url": "https://www.merckvetmanual.com/digestive-system/cryptosporidiosis/cryptosporidiosis-in-animals"
+    "url": "https://www.merckvetmanual.com/digestive-system/cryptosporidiosis/cryptosporidiosis-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology and Epidemiology",
+        "url": "https://www.merckvetmanual.com/digestive-system/cryptosporidiosis/cryptosporidiosis-in-animals#Etiology-and-Epidemiology_v3262024"
+      },
+      {
+        "title": "Transmission",
+        "url": "https://www.merckvetmanual.com/digestive-system/cryptosporidiosis/cryptosporidiosis-in-animals#Transmission_v3262029"
+      },
+      {
+        "title": "Pathogenesis",
+        "url": "https://www.merckvetmanual.com/digestive-system/cryptosporidiosis/cryptosporidiosis-in-animals#Pathogenesis_v3262036"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/digestive-system/cryptosporidiosis/cryptosporidiosis-in-animals#Clinical-Findings_v3262041"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/digestive-system/cryptosporidiosis/cryptosporidiosis-in-animals#Diagnosis_v3262048"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/digestive-system/cryptosporidiosis/cryptosporidiosis-in-animals#Treatment_v3262051"
+      },
+      {
+        "title": "Control",
+        "url": "https://www.merckvetmanual.com/digestive-system/cryptosporidiosis/cryptosporidiosis-in-animals#Control_v3262056"
+      },
+      {
+        "title": "Zoonotic Risk",
+        "url": "https://www.merckvetmanual.com/digestive-system/cryptosporidiosis/cryptosporidiosis-in-animals#Zoonotic-Risk_v3262062"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/digestive-system/cryptosporidiosis/cryptosporidiosis-in-animals#Key-Points_v52140337"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/digestive-system/cryptosporidiosis/cryptosporidiosis-in-animals#For-More-Information_v52140346"
+      }
+    ]
   },
   {
     "title": "Giardiasis (Giardia)",
-    "url": "https://www.merckvetmanual.com/digestive-system/giardiasis-giardia/giardiasis-in-animals"
+    "url": "https://www.merckvetmanual.com/digestive-system/giardiasis-giardia/giardiasis-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Cycle and Transmission",
+        "url": "https://www.merckvetmanual.com/digestive-system/giardiasis-giardia/giardiasis-in-animals#Cycle-and-Transmission_v3262083"
+      },
+      {
+        "title": "Pathogenesis",
+        "url": "https://www.merckvetmanual.com/digestive-system/giardiasis-giardia/giardiasis-in-animals#Pathogenesis_v3262089"
+      },
+      {
+        "title": "Clinical Findings and Lesions",
+        "url": "https://www.merckvetmanual.com/digestive-system/giardiasis-giardia/giardiasis-in-animals#Clinical-Findings-and-Lesions_v3262094"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/digestive-system/giardiasis-giardia/giardiasis-in-animals#Diagnosis_v3262102"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/digestive-system/giardiasis-giardia/giardiasis-in-animals#Treatment_v3262116"
+      },
+      {
+        "title": "Control",
+        "url": "https://www.merckvetmanual.com/digestive-system/giardiasis-giardia/giardiasis-in-animals#Control_v3262125"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/digestive-system/giardiasis-giardia/giardiasis-in-animals#Key-Points_v60372799"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/digestive-system/giardiasis-giardia/giardiasis-in-animals#For-More-Information_v60372810"
+      },
+      {
+        "title": "strict hygiene measures",
+        "url": "https://www.merckvetmanual.com/digestive-system/giardiasis-giardia/giardiasis-in-animals#v3262126"
+      }
+    ]
   },
   {
     "title": "Disorders of the Esophagus in Large Animals",
-    "url": "https://www.merckvetmanual.com/digestive-system/disorders-of-the-esophagus-in-large-animals"
+    "url": "https://www.merckvetmanual.com/digestive-system/disorders-of-the-esophagus-in-large-animals",
+    "in_depth_links": [
+      {
+        "title": "Esophageal Obstruction in Large Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/disorders-of-the-esophagus-in-large-animals/esophageal-obstruction-in-large-animals"
+      },
+      {
+        "title": "Esophageal Strictures in Large Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/disorders-of-the-esophagus-in-large-animals/esophageal-strictures-in-large-animals"
+      },
+      {
+        "title": "Esophageal Neoplasia in Large Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/disorders-of-the-esophagus-in-large-animals/esophageal-neoplasia-in-large-animals"
+      }
+    ]
   },
   {
     "title": "Gastrointestinal Ulcers in Large Animals",
-    "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-ulcers-in-large-animals"
+    "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-ulcers-in-large-animals",
+    "in_depth_links": [
+      {
+        "title": "Overview of Gastrointestinal Ulcers in Large Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-ulcers-in-large-animals/overview-of-gastrointestinal-ulcers-in-large-animals"
+      },
+      {
+        "title": "Gastric Ulcers in Horses",
+        "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-ulcers-in-large-animals/gastric-ulcers-in-horses"
+      },
+      {
+        "title": "Gastric Ulcers in Pigs",
+        "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-ulcers-in-large-animals/gastric-ulcers-in-pigs"
+      }
+    ]
   },
   {
     "title": "Diseases of the Ruminant Forestomach",
-    "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-ruminant-forestomach"
+    "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-ruminant-forestomach",
+    "in_depth_links": [
+      {
+        "title": "Simple Indigestion in Ruminants",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-ruminant-forestomach/simple-indigestion-in-ruminants"
+      },
+      {
+        "title": "Grain Overload in Ruminants",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-ruminant-forestomach/grain-overload-in-ruminants"
+      },
+      {
+        "title": "Subacute Ruminal Acidosis in Cattle and Sheep",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-ruminant-forestomach/subacute-ruminal-acidosis-in-cattle-and-sheep"
+      },
+      {
+        "title": "Bloat in Ruminants",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-ruminant-forestomach/bloat-in-ruminants"
+      },
+      {
+        "title": "Traumatic Reticuloperitonitis in Cattle",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-ruminant-forestomach/traumatic-reticuloperitonitis-in-cattle"
+      },
+      {
+        "title": "Chronic Indigestion Syndrome in Ruminants",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-ruminant-forestomach/chronic-indigestion-syndrome-in-ruminants"
+      },
+      {
+        "title": "Reticuloruminal Milk Accumulation (\"Ruminal Drinking\") in Calves",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-ruminant-forestomach/reticuloruminal-milk-accumulation-ruminal-drinking-in-calves"
+      },
+      {
+        "title": "Ruminal Parakeratosis in Cattle and Sheep",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-ruminant-forestomach/ruminal-parakeratosis-in-cattle-and-sheep"
+      }
+    ]
   },
   {
     "title": "Diseases of the Abomasum",
-    "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-abomasum"
+    "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-abomasum",
+    "in_depth_links": [
+      {
+        "title": "Overview of Diseases of the Abomasum in Cattle",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-abomasum/overview-of-diseases-of-the-abomasum-in-cattle"
+      },
+      {
+        "title": "Left or Right Displaced Abomasum and Abomasal Volvulus in Cattle",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-abomasum/left-or-right-displaced-abomasum-and-abomasal-volvulus-in-cattle"
+      },
+      {
+        "title": "Abomasal Ulcers in Cattle",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-abomasum/abomasal-ulcers-in-cattle"
+      },
+      {
+        "title": "Dietary Abomasal Impaction in Cattle",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-abomasum/dietary-abomasal-impaction-in-cattle"
+      }
+    ]
   },
   {
     "title": "Acute Intestinal Obstructions in Large Animals",
-    "url": "https://www.merckvetmanual.com/digestive-system/acute-intestinal-obstructions-in-large-animals/acute-intestinal-obstructions-in-large-animals"
+    "url": "https://www.merckvetmanual.com/digestive-system/acute-intestinal-obstructions-in-large-animals/acute-intestinal-obstructions-in-large-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology and Pathogenesis",
+        "url": "https://www.merckvetmanual.com/digestive-system/acute-intestinal-obstructions-in-large-animals/acute-intestinal-obstructions-in-large-animals#Etiology-and-Pathogenesis_v3262731"
+      },
+      {
+        "title": "Clinical Findings and Diagnosis",
+        "url": "https://www.merckvetmanual.com/digestive-system/acute-intestinal-obstructions-in-large-animals/acute-intestinal-obstructions-in-large-animals#Clinical-Findings-and-Diagnosis_v3262736"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/digestive-system/acute-intestinal-obstructions-in-large-animals/acute-intestinal-obstructions-in-large-animals#Treatment_v3262752"
+      },
+      {
+        "title": "Prevention",
+        "url": "https://www.merckvetmanual.com/digestive-system/acute-intestinal-obstructions-in-large-animals/acute-intestinal-obstructions-in-large-animals#Prevention_v3262759"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/digestive-system/acute-intestinal-obstructions-in-large-animals/acute-intestinal-obstructions-in-large-animals#Key-Points_v54804073"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/digestive-system/acute-intestinal-obstructions-in-large-animals/acute-intestinal-obstructions-in-large-animals#For-More-Information_v54804082"
+      }
+    ]
   },
   {
     "title": "Colic in Horses",
-    "url": "https://www.merckvetmanual.com/digestive-system/colic-in-horses"
+    "url": "https://www.merckvetmanual.com/digestive-system/colic-in-horses",
+    "in_depth_links": [
+      {
+        "title": "Overview of Colic in Horses",
+        "url": "https://www.merckvetmanual.com/digestive-system/colic-in-horses/overview-of-colic-in-horses"
+      },
+      {
+        "title": "Diseases Associated with Colic in Horses by Anatomic Location",
+        "url": "https://www.merckvetmanual.com/digestive-system/colic-in-horses/diseases-associated-with-colic-in-horses-by-anatomic-location"
+      }
+    ]
   },
   {
     "title": "Intestinal Diseases in Ruminants",
-    "url": "https://www.merckvetmanual.com/digestive-system/intestinal-diseases-in-ruminants"
+    "url": "https://www.merckvetmanual.com/digestive-system/intestinal-diseases-in-ruminants",
+    "in_depth_links": [
+      {
+        "title": "Intestinal Diseases in Cattle",
+        "url": "https://www.merckvetmanual.com/digestive-system/intestinal-diseases-in-ruminants/intestinal-diseases-in-cattle"
+      },
+      {
+        "title": "Intestinal Diseases in Sheep and Goats",
+        "url": "https://www.merckvetmanual.com/digestive-system/intestinal-diseases-in-ruminants/intestinal-diseases-in-sheep-and-goats"
+      },
+      {
+        "title": "Diarrhea in Neonatal Ruminants",
+        "url": "https://www.merckvetmanual.com/digestive-system/intestinal-diseases-in-ruminants/diarrhea-in-neonatal-ruminants"
+      },
+      {
+        "title": "Paratuberculosis in Ruminants",
+        "url": "https://www.merckvetmanual.com/digestive-system/intestinal-diseases-in-ruminants/paratuberculosis-in-ruminants"
+      }
+    ]
   },
   {
     "title": "Infectious Diarrheal Diseases in Horses",
-    "url": "https://www.merckvetmanual.com/digestive-system/infectious-diarrheal-diseases-in-horses"
+    "url": "https://www.merckvetmanual.com/digestive-system/infectious-diarrheal-diseases-in-horses",
+    "in_depth_links": [
+      {
+        "title": "Overview of Infectious Diarrheal Diseases in Horses",
+        "url": "https://www.merckvetmanual.com/digestive-system/infectious-diarrheal-diseases-in-horses/overview-of-infectious-diarrheal-diseases-in-horses"
+      },
+      {
+        "title": "Salmonellosis in Horses",
+        "url": "https://www.merckvetmanual.com/digestive-system/infectious-diarrheal-diseases-in-horses/salmonellosis-in-horses"
+      },
+      {
+        "title": "Potomac Horse Fever",
+        "url": "https://www.merckvetmanual.com/digestive-system/infectious-diarrheal-diseases-in-horses/potomac-horse-fever"
+      },
+      {
+        "title": "Clostridial Enterocolitis in Horses",
+        "url": "https://www.merckvetmanual.com/digestive-system/infectious-diarrheal-diseases-in-horses/clostridial-enterocolitis-in-horses"
+      },
+      {
+        "title": "Gastrointestinal Parasites in Horses",
+        "url": "https://www.merckvetmanual.com/digestive-system/infectious-diarrheal-diseases-in-horses/gastrointestinal-parasites-in-horses"
+      }
+    ]
   },
   {
     "title": "Diarrheal Diseases in Foals",
-    "url": "https://www.merckvetmanual.com/digestive-system/diarrheal-diseases-in-foals"
+    "url": "https://www.merckvetmanual.com/digestive-system/diarrheal-diseases-in-foals",
+    "in_depth_links": [
+      {
+        "title": "Overview of Diarrheal Diseases in Foals",
+        "url": "https://www.merckvetmanual.com/digestive-system/diarrheal-diseases-in-foals/overview-of-diarrheal-diseases-in-foals"
+      },
+      {
+        "title": "Foal Heat Diarrhea",
+        "url": "https://www.merckvetmanual.com/digestive-system/diarrheal-diseases-in-foals/foal-heat-diarrhea"
+      },
+      {
+        "title": "Bacterial Diarrhea in Foals",
+        "url": "https://www.merckvetmanual.com/digestive-system/diarrheal-diseases-in-foals/bacterial-diarrhea-in-foals"
+      },
+      {
+        "title": "Viral Diarrhea in Foals",
+        "url": "https://www.merckvetmanual.com/digestive-system/diarrheal-diseases-in-foals/viral-diarrhea-in-foals"
+      }
+    ]
   },
   {
     "title": "Miscellaneous Intestinal Diseases in Horses",
-    "url": "https://www.merckvetmanual.com/digestive-system/miscellaneous-intestinal-diseases-in-horses"
+    "url": "https://www.merckvetmanual.com/digestive-system/miscellaneous-intestinal-diseases-in-horses",
+    "in_depth_links": [
+      {
+        "title": "Sand Enteropathy in Horses",
+        "url": "https://www.merckvetmanual.com/digestive-system/miscellaneous-intestinal-diseases-in-horses/sand-enteropathy-in-horses"
+      },
+      {
+        "title": "Colitis-X in Horses",
+        "url": "https://www.merckvetmanual.com/digestive-system/miscellaneous-intestinal-diseases-in-horses/colitis-x-in-horses"
+      },
+      {
+        "title": "Miscellaneous Causes of Diarrhea in Horses",
+        "url": "https://www.merckvetmanual.com/digestive-system/miscellaneous-intestinal-diseases-in-horses/miscellaneous-causes-of-diarrhea-in-horses"
+      },
+      {
+        "title": "Free Fecal Water Syndrome in Horses",
+        "url": "https://www.merckvetmanual.com/digestive-system/miscellaneous-intestinal-diseases-in-horses/free-fecal-water-syndrome-in-horses"
+      },
+      {
+        "title": "NSAID Toxicosis and Right Dorsal Colitis (RDC) in Horses",
+        "url": "https://www.merckvetmanual.com/digestive-system/miscellaneous-intestinal-diseases-in-horses/nsaid-toxicosis-and-right-dorsal-colitis-rdc-in-horses"
+      },
+      {
+        "title": "Inflammatory Bowel Disease in Horses",
+        "url": "https://www.merckvetmanual.com/digestive-system/miscellaneous-intestinal-diseases-in-horses/inflammatory-bowel-disease-in-horses"
+      },
+      {
+        "title": "Gastrointestinal Neoplasia in Horses",
+        "url": "https://www.merckvetmanual.com/digestive-system/miscellaneous-intestinal-diseases-in-horses/gastrointestinal-neoplasia-in-horses"
+      }
+    ]
   },
   {
     "title": "Intestinal Diseases in Pigs",
-    "url": "https://www.merckvetmanual.com/digestive-system/intestinal-diseases-in-pigs"
+    "url": "https://www.merckvetmanual.com/digestive-system/intestinal-diseases-in-pigs",
+    "in_depth_links": [
+      {
+        "title": "Overview of Intestinal Diseases in Pigs",
+        "url": "https://www.merckvetmanual.com/digestive-system/intestinal-diseases-in-pigs/overview-of-intestinal-diseases-in-pigs"
+      },
+      {
+        "title": "Clostridioides difficile Enteritis in Pigs",
+        "url": "https://www.merckvetmanual.com/digestive-system/intestinal-diseases-in-pigs/clostridioides-difficile-enteritis-in-pigs"
+      },
+      {
+        "title": "Clostridium perfringens Type A Enteritis in Pigs",
+        "url": "https://www.merckvetmanual.com/digestive-system/intestinal-diseases-in-pigs/clostridium-perfringens-type-a-enteritis-in-pigs"
+      },
+      {
+        "title": "Clostridium perfringens Type C Enteritis in Pigs",
+        "url": "https://www.merckvetmanual.com/digestive-system/intestinal-diseases-in-pigs/clostridium-perfringens-type-c-enteritis-in-pigs"
+      },
+      {
+        "title": "Enteric Colibacillosis in Pigs",
+        "url": "https://www.merckvetmanual.com/digestive-system/intestinal-diseases-in-pigs/enteric-colibacillosis-in-pigs"
+      },
+      {
+        "title": "Hemorrhagic Bowel Syndrome in Pigs",
+        "url": "https://www.merckvetmanual.com/digestive-system/intestinal-diseases-in-pigs/hemorrhagic-bowel-syndrome-in-pigs"
+      },
+      {
+        "title": "Intestinal Salmonellosis in Pigs",
+        "url": "https://www.merckvetmanual.com/digestive-system/intestinal-diseases-in-pigs/intestinal-salmonellosis-in-pigs"
+      },
+      {
+        "title": "Intestinal Spirochetosis in Pigs",
+        "url": "https://www.merckvetmanual.com/digestive-system/intestinal-diseases-in-pigs/intestinal-spirochetosis-in-pigs"
+      },
+      {
+        "title": "Parasitism (Gastrointestinal) in Pigs",
+        "url": "https://www.merckvetmanual.com/digestive-system/intestinal-diseases-in-pigs/parasitism-gastrointestinal-in-pigs"
+      },
+      {
+        "title": "Porcine Coronaviral Enteritis",
+        "url": "https://www.merckvetmanual.com/digestive-system/intestinal-diseases-in-pigs/porcine-coronaviral-enteritis"
+      },
+      {
+        "title": "Porcine Proliferative Enteropathy",
+        "url": "https://www.merckvetmanual.com/digestive-system/intestinal-diseases-in-pigs/porcine-proliferative-enteropathy"
+      },
+      {
+        "title": "Rectal Strictures in Pigs",
+        "url": "https://www.merckvetmanual.com/digestive-system/intestinal-diseases-in-pigs/rectal-strictures-in-pigs"
+      },
+      {
+        "title": "Rotaviral Enteritis in Pigs",
+        "url": "https://www.merckvetmanual.com/digestive-system/intestinal-diseases-in-pigs/rotaviral-enteritis-in-pigs"
+      },
+      {
+        "title": "Swine Dysentery",
+        "url": "https://www.merckvetmanual.com/digestive-system/intestinal-diseases-in-pigs/swine-dysentery"
+      }
+    ]
   },
   {
     "title": "Fluke Infections in Ruminants",
-    "url": "https://www.merckvetmanual.com/digestive-system/fluke-infections-in-ruminants"
+    "url": "https://www.merckvetmanual.com/digestive-system/fluke-infections-in-ruminants",
+    "in_depth_links": [
+      {
+        "title": "Overview of Fluke Infections in Ruminants",
+        "url": "https://www.merckvetmanual.com/digestive-system/fluke-infections-in-ruminants/overview-of-fluke-infections-in-ruminants"
+      },
+      {
+        "title": "Fasciola hepatica in Ruminants",
+        "url": "https://www.merckvetmanual.com/digestive-system/fluke-infections-in-ruminants/fasciola-hepatica-in-ruminants"
+      },
+      {
+        "title": "Fasciola gigantica in Ruminants",
+        "url": "https://www.merckvetmanual.com/digestive-system/fluke-infections-in-ruminants/fasciola-gigantica-in-ruminants"
+      },
+      {
+        "title": "Fascioloides magna in Ruminants",
+        "url": "https://www.merckvetmanual.com/digestive-system/fluke-infections-in-ruminants/fascioloides-magna-in-ruminants"
+      },
+      {
+        "title": "Dicrocoelium dendriticum in Ruminants",
+        "url": "https://www.merckvetmanual.com/digestive-system/fluke-infections-in-ruminants/dicrocoelium-dendriticum-in-ruminants"
+      },
+      {
+        "title": "Eurytrema spp in Ruminants",
+        "url": "https://www.merckvetmanual.com/digestive-system/fluke-infections-in-ruminants/eurytrema-spp-in-ruminants"
+      },
+      {
+        "title": "Paramphistomes in Ruminants",
+        "url": "https://www.merckvetmanual.com/digestive-system/fluke-infections-in-ruminants/paramphistomes-in-ruminants"
+      }
+    ]
   },
   {
     "title": "Malassimilation Syndromes in Large Animals",
-    "url": "https://www.merckvetmanual.com/digestive-system/malassimilation-syndromes-in-large-animals/malassimilation-syndromes-in-large-animals"
+    "url": "https://www.merckvetmanual.com/digestive-system/malassimilation-syndromes-in-large-animals/malassimilation-syndromes-in-large-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology and Pathogenesis",
+        "url": "https://www.merckvetmanual.com/digestive-system/malassimilation-syndromes-in-large-animals/malassimilation-syndromes-in-large-animals#Etiology-and-Pathogenesis_v3265873"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/digestive-system/malassimilation-syndromes-in-large-animals/malassimilation-syndromes-in-large-animals#Clinical-Findings_v3265890"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/digestive-system/malassimilation-syndromes-in-large-animals/malassimilation-syndromes-in-large-animals#Diagnosis_v3265899"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/digestive-system/malassimilation-syndromes-in-large-animals/malassimilation-syndromes-in-large-animals#Treatment_v3265923"
+      },
+      {
+        "title": "Prognosis",
+        "url": "https://www.merckvetmanual.com/digestive-system/malassimilation-syndromes-in-large-animals/malassimilation-syndromes-in-large-animals#Prognosis_v3265934"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/digestive-system/malassimilation-syndromes-in-large-animals/malassimilation-syndromes-in-large-animals#Key-Points_v53093182"
+      }
+    ]
   },
   {
     "title": "Abdominal Fat Necrosis",
-    "url": "https://www.merckvetmanual.com/digestive-system/abdominal-fat-necrosis/abdominal-fat-necrosis-in-animals"
+    "url": "https://www.merckvetmanual.com/digestive-system/abdominal-fat-necrosis/abdominal-fat-necrosis-in-animals",
+    "in_depth_links": []
   },
   {
     "title": "Diseases of the Esophagus in Small Animals",
-    "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-esophagus-in-small-animals"
+    "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-esophagus-in-small-animals",
+    "in_depth_links": [
+      {
+        "title": "Cricopharyngeal Achalasia in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-esophagus-in-small-animals/cricopharyngeal-achalasia-in-small-animals"
+      },
+      {
+        "title": "Dilatation of the Esophagus in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-esophagus-in-small-animals/dilatation-of-the-esophagus-in-small-animals"
+      },
+      {
+        "title": "Esophageal Dysmotility in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-esophagus-in-small-animals/esophageal-dysmotility-in-small-animals"
+      },
+      {
+        "title": "Esophageal Strictures in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-esophagus-in-small-animals/esophageal-strictures-in-small-animals"
+      },
+      {
+        "title": "Esophagitis in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-esophagus-in-small-animals/esophagitis-in-small-animals"
+      },
+      {
+        "title": "Esophageal Foreign Bodies in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-esophagus-in-small-animals/esophageal-foreign-bodies-in-small-animals"
+      },
+      {
+        "title": "Esophageal Diverticula in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-esophagus-in-small-animals/esophageal-diverticula-in-small-animals"
+      },
+      {
+        "title": "Bronchoesophageal Fistula in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-esophagus-in-small-animals/bronchoesophageal-fistula-in-small-animals"
+      }
+    ]
   },
   {
     "title": "The Exocrine Pancreas",
-    "url": "https://www.merckvetmanual.com/digestive-system/the-exocrine-pancreas"
+    "url": "https://www.merckvetmanual.com/digestive-system/the-exocrine-pancreas",
+    "in_depth_links": [
+      {
+        "title": "The Exocrine Pancreas in Dogs and Cats",
+        "url": "https://www.merckvetmanual.com/digestive-system/the-exocrine-pancreas/the-exocrine-pancreas-in-dogs-and-cats"
+      },
+      {
+        "title": "Pancreatitis in Dogs and Cats",
+        "url": "https://www.merckvetmanual.com/digestive-system/the-exocrine-pancreas/pancreatitis-in-dogs-and-cats"
+      },
+      {
+        "title": "Exocrine Pancreatic Insufficiency in Dogs and Cats",
+        "url": "https://www.merckvetmanual.com/digestive-system/the-exocrine-pancreas/exocrine-pancreatic-insufficiency-in-dogs-and-cats"
+      },
+      {
+        "title": "Pancreatic Neoplasms in Dogs and Cats",
+        "url": "https://www.merckvetmanual.com/digestive-system/the-exocrine-pancreas/pancreatic-neoplasms-in-dogs-and-cats"
+      },
+      {
+        "title": "Pancreatic Abscesses in Dogs and Cats",
+        "url": "https://www.merckvetmanual.com/digestive-system/the-exocrine-pancreas/pancreatic-abscesses-in-dogs-and-cats"
+      },
+      {
+        "title": "Pancreatic Pseudocyst in Dogs and Cats",
+        "url": "https://www.merckvetmanual.com/digestive-system/the-exocrine-pancreas/pancreatic-pseudocyst-in-dogs-and-cats"
+      }
+    ]
   },
   {
     "title": "Diseases of the Stomach and Intestines in Small Animals",
-    "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-stomach-and-intestines-in-small-animals"
+    "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-stomach-and-intestines-in-small-animals",
+    "in_depth_links": [
+      {
+        "title": "Canine Parvovirus",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-stomach-and-intestines-in-small-animals/canine-parvovirus"
+      },
+      {
+        "title": "Colitis in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-stomach-and-intestines-in-small-animals/colitis-in-small-animals"
+      },
+      {
+        "title": "Constipation and Obstipation in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-stomach-and-intestines-in-small-animals/constipation-and-obstipation-in-small-animals"
+      },
+      {
+        "title": "Feline Enteric Coronavirus",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-stomach-and-intestines-in-small-animals/feline-enteric-coronavirus"
+      },
+      {
+        "title": "Gastric Dilation and Volvulus in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-stomach-and-intestines-in-small-animals/gastric-dilation-and-volvulus-in-small-animals"
+      },
+      {
+        "title": "Gastrointestinal Obstruction in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-stomach-and-intestines-in-small-animals/gastrointestinal-obstruction-in-small-animals"
+      },
+      {
+        "title": "Acute Hemorrhagic Diarrhea Syndrome in Dogs",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-stomach-and-intestines-in-small-animals/acute-hemorrhagic-diarrhea-syndrome-in-dogs"
+      },
+      {
+        "title": "Chronic Enteropathies in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-stomach-and-intestines-in-small-animals/chronic-enteropathies-in-small-animals"
+      },
+      {
+        "title": "Malabsorption Syndromes in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-stomach-and-intestines-in-small-animals/malabsorption-syndromes-in-small-animals"
+      }
+    ]
   },
   {
     "title": "Diseases of the Stomach in Small Animals",
-    "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-stomach-in-small-animals"
+    "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-stomach-in-small-animals",
+    "in_depth_links": [
+      {
+        "title": "Gastritis in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-stomach-in-small-animals/gastritis-in-small-animals"
+      },
+      {
+        "title": "Gastrointestinal Ulcers in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-stomach-in-small-animals/gastrointestinal-ulcers-in-small-animals"
+      },
+      {
+        "title": "Helicobacter Infection in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-stomach-in-small-animals/helicobacter-infection-in-small-animals"
+      }
+    ]
   },
   {
     "title": "Neoplasia of the Gastrointestinal Tract in Small Animals",
-    "url": "https://www.merckvetmanual.com/digestive-system/neoplasia-of-the-gastrointestinal-tract-in-small-animals/gastrointestinal-neoplasia-in-dogs-and-cats"
+    "url": "https://www.merckvetmanual.com/digestive-system/neoplasia-of-the-gastrointestinal-tract-in-small-animals/gastrointestinal-neoplasia-in-dogs-and-cats",
+    "in_depth_links": [
+      {
+        "title": "Etiology and Pathophysiology",
+        "url": "https://www.merckvetmanual.com/digestive-system/neoplasia-of-the-gastrointestinal-tract-in-small-animals/gastrointestinal-neoplasia-in-dogs-and-cats#Etiology-and-Pathophysiology_v3266506"
+      },
+      {
+        "title": "Epidemiology",
+        "url": "https://www.merckvetmanual.com/digestive-system/neoplasia-of-the-gastrointestinal-tract-in-small-animals/gastrointestinal-neoplasia-in-dogs-and-cats#Epidemiology_v95695933"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/digestive-system/neoplasia-of-the-gastrointestinal-tract-in-small-animals/gastrointestinal-neoplasia-in-dogs-and-cats#Clinical-Findings_v3266514"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/digestive-system/neoplasia-of-the-gastrointestinal-tract-in-small-animals/gastrointestinal-neoplasia-in-dogs-and-cats#Diagnosis_v3266517"
+      },
+      {
+        "title": "Treatment and Prognosis",
+        "url": "https://www.merckvetmanual.com/digestive-system/neoplasia-of-the-gastrointestinal-tract-in-small-animals/gastrointestinal-neoplasia-in-dogs-and-cats#Treatment-and-Prognosis_v3266522"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/digestive-system/neoplasia-of-the-gastrointestinal-tract-in-small-animals/gastrointestinal-neoplasia-in-dogs-and-cats#Key-Points_v48833183"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/digestive-system/neoplasia-of-the-gastrointestinal-tract-in-small-animals/gastrointestinal-neoplasia-in-dogs-and-cats#For-More-Information_v48833192"
+      },
+      {
+        "title": "References",
+        "url": "https://www.merckvetmanual.com/digestive-system/neoplasia-of-the-gastrointestinal-tract-in-small-animals/gastrointestinal-neoplasia-in-dogs-and-cats#References_v95696002"
+      }
+    ]
   },
   {
     "title": "Dental Development and Anatomy",
-    "url": "https://www.merckvetmanual.com/digestive-system/dental-development-and-anatomy"
+    "url": "https://www.merckvetmanual.com/digestive-system/dental-development-and-anatomy",
+    "in_depth_links": [
+      {
+        "title": "Dental Development in Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/dental-development-and-anatomy/dental-development-in-animals"
+      },
+      {
+        "title": "Dentition and Dental Nomenclature of Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/dental-development-and-anatomy/dentition-and-dental-nomenclature-of-animals"
+      },
+      {
+        "title": "Estimation of Age by Examination of the Teeth in Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/dental-development-and-anatomy/estimation-of-age-by-examination-of-the-teeth-in-animals"
+      }
+    ]
   },
   {
     "title": "Dentistry in Small Animals",
-    "url": "https://www.merckvetmanual.com/digestive-system/dentistry-in-small-animals"
+    "url": "https://www.merckvetmanual.com/digestive-system/dentistry-in-small-animals",
+    "in_depth_links": [
+      {
+        "title": "Periodontal Disease in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/dentistry-in-small-animals/periodontal-disease-in-small-animals"
+      },
+      {
+        "title": "Endodontic Disease in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/dentistry-in-small-animals/endodontic-disease-in-small-animals"
+      },
+      {
+        "title": "Tooth Resorption in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/dentistry-in-small-animals/tooth-resorption-in-small-animals"
+      },
+      {
+        "title": "Developmental Abnormalities of the Mouth and Dentition in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/dentistry-in-small-animals/developmental-abnormalities-of-the-mouth-and-dentition-in-small-animals"
+      },
+      {
+        "title": "Dentofacial Trauma in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/dentistry-in-small-animals/dentofacial-trauma-in-small-animals"
+      },
+      {
+        "title": "Dental Caries in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/dentistry-in-small-animals/dental-caries-in-small-animals"
+      }
+    ]
   },
   {
     "title": "Dentistry in Horses",
-    "url": "https://www.merckvetmanual.com/digestive-system/dentistry-in-horses"
+    "url": "https://www.merckvetmanual.com/digestive-system/dentistry-in-horses",
+    "in_depth_links": [
+      {
+        "title": "Overview of General Dentistry in Horses",
+        "url": "https://www.merckvetmanual.com/digestive-system/dentistry-in-horses/overview-of-general-dentistry-in-horses"
+      },
+      {
+        "title": "Congenital and Developmental Anomalies of the Mouth and Dentition in Horses",
+        "url": "https://www.merckvetmanual.com/digestive-system/dentistry-in-horses/congenital-and-developmental-anomalies-of-the-mouth-and-dentition-in-horses"
+      },
+      {
+        "title": "Abnormal Tooth Eruption in Horses",
+        "url": "https://www.merckvetmanual.com/digestive-system/dentistry-in-horses/abnormal-tooth-eruption-in-horses"
+      },
+      {
+        "title": "Irregular Wear of the Dentition in Horses",
+        "url": "https://www.merckvetmanual.com/digestive-system/dentistry-in-horses/irregular-wear-of-the-dentition-in-horses"
+      },
+      {
+        "title": "Periodontal Disease in Horses",
+        "url": "https://www.merckvetmanual.com/digestive-system/dentistry-in-horses/periodontal-disease-in-horses"
+      },
+      {
+        "title": "Endodontic Disease in Horses",
+        "url": "https://www.merckvetmanual.com/digestive-system/dentistry-in-horses/endodontic-disease-in-horses"
+      },
+      {
+        "title": "Dental Caries in Horses",
+        "url": "https://www.merckvetmanual.com/digestive-system/dentistry-in-horses/dental-caries-in-horses"
+      },
+      {
+        "title": "Odontoclastic Tooth Resorption and Hypercementosis in Horses",
+        "url": "https://www.merckvetmanual.com/digestive-system/dentistry-in-horses/odontoclastic-tooth-resorption-and-hypercementosis-in-horses"
+      }
+    ]
   },
   {
     "title": "Diseases of the Mouth in Small Animals",
-    "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-mouth-in-small-animals"
+    "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-mouth-in-small-animals",
+    "in_depth_links": [
+      {
+        "title": "Overview of Diseases of the Mouth in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-mouth-in-small-animals/overview-of-diseases-of-the-mouth-in-small-animals"
+      },
+      {
+        "title": "Oral Inflammatory and Ulcerative Disease in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-mouth-in-small-animals/oral-inflammatory-and-ulcerative-disease-in-small-animals"
+      },
+      {
+        "title": "Soft Tissue Trauma of the Mouth in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-mouth-in-small-animals/soft-tissue-trauma-of-the-mouth-in-small-animals"
+      },
+      {
+        "title": "Oral Papillomas in Dogs",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-mouth-in-small-animals/oral-papillomas-in-dogs"
+      },
+      {
+        "title": "Oral Tumors in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-mouth-in-small-animals/oral-tumors-in-small-animals"
+      },
+      {
+        "title": "Salivary Disorders in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-mouth-in-small-animals/salivary-disorders-in-small-animals"
+      }
+    ]
   },
   {
     "title": "Diseases of the Mouth in Large Animals",
-    "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-mouth-in-large-animals"
+    "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-mouth-in-large-animals",
+    "in_depth_links": [
+      {
+        "title": "Lip Lacerations in Large Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-mouth-in-large-animals/lip-lacerations-in-large-animals"
+      },
+      {
+        "title": "Glossoplegia in Large Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-mouth-in-large-animals/glossoplegia-in-large-animals"
+      },
+      {
+        "title": "Neoplasia of the Mouth in Large Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-mouth-in-large-animals/neoplasia-of-the-mouth-in-large-animals"
+      },
+      {
+        "title": "Slaframine Toxicosis in Large Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-mouth-in-large-animals/slaframine-toxicosis-in-large-animals"
+      },
+      {
+        "title": "Stomatitis in Large Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-mouth-in-large-animals/stomatitis-in-large-animals"
+      },
+      {
+        "title": "Papular Stomatitis in Large Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/diseases-of-the-mouth-in-large-animals/papular-stomatitis-in-large-animals"
+      }
+    ]
   },
   {
     "title": "Gastrointestinal Parasites of Horses",
-    "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-parasites-of-horses"
+    "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-parasites-of-horses",
+    "in_depth_links": [
+      {
+        "title": "Overview of Gastrointestinal Parasites of Horses",
+        "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-parasites-of-horses/overview-of-gastrointestinal-parasites-of-horses"
+      },
+      {
+        "title": "Diseases Resulting From Gastrointestinal Parasites in Horses",
+        "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-parasites-of-horses/diseases-resulting-from-gastrointestinal-parasites-in-horses"
+      },
+      {
+        "title": "Gastrointestinal Parasites of Minor Clinical Importance in Horses",
+        "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-parasites-of-horses/gastrointestinal-parasites-of-minor-clinical-importance-in-horses"
+      }
+    ]
   },
   {
     "title": "Gastrointestinal Parasites of Pigs",
-    "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-parasites-of-pigs"
+    "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-parasites-of-pigs",
+    "in_depth_links": [
+      {
+        "title": "Overview of Gastrointestinal Parasites of Pigs",
+        "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-parasites-of-pigs/overview-of-gastrointestinal-parasites-of-pigs"
+      },
+      {
+        "title": "Ascaris suum in Pigs",
+        "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-parasites-of-pigs/ascaris-suum-in-pigs"
+      },
+      {
+        "title": "Oesophagostomum spp in Pigs",
+        "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-parasites-of-pigs/oesophagostomum-spp-in-pigs"
+      },
+      {
+        "title": "Stomach Worms in Pigs",
+        "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-parasites-of-pigs/stomach-worms-in-pigs"
+      },
+      {
+        "title": "Strongyloides sp in Pigs",
+        "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-parasites-of-pigs/strongyloides-sp-in-pigs"
+      },
+      {
+        "title": "Trichuris sp in Pigs",
+        "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-parasites-of-pigs/trichuris-sp-in-pigs"
+      },
+      {
+        "title": "Macracanthorhynchus sp in Pigs",
+        "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-parasites-of-pigs/macracanthorhynchus-sp-in-pigs"
+      }
+    ]
   },
   {
     "title": "Gastrointestinal Parasites of Ruminants",
-    "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-parasites-of-ruminants"
+    "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-parasites-of-ruminants",
+    "in_depth_links": [
+      {
+        "title": "Overview of Gastrointestinal Parasites of Ruminants",
+        "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-parasites-of-ruminants/overview-of-gastrointestinal-parasites-of-ruminants"
+      },
+      {
+        "title": "Common Gastrointestinal Parasites of Cattle",
+        "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-parasites-of-ruminants/common-gastrointestinal-parasites-of-cattle"
+      },
+      {
+        "title": "Common Gastrointestinal Parasites of Small Ruminants",
+        "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-parasites-of-ruminants/common-gastrointestinal-parasites-of-small-ruminants"
+      }
+    ]
   },
   {
     "title": "Gastrointestinal Parasites of Small Animals",
-    "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-parasites-of-small-animals"
+    "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-parasites-of-small-animals",
+    "in_depth_links": [
+      {
+        "title": "Spirocerca lupi in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-parasites-of-small-animals/spirocerca-lupi-in-small-animals"
+      },
+      {
+        "title": "Physaloptera spp in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-parasites-of-small-animals/physaloptera-spp-in-small-animals"
+      },
+      {
+        "title": "Ollulanus sp in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-parasites-of-small-animals/ollulanus-sp-in-small-animals"
+      },
+      {
+        "title": "Strongyloides sp in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-parasites-of-small-animals/strongyloides-sp-in-small-animals"
+      },
+      {
+        "title": "Roundworms in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-parasites-of-small-animals/roundworms-in-small-animals"
+      },
+      {
+        "title": "Hookworms in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-parasites-of-small-animals/hookworms-in-small-animals"
+      },
+      {
+        "title": "Whipworms in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-parasites-of-small-animals/whipworms-in-small-animals"
+      },
+      {
+        "title": "Acanthocephalans in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-parasites-of-small-animals/acanthocephalans-in-small-animals"
+      },
+      {
+        "title": "Tapeworms in Dogs and Cats",
+        "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-parasites-of-small-animals/tapeworms-in-dogs-and-cats"
+      },
+      {
+        "title": "Flukes in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/gastrointestinal-parasites-of-small-animals/flukes-in-small-animals"
+      }
+    ]
   },
   {
     "title": "Liver Structure and Function",
-    "url": "https://www.merckvetmanual.com/digestive-system/liver-structure-and-function"
+    "url": "https://www.merckvetmanual.com/digestive-system/liver-structure-and-function",
+    "in_depth_links": [
+      {
+        "title": "Overview of Liver Structure and Function in Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/liver-structure-and-function/overview-of-liver-structure-and-function-in-animals"
+      },
+      {
+        "title": "Anatomy of the Hepatobiliary System in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/liver-structure-and-function/anatomy-of-the-hepatobiliary-system-in-small-animals"
+      },
+      {
+        "title": "Biliary Tree (Biliary Tract): Intrahepatic and Extrahepatic Components in Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/liver-structure-and-function/biliary-tree-biliary-tract-intrahepatic-and-extrahepatic-components-in-animals"
+      },
+      {
+        "title": "Variables Influencing Bile Formation and Flow in Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/liver-structure-and-function/variables-influencing-bile-formation-and-flow-in-animals"
+      },
+      {
+        "title": "Gallbladder, Cystic Duct, and Common Bile Duct in Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/liver-structure-and-function/gallbladder-cystic-duct-and-common-bile-duct-in-animals"
+      },
+      {
+        "title": "Bilirubin Synthesis and Metabolism in Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/liver-structure-and-function/bilirubin-synthesis-and-metabolism-in-animals"
+      }
+    ]
   },
   {
     "title": "Pathophysiology of Hepatic Disease in Small Animals",
-    "url": "https://www.merckvetmanual.com/digestive-system/pathophysiology-of-hepatic-disease-in-small-animals"
+    "url": "https://www.merckvetmanual.com/digestive-system/pathophysiology-of-hepatic-disease-in-small-animals",
+    "in_depth_links": [
+      {
+        "title": "Overview of Pathophysiology of Hepatic Disease in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/pathophysiology-of-hepatic-disease-in-small-animals/overview-of-pathophysiology-of-hepatic-disease-in-small-animals"
+      },
+      {
+        "title": "Clinical Features of Hepatobiliary Disease in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/pathophysiology-of-hepatic-disease-in-small-animals/clinical-features-of-hepatobiliary-disease-in-small-animals"
+      },
+      {
+        "title": "Jaundice in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/pathophysiology-of-hepatic-disease-in-small-animals/jaundice-in-small-animals"
+      },
+      {
+        "title": "Ascites in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/pathophysiology-of-hepatic-disease-in-small-animals/ascites-in-small-animals"
+      },
+      {
+        "title": "Hepatic Fibrosis in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/pathophysiology-of-hepatic-disease-in-small-animals/hepatic-fibrosis-in-small-animals"
+      },
+      {
+        "title": "Pathological Changes in Bile in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/pathophysiology-of-hepatic-disease-in-small-animals/pathological-changes-in-bile-in-small-animals"
+      }
+    ]
   },
   {
     "title": "Hepatic Diseases of Small Animals",
-    "url": "https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals"
+    "url": "https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals",
+    "in_depth_links": [
+      {
+        "title": "Nutrition in Hepatic Disease in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/nutrition-in-hepatic-disease-in-small-animals"
+      },
+      {
+        "title": "Fulminant Hepatic Failure in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/fulminant-hepatic-failure-in-small-animals"
+      },
+      {
+        "title": "Hepatic Encephalopathy in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/hepatic-encephalopathy-in-small-animals"
+      },
+      {
+        "title": "Portal Hypertension and Ascites in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/portal-hypertension-and-ascites-in-small-animals"
+      },
+      {
+        "title": "Hepatic Portal Venous Hypoperfusion in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/hepatic-portal-venous-hypoperfusion-in-small-animals"
+      },
+      {
+        "title": "Acquired Portosystemic Shunts in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/acquired-portosystemic-shunts-in-small-animals"
+      },
+      {
+        "title": "Miscellaneous Congenital and Acquired Hepatic Vascular Disorders in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/miscellaneous-congenital-and-acquired-hepatic-vascular-disorders-in-small-animals"
+      },
+      {
+        "title": "Hepatotoxins in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/hepatotoxins-in-small-animals"
+      },
+      {
+        "title": "Infectious Diseases of the Liver in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/infectious-diseases-of-the-liver-in-small-animals"
+      },
+      {
+        "title": "Feline Hepatic Lipidosis",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/feline-hepatic-lipidosis"
+      },
+      {
+        "title": "Biliary Cirrhosis in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/biliary-cirrhosis-in-small-animals"
+      },
+      {
+        "title": "Canine Cholangiohepatitis",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/canine-cholangiohepatitis"
+      },
+      {
+        "title": "Canine Chronic Hepatitis",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/canine-chronic-hepatitis"
+      },
+      {
+        "title": "Lobular Dissecting Hepatitis in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/lobular-dissecting-hepatitis-in-small-animals"
+      },
+      {
+        "title": "Canine Vacuolar Hepatopathy",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/canine-vacuolar-hepatopathy"
+      },
+      {
+        "title": "Metabolic Diseases Affecting the Liver in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/metabolic-diseases-affecting-the-liver-in-small-animals"
+      },
+      {
+        "title": "Hepatocutaneous Syndrome in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/hepatocutaneous-syndrome-in-small-animals"
+      },
+      {
+        "title": "Nodular Hyperplasia in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/nodular-hyperplasia-in-small-animals"
+      },
+      {
+        "title": "Hepatic Neoplasia in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/hepatic-neoplasia-in-small-animals"
+      },
+      {
+        "title": "Miscellaneous Liver Diseases in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/miscellaneous-liver-diseases-in-small-animals"
+      },
+      {
+        "title": "Cholecystitis in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/cholecystitis-in-small-animals"
+      },
+      {
+        "title": "Canine Gallbladder Mucocele",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/canine-gallbladder-mucocele"
+      },
+      {
+        "title": "Miscellaneous Disorders of the Gallbladder in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/miscellaneous-disorders-of-the-gallbladder-in-small-animals"
+      },
+      {
+        "title": "Miscellaneous Disorders of the Bile Ducts in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/miscellaneous-disorders-of-the-bile-ducts-in-small-animals"
+      },
+      {
+        "title": "Extrahepatic Bile Duct Obstruction in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/extrahepatic-bile-duct-obstruction-in-small-animals"
+      },
+      {
+        "title": "Cholelithiasis in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/cholelithiasis-in-small-animals"
+      },
+      {
+        "title": "Biliary Tree Rupture and Bile Peritonitis in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/biliary-tree-rupture-and-bile-peritonitis-in-small-animals"
+      },
+      {
+        "title": "Feline Cholangitis / Cholangiohepatitis Syndrome",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/feline-cholangitis-cholangiohepatitis-syndrome"
+      },
+      {
+        "title": "Hepatobiliary Fluke Infection in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-diseases-of-small-animals/hepatobiliary-fluke-infection-in-small-animals"
+      }
+    ]
   },
   {
     "title": "Tyzzer Disease",
-    "url": "https://www.merckvetmanual.com/digestive-system/tyzzer-disease/tyzzer-disease-in-animals"
+    "url": "https://www.merckvetmanual.com/digestive-system/tyzzer-disease/tyzzer-disease-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology and Pathogenesis",
+        "url": "https://www.merckvetmanual.com/digestive-system/tyzzer-disease/tyzzer-disease-in-animals#Etiology-and-Pathogenesis_v3261792"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/digestive-system/tyzzer-disease/tyzzer-disease-in-animals#Clinical-Findings_v3261803"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/digestive-system/tyzzer-disease/tyzzer-disease-in-animals#Diagnosis_v3261811"
+      },
+      {
+        "title": "Treatment and Control",
+        "url": "https://www.merckvetmanual.com/digestive-system/tyzzer-disease/tyzzer-disease-in-animals#Treatment-and-Control_v3261814"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/digestive-system/tyzzer-disease/tyzzer-disease-in-animals#Key-Points_v54077495"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/digestive-system/tyzzer-disease/tyzzer-disease-in-animals#For-More-Information_v54077506"
+      }
+    ]
   },
   {
     "title": "Laboratory Analyses and Imaging in Hepatic Disease in Small Animals",
-    "url": "https://www.merckvetmanual.com/digestive-system/laboratory-analyses-and-imaging-in-hepatic-disease-in-small-animals"
+    "url": "https://www.merckvetmanual.com/digestive-system/laboratory-analyses-and-imaging-in-hepatic-disease-in-small-animals",
+    "in_depth_links": [
+      {
+        "title": "Hematology in Hepatic Disease in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/laboratory-analyses-and-imaging-in-hepatic-disease-in-small-animals/hematology-in-hepatic-disease-in-small-animals"
+      },
+      {
+        "title": "Coagulation Tests in Hepatic Disease in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/laboratory-analyses-and-imaging-in-hepatic-disease-in-small-animals/coagulation-tests-in-hepatic-disease-in-small-animals"
+      },
+      {
+        "title": "Enzyme Activity in Hepatic Disease in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/laboratory-analyses-and-imaging-in-hepatic-disease-in-small-animals/enzyme-activity-in-hepatic-disease-in-small-animals"
+      },
+      {
+        "title": "Miscellaneous Serum Biochemical Measures in Hepatic Disease in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/laboratory-analyses-and-imaging-in-hepatic-disease-in-small-animals/miscellaneous-serum-biochemical-measures-in-hepatic-disease-in-small-animals"
+      },
+      {
+        "title": "Hepatic Function Tests in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/laboratory-analyses-and-imaging-in-hepatic-disease-in-small-animals/hepatic-function-tests-in-small-animals"
+      },
+      {
+        "title": "Imaging in Hepatic Disease in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/laboratory-analyses-and-imaging-in-hepatic-disease-in-small-animals/imaging-in-hepatic-disease-in-small-animals"
+      },
+      {
+        "title": "Cholecystocentesis in Hepatic Disease in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/laboratory-analyses-and-imaging-in-hepatic-disease-in-small-animals/cholecystocentesis-in-hepatic-disease-in-small-animals"
+      },
+      {
+        "title": "Liver Cytology in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/laboratory-analyses-and-imaging-in-hepatic-disease-in-small-animals/liver-cytology-in-small-animals"
+      },
+      {
+        "title": "Liver Biopsy in Small Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/laboratory-analyses-and-imaging-in-hepatic-disease-in-small-animals/liver-biopsy-in-small-animals"
+      }
+    ]
   },
   {
     "title": "Hepatic Disease in Large Animals",
-    "url": "https://www.merckvetmanual.com/digestive-system/hepatic-disease-in-large-animals"
+    "url": "https://www.merckvetmanual.com/digestive-system/hepatic-disease-in-large-animals",
+    "in_depth_links": [
+      {
+        "title": "Overview of Hepatic Disease in Large Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-disease-in-large-animals/overview-of-hepatic-disease-in-large-animals"
+      },
+      {
+        "title": "Acute Hepatitis in Large Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-disease-in-large-animals/acute-hepatitis-in-large-animals"
+      },
+      {
+        "title": "Infectious Hepatitis and Hepatic Abscesses in Large Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-disease-in-large-animals/infectious-hepatitis-and-hepatic-abscesses-in-large-animals"
+      },
+      {
+        "title": "Hepatotoxins in Large Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-disease-in-large-animals/hepatotoxins-in-large-animals"
+      },
+      {
+        "title": "Cholelithiasis, Choledocholithiasis, and Hepatolithiasis in Large Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-disease-in-large-animals/cholelithiasis-choledocholithiasis-and-hepatolithiasis-in-large-animals"
+      },
+      {
+        "title": "Chronic Progressive Hepatitis in Large Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-disease-in-large-animals/chronic-progressive-hepatitis-in-large-animals"
+      },
+      {
+        "title": "Hyperlipemia and Hepatic Lipidosis in Large Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-disease-in-large-animals/hyperlipemia-and-hepatic-lipidosis-in-large-animals"
+      },
+      {
+        "title": "Hepatic Neoplasia in Large Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-disease-in-large-animals/hepatic-neoplasia-in-large-animals"
+      },
+      {
+        "title": "Miscellaneous Hepatic Disorders in Large Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-disease-in-large-animals/miscellaneous-hepatic-disorders-in-large-animals"
+      },
+      {
+        "title": "Hyperbilirubinemia Syndromes in Large Animals",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-disease-in-large-animals/hyperbilirubinemia-syndromes-in-large-animals"
+      },
+      {
+        "title": "Liver Abscesses in Cattle",
+        "url": "https://www.merckvetmanual.com/digestive-system/hepatic-disease-in-large-animals/liver-abscesses-in-cattle"
+      }
+    ]
   }
 ]

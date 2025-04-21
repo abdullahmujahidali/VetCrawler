@@ -1,18 +1,142 @@
 [
   {
     "title": "The Biology of the Immune System",
-    "url": "https://www.merckvetmanual.com/immune-system/the-biology-of-the-immune-system"
+    "url": "https://www.merckvetmanual.com/immune-system/the-biology-of-the-immune-system",
+    "in_depth_links": [
+      {
+        "title": "Biology of the Immune System in Animals",
+        "url": "https://www.merckvetmanual.com/immune-system/the-biology-of-the-immune-system/biology-of-the-immune-system-in-animals"
+      },
+      {
+        "title": "Innate Immunity in Animals",
+        "url": "https://www.merckvetmanual.com/immune-system/the-biology-of-the-immune-system/innate-immunity-in-animals"
+      },
+      {
+        "title": "Adaptive Immunity in Animals",
+        "url": "https://www.merckvetmanual.com/immune-system/the-biology-of-the-immune-system/adaptive-immunity-in-animals"
+      },
+      {
+        "title": "Role of the Intestinal Microbiota in Animals",
+        "url": "https://www.merckvetmanual.com/immune-system/the-biology-of-the-immune-system/role-of-the-intestinal-microbiota-in-animals"
+      }
+    ]
   },
   {
     "title": "Modifying the Intestinal Microbiota",
-    "url": "https://www.merckvetmanual.com/immune-system/modifying-the-intestinal-microbiota/modifying-the-intestinal-microbiota-in-animals"
+    "url": "https://www.merckvetmanual.com/immune-system/modifying-the-intestinal-microbiota/modifying-the-intestinal-microbiota-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Microbiome Transplantation (Transfaunation) in Animals",
+        "url": "https://www.merckvetmanual.com/immune-system/modifying-the-intestinal-microbiota/modifying-the-intestinal-microbiota-in-animals#Microbiome-Transplantation-(Transfaunation)-in-Animals_v84391503"
+      },
+      {
+        "title": "Prebiotics in Animals",
+        "url": "https://www.merckvetmanual.com/immune-system/modifying-the-intestinal-microbiota/modifying-the-intestinal-microbiota-in-animals#Prebiotics-in-Animals_v84391517"
+      },
+      {
+        "title": "Probiotics in Animals",
+        "url": "https://www.merckvetmanual.com/immune-system/modifying-the-intestinal-microbiota/modifying-the-intestinal-microbiota-in-animals#Probiotics-in-Animals_v84391526"
+      },
+      {
+        "title": "Antibiotics in Animals",
+        "url": "https://www.merckvetmanual.com/immune-system/modifying-the-intestinal-microbiota/modifying-the-intestinal-microbiota-in-animals#Antibiotics-in-Animals_v84391541"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/immune-system/modifying-the-intestinal-microbiota/modifying-the-intestinal-microbiota-in-animals#Key-Points_v84391547"
+      },
+      {
+        "title": "microbiota transplants (transfaunation)",
+        "url": "https://www.merckvetmanual.com/immune-system/modifying-the-intestinal-microbiota/modifying-the-intestinal-microbiota-in-animals#v84391504"
+      },
+      {
+        "title": "prebiotics",
+        "url": "https://www.merckvetmanual.com/immune-system/modifying-the-intestinal-microbiota/modifying-the-intestinal-microbiota-in-animals#v84391518"
+      },
+      {
+        "title": "probiotics",
+        "url": "https://www.merckvetmanual.com/immune-system/modifying-the-intestinal-microbiota/modifying-the-intestinal-microbiota-in-animals#v84391527"
+      },
+      {
+        "title": "antimicrobials",
+        "url": "https://www.merckvetmanual.com/immune-system/modifying-the-intestinal-microbiota/modifying-the-intestinal-microbiota-in-animals#v84391542"
+      }
+    ]
   },
   {
     "title": "Immunologic Diseases",
-    "url": "https://www.merckvetmanual.com/immune-system/immunologic-diseases"
+    "url": "https://www.merckvetmanual.com/immune-system/immunologic-diseases",
+    "in_depth_links": [
+      {
+        "title": "Overview of Immunologic Diseases in Animals",
+        "url": "https://www.merckvetmanual.com/immune-system/immunologic-diseases/overview-of-immunologic-diseases-in-animals"
+      },
+      {
+        "title": "Immunodeficiency Diseases in Animals",
+        "url": "https://www.merckvetmanual.com/immune-system/immunologic-diseases/immunodeficiency-diseases-in-animals"
+      },
+      {
+        "title": "Primary Immunodeficiencies in Animals",
+        "url": "https://www.merckvetmanual.com/immune-system/immunologic-diseases/primary-immunodeficiencies-in-animals"
+      },
+      {
+        "title": "Secondary Immunodeficiencies in Animals",
+        "url": "https://www.merckvetmanual.com/immune-system/immunologic-diseases/secondary-immunodeficiencies-in-animals"
+      },
+      {
+        "title": "Excessive Immune Function in Animals",
+        "url": "https://www.merckvetmanual.com/immune-system/immunologic-diseases/excessive-immune-function-in-animals"
+      },
+      {
+        "title": "Hypersensitivity Diseases in Animals",
+        "url": "https://www.merckvetmanual.com/immune-system/immunologic-diseases/hypersensitivity-diseases-in-animals"
+      },
+      {
+        "title": "Tumors of the Immune System in Animals",
+        "url": "https://www.merckvetmanual.com/immune-system/immunologic-diseases/tumors-of-the-immune-system-in-animals"
+      },
+      {
+        "title": "Gammopathies in Animals",
+        "url": "https://www.merckvetmanual.com/immune-system/immunologic-diseases/gammopathies-in-animals"
+      },
+      {
+        "title": "Shar-Pei Fever",
+        "url": "https://www.merckvetmanual.com/immune-system/immunologic-diseases/shar-pei-fever"
+      }
+    ]
   },
   {
     "title": "Amyloidosis",
-    "url": "https://www.merckvetmanual.com/immune-system/amyloidosis/amyloidosis-in-animals"
+    "url": "https://www.merckvetmanual.com/immune-system/amyloidosis/amyloidosis-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology",
+        "url": "https://www.merckvetmanual.com/immune-system/amyloidosis/amyloidosis-in-animals#Etiology_v83909459"
+      },
+      {
+        "title": "Epidemiology",
+        "url": "https://www.merckvetmanual.com/immune-system/amyloidosis/amyloidosis-in-animals#Epidemiology_v83909485"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/immune-system/amyloidosis/amyloidosis-in-animals#Clinical-Findings_v83909493"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/immune-system/amyloidosis/amyloidosis-in-animals#Diagnosis_v44422243"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/immune-system/amyloidosis/amyloidosis-in-animals#Treatment_v44422246"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/immune-system/amyloidosis/amyloidosis-in-animals#Key-Points_v44422249"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/immune-system/amyloidosis/amyloidosis-in-animals#For-More-Information_v44422258"
+      }
+    ]
   }
 ]

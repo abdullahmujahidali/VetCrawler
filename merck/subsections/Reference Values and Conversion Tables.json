@@ -1,6 +1,68 @@
 [
   {
     "title": "Reference Guides",
-    "url": "https://www.merckvetmanual.com/reference-values-and-conversion-tables/reference-guides"
+    "url": "https://www.merckvetmanual.com/reference-values-and-conversion-tables/reference-guides",
+    "in_depth_links": [
+      {
+        "title": "Normal Rectal Temperature Ranges",
+        "url": "https://www.merckvetmanual.com/reference-values-and-conversion-tables/reference-guides/normal-rectal-temperature-ranges"
+      },
+      {
+        "title": "Resting Heart Rates",
+        "url": "https://www.merckvetmanual.com/reference-values-and-conversion-tables/reference-guides/resting-heart-rates"
+      },
+      {
+        "title": "Resting Respiratory Rates",
+        "url": "https://www.merckvetmanual.com/reference-values-and-conversion-tables/reference-guides/resting-respiratory-rates"
+      },
+      {
+        "title": "Urine Volume and Specific Gravity",
+        "url": "https://www.merckvetmanual.com/reference-values-and-conversion-tables/reference-guides/urine-volume-and-specific-gravity"
+      },
+      {
+        "title": "Blood-Gas Analysis Reference Ranges",
+        "url": "https://www.merckvetmanual.com/reference-values-and-conversion-tables/reference-guides/blood-gas-analysis-reference-ranges"
+      },
+      {
+        "title": "Hematology Reference Ranges",
+        "url": "https://www.merckvetmanual.com/reference-values-and-conversion-tables/reference-guides/hematology-reference-ranges"
+      },
+      {
+        "title": "Serum Biochemical Analysis Reference Ranges",
+        "url": "https://www.merckvetmanual.com/reference-values-and-conversion-tables/reference-guides/serum-biochemical-analysis-reference-ranges"
+      },
+      {
+        "title": "Clinical Chemistry SI Conversion Factors",
+        "url": "https://www.merckvetmanual.com/reference-values-and-conversion-tables/reference-guides/clinical-chemistry-si-conversion-factors"
+      },
+      {
+        "title": "Weight to Body Surface Area Conversion for Dogs",
+        "url": "https://www.merckvetmanual.com/reference-values-and-conversion-tables/reference-guides/weight-to-body-surface-area-conversion-for-dogs"
+      },
+      {
+        "title": "Weight to Body Surface Area Conversion for Cats",
+        "url": "https://www.merckvetmanual.com/reference-values-and-conversion-tables/reference-guides/weight-to-body-surface-area-conversion-for-cats"
+      },
+      {
+        "title": "Temperature Equivalents and Conversions",
+        "url": "https://www.merckvetmanual.com/reference-values-and-conversion-tables/reference-guides/temperature-equivalents-and-conversions"
+      },
+      {
+        "title": "Metric System Prefixes and Symbols",
+        "url": "https://www.merckvetmanual.com/reference-values-and-conversion-tables/reference-guides/metric-system-prefixes-and-symbols"
+      },
+      {
+        "title": "Weights and Measures Equivalents and Conversions",
+        "url": "https://www.merckvetmanual.com/reference-values-and-conversion-tables/reference-guides/weights-and-measures-equivalents-and-conversions"
+      },
+      {
+        "title": "Percentage, ppm, and ppb Conversions",
+        "url": "https://www.merckvetmanual.com/reference-values-and-conversion-tables/reference-guides/percentage-ppm-and-ppb-conversions"
+      },
+      {
+        "title": "Milligram-Milliequivalent Conversions and Atomic Weights",
+        "url": "https://www.merckvetmanual.com/reference-values-and-conversion-tables/reference-guides/milligram-milliequivalent-conversions-and-atomic-weights"
+      }
+    ]
   }
 ]

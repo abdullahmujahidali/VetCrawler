@@ -1,26 +1,194 @@
 [
   {
     "title": "Ophthalmology",
-    "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/ophthalmology"
+    "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/ophthalmology",
+    "in_depth_links": [
+      {
+        "title": "Physical Examination of the Eye in Animals",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/ophthalmology/physical-examination-of-the-eye-in-animals"
+      },
+      {
+        "title": "Eyelids in Animals",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/ophthalmology/eyelids-in-animals"
+      },
+      {
+        "title": "Nasolacrimal and Lacrimal Apparatus in Animals",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/ophthalmology/nasolacrimal-and-lacrimal-apparatus-in-animals"
+      },
+      {
+        "title": "The Conjunctiva in Animals",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/ophthalmology/the-conjunctiva-in-animals"
+      },
+      {
+        "title": "The Cornea in Animals",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/ophthalmology/the-cornea-in-animals"
+      },
+      {
+        "title": "The Anterior Uvea in Animals",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/ophthalmology/the-anterior-uvea-in-animals"
+      },
+      {
+        "title": "Glaucoma in Animals",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/ophthalmology/glaucoma-in-animals"
+      },
+      {
+        "title": "The Lens in Animals",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/ophthalmology/the-lens-in-animals"
+      },
+      {
+        "title": "The Ocular Fundus in Animals",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/ophthalmology/the-ocular-fundus-in-animals"
+      },
+      {
+        "title": "The Optic Nerve in Animals",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/ophthalmology/the-optic-nerve-in-animals"
+      },
+      {
+        "title": "The Orbit in Animals",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/ophthalmology/the-orbit-in-animals"
+      },
+      {
+        "title": "Prolapse of the Eye in Animals",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/ophthalmology/prolapse-of-the-eye-in-animals"
+      },
+      {
+        "title": "Ophthalmic Manifestations of Systemic Diseases in Animals",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/ophthalmology/ophthalmic-manifestations-of-systemic-diseases-in-animals"
+      }
+    ]
   },
   {
     "title": "Chlamydial Conjunctivitis",
-    "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/chlamydial-conjunctivitis/chlamydial-conjunctivitis-in-animals"
+    "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/chlamydial-conjunctivitis/chlamydial-conjunctivitis-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology and Epidemiology",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/chlamydial-conjunctivitis/chlamydial-conjunctivitis-in-animals#Etiology-and-Epidemiology_v3269965"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/chlamydial-conjunctivitis/chlamydial-conjunctivitis-in-animals#Clinical-Findings_v3269984"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/chlamydial-conjunctivitis/chlamydial-conjunctivitis-in-animals#Diagnosis_v3269990"
+      },
+      {
+        "title": "Prevention and Treatment",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/chlamydial-conjunctivitis/chlamydial-conjunctivitis-in-animals#Prevention-and-Treatment_v3269994"
+      },
+      {
+        "title": "Zoonotic Risk",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/chlamydial-conjunctivitis/chlamydial-conjunctivitis-in-animals#Zoonotic-Risk_v3269999"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/chlamydial-conjunctivitis/chlamydial-conjunctivitis-in-animals#Key-Points_v50703695"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/chlamydial-conjunctivitis/chlamydial-conjunctivitis-in-animals#For-More-Information_v50703704"
+      }
+    ]
   },
   {
     "title": "Equine Recurrent Uveitis",
-    "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/equine-recurrent-uveitis/equine-recurrent-uveitis"
+    "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/equine-recurrent-uveitis/equine-recurrent-uveitis",
+    "in_depth_links": [
+      {
+        "title": "Etiology and Pathogenesis",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/equine-recurrent-uveitis/equine-recurrent-uveitis#Etiology-and-Pathogenesis_v3270018"
+      },
+      {
+        "title": "Clinical Findings and Lesions",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/equine-recurrent-uveitis/equine-recurrent-uveitis#Clinical-Findings-and-Lesions_v3270026"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/equine-recurrent-uveitis/equine-recurrent-uveitis#Diagnosis_v3270031"
+      },
+      {
+        "title": "Treatment, Prevention, and Control",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/equine-recurrent-uveitis/equine-recurrent-uveitis#Treatment,-Prevention,-and-Control_v3270037"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/equine-recurrent-uveitis/equine-recurrent-uveitis#Key-Points_v43546310"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/equine-recurrent-uveitis/equine-recurrent-uveitis#For-More-Information_v43546317"
+      }
+    ]
   },
   {
     "title": "Eyeworm Disease",
-    "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/eyeworm-disease"
+    "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/eyeworm-disease",
+    "in_depth_links": [
+      {
+        "title": "Eyeworms of Large Animals",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/eyeworm-disease/eyeworms-of-large-animals"
+      },
+      {
+        "title": "Eyeworms of Small Animals",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/eyeworm-disease/eyeworms-of-small-animals"
+      }
+    ]
   },
   {
     "title": "Infectious Keratoconjunctivitis",
-    "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/infectious-keratoconjunctivitis/infectious-keratoconjunctivitis-in-cattle-and-small-ruminants"
+    "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/infectious-keratoconjunctivitis/infectious-keratoconjunctivitis-in-cattle-and-small-ruminants",
+    "in_depth_links": [
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/infectious-keratoconjunctivitis/infectious-keratoconjunctivitis-in-cattle-and-small-ruminants#Clinical-Findings_v3270173"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/infectious-keratoconjunctivitis/infectious-keratoconjunctivitis-in-cattle-and-small-ruminants#Diagnosis_v3270180"
+      },
+      {
+        "title": "Treatment and Prevention",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/infectious-keratoconjunctivitis/infectious-keratoconjunctivitis-in-cattle-and-small-ruminants#Treatment-and-Prevention_v3270188"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/infectious-keratoconjunctivitis/infectious-keratoconjunctivitis-in-cattle-and-small-ruminants#Key-Points_v46174694"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/infectious-keratoconjunctivitis/infectious-keratoconjunctivitis-in-cattle-and-small-ruminants#For-More-Information_v89505959"
+      },
+      {
+        "title": "References",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/infectious-keratoconjunctivitis/infectious-keratoconjunctivitis-in-cattle-and-small-ruminants#References_v89505977"
+      }
+    ]
   },
   {
     "title": "Neoplasia of the Eye and Associated Structures",
-    "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/neoplasia-of-the-eye-and-associated-structures"
+    "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/neoplasia-of-the-eye-and-associated-structures",
+    "in_depth_links": [
+      {
+        "title": "Overview of Neoplasia of the Eye and Associated Structures in Animals",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/neoplasia-of-the-eye-and-associated-structures/overview-of-neoplasia-of-the-eye-and-associated-structures-in-animals"
+      },
+      {
+        "title": "Ocular Neoplasia in Cattle",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/neoplasia-of-the-eye-and-associated-structures/ocular-neoplasia-in-cattle"
+      },
+      {
+        "title": "Ocular Neoplasia in Horses",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/neoplasia-of-the-eye-and-associated-structures/ocular-neoplasia-in-horses"
+      },
+      {
+        "title": "Ocular Neoplasia in Dogs",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/neoplasia-of-the-eye-and-associated-structures/ocular-neoplasia-in-dogs"
+      },
+      {
+        "title": "Ocular Neoplasia in Cats",
+        "url": "https://www.merckvetmanual.com/eye-diseases-and-disorders/neoplasia-of-the-eye-and-associated-structures/ocular-neoplasia-in-cats"
+      }
+    ]
   }
 ]

@@ -91,25 +91,42 @@ The initial crawler saves main sections to `merck_sections.json`:
 
 ### Subsections (e.g., Circulatory_System.json)
 
-Each subsection file contains the subsections for a specific main section:
+Each subsection file contains the subsections for a specific main section, with in-depth links for each subsection:
 
 ```json
 [
   {
     "title": "Hematopoietic System Introduction",
-    "url": "https://www.merckvetmanual.com/circulatory-system/hematopoietic-system-introduction"
+    "url": "https://www.merckvetmanual.com/circulatory-system/hematopoietic-system-introduction",
+    "in_depth_links": [
+      {
+        "title": "Overview of Hematopoietic System in Animals",
+        "url": "https://www.merckvetmanual.com/circulatory-system/hematopoietic-system-introduction/overview-of-hematopoietic-system-in-animals"
+      },
+      {
+        "title": "Red Blood Cells in Animals",
+        "url": "https://www.merckvetmanual.com/circulatory-system/hematopoietic-system-introduction/red-blood-cells-in-animals"
+      }
+    ]
   },
   {
     "title": "Anemia",
-    "url": "https://www.merckvetmanual.com/circulatory-system/anemia"
-  },
-  {
-    "title": "Blood Groups and Blood Transfusions in Dogs and Cats",
-    "url": "https://www.merckvetmanual.com/circulatory-system/blood-groups-and-blood-transfusions-in-dogs-and-cats"
+    "url": "https://www.merckvetmanual.com/circulatory-system/anemia",
+    "in_depth_links": [
+      {
+        "title": "Overview of Anemia in Animals",
+        "url": "https://www.merckvetmanual.com/circulatory-system/anemia/overview-of-anemia-in-animals"
+      }
+    ]
   },
   ...
 ]
 ```
+
+This hierarchical structure allows you to navigate through the content at multiple levels:
+1. Main sections (like "Circulatory System")
+2. Subsections (like "Anemia")
+3. In-depth articles (like "Overview of Anemia in Animals")
 
 ## Troubleshooting
 

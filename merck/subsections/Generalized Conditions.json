@@ -1,198 +1,496 @@
 [
   {
     "title": "Congenital and Inherited Anomalies",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/congenital-and-inherited-anomalies"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/congenital-and-inherited-anomalies",
+    "in_depth_links": []
   },
   {
     "title": "Lightning Stroke and Electrocution",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/lightning-stroke-and-electrocution/lightning-stroke-and-electrocution-in-animals"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/lightning-stroke-and-electrocution/lightning-stroke-and-electrocution-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/lightning-stroke-and-electrocution/lightning-stroke-and-electrocution-in-animals#Clinical-Findings_v3273558"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/lightning-stroke-and-electrocution/lightning-stroke-and-electrocution-in-animals#Diagnosis_v3273561"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/lightning-stroke-and-electrocution/lightning-stroke-and-electrocution-in-animals#Treatment_v3273567"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/lightning-stroke-and-electrocution/lightning-stroke-and-electrocution-in-animals#Key-Points_v48828686"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/lightning-stroke-and-electrocution/lightning-stroke-and-electrocution-in-animals#For-More-Information_v48828695"
+      }
+    ]
   },
   {
     "title": "Protothecosis",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/protothecosis/protothecosis-in-animals"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/protothecosis/protothecosis-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/protothecosis/protothecosis-in-animals#Etiology_v60374188"
+      },
+      {
+        "title": "Epidemiology",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/protothecosis/protothecosis-in-animals#Epidemiology_v60374211"
+      },
+      {
+        "title": "Pathogenesis",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/protothecosis/protothecosis-in-animals#Pathogenesis_v60374224"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/protothecosis/protothecosis-in-animals#Clinical-Findings_v60374229"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/protothecosis/protothecosis-in-animals#Diagnosis_v60374256"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/protothecosis/protothecosis-in-animals#Treatment_v60374293"
+      },
+      {
+        "title": "Control and Prevention",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/protothecosis/protothecosis-in-animals#Control-and-Prevention_v60374305"
+      },
+      {
+        "title": "Zoonotic Aspects",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/protothecosis/protothecosis-in-animals#Zoonotic-Aspects_v60374311"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/protothecosis/protothecosis-in-animals#Key-Points_v60374318"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/protothecosis/protothecosis-in-animals#For-More-Information_v60374329"
+      }
+    ]
   },
   {
     "title": "Rhodococcus Infection",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/rhodococcus-infection/rhodococcus-infection-in-animals"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/rhodococcus-infection/rhodococcus-infection-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/rhodococcus-infection/rhodococcus-infection-in-animals#Etiology_v56769970"
+      },
+      {
+        "title": "Epidemiology",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/rhodococcus-infection/rhodococcus-infection-in-animals#Epidemiology_v56769982"
+      },
+      {
+        "title": "Pathogenesis",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/rhodococcus-infection/rhodococcus-infection-in-animals#Pathogenesis_v56769996"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/rhodococcus-infection/rhodococcus-infection-in-animals#Clinical-Findings_v56770004"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/rhodococcus-infection/rhodococcus-infection-in-animals#Diagnosis_v56770029"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/rhodococcus-infection/rhodococcus-infection-in-animals#Treatment_v56770070"
+      },
+      {
+        "title": "Control and Prevention",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/rhodococcus-infection/rhodococcus-infection-in-animals#Control-and-Prevention_v56770085"
+      },
+      {
+        "title": "Zoonotic Risk",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/rhodococcus-infection/rhodococcus-infection-in-animals#Zoonotic-Risk_v56770099"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/rhodococcus-infection/rhodococcus-infection-in-animals#Key-Points_v56770105"
+      }
+    ]
   },
   {
     "title": "SARS-CoV-2",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/sars-cov-2/sars-cov-2-infection-in-animals"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/sars-cov-2/sars-cov-2-infection-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology and Pathogenesis",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/sars-cov-2/sars-cov-2-infection-in-animals#Etiology-and-Pathogenesis_v80795803"
+      },
+      {
+        "title": "Epizootiology",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/sars-cov-2/sars-cov-2-infection-in-animals#Epizootiology_v80795832"
+      },
+      {
+        "title": "Clinical Features",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/sars-cov-2/sars-cov-2-infection-in-animals#Clinical-Features_v80795948"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/sars-cov-2/sars-cov-2-infection-in-animals#Diagnosis_v80796120"
+      },
+      {
+        "title": "Prevention",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/sars-cov-2/sars-cov-2-infection-in-animals#Prevention_v80796134"
+      },
+      {
+        "title": "Control",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/sars-cov-2/sars-cov-2-infection-in-animals#Control_v80796144"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/sars-cov-2/sars-cov-2-infection-in-animals#Treatment_v80796151"
+      },
+      {
+        "title": "References",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/sars-cov-2/sars-cov-2-infection-in-animals#References_v80796155"
+      },
+      {
+        "title": "(13)",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/sars-cov-2/sars-cov-2-infection-in-animals#v80796156"
+      },
+      {
+        "title": "(18)",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/sars-cov-2/sars-cov-2-infection-in-animals#v80796156"
+      },
+      {
+        "title": "(14)",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/sars-cov-2/sars-cov-2-infection-in-animals#v80796156"
+      },
+      {
+        "title": "(24)",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/sars-cov-2/sars-cov-2-infection-in-animals#v80796156"
+      },
+      {
+        "title": "(12)",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/sars-cov-2/sars-cov-2-infection-in-animals#v80796156"
+      },
+      {
+        "title": "(27)",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/sars-cov-2/sars-cov-2-infection-in-animals#v80796156"
+      },
+      {
+        "title": "(41)",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/sars-cov-2/sars-cov-2-infection-in-animals#v80796156"
+      },
+      {
+        "title": "(44)",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/sars-cov-2/sars-cov-2-infection-in-animals#v80796156"
+      },
+      {
+        "title": "(12)",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/sars-cov-2/sars-cov-2-infection-in-animals#v80796156"
+      },
+      {
+        "title": "(17)",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/sars-cov-2/sars-cov-2-infection-in-animals#v80796156"
+      },
+      {
+        "title": "(21)",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/sars-cov-2/sars-cov-2-infection-in-animals#v80796156"
+      },
+      {
+        "title": "(47)",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/sars-cov-2/sars-cov-2-infection-in-animals#v80796156"
+      },
+      {
+        "title": "(23)",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/sars-cov-2/sars-cov-2-infection-in-animals#v80796156"
+      },
+      {
+        "title": "(49)",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/sars-cov-2/sars-cov-2-infection-in-animals#v80796156"
+      },
+      {
+        "title": "(50)",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/sars-cov-2/sars-cov-2-infection-in-animals#v80796156"
+      },
+      {
+        "title": "(51)",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/sars-cov-2/sars-cov-2-infection-in-animals#v80796156"
+      },
+      {
+        "title": "(14)",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/sars-cov-2/sars-cov-2-infection-in-animals#v80796156"
+      },
+      {
+        "title": "(53)",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/sars-cov-2/sars-cov-2-infection-in-animals#v80796156"
+      },
+      {
+        "title": "(54)",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/sars-cov-2/sars-cov-2-infection-in-animals#v80796156"
+      },
+      {
+        "title": "(19)",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/sars-cov-2/sars-cov-2-infection-in-animals#v80796156"
+      },
+      {
+        "title": "(49)",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/sars-cov-2/sars-cov-2-infection-in-animals#v80796156"
+      },
+      {
+        "title": "(59,60)",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/sars-cov-2/sars-cov-2-infection-in-animals#v80796156"
+      }
+    ]
   },
   {
     "title": "Seneca Valley Virus Disease",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/seneca-valley-virus-disease/seneca-valley-virus-disease-in-pigs"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/seneca-valley-virus-disease/seneca-valley-virus-disease-in-pigs",
+    "in_depth_links": [
+      {
+        "title": "Etiology and Pathogenesis",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/seneca-valley-virus-disease/seneca-valley-virus-disease-in-pigs#Etiology-and-Pathogenesis_v74926230"
+      },
+      {
+        "title": "Epidemiology",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/seneca-valley-virus-disease/seneca-valley-virus-disease-in-pigs#Epidemiology_v74926238"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/seneca-valley-virus-disease/seneca-valley-virus-disease-in-pigs#Clinical-Findings_v74926266"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/seneca-valley-virus-disease/seneca-valley-virus-disease-in-pigs#Diagnosis_v74926275"
+      },
+      {
+        "title": "Treatment, Control, and Prevention",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/seneca-valley-virus-disease/seneca-valley-virus-disease-in-pigs#Treatment,-Control,-and-Prevention_v74926285"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/seneca-valley-virus-disease/seneca-valley-virus-disease-in-pigs#Key-Points_v74926304"
+      },
+      {
+        "title": "References",
+        "url": "https://www.merckvetmanual.com/generalized-conditions/seneca-valley-virus-disease/seneca-valley-virus-disease-in-pigs#References_v74926313"
+      }
+    ]
   },
   {
     "title": "Toxoplasmosis",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/toxoplasmosis/toxoplasmosis-in-animals"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/toxoplasmosis/toxoplasmosis-in-animals",
+    "in_depth_links": []
   },
   {
     "title": "Overview of Tuberculosis in Animals",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/overview-of-tuberculosis-in-animals/overview-of-tuberculosis-in-animals"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/overview-of-tuberculosis-in-animals/overview-of-tuberculosis-in-animals",
+    "in_depth_links": []
   },
   {
     "title": "Tuberculosis in Various Animals",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/tuberculosis-in-various-animals"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/tuberculosis-in-various-animals",
+    "in_depth_links": []
   },
   {
     "title": "Mycobacterial Infections in Animals",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/mycobacterial-infections-in-animals/mycobacterial-infections-in-animals"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/mycobacterial-infections-in-animals/mycobacterial-infections-in-animals",
+    "in_depth_links": []
   },
   {
     "title": "Tularemia",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/tularemia/tularemia-in-animals"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/tularemia/tularemia-in-animals",
+    "in_depth_links": []
   },
   {
     "title": "Vesicular Stomatitis in Large Animals",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/vesicular-stomatitis-in-large-animals/vesicular-stomatitis-in-large-animals"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/vesicular-stomatitis-in-large-animals/vesicular-stomatitis-in-large-animals",
+    "in_depth_links": []
   },
   {
     "title": "African Horse Sickness",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/african-horse-sickness/african-horse-sickness"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/african-horse-sickness/african-horse-sickness",
+    "in_depth_links": []
   },
   {
     "title": "Equine Granulocytic Anaplasmosis",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/equine-granulocytic-anaplasmosis/equine-granulocytic-anaplasmosis"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/equine-granulocytic-anaplasmosis/equine-granulocytic-anaplasmosis",
+    "in_depth_links": []
   },
   {
     "title": "Equine Infectious Anemia",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/equine-infectious-anemia/equine-infectious-anemia"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/equine-infectious-anemia/equine-infectious-anemia",
+    "in_depth_links": []
   },
   {
     "title": "Equine Viral Arteritis",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/equine-viral-arteritis/equine-viral-arteritis"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/equine-viral-arteritis/equine-viral-arteritis",
+    "in_depth_links": []
   },
   {
     "title": "Glanders",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/glanders/glanders-in-horses-and-other-equids"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/glanders/glanders-in-horses-and-other-equids",
+    "in_depth_links": []
   },
   {
     "title": "Hendra Virus Infection",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/hendra-virus-infection/hendra-virus-infection-in-horses"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/hendra-virus-infection/hendra-virus-infection-in-horses",
+    "in_depth_links": []
   },
   {
     "title": "African Swine Fever",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/african-swine-fever/african-swine-fever"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/african-swine-fever/african-swine-fever",
+    "in_depth_links": []
   },
   {
     "title": "Classical Swine Fever",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/classical-swine-fever/classical-swine-fever"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/classical-swine-fever/classical-swine-fever",
+    "in_depth_links": []
   },
   {
     "title": "Edema Disease",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/edema-disease/edema-disease-in-pigs"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/edema-disease/edema-disease-in-pigs",
+    "in_depth_links": []
   },
   {
     "title": "Encephalomyocarditis Virus Infection",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/encephalomyocarditis-virus-infection/encephalomyocarditis-virus-infection-in-animals"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/encephalomyocarditis-virus-infection/encephalomyocarditis-virus-infection-in-animals",
+    "in_depth_links": []
   },
   {
     "title": "Glasser Disease",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/glasser-disease/gl%C3%A4sser-disease-in-pigs"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/glasser-disease/gl%C3%A4sser-disease-in-pigs",
+    "in_depth_links": []
   },
   {
     "title": "Nipah Virus Infection",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/nipah-virus-infection/nipah-virus-infection-in-swine"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/nipah-virus-infection/nipah-virus-infection-in-swine",
+    "in_depth_links": []
   },
   {
     "title": "Porcine Hemagglutinating Encephalomyelitis",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/porcine-hemagglutinating-encephalomyelitis/porcine-hemagglutinating-encephalomyelitis"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/porcine-hemagglutinating-encephalomyelitis/porcine-hemagglutinating-encephalomyelitis",
+    "in_depth_links": []
   },
   {
     "title": "Porcine Reproductive and Respiratory Syndrome",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/porcine-reproductive-and-respiratory-syndrome/porcine-reproductive-and-respiratory-syndrome"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/porcine-reproductive-and-respiratory-syndrome/porcine-reproductive-and-respiratory-syndrome",
+    "in_depth_links": []
   },
   {
     "title": "Streptococcal Infections in Pigs",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/streptococcal-infections-in-pigs"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/streptococcal-infections-in-pigs",
+    "in_depth_links": []
   },
   {
     "title": "Swine Vesicular Disease",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/swine-vesicular-disease/swine-vesicular-disease"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/swine-vesicular-disease/swine-vesicular-disease",
+    "in_depth_links": []
   },
   {
     "title": "Trichinellosis",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/trichinellosis/trichinellosis-in-animals"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/trichinellosis/trichinellosis-in-animals",
+    "in_depth_links": []
   },
   {
     "title": "Vesicular Exanthema of Swine",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/vesicular-exanthema-of-swine/vesicular-exanthema-of-swine"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/vesicular-exanthema-of-swine/vesicular-exanthema-of-swine",
+    "in_depth_links": []
   },
   {
     "title": "Bluetongue",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/bluetongue/bluetongue-in-ruminants"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/bluetongue/bluetongue-in-ruminants",
+    "in_depth_links": []
   },
   {
     "title": "Bovine Ephemeral Fever",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/bovine-ephemeral-fever/bovine-ephemeral-fever"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/bovine-ephemeral-fever/bovine-ephemeral-fever",
+    "in_depth_links": []
   },
   {
     "title": "Bovine Leukosis",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/bovine-leukosis/bovine-leukosis"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/bovine-leukosis/bovine-leukosis",
+    "in_depth_links": []
   },
   {
     "title": "Bovine Petechial Fever",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/bovine-petechial-fever/bovine-petechial-fever"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/bovine-petechial-fever/bovine-petechial-fever",
+    "in_depth_links": []
   },
   {
     "title": "Caprine Arthritis and Encephalitis",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/caprine-arthritis-and-encephalitis/caprine-arthritis-and-encephalitis"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/caprine-arthritis-and-encephalitis/caprine-arthritis-and-encephalitis",
+    "in_depth_links": []
   },
   {
     "title": "Colisepticemia",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/colisepticemia/colisepticemia"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/colisepticemia/colisepticemia",
+    "in_depth_links": []
   },
   {
     "title": "Crimean-Congo Hemorrhagic Fever",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/crimean-congo-hemorrhagic-fever/crimean-congo-hemorrhagic-fever-in-animals"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/crimean-congo-hemorrhagic-fever/crimean-congo-hemorrhagic-fever-in-animals",
+    "in_depth_links": []
   },
   {
     "title": "Heartwater",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/heartwater/heartwater"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/heartwater/heartwater",
+    "in_depth_links": []
   },
   {
     "title": "Histophilosis",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/histophilosis/histophilosis"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/histophilosis/histophilosis",
+    "in_depth_links": []
   },
   {
     "title": "Hemorrhagic Septicemia",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/hemorrhagic-septicemia/hemorrhagic-septicemia-in-water-buffalo-and-cattle"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/hemorrhagic-septicemia/hemorrhagic-septicemia-in-water-buffalo-and-cattle",
+    "in_depth_links": []
   },
   {
     "title": "Malignant Catarrhal Fever",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/malignant-catarrhal-fever/malignant-catarrhal-fever-in-animals"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/malignant-catarrhal-fever/malignant-catarrhal-fever-in-animals",
+    "in_depth_links": []
   },
   {
     "title": "Nairobi Sheep Disease",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/nairobi-sheep-disease/nairobi-sheep-disease"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/nairobi-sheep-disease/nairobi-sheep-disease",
+    "in_depth_links": []
   },
   {
     "title": "Pasteurellosis of Sheep and Goats",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/pasteurellosis-of-sheep-and-goats/pasteurellosis-of-sheep-and-goats"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/pasteurellosis-of-sheep-and-goats/pasteurellosis-of-sheep-and-goats",
+    "in_depth_links": []
   },
   {
     "title": "Peste des Petits Ruminants",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/peste-des-petits-ruminants/peste-des-petits-ruminants"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/peste-des-petits-ruminants/peste-des-petits-ruminants",
+    "in_depth_links": []
   },
   {
     "title": "Rift Valley Fever",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/rift-valley-fever/rift-valley-fever-in-animals"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/rift-valley-fever/rift-valley-fever-in-animals",
+    "in_depth_links": []
   },
   {
     "title": "Rinderpest",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/rinderpest/rinderpest"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/rinderpest/rinderpest",
+    "in_depth_links": []
   },
   {
     "title": "Tickborne Fever",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/tickborne-fever/tickborne-fever-in-ruminants"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/tickborne-fever/tickborne-fever-in-ruminants",
+    "in_depth_links": []
   },
   {
     "title": "Tick Pyemia",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/tick-pyemia/tick-pyemia-in-lambs"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/tick-pyemia/tick-pyemia-in-lambs",
+    "in_depth_links": []
   },
   {
     "title": "Wesselsbron Disease",
-    "url": "https://www.merckvetmanual.com/generalized-conditions/wesselsbron-disease/wesselsbron-disease-in-animals"
+    "url": "https://www.merckvetmanual.com/generalized-conditions/wesselsbron-disease/wesselsbron-disease-in-animals",
+    "in_depth_links": []
   }
 ]

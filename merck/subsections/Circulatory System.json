@@ -1,86 +1,301 @@
 [
   {
     "title": "Hematopoietic System Introduction",
-    "url": "https://www.merckvetmanual.com/circulatory-system/hematopoietic-system-introduction"
+    "url": "https://www.merckvetmanual.com/circulatory-system/hematopoietic-system-introduction",
+    "in_depth_links": [
+      {
+        "title": "Overview of Hematopoietic System in Animals",
+        "url": "https://www.merckvetmanual.com/circulatory-system/hematopoietic-system-introduction/overview-of-hematopoietic-system-in-animals"
+      },
+      {
+        "title": "Red Blood Cells in Animals",
+        "url": "https://www.merckvetmanual.com/circulatory-system/hematopoietic-system-introduction/red-blood-cells-in-animals"
+      },
+      {
+        "title": "White Blood Cells in Animals",
+        "url": "https://www.merckvetmanual.com/circulatory-system/hematopoietic-system-introduction/white-blood-cells-in-animals"
+      },
+      {
+        "title": "Platelets in Animals",
+        "url": "https://www.merckvetmanual.com/circulatory-system/hematopoietic-system-introduction/platelets-in-animals"
+      }
+    ]
   },
   {
     "title": "Anemia",
-    "url": "https://www.merckvetmanual.com/circulatory-system/anemia"
+    "url": "https://www.merckvetmanual.com/circulatory-system/anemia",
+    "in_depth_links": [
+      {
+        "title": "Overview of Anemia in Animals",
+        "url": "https://www.merckvetmanual.com/circulatory-system/anemia/overview-of-anemia-in-animals"
+      },
+      {
+        "title": "Regenerative Anemias in Animals",
+        "url": "https://www.merckvetmanual.com/circulatory-system/anemia/regenerative-anemias-in-animals"
+      },
+      {
+        "title": "Nonregenerative Anemias in Animals",
+        "url": "https://www.merckvetmanual.com/circulatory-system/anemia/nonregenerative-anemias-in-animals"
+      }
+    ]
   },
   {
     "title": "Blood Groups and Blood Transfusions in Dogs and Cats",
-    "url": "https://www.merckvetmanual.com/circulatory-system/blood-groups-and-blood-transfusions-in-dogs-and-cats"
+    "url": "https://www.merckvetmanual.com/circulatory-system/blood-groups-and-blood-transfusions-in-dogs-and-cats",
+    "in_depth_links": [
+      {
+        "title": "Blood Groups in Dogs and Cats",
+        "url": "https://www.merckvetmanual.com/circulatory-system/blood-groups-and-blood-transfusions-in-dogs-and-cats/blood-groups-in-dogs-and-cats"
+      },
+      {
+        "title": "Blood Typing in Dogs and Cats",
+        "url": "https://www.merckvetmanual.com/circulatory-system/blood-groups-and-blood-transfusions-in-dogs-and-cats/blood-typing-in-dogs-and-cats"
+      },
+      {
+        "title": "Crossmatching in Dogs and Cats",
+        "url": "https://www.merckvetmanual.com/circulatory-system/blood-groups-and-blood-transfusions-in-dogs-and-cats/crossmatching-in-dogs-and-cats"
+      },
+      {
+        "title": "Screening of Blood Donors and Blood Banking Considerations in Dogs and Cats",
+        "url": "https://www.merckvetmanual.com/circulatory-system/blood-groups-and-blood-transfusions-in-dogs-and-cats/screening-of-blood-donors-and-blood-banking-considerations-in-dogs-and-cats"
+      },
+      {
+        "title": "Blood Transfusions in Dogs and Cats",
+        "url": "https://www.merckvetmanual.com/circulatory-system/blood-groups-and-blood-transfusions-in-dogs-and-cats/blood-transfusions-in-dogs-and-cats"
+      }
+    ]
   },
   {
     "title": "Blood Groups and Blood Transfusions in Horses",
-    "url": "https://www.merckvetmanual.com/circulatory-system/blood-groups-and-blood-transfusions-in-horses/blood-groups-and-blood-transfusions-in-horses"
+    "url": "https://www.merckvetmanual.com/circulatory-system/blood-groups-and-blood-transfusions-in-horses/blood-groups-and-blood-transfusions-in-horses",
+    "in_depth_links": [
+      {
+        "title": "Equine Blood Types",
+        "url": "https://www.merckvetmanual.com/circulatory-system/blood-groups-and-blood-transfusions-in-horses/blood-groups-and-blood-transfusions-in-horses#Equine-Blood-Types_v94116291"
+      },
+      {
+        "title": "Blood Products",
+        "url": "https://www.merckvetmanual.com/circulatory-system/blood-groups-and-blood-transfusions-in-horses/blood-groups-and-blood-transfusions-in-horses#Blood-Products_v94116298"
+      },
+      {
+        "title": "Crossmatching",
+        "url": "https://www.merckvetmanual.com/circulatory-system/blood-groups-and-blood-transfusions-in-horses/blood-groups-and-blood-transfusions-in-horses#Crossmatching_v94116306"
+      },
+      {
+        "title": "Blood Donor Selection",
+        "url": "https://www.merckvetmanual.com/circulatory-system/blood-groups-and-blood-transfusions-in-horses/blood-groups-and-blood-transfusions-in-horses#Blood-Donor-Selection_v94116313"
+      },
+      {
+        "title": "Equine Blood Product Administration",
+        "url": "https://www.merckvetmanual.com/circulatory-system/blood-groups-and-blood-transfusions-in-horses/blood-groups-and-blood-transfusions-in-horses#Equine-Blood-Product-Administration_v94116328"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/circulatory-system/blood-groups-and-blood-transfusions-in-horses/blood-groups-and-blood-transfusions-in-horses#Key-Points_v94116338"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/circulatory-system/blood-groups-and-blood-transfusions-in-horses/blood-groups-and-blood-transfusions-in-horses#For-More-Information_v94116347"
+      }
+    ]
   },
   {
     "title": "Blood Parasites",
-    "url": "https://www.merckvetmanual.com/circulatory-system/blood-parasites"
+    "url": "https://www.merckvetmanual.com/circulatory-system/blood-parasites",
+    "in_depth_links": [
+      {
+        "title": "Anaplasmosis in Ruminants",
+        "url": "https://www.merckvetmanual.com/circulatory-system/blood-parasites/anaplasmosis-in-ruminants"
+      },
+      {
+        "title": "Babesiosis in Animals",
+        "url": "https://www.merckvetmanual.com/circulatory-system/blood-parasites/babesiosis-in-animals"
+      },
+      {
+        "title": "Cytauxzoonosis in Cats",
+        "url": "https://www.merckvetmanual.com/circulatory-system/blood-parasites/cytauxzoonosis-in-cats"
+      },
+      {
+        "title": "Hemotropic Mycoplasma Infections in Animals",
+        "url": "https://www.merckvetmanual.com/circulatory-system/blood-parasites/hemotropic-mycoplasma-infections-in-animals"
+      },
+      {
+        "title": "Old World Hepatozoonosis and American Canine Hepatozoonosis",
+        "url": "https://www.merckvetmanual.com/circulatory-system/blood-parasites/old-world-hepatozoonosis-and-american-canine-hepatozoonosis"
+      },
+      {
+        "title": "Schistosomiasis in Cattle",
+        "url": "https://www.merckvetmanual.com/circulatory-system/blood-parasites/schistosomiasis-in-cattle"
+      },
+      {
+        "title": "Theileriosis in Animals",
+        "url": "https://www.merckvetmanual.com/circulatory-system/blood-parasites/theileriosis-in-animals"
+      },
+      {
+        "title": "Trypanosomiasis in Animals",
+        "url": "https://www.merckvetmanual.com/circulatory-system/blood-parasites/trypanosomiasis-in-animals"
+      }
+    ]
   },
   {
     "title": "Lymphoma in Dogs",
-    "url": "https://www.merckvetmanual.com/circulatory-system/lymphoma-in-dogs/lymphoma-in-dogs"
+    "url": "https://www.merckvetmanual.com/circulatory-system/lymphoma-in-dogs/lymphoma-in-dogs",
+    "in_depth_links": [
+      {
+        "title": "Etiology",
+        "url": "https://www.merckvetmanual.com/circulatory-system/lymphoma-in-dogs/lymphoma-in-dogs#Etiology_v83909371"
+      },
+      {
+        "title": "Epidemiology",
+        "url": "https://www.merckvetmanual.com/circulatory-system/lymphoma-in-dogs/lymphoma-in-dogs#Epidemiology_v83909376"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/circulatory-system/lymphoma-in-dogs/lymphoma-in-dogs#Clinical-Findings_v3258343"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/circulatory-system/lymphoma-in-dogs/lymphoma-in-dogs#Diagnosis_v3258352"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/circulatory-system/lymphoma-in-dogs/lymphoma-in-dogs#Treatment_v3258356"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/circulatory-system/lymphoma-in-dogs/lymphoma-in-dogs#Key-Points_v44015171"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/circulatory-system/lymphoma-in-dogs/lymphoma-in-dogs#For-More-Information_v44015180"
+      }
+    ]
   },
   {
     "title": "Erythrocytosis (Polycythemia)",
-    "url": "https://www.merckvetmanual.com/circulatory-system/erythrocytosis-polycythemia"
+    "url": "https://www.merckvetmanual.com/circulatory-system/erythrocytosis-polycythemia",
+    "in_depth_links": [
+      {
+        "title": "Erythrocytosis (Polycythemia) in Animals",
+        "url": "https://www.merckvetmanual.com/circulatory-system/erythrocytosis-polycythemia/erythrocytosis-polycythemia-in-animals"
+      },
+      {
+        "title": "Erythrocytosis in Horses",
+        "url": "https://www.merckvetmanual.com/circulatory-system/erythrocytosis-polycythemia/erythrocytosis-in-horses"
+      }
+    ]
   },
   {
     "title": "Hemostatic Disorders",
-    "url": "https://www.merckvetmanual.com/circulatory-system/hemostatic-disorders"
+    "url": "https://www.merckvetmanual.com/circulatory-system/hemostatic-disorders",
+    "in_depth_links": [
+      {
+        "title": "Overview of Hemostatic Disorders in Animals",
+        "url": "https://www.merckvetmanual.com/circulatory-system/hemostatic-disorders/overview-of-hemostatic-disorders-in-animals"
+      },
+      {
+        "title": "Coagulation Disorders in Animals",
+        "url": "https://www.merckvetmanual.com/circulatory-system/hemostatic-disorders/coagulation-disorders-in-animals"
+      },
+      {
+        "title": "Platelet Disorders in Animals",
+        "url": "https://www.merckvetmanual.com/circulatory-system/hemostatic-disorders/platelet-disorders-in-animals"
+      },
+      {
+        "title": "Coagulation Protein Disorders in Animals",
+        "url": "https://www.merckvetmanual.com/circulatory-system/hemostatic-disorders/coagulation-protein-disorders-in-animals"
+      },
+      {
+        "title": "Pathological Thrombosis in Animals",
+        "url": "https://www.merckvetmanual.com/circulatory-system/hemostatic-disorders/pathological-thrombosis-in-animals"
+      }
+    ]
   },
   {
     "title": "Leukocyte Disorders",
-    "url": "https://www.merckvetmanual.com/circulatory-system/leukocyte-disorders"
+    "url": "https://www.merckvetmanual.com/circulatory-system/leukocyte-disorders",
+    "in_depth_links": [
+      {
+        "title": "Overview of Leukocyte Disorders in Animals",
+        "url": "https://www.merckvetmanual.com/circulatory-system/leukocyte-disorders/overview-of-leukocyte-disorders-in-animals"
+      },
+      {
+        "title": "Physiology of Leukocytes in Animals",
+        "url": "https://www.merckvetmanual.com/circulatory-system/leukocyte-disorders/physiology-of-leukocytes-in-animals"
+      },
+      {
+        "title": "Leukogram Abnormalities in Animals",
+        "url": "https://www.merckvetmanual.com/circulatory-system/leukocyte-disorders/leukogram-abnormalities-in-animals"
+      }
+    ]
   },
   {
     "title": "Lymphadenitis and Lymphangitis of Large Animals",
-    "url": "https://www.merckvetmanual.com/circulatory-system/lymphadenitis-and-lymphangitis-of-large-animals"
+    "url": "https://www.merckvetmanual.com/circulatory-system/lymphadenitis-and-lymphangitis-of-large-animals",
+    "in_depth_links": [
+      {
+        "title": "Caseous Lymphadenitis of Sheep and Goats",
+        "url": "https://www.merckvetmanual.com/circulatory-system/lymphadenitis-and-lymphangitis-of-large-animals/caseous-lymphadenitis-of-sheep-and-goats"
+      },
+      {
+        "title": "Lymphangitis of Horses and Cattle",
+        "url": "https://www.merckvetmanual.com/circulatory-system/lymphadenitis-and-lymphangitis-of-large-animals/lymphangitis-of-horses-and-cattle"
+      }
+    ]
   },
   {
     "title": "Cardiovascular System Introduction",
-    "url": "https://www.merckvetmanual.com/circulatory-system/cardiovascular-system-introduction"
+    "url": "https://www.merckvetmanual.com/circulatory-system/cardiovascular-system-introduction",
+    "in_depth_links": []
   },
   {
     "title": "Congenital and Inherited Anomalies of the Cardiovascular System",
-    "url": "https://www.merckvetmanual.com/circulatory-system/congenital-and-inherited-anomalies-of-the-cardiovascular-system"
+    "url": "https://www.merckvetmanual.com/circulatory-system/congenital-and-inherited-anomalies-of-the-cardiovascular-system",
+    "in_depth_links": []
   },
   {
     "title": "Diagnosis of Heart Disease",
-    "url": "https://www.merckvetmanual.com/circulatory-system/diagnosis-of-heart-disease/diagnosis-of-heart-disease-in-animals"
+    "url": "https://www.merckvetmanual.com/circulatory-system/diagnosis-of-heart-disease/diagnosis-of-heart-disease-in-animals",
+    "in_depth_links": []
   },
   {
     "title": "Heart Disease: Conduction Abnormalities in Dogs and Cats",
-    "url": "https://www.merckvetmanual.com/circulatory-system/heart-disease-conduction-abnormalities-in-dogs-and-cats/heart-disease-conduction-abnormalities-in-dogs-and-cats"
+    "url": "https://www.merckvetmanual.com/circulatory-system/heart-disease-conduction-abnormalities-in-dogs-and-cats/heart-disease-conduction-abnormalities-in-dogs-and-cats",
+    "in_depth_links": []
   },
   {
     "title": "Heart Failure in Dogs and Cats",
-    "url": "https://www.merckvetmanual.com/circulatory-system/heart-failure-in-dogs-and-cats/heart-failure-in-dogs-and-cats"
+    "url": "https://www.merckvetmanual.com/circulatory-system/heart-failure-in-dogs-and-cats/heart-failure-in-dogs-and-cats",
+    "in_depth_links": []
   },
   {
     "title": "Cardiomyopathy in Dogs and Cats",
-    "url": "https://www.merckvetmanual.com/circulatory-system/cardiomyopathy-in-dogs-and-cats"
+    "url": "https://www.merckvetmanual.com/circulatory-system/cardiomyopathy-in-dogs-and-cats",
+    "in_depth_links": []
   },
   {
     "title": "Various Heart Diseases in Dogs and Cats",
-    "url": "https://www.merckvetmanual.com/circulatory-system/various-heart-diseases-in-dogs-and-cats"
+    "url": "https://www.merckvetmanual.com/circulatory-system/various-heart-diseases-in-dogs-and-cats",
+    "in_depth_links": []
   },
   {
     "title": "Various Cardiovascular Diseases in Dogs and Cats",
-    "url": "https://www.merckvetmanual.com/circulatory-system/various-cardiovascular-diseases-in-dogs-and-cats"
+    "url": "https://www.merckvetmanual.com/circulatory-system/various-cardiovascular-diseases-in-dogs-and-cats",
+    "in_depth_links": []
   },
   {
     "title": "Heartworm Disease",
-    "url": "https://www.merckvetmanual.com/circulatory-system/heartworm-disease/heartworm-disease-in-dogs-cats-and-ferrets"
+    "url": "https://www.merckvetmanual.com/circulatory-system/heartworm-disease/heartworm-disease-in-dogs-cats-and-ferrets",
+    "in_depth_links": []
   },
   {
     "title": "Bovine High-Mountain Disease",
-    "url": "https://www.merckvetmanual.com/circulatory-system/bovine-high-mountain-disease/bovine-high-mountain-disease"
+    "url": "https://www.merckvetmanual.com/circulatory-system/bovine-high-mountain-disease/bovine-high-mountain-disease",
+    "in_depth_links": []
   },
   {
     "title": "Thrombosis, Embolism, and Aneurysm",
-    "url": "https://www.merckvetmanual.com/circulatory-system/thrombosis-embolism-and-aneurysm/thrombosis-embolism-and-aneurysm-in-animals"
+    "url": "https://www.merckvetmanual.com/circulatory-system/thrombosis-embolism-and-aneurysm/thrombosis-embolism-and-aneurysm-in-animals",
+    "in_depth_links": []
   }
 ]

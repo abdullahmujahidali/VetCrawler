@@ -1,106 +1,888 @@
 [
   {
     "title": "The Neurologic Examination",
-    "url": "https://www.merckvetmanual.com/nervous-system/the-neurologic-examination/the-neurologic-examination-of-animals"
+    "url": "https://www.merckvetmanual.com/nervous-system/the-neurologic-examination/the-neurologic-examination-of-animals",
+    "in_depth_links": [
+      {
+        "title": "Taking a History",
+        "url": "https://www.merckvetmanual.com/nervous-system/the-neurologic-examination/the-neurologic-examination-of-animals#Taking-a-History_v84400421"
+      },
+      {
+        "title": "Evaluating Posture",
+        "url": "https://www.merckvetmanual.com/nervous-system/the-neurologic-examination/the-neurologic-examination-of-animals#Evaluating-Posture_v84400442"
+      },
+      {
+        "title": "Assessing Mentation and Behavior",
+        "url": "https://www.merckvetmanual.com/nervous-system/the-neurologic-examination/the-neurologic-examination-of-animals#Assessing-Mentation-and-Behavior_v84400461"
+      },
+      {
+        "title": "Examining the Cranial Nerves",
+        "url": "https://www.merckvetmanual.com/nervous-system/the-neurologic-examination/the-neurologic-examination-of-animals#Examining-the-Cranial-Nerves_v84400471"
+      },
+      {
+        "title": "Evaluating Gait",
+        "url": "https://www.merckvetmanual.com/nervous-system/the-neurologic-examination/the-neurologic-examination-of-animals#Evaluating-Gait_v84400555"
+      },
+      {
+        "title": "Assessing Postural Reactions",
+        "url": "https://www.merckvetmanual.com/nervous-system/the-neurologic-examination/the-neurologic-examination-of-animals#Assessing-Postural-Reactions_v84400594"
+      },
+      {
+        "title": "Testing Spinal Reflexes",
+        "url": "https://www.merckvetmanual.com/nervous-system/the-neurologic-examination/the-neurologic-examination-of-animals#Testing-Spinal-Reflexes_v84400618"
+      },
+      {
+        "title": "Palpation",
+        "url": "https://www.merckvetmanual.com/nervous-system/the-neurologic-examination/the-neurologic-examination-of-animals#Palpation_v84400657"
+      },
+      {
+        "title": "Evaluating Nociception",
+        "url": "https://www.merckvetmanual.com/nervous-system/the-neurologic-examination/the-neurologic-examination-of-animals#Evaluating-Nociception_v84400672"
+      },
+      {
+        "title": "Neuroanatomical Localization",
+        "url": "https://www.merckvetmanual.com/nervous-system/the-neurologic-examination/the-neurologic-examination-of-animals#Neuroanatomical-Localization_v84400708"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/nervous-system/the-neurologic-examination/the-neurologic-examination-of-animals#For-More-Information_v84400763"
+      },
+      {
+        "title": "trigeminal nerve",
+        "url": "https://www.merckvetmanual.com/nervous-system/the-neurologic-examination/the-neurologic-examination-of-animals#v84400516"
+      },
+      {
+        "title": "facial nerve",
+        "url": "https://www.merckvetmanual.com/nervous-system/the-neurologic-examination/the-neurologic-examination-of-animals#v84400528"
+      },
+      {
+        "title": "cutaneous trunci reflex",
+        "url": "https://www.merckvetmanual.com/nervous-system/the-neurologic-examination/the-neurologic-examination-of-animals#v84400647"
+      },
+      {
+        "title": "patellar reflex",
+        "url": "https://www.merckvetmanual.com/nervous-system/the-neurologic-examination/the-neurologic-examination-of-animals#v84400625"
+      },
+      {
+        "title": "perineal reflex",
+        "url": "https://www.merckvetmanual.com/nervous-system/the-neurologic-examination/the-neurologic-examination-of-animals#v84400640"
+      }
+    ]
   },
   {
     "title": "Congenital and Inherited Anomalies of the Nervous System",
-    "url": "https://www.merckvetmanual.com/nervous-system/congenital-and-inherited-anomalies-of-the-nervous-system"
+    "url": "https://www.merckvetmanual.com/nervous-system/congenital-and-inherited-anomalies-of-the-nervous-system",
+    "in_depth_links": [
+      {
+        "title": "Congenital and Inherited Anomalies of the Nervous System in Animals",
+        "url": "https://www.merckvetmanual.com/nervous-system/congenital-and-inherited-anomalies-of-the-nervous-system/congenital-and-inherited-anomalies-of-the-nervous-system-in-animals"
+      },
+      {
+        "title": "Congenital and Inherited Cerebral Disorders in Animals",
+        "url": "https://www.merckvetmanual.com/nervous-system/congenital-and-inherited-anomalies-of-the-nervous-system/congenital-and-inherited-cerebral-disorders-in-animals"
+      },
+      {
+        "title": "Congenital and Inherited Cerebellar Disorders in Animals",
+        "url": "https://www.merckvetmanual.com/nervous-system/congenital-and-inherited-anomalies-of-the-nervous-system/congenital-and-inherited-cerebellar-disorders-in-animals"
+      },
+      {
+        "title": "Congenital and Inherited Brain Stem Disorders in Animals",
+        "url": "https://www.merckvetmanual.com/nervous-system/congenital-and-inherited-anomalies-of-the-nervous-system/congenital-and-inherited-brain-stem-disorders-in-animals"
+      },
+      {
+        "title": "Congenital and Inherited Spinal Cord Disorders in Animals",
+        "url": "https://www.merckvetmanual.com/nervous-system/congenital-and-inherited-anomalies-of-the-nervous-system/congenital-and-inherited-spinal-cord-disorders-in-animals"
+      },
+      {
+        "title": "Neuromuscular Disorders in Animals",
+        "url": "https://www.merckvetmanual.com/nervous-system/congenital-and-inherited-anomalies-of-the-nervous-system/neuromuscular-disorders-in-animals"
+      },
+      {
+        "title": "Congenital and Inherited Multifocal Disorders of the Nervous System in Animals",
+        "url": "https://www.merckvetmanual.com/nervous-system/congenital-and-inherited-anomalies-of-the-nervous-system/congenital-and-inherited-multifocal-disorders-of-the-nervous-system-in-animals"
+      },
+      {
+        "title": "Miscellaneous Congenital Disorders of the Nervous System in Animals",
+        "url": "https://www.merckvetmanual.com/nervous-system/congenital-and-inherited-anomalies-of-the-nervous-system/miscellaneous-congenital-disorders-of-the-nervous-system-in-animals"
+      }
+    ]
   },
   {
     "title": "Myelin Disorders",
-    "url": "https://www.merckvetmanual.com/nervous-system/myelin-disorders/myelin-disorders-in-animals"
+    "url": "https://www.merckvetmanual.com/nervous-system/myelin-disorders/myelin-disorders-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Central Myelinopathy",
+        "url": "https://www.merckvetmanual.com/nervous-system/myelin-disorders/myelin-disorders-in-animals#Central-Myelinopathy_v82375091"
+      },
+      {
+        "title": "Etiology",
+        "url": "https://www.merckvetmanual.com/nervous-system/myelin-disorders/myelin-disorders-in-animals#Etiology_v82375127"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/nervous-system/myelin-disorders/myelin-disorders-in-animals#Clinical-Findings_v82375154"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/nervous-system/myelin-disorders/myelin-disorders-in-animals#Diagnosis_v82375174"
+      },
+      {
+        "title": "Treatment, Control, and Prevention",
+        "url": "https://www.merckvetmanual.com/nervous-system/myelin-disorders/myelin-disorders-in-animals#Treatment,-Control,-and-Prevention_v82375205"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/nervous-system/myelin-disorders/myelin-disorders-in-animals#Key-Points_v82375217"
+      },
+      {
+        "title": "References",
+        "url": "https://www.merckvetmanual.com/nervous-system/myelin-disorders/myelin-disorders-in-animals#References_v82375224"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/nervous-system/myelin-disorders/myelin-disorders-in-animals#For-More-Information_v82375229"
+      },
+      {
+        "title": "Canine Myelin Disorders With Identified Gene Mutations",
+        "url": "https://www.merckvetmanual.com/nervous-system/myelin-disorders/myelin-disorders-in-animals#v82374969"
+      }
+    ]
   },
   {
     "title": "Diseases of the Peripheral Nerves and Neuromuscular Junction",
-    "url": "https://www.merckvetmanual.com/nervous-system/diseases-of-the-peripheral-nerves-and-neuromuscular-junction"
+    "url": "https://www.merckvetmanual.com/nervous-system/diseases-of-the-peripheral-nerves-and-neuromuscular-junction",
+    "in_depth_links": [
+      {
+        "title": "Overview of Diseases of the Peripheral Nerves and Neuromuscular Junction in Animals",
+        "url": "https://www.merckvetmanual.com/nervous-system/diseases-of-the-peripheral-nerves-and-neuromuscular-junction/overview-of-diseases-of-the-peripheral-nerves-and-neuromuscular-junction-in-animals"
+      },
+      {
+        "title": "Degenerative Disorders of the Peripheral Nerves and Neuromuscular Junction in Animals",
+        "url": "https://www.merckvetmanual.com/nervous-system/diseases-of-the-peripheral-nerves-and-neuromuscular-junction/degenerative-disorders-of-the-peripheral-nerves-and-neuromuscular-junction-in-animals"
+      },
+      {
+        "title": "Inflammatory Disorders of the Peripheral Nerves and Neuromuscular Junction in Animals",
+        "url": "https://www.merckvetmanual.com/nervous-system/diseases-of-the-peripheral-nerves-and-neuromuscular-junction/inflammatory-disorders-of-the-peripheral-nerves-and-neuromuscular-junction-in-animals"
+      },
+      {
+        "title": "Metabolic Disorders of the Peripheral Nerves and Neuromuscular Junction in Animals",
+        "url": "https://www.merckvetmanual.com/nervous-system/diseases-of-the-peripheral-nerves-and-neuromuscular-junction/metabolic-disorders-of-the-peripheral-nerves-and-neuromuscular-junction-in-animals"
+      },
+      {
+        "title": "Neoplasia of the Peripheral Nerves and Neuromuscular Junction in Animals",
+        "url": "https://www.merckvetmanual.com/nervous-system/diseases-of-the-peripheral-nerves-and-neuromuscular-junction/neoplasia-of-the-peripheral-nerves-and-neuromuscular-junction-in-animals"
+      },
+      {
+        "title": "Nutritional Disorders of the Peripheral Nerves and Neuromuscular Junction in Animals",
+        "url": "https://www.merckvetmanual.com/nervous-system/diseases-of-the-peripheral-nerves-and-neuromuscular-junction/nutritional-disorders-of-the-peripheral-nerves-and-neuromuscular-junction-in-animals"
+      },
+      {
+        "title": "Toxic Disorders of the Peripheral Nerves and Neuromuscular Junction in Animals",
+        "url": "https://www.merckvetmanual.com/nervous-system/diseases-of-the-peripheral-nerves-and-neuromuscular-junction/toxic-disorders-of-the-peripheral-nerves-and-neuromuscular-junction-in-animals"
+      },
+      {
+        "title": "Trauma of the Peripheral Nerves and Neuromuscular Junction in Animals",
+        "url": "https://www.merckvetmanual.com/nervous-system/diseases-of-the-peripheral-nerves-and-neuromuscular-junction/trauma-of-the-peripheral-nerves-and-neuromuscular-junction-in-animals"
+      },
+      {
+        "title": "Vascular Diseases of the Peripheral Nerves and Neuromuscular Junction in Animals",
+        "url": "https://www.merckvetmanual.com/nervous-system/diseases-of-the-peripheral-nerves-and-neuromuscular-junction/vascular-diseases-of-the-peripheral-nerves-and-neuromuscular-junction-in-animals"
+      }
+    ]
   },
   {
     "title": "Diseases of the Spinal Column and Cord",
-    "url": "https://www.merckvetmanual.com/nervous-system/diseases-of-the-spinal-column-and-cord"
+    "url": "https://www.merckvetmanual.com/nervous-system/diseases-of-the-spinal-column-and-cord",
+    "in_depth_links": [
+      {
+        "title": "Overview of Diseases of the Spinal Column and Cord in Animals",
+        "url": "https://www.merckvetmanual.com/nervous-system/diseases-of-the-spinal-column-and-cord/overview-of-diseases-of-the-spinal-column-and-cord-in-animals"
+      },
+      {
+        "title": "Degenerative Diseases of the Spinal Column and Cord in Animals",
+        "url": "https://www.merckvetmanual.com/nervous-system/diseases-of-the-spinal-column-and-cord/degenerative-diseases-of-the-spinal-column-and-cord-in-animals"
+      },
+      {
+        "title": "Inflammatory and Infectious Diseases of the Spinal Column and Cord in Animals",
+        "url": "https://www.merckvetmanual.com/nervous-system/diseases-of-the-spinal-column-and-cord/inflammatory-and-infectious-diseases-of-the-spinal-column-and-cord-in-animals"
+      },
+      {
+        "title": "Neoplasia of the Spinal Column and Cord in Animals",
+        "url": "https://www.merckvetmanual.com/nervous-system/diseases-of-the-spinal-column-and-cord/neoplasia-of-the-spinal-column-and-cord-in-animals"
+      },
+      {
+        "title": "Nutritional Disorders of the Spinal Column and Cord in Animals",
+        "url": "https://www.merckvetmanual.com/nervous-system/diseases-of-the-spinal-column-and-cord/nutritional-disorders-of-the-spinal-column-and-cord-in-animals"
+      },
+      {
+        "title": "Trauma of the Spinal Column and Cord in Animals",
+        "url": "https://www.merckvetmanual.com/nervous-system/diseases-of-the-spinal-column-and-cord/trauma-of-the-spinal-column-and-cord-in-animals"
+      },
+      {
+        "title": "Toxicoses of the Spinal Column and Cord in Animals",
+        "url": "https://www.merckvetmanual.com/nervous-system/diseases-of-the-spinal-column-and-cord/toxicoses-of-the-spinal-column-and-cord-in-animals"
+      },
+      {
+        "title": "Vascular Diseases of the Spinal Cord in Animals",
+        "url": "https://www.merckvetmanual.com/nervous-system/diseases-of-the-spinal-column-and-cord/vascular-diseases-of-the-spinal-cord-in-animals"
+      }
+    ]
   },
   {
     "title": "Dysautonomia",
-    "url": "https://www.merckvetmanual.com/nervous-system/dysautonomia"
+    "url": "https://www.merckvetmanual.com/nervous-system/dysautonomia",
+    "in_depth_links": [
+      {
+        "title": "Overview of Dysautonomia in Animals",
+        "url": "https://www.merckvetmanual.com/nervous-system/dysautonomia/overview-of-dysautonomia-in-animals"
+      },
+      {
+        "title": "Feline Dysautonomia",
+        "url": "https://www.merckvetmanual.com/nervous-system/dysautonomia/feline-dysautonomia"
+      },
+      {
+        "title": "Canine Dysautonomia",
+        "url": "https://www.merckvetmanual.com/nervous-system/dysautonomia/canine-dysautonomia"
+      },
+      {
+        "title": "Leporine Dysautonomia",
+        "url": "https://www.merckvetmanual.com/nervous-system/dysautonomia/leporine-dysautonomia"
+      },
+      {
+        "title": "Equine Dysautonomia",
+        "url": "https://www.merckvetmanual.com/nervous-system/dysautonomia/equine-dysautonomia"
+      }
+    ]
   },
   {
     "title": "Facial Paralysis",
-    "url": "https://www.merckvetmanual.com/nervous-system/facial-paralysis/facial-paralysis-in-animals"
+    "url": "https://www.merckvetmanual.com/nervous-system/facial-paralysis/facial-paralysis-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Clinical Findings and Lesions",
+        "url": "https://www.merckvetmanual.com/nervous-system/facial-paralysis/facial-paralysis-in-animals#Clinical-Findings-and-Lesions_v3288276"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/nervous-system/facial-paralysis/facial-paralysis-in-animals#Diagnosis_v3288283"
+      },
+      {
+        "title": "Treatment and Prognosis",
+        "url": "https://www.merckvetmanual.com/nervous-system/facial-paralysis/facial-paralysis-in-animals#Treatment-and-Prognosis_v54651640"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/nervous-system/facial-paralysis/facial-paralysis-in-animals#Key-Points_v54651646"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/nervous-system/facial-paralysis/facial-paralysis-in-animals#For-More-Information_v54651655"
+      }
+    ]
   },
   {
     "title": "Limb Paralysis",
-    "url": "https://www.merckvetmanual.com/nervous-system/limb-paralysis/limb-paralysis-in-animals"
+    "url": "https://www.merckvetmanual.com/nervous-system/limb-paralysis/limb-paralysis-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Clinical Findings and Lesions",
+        "url": "https://www.merckvetmanual.com/nervous-system/limb-paralysis/limb-paralysis-in-animals#Clinical-Findings-and-Lesions_v3288336"
+      },
+      {
+        "title": "Diagnosis and Treatment",
+        "url": "https://www.merckvetmanual.com/nervous-system/limb-paralysis/limb-paralysis-in-animals#Diagnosis-and-Treatment_v3288347"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/nervous-system/limb-paralysis/limb-paralysis-in-animals#Key-Points_v53760796"
+      }
+    ]
   },
   {
     "title": "Meningitis, Encephalitis, and Encephalomyelitis",
-    "url": "https://www.merckvetmanual.com/nervous-system/meningitis-encephalitis-and-encephalomyelitis/meningitis-encephalitis-and-encephalomyelitis-in-animals"
+    "url": "https://www.merckvetmanual.com/nervous-system/meningitis-encephalitis-and-encephalomyelitis/meningitis-encephalitis-and-encephalomyelitis-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology and Pathogenesis",
+        "url": "https://www.merckvetmanual.com/nervous-system/meningitis-encephalitis-and-encephalomyelitis/meningitis-encephalitis-and-encephalomyelitis-in-animals#Etiology-and-Pathogenesis_v3288373"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/nervous-system/meningitis-encephalitis-and-encephalomyelitis/meningitis-encephalitis-and-encephalomyelitis-in-animals#Clinical-Findings_v3288377"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/nervous-system/meningitis-encephalitis-and-encephalomyelitis/meningitis-encephalitis-and-encephalomyelitis-in-animals#Diagnosis_v3288396"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/nervous-system/meningitis-encephalitis-and-encephalomyelitis/meningitis-encephalitis-and-encephalomyelitis-in-animals#Treatment_v3288404"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/nervous-system/meningitis-encephalitis-and-encephalomyelitis/meningitis-encephalitis-and-encephalomyelitis-in-animals#Key-Points_v52107909"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/nervous-system/meningitis-encephalitis-and-encephalomyelitis/meningitis-encephalitis-and-encephalomyelitis-in-animals#For-More-Information_v52107918"
+      }
+    ]
   },
   {
     "title": "Motion Sickness",
-    "url": "https://www.merckvetmanual.com/nervous-system/motion-sickness/motion-sickness-in-animals"
+    "url": "https://www.merckvetmanual.com/nervous-system/motion-sickness/motion-sickness-in-animals",
+    "in_depth_links": []
   },
   {
     "title": "Neoplasia of the Nervous System",
-    "url": "https://www.merckvetmanual.com/nervous-system/neoplasia-of-the-nervous-system/neoplasia-of-the-nervous-system-in-animals"
+    "url": "https://www.merckvetmanual.com/nervous-system/neoplasia-of-the-nervous-system/neoplasia-of-the-nervous-system-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Classification",
+        "url": "https://www.merckvetmanual.com/nervous-system/neoplasia-of-the-nervous-system/neoplasia-of-the-nervous-system-in-animals#Classification_v3288527"
+      },
+      {
+        "title": "Incidence",
+        "url": "https://www.merckvetmanual.com/nervous-system/neoplasia-of-the-nervous-system/neoplasia-of-the-nervous-system-in-animals#Incidence_v3288843"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/nervous-system/neoplasia-of-the-nervous-system/neoplasia-of-the-nervous-system-in-animals#Clinical-Findings_v3288927"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/nervous-system/neoplasia-of-the-nervous-system/neoplasia-of-the-nervous-system-in-animals#Diagnosis_v3288940"
+      },
+      {
+        "title": "Prognosis and Treatment",
+        "url": "https://www.merckvetmanual.com/nervous-system/neoplasia-of-the-nervous-system/neoplasia-of-the-nervous-system-in-animals#Prognosis-and-Treatment_v3288947"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/nervous-system/neoplasia-of-the-nervous-system/neoplasia-of-the-nervous-system-in-animals#Key-Points_v48829838"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/nervous-system/neoplasia-of-the-nervous-system/neoplasia-of-the-nervous-system-in-animals#For-More-Information_v48829847"
+      },
+      {
+        "title": "Tumors of the Nervous System in Dogs and Cats",
+        "url": "https://www.merckvetmanual.com/nervous-system/neoplasia-of-the-nervous-system/neoplasia-of-the-nervous-system-in-animals#v54970505"
+      },
+      {
+        "title": "tumors",
+        "url": "https://www.merckvetmanual.com/nervous-system/neoplasia-of-the-nervous-system/neoplasia-of-the-nervous-system-in-animals#v54970505"
+      },
+      {
+        "title": "germ cell tumors",
+        "url": "https://www.merckvetmanual.com/nervous-system/neoplasia-of-the-nervous-system/neoplasia-of-the-nervous-system-in-animals#v3288861"
+      },
+      {
+        "title": "astrocytomas",
+        "url": "https://www.merckvetmanual.com/nervous-system/neoplasia-of-the-nervous-system/neoplasia-of-the-nervous-system-in-animals#v3288853"
+      },
+      {
+        "title": "brachial plexus cervical roots",
+        "url": "https://www.merckvetmanual.com/nervous-system/neoplasia-of-the-nervous-system/neoplasia-of-the-nervous-system-in-animals#v3288920"
+      },
+      {
+        "title": "Nerve sheath tumors",
+        "url": "https://www.merckvetmanual.com/nervous-system/neoplasia-of-the-nervous-system/neoplasia-of-the-nervous-system-in-animals#v3288920"
+      }
+    ]
   },
   {
     "title": "Paraneoplastic Disorders of the Nervous System",
-    "url": "https://www.merckvetmanual.com/nervous-system/paraneoplastic-disorders-of-the-nervous-system/paraneoplastic-disorders-of-the-nervous-system-in-animals"
+    "url": "https://www.merckvetmanual.com/nervous-system/paraneoplastic-disorders-of-the-nervous-system/paraneoplastic-disorders-of-the-nervous-system-in-animals",
+    "in_depth_links": []
   },
   {
     "title": "Polioencephalomalacia",
-    "url": "https://www.merckvetmanual.com/nervous-system/polioencephalomalacia/polioencephalomalacia-in-ruminants"
+    "url": "https://www.merckvetmanual.com/nervous-system/polioencephalomalacia/polioencephalomalacia-in-ruminants",
+    "in_depth_links": [
+      {
+        "title": "Etiology, Pathogenesis, and Epidemiology",
+        "url": "https://www.merckvetmanual.com/nervous-system/polioencephalomalacia/polioencephalomalacia-in-ruminants#Etiology,-Pathogenesis,-and-Epidemiology_v3288975"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/nervous-system/polioencephalomalacia/polioencephalomalacia-in-ruminants#Clinical-Findings_v3288999"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/nervous-system/polioencephalomalacia/polioencephalomalacia-in-ruminants#Diagnosis_v3289018"
+      },
+      {
+        "title": "Treatment and Prevention",
+        "url": "https://www.merckvetmanual.com/nervous-system/polioencephalomalacia/polioencephalomalacia-in-ruminants#Treatment-and-Prevention_v3289025"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/nervous-system/polioencephalomalacia/polioencephalomalacia-in-ruminants#Key-Points_v49772859"
+      },
+      {
+        "title": "References",
+        "url": "https://www.merckvetmanual.com/nervous-system/polioencephalomalacia/polioencephalomalacia-in-ruminants#References_v94674528"
+      }
+    ]
   },
   {
     "title": "Bovine Spongiform Encephalopathy",
-    "url": "https://www.merckvetmanual.com/nervous-system/bovine-spongiform-encephalopathy/bovine-spongiform-encephalopathy"
+    "url": "https://www.merckvetmanual.com/nervous-system/bovine-spongiform-encephalopathy/bovine-spongiform-encephalopathy",
+    "in_depth_links": [
+      {
+        "title": "Etiology",
+        "url": "https://www.merckvetmanual.com/nervous-system/bovine-spongiform-encephalopathy/bovine-spongiform-encephalopathy#Etiology_v3289038"
+      },
+      {
+        "title": "Transmission, Epidemiology, and Pathogenesis",
+        "url": "https://www.merckvetmanual.com/nervous-system/bovine-spongiform-encephalopathy/bovine-spongiform-encephalopathy#Transmission,-Epidemiology,-and-Pathogenesis_v3289044"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/nervous-system/bovine-spongiform-encephalopathy/bovine-spongiform-encephalopathy#Clinical-Findings_v3289048"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/nervous-system/bovine-spongiform-encephalopathy/bovine-spongiform-encephalopathy#Diagnosis_v3289051"
+      },
+      {
+        "title": "Treatment and Control",
+        "url": "https://www.merckvetmanual.com/nervous-system/bovine-spongiform-encephalopathy/bovine-spongiform-encephalopathy#Treatment-and-Control_v3289055"
+      },
+      {
+        "title": "Zoonotic Risk",
+        "url": "https://www.merckvetmanual.com/nervous-system/bovine-spongiform-encephalopathy/bovine-spongiform-encephalopathy#Zoonotic-Risk_v3289060"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/nervous-system/bovine-spongiform-encephalopathy/bovine-spongiform-encephalopathy#Key-Points_v74925745"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/nervous-system/bovine-spongiform-encephalopathy/bovine-spongiform-encephalopathy#For-More-Information_v74925754"
+      }
+    ]
   },
   {
     "title": "Chronic Wasting Disease",
-    "url": "https://www.merckvetmanual.com/nervous-system/chronic-wasting-disease/chronic-wasting-disease"
+    "url": "https://www.merckvetmanual.com/nervous-system/chronic-wasting-disease/chronic-wasting-disease",
+    "in_depth_links": [
+      {
+        "title": "Etiology",
+        "url": "https://www.merckvetmanual.com/nervous-system/chronic-wasting-disease/chronic-wasting-disease#Etiology_v3289071"
+      },
+      {
+        "title": "Transmission, Epidemiology, and Pathogenesis",
+        "url": "https://www.merckvetmanual.com/nervous-system/chronic-wasting-disease/chronic-wasting-disease#Transmission,-Epidemiology,-and-Pathogenesis_v3289075"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/nervous-system/chronic-wasting-disease/chronic-wasting-disease#Clinical-Findings_v3289079"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/nervous-system/chronic-wasting-disease/chronic-wasting-disease#Diagnosis_v3289085"
+      },
+      {
+        "title": "Treatment and Control",
+        "url": "https://www.merckvetmanual.com/nervous-system/chronic-wasting-disease/chronic-wasting-disease#Treatment-and-Control_v3289089"
+      },
+      {
+        "title": "Zoonotic Risk",
+        "url": "https://www.merckvetmanual.com/nervous-system/chronic-wasting-disease/chronic-wasting-disease#Zoonotic-Risk_v3289094"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/nervous-system/chronic-wasting-disease/chronic-wasting-disease#Key-Points_v45837411"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/nervous-system/chronic-wasting-disease/chronic-wasting-disease#For-More-Information_v45837424"
+      }
+    ]
   },
   {
     "title": "Scrapie",
-    "url": "https://www.merckvetmanual.com/nervous-system/scrapie/scrapie"
+    "url": "https://www.merckvetmanual.com/nervous-system/scrapie/scrapie",
+    "in_depth_links": [
+      {
+        "title": "Etiology, Transmission, and Pathogenesis",
+        "url": "https://www.merckvetmanual.com/nervous-system/scrapie/scrapie#Etiology,-Transmission,-and-Pathogenesis_v3289103"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/nervous-system/scrapie/scrapie#Clinical-Findings_v3289111"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/nervous-system/scrapie/scrapie#Diagnosis_v3289116"
+      },
+      {
+        "title": "Control",
+        "url": "https://www.merckvetmanual.com/nervous-system/scrapie/scrapie#Control_v3289123"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/nervous-system/scrapie/scrapie#Key-Points_v70191355"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/nervous-system/scrapie/scrapie#For-More-Information_v70191370"
+      },
+      {
+        "title": "2,3,4",
+        "url": "https://www.merckvetmanual.com/nervous-system/scrapie/scrapie#v70191341"
+      }
+    ]
   },
   {
     "title": "Equine Arboviral Encephalomyelitis",
-    "url": "https://www.merckvetmanual.com/nervous-system/equine-arboviral-encephalomyelitis/equine-arboviral-encephalomyelitis"
+    "url": "https://www.merckvetmanual.com/nervous-system/equine-arboviral-encephalomyelitis/equine-arboviral-encephalomyelitis",
+    "in_depth_links": [
+      {
+        "title": "Etiology and Epidemiology",
+        "url": "https://www.merckvetmanual.com/nervous-system/equine-arboviral-encephalomyelitis/equine-arboviral-encephalomyelitis#Etiology-and-Epidemiology_v3289143"
+      },
+      {
+        "title": "Zoonotic Risk",
+        "url": "https://www.merckvetmanual.com/nervous-system/equine-arboviral-encephalomyelitis/equine-arboviral-encephalomyelitis#Zoonotic-Risk_v3289226"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/nervous-system/equine-arboviral-encephalomyelitis/equine-arboviral-encephalomyelitis#Clinical-Findings_v3289184"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/nervous-system/equine-arboviral-encephalomyelitis/equine-arboviral-encephalomyelitis#Diagnosis_v3289193"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/nervous-system/equine-arboviral-encephalomyelitis/equine-arboviral-encephalomyelitis#Treatment_v3289205"
+      },
+      {
+        "title": "Prognosis",
+        "url": "https://www.merckvetmanual.com/nervous-system/equine-arboviral-encephalomyelitis/equine-arboviral-encephalomyelitis#Prognosis_v3289210"
+      },
+      {
+        "title": "Prevention",
+        "url": "https://www.merckvetmanual.com/nervous-system/equine-arboviral-encephalomyelitis/equine-arboviral-encephalomyelitis#Prevention_v3289213"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/nervous-system/equine-arboviral-encephalomyelitis/equine-arboviral-encephalomyelitis#Key-Points_v73975177"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/nervous-system/equine-arboviral-encephalomyelitis/equine-arboviral-encephalomyelitis#For-More-Information_v73975188"
+      },
+      {
+        "title": "Equine Encephalomyelitis: Causative Arboviruses",
+        "url": "https://www.merckvetmanual.com/nervous-system/equine-arboviral-encephalomyelitis/equine-arboviral-encephalomyelitis#v21432862"
+      },
+      {
+        "title": "Equine Encephalomyelitis: Causative Arboviruses",
+        "url": "https://www.merckvetmanual.com/nervous-system/equine-arboviral-encephalomyelitis/equine-arboviral-encephalomyelitis#v21432862"
+      },
+      {
+        "title": "alphaviruses",
+        "url": "https://www.merckvetmanual.com/nervous-system/equine-arboviral-encephalomyelitis/equine-arboviral-encephalomyelitis#v3289146"
+      }
+    ]
   },
   {
     "title": "Louping Ill",
-    "url": "https://www.merckvetmanual.com/nervous-system/louping-ill/louping-ill-in-animals"
+    "url": "https://www.merckvetmanual.com/nervous-system/louping-ill/louping-ill-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology and Transmission",
+        "url": "https://www.merckvetmanual.com/nervous-system/louping-ill/louping-ill-in-animals#Etiology-and-Transmission_v3289253"
+      },
+      {
+        "title": "Pathogenesis, Clinical Findings, and Lesions",
+        "url": "https://www.merckvetmanual.com/nervous-system/louping-ill/louping-ill-in-animals#Pathogenesis,-Clinical-Findings,-and-Lesions_v3289257"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/nervous-system/louping-ill/louping-ill-in-animals#Diagnosis_v3289264"
+      },
+      {
+        "title": "Treatment and Control",
+        "url": "https://www.merckvetmanual.com/nervous-system/louping-ill/louping-ill-in-animals#Treatment-and-Control_v3289267"
+      },
+      {
+        "title": "Zoonotic Risk",
+        "url": "https://www.merckvetmanual.com/nervous-system/louping-ill/louping-ill-in-animals#Zoonotic-Risk_v3289270"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/nervous-system/louping-ill/louping-ill-in-animals#Key-Points_v48068934"
+      }
+    ]
   },
   {
     "title": "Pseudorabies",
-    "url": "https://www.merckvetmanual.com/nervous-system/pseudorabies/pseudorabies-in-pigs"
+    "url": "https://www.merckvetmanual.com/nervous-system/pseudorabies/pseudorabies-in-pigs",
+    "in_depth_links": [
+      {
+        "title": "Etiology",
+        "url": "https://www.merckvetmanual.com/nervous-system/pseudorabies/pseudorabies-in-pigs#Etiology_v3289281"
+      },
+      {
+        "title": "Epidemiology",
+        "url": "https://www.merckvetmanual.com/nervous-system/pseudorabies/pseudorabies-in-pigs#Epidemiology_v3289285"
+      },
+      {
+        "title": "Clinical Findings and Pathogenesis",
+        "url": "https://www.merckvetmanual.com/nervous-system/pseudorabies/pseudorabies-in-pigs#Clinical-Findings-and-Pathogenesis_v3289288"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/nervous-system/pseudorabies/pseudorabies-in-pigs#Diagnosis_v3289297"
+      },
+      {
+        "title": "Treatment and Control",
+        "url": "https://www.merckvetmanual.com/nervous-system/pseudorabies/pseudorabies-in-pigs#Treatment-and-Control_v3289303"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/nervous-system/pseudorabies/pseudorabies-in-pigs#Key-Points_v51096812"
+      }
+    ]
   },
   {
     "title": "Rabies",
-    "url": "https://www.merckvetmanual.com/nervous-system/rabies/rabies-in-animals"
+    "url": "https://www.merckvetmanual.com/nervous-system/rabies/rabies-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology",
+        "url": "https://www.merckvetmanual.com/nervous-system/rabies/rabies-in-animals#Etiology_v3289315"
+      },
+      {
+        "title": "Epidemiology",
+        "url": "https://www.merckvetmanual.com/nervous-system/rabies/rabies-in-animals#Epidemiology_v83306256"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/nervous-system/rabies/rabies-in-animals#Clinical-Findings_v3289337"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/nervous-system/rabies/rabies-in-animals#Diagnosis_v3289360"
+      },
+      {
+        "title": "Prevention and Control",
+        "url": "https://www.merckvetmanual.com/nervous-system/rabies/rabies-in-animals#Prevention-and-Control_v3289364"
+      },
+      {
+        "title": "Management of Suspected Rabies Cases—Exposure of Pets",
+        "url": "https://www.merckvetmanual.com/nervous-system/rabies/rabies-in-animals#Management-of-Suspected-Rabies-Cases%E2%80%94Exposure-of-Pets_v3289369"
+      },
+      {
+        "title": "Zoonotic Risk",
+        "url": "https://www.merckvetmanual.com/nervous-system/rabies/rabies-in-animals#Zoonotic-Risk_v3289373"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/nervous-system/rabies/rabies-in-animals#Key-Points_v45386418"
+      },
+      {
+        "title": "References",
+        "url": "https://www.merckvetmanual.com/nervous-system/rabies/rabies-in-animals#References_v83306362"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/nervous-system/rabies/rabies-in-animals#For-More-Information_v45386429"
+      }
+    ]
   },
   {
     "title": "Teschovirus Encephalomyelitis",
-    "url": "https://www.merckvetmanual.com/nervous-system/teschovirus-encephalomyelitis/teschovirus-encephalomyelitis"
+    "url": "https://www.merckvetmanual.com/nervous-system/teschovirus-encephalomyelitis/teschovirus-encephalomyelitis",
+    "in_depth_links": [
+      {
+        "title": "Etiology, Epidemiology, and Pathogenesis",
+        "url": "https://www.merckvetmanual.com/nervous-system/teschovirus-encephalomyelitis/teschovirus-encephalomyelitis#Etiology,-Epidemiology,-and-Pathogenesis_v3289389"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/nervous-system/teschovirus-encephalomyelitis/teschovirus-encephalomyelitis#Clinical-Findings_v15605038"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/nervous-system/teschovirus-encephalomyelitis/teschovirus-encephalomyelitis#Diagnosis_v3289405"
+      },
+      {
+        "title": "Treatment and Control",
+        "url": "https://www.merckvetmanual.com/nervous-system/teschovirus-encephalomyelitis/teschovirus-encephalomyelitis#Treatment-and-Control_v3289410"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/nervous-system/teschovirus-encephalomyelitis/teschovirus-encephalomyelitis#Key-Points_v68372577"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/nervous-system/teschovirus-encephalomyelitis/teschovirus-encephalomyelitis#For-More-Information_v68372586"
+      }
+    ]
   },
   {
     "title": "Sporadic Bovine Encephalomyelitis",
-    "url": "https://www.merckvetmanual.com/nervous-system/sporadic-bovine-encephalomyelitis/sporadic-bovine-encephalomyelitis"
+    "url": "https://www.merckvetmanual.com/nervous-system/sporadic-bovine-encephalomyelitis/sporadic-bovine-encephalomyelitis",
+    "in_depth_links": [
+      {
+        "title": "Etiology and Epidemiology",
+        "url": "https://www.merckvetmanual.com/nervous-system/sporadic-bovine-encephalomyelitis/sporadic-bovine-encephalomyelitis#Etiology-and-Epidemiology_v3289425"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/nervous-system/sporadic-bovine-encephalomyelitis/sporadic-bovine-encephalomyelitis#Clinical-Findings_v3289429"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/nervous-system/sporadic-bovine-encephalomyelitis/sporadic-bovine-encephalomyelitis#Diagnosis_v3289435"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/nervous-system/sporadic-bovine-encephalomyelitis/sporadic-bovine-encephalomyelitis#Treatment_v3289439"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/nervous-system/sporadic-bovine-encephalomyelitis/sporadic-bovine-encephalomyelitis#Key-Points_v49301100"
+      }
+    ]
   },
   {
     "title": "Equine Protozoal Myeloencephalitis",
-    "url": "https://www.merckvetmanual.com/nervous-system/equine-protozoal-myeloencephalitis/equine-protozoal-myeloencephalitis"
+    "url": "https://www.merckvetmanual.com/nervous-system/equine-protozoal-myeloencephalitis/equine-protozoal-myeloencephalitis",
+    "in_depth_links": [
+      {
+        "title": "Etiology and Epidemiology",
+        "url": "https://www.merckvetmanual.com/nervous-system/equine-protozoal-myeloencephalitis/equine-protozoal-myeloencephalitis#Etiology-and-Epidemiology_v3289450"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/nervous-system/equine-protozoal-myeloencephalitis/equine-protozoal-myeloencephalitis#Clinical-Findings_v3289461"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/nervous-system/equine-protozoal-myeloencephalitis/equine-protozoal-myeloencephalitis#Diagnosis_v3289467"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/nervous-system/equine-protozoal-myeloencephalitis/equine-protozoal-myeloencephalitis#Treatment_v3289474"
+      },
+      {
+        "title": "Prevention and Control",
+        "url": "https://www.merckvetmanual.com/nervous-system/equine-protozoal-myeloencephalitis/equine-protozoal-myeloencephalitis#Prevention-and-Control_v3289477"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/nervous-system/equine-protozoal-myeloencephalitis/equine-protozoal-myeloencephalitis#Key-Points_v50703847"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/nervous-system/equine-protozoal-myeloencephalitis/equine-protozoal-myeloencephalitis#For-More-Information_v50703858"
+      },
+      {
+        "title": "References",
+        "url": "https://www.merckvetmanual.com/nervous-system/equine-protozoal-myeloencephalitis/equine-protozoal-myeloencephalitis#References_v92006681"
+      }
+    ]
   },
   {
     "title": "Central Nervous System Diseases Caused by Helminths and Arthropods",
-    "url": "https://www.merckvetmanual.com/nervous-system/central-nervous-system-diseases-caused-by-helminths-and-arthropods"
+    "url": "https://www.merckvetmanual.com/nervous-system/central-nervous-system-diseases-caused-by-helminths-and-arthropods",
+    "in_depth_links": [
+      {
+        "title": "Overview of Central Nervous System Diseases in Animals Caused by Helminths and Arthropods",
+        "url": "https://www.merckvetmanual.com/nervous-system/central-nervous-system-diseases-caused-by-helminths-and-arthropods/overview-of-central-nervous-system-diseases-in-animals-caused-by-helminths-and-arthropods"
+      },
+      {
+        "title": "Cestodes Causing CNS Disease in Animals",
+        "url": "https://www.merckvetmanual.com/nervous-system/central-nervous-system-diseases-caused-by-helminths-and-arthropods/cestodes-causing-cns-disease-in-animals"
+      },
+      {
+        "title": "Trematodes Causing CNS Disease in Animals",
+        "url": "https://www.merckvetmanual.com/nervous-system/central-nervous-system-diseases-caused-by-helminths-and-arthropods/trematodes-causing-cns-disease-in-animals"
+      },
+      {
+        "title": "Nematodes Causing CNS Disease in Animals",
+        "url": "https://www.merckvetmanual.com/nervous-system/central-nervous-system-diseases-caused-by-helminths-and-arthropods/nematodes-causing-cns-disease-in-animals"
+      },
+      {
+        "title": "Arthropods that Cause CNS Disease in Animals",
+        "url": "https://www.merckvetmanual.com/nervous-system/central-nervous-system-diseases-caused-by-helminths-and-arthropods/arthropods-that-cause-cns-disease-in-animals"
+      }
+    ]
   },
   {
     "title": "Tick Paralysis",
-    "url": "https://www.merckvetmanual.com/nervous-system/tick-paralysis/tick-paralysis-in-animals"
+    "url": "https://www.merckvetmanual.com/nervous-system/tick-paralysis/tick-paralysis-in-animals",
+    "in_depth_links": [
+      {
+        "title": "Etiology and Pathogenesis",
+        "url": "https://www.merckvetmanual.com/nervous-system/tick-paralysis/tick-paralysis-in-animals#Etiology-and-Pathogenesis_v3289673"
+      },
+      {
+        "title": "Epidemiology",
+        "url": "https://www.merckvetmanual.com/nervous-system/tick-paralysis/tick-paralysis-in-animals#Epidemiology_v84390340"
+      },
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/nervous-system/tick-paralysis/tick-paralysis-in-animals#Clinical-Findings_v3289704"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/nervous-system/tick-paralysis/tick-paralysis-in-animals#Diagnosis_v3289723"
+      },
+      {
+        "title": "Treatment",
+        "url": "https://www.merckvetmanual.com/nervous-system/tick-paralysis/tick-paralysis-in-animals#Treatment_v3289730"
+      },
+      {
+        "title": "Prognosis",
+        "url": "https://www.merckvetmanual.com/nervous-system/tick-paralysis/tick-paralysis-in-animals#Prognosis_v3289753"
+      },
+      {
+        "title": "Prevention and Control",
+        "url": "https://www.merckvetmanual.com/nervous-system/tick-paralysis/tick-paralysis-in-animals#Prevention-and-Control_v3289758"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/nervous-system/tick-paralysis/tick-paralysis-in-animals#For-More-Information_v84390556"
+      }
+    ]
   },
   {
     "title": "Stray Voltage in Animal Housing",
-    "url": "https://www.merckvetmanual.com/nervous-system/stray-voltage-in-animal-housing/stray-voltage-in-animal-housing"
+    "url": "https://www.merckvetmanual.com/nervous-system/stray-voltage-in-animal-housing/stray-voltage-in-animal-housing",
+    "in_depth_links": [
+      {
+        "title": "Clinical Findings",
+        "url": "https://www.merckvetmanual.com/nervous-system/stray-voltage-in-animal-housing/stray-voltage-in-animal-housing#Clinical-Findings_v3311947"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/nervous-system/stray-voltage-in-animal-housing/stray-voltage-in-animal-housing#Diagnosis_v3311953"
+      },
+      {
+        "title": "Prevention and Control",
+        "url": "https://www.merckvetmanual.com/nervous-system/stray-voltage-in-animal-housing/stray-voltage-in-animal-housing#Prevention-and-Control_v3311959"
+      },
+      {
+        "title": "Key Points",
+        "url": "https://www.merckvetmanual.com/nervous-system/stray-voltage-in-animal-housing/stray-voltage-in-animal-housing#Key-Points_v51546510"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/nervous-system/stray-voltage-in-animal-housing/stray-voltage-in-animal-housing#For-More-Information_v51546519"
+      },
+      {
+        "title": "Diagnosis",
+        "url": "https://www.merckvetmanual.com/nervous-system/stray-voltage-in-animal-housing/stray-voltage-in-animal-housing#v3311954"
+      }
+    ]
   }
 ]

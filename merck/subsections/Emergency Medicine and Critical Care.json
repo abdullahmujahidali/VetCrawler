@@ -1,34 +1,264 @@
 [
   {
     "title": "Emergency Medicine Introduction",
-    "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/emergency-medicine-introduction"
+    "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/emergency-medicine-introduction",
+    "in_depth_links": []
   },
   {
     "title": "Evaluation and Initial Treatment of Small Animal Emergency Patients",
-    "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/evaluation-and-initial-treatment-of-small-animal-emergency-patients"
+    "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/evaluation-and-initial-treatment-of-small-animal-emergency-patients",
+    "in_depth_links": [
+      {
+        "title": "Initial Triage and Resuscitation of Small Animal Emergency Patients",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/evaluation-and-initial-treatment-of-small-animal-emergency-patients/initial-triage-and-resuscitation-of-small-animal-emergency-patients"
+      },
+      {
+        "title": "Secondary Survey of Small Animal Emergency Patients",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/evaluation-and-initial-treatment-of-small-animal-emergency-patients/secondary-survey-of-small-animal-emergency-patients"
+      }
+    ]
   },
   {
     "title": "Fluid Therapeutics",
-    "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/fluid-therapeutics/fluid-therapeutics-in-animals"
+    "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/fluid-therapeutics/fluid-therapeutics-in-animals",
+    "in_depth_links": []
   },
   {
     "title": "Specific Diagnostics and Therapy",
-    "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/specific-diagnostics-and-therapy"
+    "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/specific-diagnostics-and-therapy",
+    "in_depth_links": [
+      {
+        "title": "Trauma in Emergency Medicine in Small Animals",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/specific-diagnostics-and-therapy/trauma-in-emergency-medicine-in-small-animals"
+      },
+      {
+        "title": "Cardiopulmonary Resuscitation of Small Animals",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/specific-diagnostics-and-therapy/cardiopulmonary-resuscitation-of-small-animals"
+      }
+    ]
   },
   {
     "title": "Monitoring the Critically Ill Small Animal",
-    "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/monitoring-the-critically-ill-small-animal/monitoring-the-critically-ill-small-animal-using-the-rule-of-20"
+    "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/monitoring-the-critically-ill-small-animal/monitoring-the-critically-ill-small-animal-using-the-rule-of-20",
+    "in_depth_links": [
+      {
+        "title": "Fluid Balance",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/monitoring-the-critically-ill-small-animal/monitoring-the-critically-ill-small-animal-using-the-rule-of-20#Fluid-Balance_v3299991"
+      },
+      {
+        "title": "Oncotic Pull/Albumin",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/monitoring-the-critically-ill-small-animal/monitoring-the-critically-ill-small-animal-using-the-rule-of-20#Oncotic-Pull/Albumin_v3299995"
+      },
+      {
+        "title": "Glucose",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/monitoring-the-critically-ill-small-animal/monitoring-the-critically-ill-small-animal-using-the-rule-of-20#Glucose_v3299998"
+      },
+      {
+        "title": "Electrolytes",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/monitoring-the-critically-ill-small-animal/monitoring-the-critically-ill-small-animal-using-the-rule-of-20#Electrolytes_v3300002"
+      },
+      {
+        "title": "Acid-Base Balance",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/monitoring-the-critically-ill-small-animal/monitoring-the-critically-ill-small-animal-using-the-rule-of-20#Acid-Base-Balance_v50523571"
+      },
+      {
+        "title": "Oxygenation and Ventilation",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/monitoring-the-critically-ill-small-animal/monitoring-the-critically-ill-small-animal-using-the-rule-of-20#Oxygenation-and-Ventilation_v3300013"
+      },
+      {
+        "title": "Neurologic Status",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/monitoring-the-critically-ill-small-animal/monitoring-the-critically-ill-small-animal-using-the-rule-of-20#Neurologic-Status_v3300016"
+      },
+      {
+        "title": "Blood Pressure",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/monitoring-the-critically-ill-small-animal/monitoring-the-critically-ill-small-animal-using-the-rule-of-20#Blood-Pressure_v3300019"
+      },
+      {
+        "title": "Heart Rate, Rhythm, and Contractility",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/monitoring-the-critically-ill-small-animal/monitoring-the-critically-ill-small-animal-using-the-rule-of-20#Heart-Rate,-Rhythm,-and-Contractility_v3300023"
+      },
+      {
+        "title": "Temperature",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/monitoring-the-critically-ill-small-animal/monitoring-the-critically-ill-small-animal-using-the-rule-of-20#Temperature_v3300026"
+      },
+      {
+        "title": "Coagulation",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/monitoring-the-critically-ill-small-animal/monitoring-the-critically-ill-small-animal-using-the-rule-of-20#Coagulation_v3300029"
+      },
+      {
+        "title": "Red Blood Cell and Hemoglobin Concentration",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/monitoring-the-critically-ill-small-animal/monitoring-the-critically-ill-small-animal-using-the-rule-of-20#Red-Blood-Cell-and-Hemoglobin-Concentration_v3300037"
+      },
+      {
+        "title": "Renal Function",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/monitoring-the-critically-ill-small-animal/monitoring-the-critically-ill-small-animal-using-the-rule-of-20#Renal-Function_v3300043"
+      },
+      {
+        "title": "Infection Identification/Prevention and Treatment and Immune Status",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/monitoring-the-critically-ill-small-animal/monitoring-the-critically-ill-small-animal-using-the-rule-of-20#Infection-Identification/Prevention-and-Treatment-and-Immune-Status_v3300046"
+      },
+      {
+        "title": "GI Motility and Mucosal Integrity",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/monitoring-the-critically-ill-small-animal/monitoring-the-critically-ill-small-animal-using-the-rule-of-20#GI-Motility-and-Mucosal-Integrity_v3300053"
+      },
+      {
+        "title": "Drug Dosages and Metabolism",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/monitoring-the-critically-ill-small-animal/monitoring-the-critically-ill-small-animal-using-the-rule-of-20#Drug-Dosages-and-Metabolism_v3300058"
+      },
+      {
+        "title": "Nutrition",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/monitoring-the-critically-ill-small-animal/monitoring-the-critically-ill-small-animal-using-the-rule-of-20#Nutrition_v3300061"
+      },
+      {
+        "title": "Pain Control",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/monitoring-the-critically-ill-small-animal/monitoring-the-critically-ill-small-animal-using-the-rule-of-20#Pain-Control_v3300068"
+      },
+      {
+        "title": "Wound Care and Bandages",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/monitoring-the-critically-ill-small-animal/monitoring-the-critically-ill-small-animal-using-the-rule-of-20#Wound-Care-and-Bandages_v50523686"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/monitoring-the-critically-ill-small-animal/monitoring-the-critically-ill-small-animal-using-the-rule-of-20#For-More-Information_v50523697"
+      },
+      {
+        "title": "analgesics",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/monitoring-the-critically-ill-small-animal/monitoring-the-critically-ill-small-animal-using-the-rule-of-20#v54973655"
+      }
+    ]
   },
   {
     "title": "Ophthalmic Emergencies in Small Animals",
-    "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/ophthalmic-emergencies-in-small-animals"
+    "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/ophthalmic-emergencies-in-small-animals",
+    "in_depth_links": [
+      {
+        "title": "Overview of Ophthalmic Emergencies in Small Animals",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/ophthalmic-emergencies-in-small-animals/overview-of-ophthalmic-emergencies-in-small-animals"
+      },
+      {
+        "title": "Proptosis in Small Animals",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/ophthalmic-emergencies-in-small-animals/proptosis-in-small-animals"
+      },
+      {
+        "title": "Eyelid Lacerations in Small Animals",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/ophthalmic-emergencies-in-small-animals/eyelid-lacerations-in-small-animals"
+      },
+      {
+        "title": "Corneal Foreign Bodies in Small Animals",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/ophthalmic-emergencies-in-small-animals/corneal-foreign-bodies-in-small-animals"
+      },
+      {
+        "title": "Penetrating Intraocular Injuries in Small Animals",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/ophthalmic-emergencies-in-small-animals/penetrating-intraocular-injuries-in-small-animals"
+      },
+      {
+        "title": "Corneal Lacerations in Small Animals",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/ophthalmic-emergencies-in-small-animals/corneal-lacerations-in-small-animals"
+      },
+      {
+        "title": "Deep Stromal Corneal Ulcers, Descemetocele, and Iris Prolapse in Small Animals",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/ophthalmic-emergencies-in-small-animals/deep-stromal-corneal-ulcers-descemetocele-and-iris-prolapse-in-small-animals"
+      },
+      {
+        "title": "Acute Glaucoma in Small Animals",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/ophthalmic-emergencies-in-small-animals/acute-glaucoma-in-small-animals"
+      },
+      {
+        "title": "Dislocation of the Lens in Small Animals",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/ophthalmic-emergencies-in-small-animals/dislocation-of-the-lens-in-small-animals"
+      },
+      {
+        "title": "Anterior Uveitis in Small Animals",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/ophthalmic-emergencies-in-small-animals/anterior-uveitis-in-small-animals"
+      },
+      {
+        "title": "Acute Vision Loss in Small Animals",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/ophthalmic-emergencies-in-small-animals/acute-vision-loss-in-small-animals"
+      },
+      {
+        "title": "Sudden Acquired Retinal Degeneration Syndrome in Dogs",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/ophthalmic-emergencies-in-small-animals/sudden-acquired-retinal-degeneration-syndrome-in-dogs"
+      },
+      {
+        "title": "Retinal Detachment in Small Animals",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/ophthalmic-emergencies-in-small-animals/retinal-detachment-in-small-animals"
+      }
+    ]
   },
   {
     "title": "Wound Management in Small Animals",
-    "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/wound-management-in-small-animals"
+    "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/wound-management-in-small-animals",
+    "in_depth_links": [
+      {
+        "title": "Overview of Wound Management in Small Animals",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/wound-management-in-small-animals/overview-of-wound-management-in-small-animals"
+      },
+      {
+        "title": "General Principles of Wound Healing in Small Animals",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/wound-management-in-small-animals/general-principles-of-wound-healing-in-small-animals"
+      },
+      {
+        "title": "Initial Wound Management in Small Animals",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/wound-management-in-small-animals/initial-wound-management-in-small-animals"
+      },
+      {
+        "title": "Topical Agents in Wound Management in Small Animals",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/wound-management-in-small-animals/topical-agents-in-wound-management-in-small-animals"
+      },
+      {
+        "title": "Drains in Wound Management of Small Animals",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/wound-management-in-small-animals/drains-in-wound-management-of-small-animals"
+      },
+      {
+        "title": "Negative-Pressure Wound Therapy in Small Animals",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/wound-management-in-small-animals/negative-pressure-wound-therapy-in-small-animals"
+      },
+      {
+        "title": "Wound Bandages and Dressings for Small Animals",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/wound-management-in-small-animals/wound-bandages-and-dressings-for-small-animals"
+      },
+      {
+        "title": "Surgical Techniques in Wound Management in Small Animals",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/wound-management-in-small-animals/surgical-techniques-in-wound-management-in-small-animals"
+      },
+      {
+        "title": "Factors that Interfere with Wound Healing in Small Animals",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/wound-management-in-small-animals/factors-that-interfere-with-wound-healing-in-small-animals"
+      },
+      {
+        "title": "Management of Specific Wounds in Small Animals",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/wound-management-in-small-animals/management-of-specific-wounds-in-small-animals"
+      }
+    ]
   },
   {
     "title": "Emergency Medicine in Horses",
-    "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/emergency-medicine-in-horses"
+    "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/emergency-medicine-in-horses",
+    "in_depth_links": [
+      {
+        "title": "Emergency Procedures in Horses",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/emergency-medicine-in-horses/emergency-procedures-in-horses"
+      },
+      {
+        "title": "Trauma and First Aid in Horses",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/emergency-medicine-in-horses/trauma-and-first-aid-in-horses"
+      },
+      {
+        "title": "Ophthalmic Emergencies in Horses",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/emergency-medicine-in-horses/ophthalmic-emergencies-in-horses"
+      },
+      {
+        "title": "Thermal Injuries in Horses",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/emergency-medicine-in-horses/thermal-injuries-in-horses"
+      },
+      {
+        "title": "Other Common Emergencies in Horses",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/emergency-medicine-in-horses/other-common-emergencies-in-horses"
+      },
+      {
+        "title": "Intensive Care and Emergencies in Neonatal Foals",
+        "url": "https://www.merckvetmanual.com/emergency-medicine-and-critical-care/emergency-medicine-in-horses/intensive-care-and-emergencies-in-neonatal-foals"
+      }
+    ]
   }
 ]

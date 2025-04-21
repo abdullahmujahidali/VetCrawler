@@ -1,86 +1,812 @@
 [
   {
     "title": "Pharmacology Introduction",
-    "url": "https://www.merckvetmanual.com/pharmacology/pharmacology-introduction"
+    "url": "https://www.merckvetmanual.com/pharmacology/pharmacology-introduction",
+    "in_depth_links": [
+      {
+        "title": "Overview of Pharmacology",
+        "url": "https://www.merckvetmanual.com/pharmacology/pharmacology-introduction/overview-of-pharmacology"
+      },
+      {
+        "title": "New Animal Drugs, Extralabel Drug Use, Compounded Drugs, and Generic Drugs",
+        "url": "https://www.merckvetmanual.com/pharmacology/pharmacology-introduction/new-animal-drugs-extralabel-drug-use-compounded-drugs-and-generic-drugs"
+      },
+      {
+        "title": "Disposition and Fate of Drugs",
+        "url": "https://www.merckvetmanual.com/pharmacology/pharmacology-introduction/disposition-and-fate-of-drugs"
+      },
+      {
+        "title": "Pharmacokinetics",
+        "url": "https://www.merckvetmanual.com/pharmacology/pharmacology-introduction/pharmacokinetics"
+      },
+      {
+        "title": "Drug Action in Animals : Pharmacodynamics",
+        "url": "https://www.merckvetmanual.com/pharmacology/pharmacology-introduction/drug-action-in-animals-pharmacodynamics"
+      },
+      {
+        "title": "Routes of Administration and Dosage Forms of Drugs",
+        "url": "https://www.merckvetmanual.com/pharmacology/pharmacology-introduction/routes-of-administration-and-dosage-forms-of-drugs"
+      },
+      {
+        "title": "Chemical Residues in Animal Source Foods and Animal Fiber",
+        "url": "https://www.merckvetmanual.com/pharmacology/pharmacology-introduction/chemical-residues-in-animal-source-foods-and-animal-fiber"
+      }
+    ]
   },
   {
     "title": "Systemic Pharmacotherapeutics of the Cardiovascular System",
-    "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-cardiovascular-system"
+    "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-cardiovascular-system",
+    "in_depth_links": [
+      {
+        "title": "Overview of Systemic Pharmacotherapeutics of the Cardiovascular System in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-cardiovascular-system/overview-of-systemic-pharmacotherapeutics-of-the-cardiovascular-system-in-animals"
+      },
+      {
+        "title": "Diuretics for Use in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-cardiovascular-system/diuretics-for-use-in-animals"
+      },
+      {
+        "title": "Positive Inotropes for Use in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-cardiovascular-system/positive-inotropes-for-use-in-animals"
+      },
+      {
+        "title": "Angiotensin-converting Enzyme Inhibitors for Use in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-cardiovascular-system/angiotensin-converting-enzyme-inhibitors-for-use-in-animals"
+      },
+      {
+        "title": "Angiotensin II Receptor Antagonists for Use in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-cardiovascular-system/angiotensin-ii-receptor-antagonists-for-use-in-animals"
+      },
+      {
+        "title": "Vasoactive Drugs for Use in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-cardiovascular-system/vasoactive-drugs-for-use-in-animals"
+      },
+      {
+        "title": "Antiarrhythmics for Use in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-cardiovascular-system/antiarrhythmics-for-use-in-animals"
+      },
+      {
+        "title": "Drugs Acting on the Blood or Blood-Forming Organs in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-cardiovascular-system/drugs-acting-on-the-blood-or-blood-forming-organs-in-animals"
+      }
+    ]
   },
   {
     "title": "Systemic Pharmacotherapeutics of the Digestive System",
-    "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-digestive-system"
+    "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-digestive-system",
+    "in_depth_links": [
+      {
+        "title": "Overview of Systemic Pharmacotherapeutics of the Digestive System",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-digestive-system/overview-of-systemic-pharmacotherapeutics-of-the-digestive-system"
+      },
+      {
+        "title": "Drugs That Affect Appetite in Monogastric Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-digestive-system/drugs-that-affect-appetite-in-monogastric-animals"
+      },
+      {
+        "title": "Drugs Used to Control or Stimulate Vomiting in Monogastric Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-digestive-system/drugs-used-to-control-or-stimulate-vomiting-in-monogastric-animals"
+      },
+      {
+        "title": "Drugs Used to Treat Gastrointestinal Ulcers in Monogastric Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-digestive-system/drugs-used-to-treat-gastrointestinal-ulcers-in-monogastric-animals"
+      },
+      {
+        "title": "Drugs Used to Treat Diarrhea in Monogastric Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-digestive-system/drugs-used-to-treat-diarrhea-in-monogastric-animals"
+      },
+      {
+        "title": "Drugs Used to Treat Inflammatory Bowel Disease in Monogastric Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-digestive-system/drugs-used-to-treat-inflammatory-bowel-disease-in-monogastric-animals"
+      },
+      {
+        "title": "Gastrointestinal Prokinetic Drugs Used in Monogastric Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-digestive-system/gastrointestinal-prokinetic-drugs-used-in-monogastric-animals"
+      },
+      {
+        "title": "Cathartic and Laxative Drugs Used in Monogastric Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-digestive-system/cathartic-and-laxative-drugs-used-in-monogastric-animals"
+      },
+      {
+        "title": "Drugs That Affect Digestive Functions in Monogastric Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-digestive-system/drugs-that-affect-digestive-functions-in-monogastric-animals"
+      },
+      {
+        "title": "The Ruminant Digestive System",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-digestive-system/the-ruminant-digestive-system"
+      },
+      {
+        "title": "Drugs for Specific Purposes in the Ruminant Digestive System",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-digestive-system/drugs-for-specific-purposes-in-the-ruminant-digestive-system"
+      },
+      {
+        "title": "Modification of the Rumen Microbiome",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-digestive-system/modification-of-the-rumen-microbiome"
+      },
+      {
+        "title": "Drug Disposition in the Ruminoreticulum",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-digestive-system/drug-disposition-in-the-ruminoreticulum"
+      }
+    ]
   },
   {
     "title": "Systemic Pharmacotherapeutics of the Eye",
-    "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-eye"
+    "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-eye",
+    "in_depth_links": [
+      {
+        "title": "Ocular Pharmacology in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-eye/ocular-pharmacology-in-animals"
+      },
+      {
+        "title": "Routes of Administration for Ocular Medications in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-eye/routes-of-administration-for-ocular-medications-in-animals"
+      },
+      {
+        "title": "Diagnostic Tests Pertaining to Ocular Medications in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-eye/diagnostic-tests-pertaining-to-ocular-medications-in-animals"
+      },
+      {
+        "title": "Local Anesthetics for the Eye in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-eye/local-anesthetics-for-the-eye-in-animals"
+      },
+      {
+        "title": "Tear Replacements in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-eye/tear-replacements-in-animals"
+      },
+      {
+        "title": "Tear Stimulants and Immunosuppressants in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-eye/tear-stimulants-and-immunosuppressants-in-animals"
+      },
+      {
+        "title": "Topical Antihistamines and Mast Cell Stabilizers in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-eye/topical-antihistamines-and-mast-cell-stabilizers-in-animals"
+      },
+      {
+        "title": "Antimicrobial Use in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-eye/antimicrobial-use-in-animals"
+      },
+      {
+        "title": "Antiproteolytic Agents (Enzyme Inhibitors) and Chelating Agents in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-eye/antiproteolytic-agents-enzyme-inhibitors-and-chelating-agents-in-animals"
+      },
+      {
+        "title": "Anti-inflammatory Agents in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-eye/anti-inflammatory-agents-in-animals"
+      },
+      {
+        "title": "Immunosuppressive Drugs in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-eye/immunosuppressive-drugs-in-animals"
+      },
+      {
+        "title": "Treatment of Intraocular Inflammation in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-eye/treatment-of-intraocular-inflammation-in-animals"
+      },
+      {
+        "title": "Treatment of Glaucoma in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-eye/treatment-of-glaucoma-in-animals"
+      },
+      {
+        "title": "Miscellaneous Agents for Ocular Treatment in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-eye/miscellaneous-agents-for-ocular-treatment-in-animals"
+      }
+    ]
   },
   {
     "title": "Systemic Pharmacotherapeutics of the Integumentary System",
-    "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-integumentary-system"
+    "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-integumentary-system",
+    "in_depth_links": [
+      {
+        "title": "Overview of Systemic Pharmacotherapeutics of the Integumentary System in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-integumentary-system/overview-of-systemic-pharmacotherapeutics-of-the-integumentary-system-in-animals"
+      },
+      {
+        "title": "Antibacterials for Integumentary Disease in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-integumentary-system/antibacterials-for-integumentary-disease-in-animals"
+      },
+      {
+        "title": "Antifungals for Integumentary Disease in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-integumentary-system/antifungals-for-integumentary-disease-in-animals"
+      },
+      {
+        "title": "Antiparasitic Drugs for Integumentary Disease in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-integumentary-system/antiparasitic-drugs-for-integumentary-disease-in-animals"
+      },
+      {
+        "title": "Antihistamines for Integumentary Disease in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-integumentary-system/antihistamines-for-integumentary-disease-in-animals"
+      },
+      {
+        "title": "Essential Fatty Acids for Integumentary Disease in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-integumentary-system/essential-fatty-acids-for-integumentary-disease-in-animals"
+      },
+      {
+        "title": "Hormonal Treatment for Integumentary Disease in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-integumentary-system/hormonal-treatment-for-integumentary-disease-in-animals"
+      },
+      {
+        "title": "Immunomodulators for Integumentary Disease in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-integumentary-system/immunomodulators-for-integumentary-disease-in-animals"
+      },
+      {
+        "title": "Psychotropic Agents for Integumentary Disease in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-integumentary-system/psychotropic-agents-for-integumentary-disease-in-animals"
+      },
+      {
+        "title": "Vitamins and Minerals for Integumentary Disease in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-integumentary-system/vitamins-and-minerals-for-integumentary-disease-in-animals"
+      }
+    ]
   },
   {
     "title": "Systemic Pharmacotherapeutics of the Muscular System",
-    "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-muscular-system"
+    "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-muscular-system",
+    "in_depth_links": [
+      {
+        "title": "Overview of Systemic Pharmacotherapeutics of the Muscular System in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-muscular-system/overview-of-systemic-pharmacotherapeutics-of-the-muscular-system-in-animals"
+      },
+      {
+        "title": "Neuromuscular Blocking Agents for Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-muscular-system/neuromuscular-blocking-agents-for-animals"
+      },
+      {
+        "title": "Skeletal Muscle Relaxants for Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-muscular-system/skeletal-muscle-relaxants-for-animals"
+      },
+      {
+        "title": "Anabolic Steroids for Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-muscular-system/anabolic-steroids-for-animals"
+      }
+    ]
   },
   {
     "title": "Systemic Pharmacotherapeutics of the Nervous System",
-    "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-nervous-system"
+    "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-nervous-system",
+    "in_depth_links": [
+      {
+        "title": "Overview of Systemic Pharmacotherapeutics of the Nervous System in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-nervous-system/overview-of-systemic-pharmacotherapeutics-of-the-nervous-system-in-animals"
+      },
+      {
+        "title": "Anticonvulsants for Treatment of Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-nervous-system/anticonvulsants-for-treatment-of-animals"
+      },
+      {
+        "title": "Anticonvulsants for Emergency Treatment of Seizures in Dogs and Cats",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-nervous-system/anticonvulsants-for-emergency-treatment-of-seizures-in-dogs-and-cats"
+      },
+      {
+        "title": "Anticonvulsants for Emergency Treatment of Seizures in Large Animals and Exotic Species",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-nervous-system/anticonvulsants-for-emergency-treatment-of-seizures-in-large-animals-and-exotic-species"
+      },
+      {
+        "title": "Tranquilizers, Sedatives, and Analgesics for Treatment of Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-nervous-system/tranquilizers-sedatives-and-analgesics-for-treatment-of-animals"
+      },
+      {
+        "title": "Psychotropic Agents for Treatment of Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-nervous-system/psychotropic-agents-for-treatment-of-animals"
+      }
+    ]
   },
   {
     "title": "Systemic Pharmacotherapeutics of the Reproductive System",
-    "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-reproductive-system"
+    "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-reproductive-system",
+    "in_depth_links": [
+      {
+        "title": "Overview of Systemic Pharmacotherapeutics of the Reproductive System in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-reproductive-system/overview-of-systemic-pharmacotherapeutics-of-the-reproductive-system-in-animals"
+      },
+      {
+        "title": "Effect of Reproductive Treatment on the Fetus or Neonate in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-reproductive-system/effect-of-reproductive-treatment-on-the-fetus-or-neonate-in-animals"
+      }
+    ]
   },
   {
     "title": "Systemic Pharmacotherapeutics of the Respiratory System",
-    "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-respiratory-system"
+    "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-respiratory-system",
+    "in_depth_links": [
+      {
+        "title": "Overview of Systemic Pharmacotherapeutics of the Respiratory System in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-respiratory-system/overview-of-systemic-pharmacotherapeutics-of-the-respiratory-system-in-animals"
+      },
+      {
+        "title": "Antitussive Drugs in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-respiratory-system/antitussive-drugs-in-animals"
+      },
+      {
+        "title": "Species Approach to Inflammatory Airway Disease in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-respiratory-system/species-approach-to-inflammatory-airway-disease-in-animals"
+      },
+      {
+        "title": "Systemic Treatment of Inflammatory Airway Disease in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-respiratory-system/systemic-treatment-of-inflammatory-airway-disease-in-animals"
+      },
+      {
+        "title": "Inhalation Treatment of Airway Disease in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-respiratory-system/inhalation-treatment-of-airway-disease-in-animals"
+      },
+      {
+        "title": "Expectorants and Mucolytic Drugs in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-respiratory-system/expectorants-and-mucolytic-drugs-in-animals"
+      },
+      {
+        "title": "Decongestants in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-respiratory-system/decongestants-in-animals"
+      },
+      {
+        "title": "Respiratory Stimulants in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-respiratory-system/respiratory-stimulants-in-animals"
+      }
+    ]
   },
   {
     "title": "Systemic Pharmacotherapeutics of the Urinary System",
-    "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-urinary-system"
+    "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-urinary-system",
+    "in_depth_links": [
+      {
+        "title": "Overview of Systemic Pharmacotherapeutics of the Urinary System in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-urinary-system/overview-of-systemic-pharmacotherapeutics-of-the-urinary-system-in-animals"
+      },
+      {
+        "title": "Pharmacotherapeutics in Bacterial Urinary Tract Infections in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-urinary-system/pharmacotherapeutics-in-bacterial-urinary-tract-infections-in-animals"
+      },
+      {
+        "title": "Pharmacotherapeutics in Fungal Urinary Tract Infections in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-urinary-system/pharmacotherapeutics-in-fungal-urinary-tract-infections-in-animals"
+      },
+      {
+        "title": "Pharmacotherapeutics in Bacterial Prostatitis in Dogs and Cats",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-urinary-system/pharmacotherapeutics-in-bacterial-prostatitis-in-dogs-and-cats"
+      },
+      {
+        "title": "Pharmacotherapeutics in Seminal Vesiculitis in Bulls",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-urinary-system/pharmacotherapeutics-in-seminal-vesiculitis-in-bulls"
+      },
+      {
+        "title": "Diuretics Used to Treat Urinary Disease in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-urinary-system/diuretics-used-to-treat-urinary-disease-in-animals"
+      },
+      {
+        "title": "Dopamine for Treatment of Urinary Disease in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-urinary-system/dopamine-for-treatment-of-urinary-disease-in-animals"
+      },
+      {
+        "title": "Pharmacotherapeutics in Glomerular Diseases in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-urinary-system/pharmacotherapeutics-in-glomerular-diseases-in-animals"
+      },
+      {
+        "title": "Pharmacotherapeutics in Diabetes Insipidus in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-urinary-system/pharmacotherapeutics-in-diabetes-insipidus-in-animals"
+      },
+      {
+        "title": "Pharmacotherapeutics in Urolithiasis in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-urinary-system/pharmacotherapeutics-in-urolithiasis-in-animals"
+      },
+      {
+        "title": "Controlling Urine pH in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-urinary-system/controlling-urine-ph-in-animals"
+      },
+      {
+        "title": "Cystine-Binding Agents Used to Treat Urinary Disease in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-urinary-system/cystine-binding-agents-used-to-treat-urinary-disease-in-animals"
+      },
+      {
+        "title": "Pharmacotherapeutics in Urinary Incontinence in Dogs and Cats",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-urinary-system/pharmacotherapeutics-in-urinary-incontinence-in-dogs-and-cats"
+      },
+      {
+        "title": "Pharmacotherapeutics in Urine Retention in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/systemic-pharmacotherapeutics-of-the-urinary-system/pharmacotherapeutics-in-urine-retention-in-animals"
+      }
+    ]
   },
   {
     "title": "Antimicrobials",
-    "url": "https://www.merckvetmanual.com/pharmacology/antimicrobials"
+    "url": "https://www.merckvetmanual.com/pharmacology/antimicrobials",
+    "in_depth_links": [
+      {
+        "title": "Overview of Antimicrobials for Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antimicrobials/overview-of-antimicrobials-for-animals"
+      },
+      {
+        "title": "Antimicrobial Drug Factors for Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antimicrobials/antimicrobial-drug-factors-for-animals"
+      },
+      {
+        "title": "Design of Dosing Regimens for Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antimicrobials/design-of-dosing-regimens-for-animals"
+      },
+      {
+        "title": "Microbiology Testing for Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antimicrobials/microbiology-testing-for-animals"
+      },
+      {
+        "title": "Antimicrobial Polytherapy for Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antimicrobials/antimicrobial-polytherapy-for-animals"
+      }
+    ]
   },
   {
     "title": "Anthelmintics",
-    "url": "https://www.merckvetmanual.com/pharmacology/anthelmintics"
+    "url": "https://www.merckvetmanual.com/pharmacology/anthelmintics",
+    "in_depth_links": [
+      {
+        "title": "Anthelmintic Drugs for Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/anthelmintics/anthelmintic-drugs-for-animals"
+      },
+      {
+        "title": "Pharmacodynamics: Mechanisms of Anthelmintic Action in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/anthelmintics/pharmacodynamics-mechanisms-of-anthelmintic-action-in-animals"
+      },
+      {
+        "title": "Pharmacokinetics of Anthelmintics in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/anthelmintics/pharmacokinetics-of-anthelmintics-in-animals"
+      },
+      {
+        "title": "Withholding Periods After Anthelmintic Treatment in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/anthelmintics/withholding-periods-after-anthelmintic-treatment-in-animals"
+      },
+      {
+        "title": "Safety of Anthelmintics in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/anthelmintics/safety-of-anthelmintics-in-animals"
+      },
+      {
+        "title": "Resistance to Anthelmintics in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/anthelmintics/resistance-to-anthelmintics-in-animals"
+      },
+      {
+        "title": "Combination Anthelmintics for Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/anthelmintics/combination-anthelmintics-for-animals"
+      }
+    ]
   },
   {
     "title": "Antibacterial Agents",
-    "url": "https://www.merckvetmanual.com/pharmacology/antibacterial-agents"
+    "url": "https://www.merckvetmanual.com/pharmacology/antibacterial-agents",
+    "in_depth_links": [
+      {
+        "title": "Beta-Lactam Antimicrobial Use in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antibacterial-agents/beta-lactam-antimicrobial-use-in-animals"
+      },
+      {
+        "title": "Use of Penicillins in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antibacterial-agents/use-of-penicillins-in-animals"
+      },
+      {
+        "title": "Cephalosporins and Cephamycins Use in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antibacterial-agents/cephalosporins-and-cephamycins-use-in-animals"
+      },
+      {
+        "title": "Aminoglycosides Use in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antibacterial-agents/aminoglycosides-use-in-animals"
+      },
+      {
+        "title": "Quinolones, Including Fluoroquinolones, Use in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antibacterial-agents/quinolones-including-fluoroquinolones-use-in-animals"
+      },
+      {
+        "title": "Sulfonamides and Sulfonamide Combinations Use in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antibacterial-agents/sulfonamides-and-sulfonamide-combinations-use-in-animals"
+      },
+      {
+        "title": "Tetracyclines Use in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antibacterial-agents/tetracyclines-use-in-animals"
+      },
+      {
+        "title": "Phenicols Use in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antibacterial-agents/phenicols-use-in-animals"
+      },
+      {
+        "title": "Macrolide Use in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antibacterial-agents/macrolide-use-in-animals"
+      },
+      {
+        "title": "Streptogramins Use in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antibacterial-agents/streptogramins-use-in-animals"
+      },
+      {
+        "title": "Lincosamides Use in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antibacterial-agents/lincosamides-use-in-animals"
+      },
+      {
+        "title": "Polymyxins Use in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antibacterial-agents/polymyxins-use-in-animals"
+      },
+      {
+        "title": "Bacitracins Use in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antibacterial-agents/bacitracins-use-in-animals"
+      },
+      {
+        "title": "Glycopeptides Use in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antibacterial-agents/glycopeptides-use-in-animals"
+      },
+      {
+        "title": "Novobiocin Sodium Use in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antibacterial-agents/novobiocin-sodium-use-in-animals"
+      },
+      {
+        "title": "Tiamulin Fumarate Use in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antibacterial-agents/tiamulin-fumarate-use-in-animals"
+      },
+      {
+        "title": "Ionophores Use in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antibacterial-agents/ionophores-use-in-animals"
+      },
+      {
+        "title": "Rifamycins Use in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antibacterial-agents/rifamycins-use-in-animals"
+      },
+      {
+        "title": "Nitrofurans Use in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antibacterial-agents/nitrofurans-use-in-animals"
+      },
+      {
+        "title": "Nitroimidazoles Use in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antibacterial-agents/nitroimidazoles-use-in-animals"
+      }
+    ]
   },
   {
     "title": "Antifungal Agents",
-    "url": "https://www.merckvetmanual.com/pharmacology/antifungal-agents"
+    "url": "https://www.merckvetmanual.com/pharmacology/antifungal-agents",
+    "in_depth_links": [
+      {
+        "title": "Overview of Antifungal Agents for Use in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antifungal-agents/overview-of-antifungal-agents-for-use-in-animals"
+      },
+      {
+        "title": "Polyene Macrolide Antimicrobials for Use In Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antifungal-agents/polyene-macrolide-antimicrobials-for-use-in-animals"
+      },
+      {
+        "title": "Azoles for Use in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antifungal-agents/azoles-for-use-in-animals"
+      },
+      {
+        "title": "Fluoropyrimidines for Use in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antifungal-agents/fluoropyrimidines-for-use-in-animals"
+      },
+      {
+        "title": "Griseofulvin for Use in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antifungal-agents/griseofulvin-for-use-in-animals"
+      },
+      {
+        "title": "Allylamines for Use in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antifungal-agents/allylamines-for-use-in-animals"
+      },
+      {
+        "title": "Iodides for Use in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antifungal-agents/iodides-for-use-in-animals"
+      },
+      {
+        "title": "Topical Antifungal Agents for Use in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antifungal-agents/topical-antifungal-agents-for-use-in-animals"
+      }
+    ]
   },
   {
     "title": "Antineoplastic Agents",
-    "url": "https://www.merckvetmanual.com/pharmacology/antineoplastic-agents"
+    "url": "https://www.merckvetmanual.com/pharmacology/antineoplastic-agents",
+    "in_depth_links": [
+      {
+        "title": "Overview of Antineoplastic Agents",
+        "url": "https://www.merckvetmanual.com/pharmacology/antineoplastic-agents/overview-of-antineoplastic-agents"
+      },
+      {
+        "title": "Targeted Antineoplastic Agents in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antineoplastic-agents/targeted-antineoplastic-agents-in-animals"
+      },
+      {
+        "title": "Safe Handling of Antineoplastic Chemotherapeutic Agents Used in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antineoplastic-agents/safe-handling-of-antineoplastic-chemotherapeutic-agents-used-in-animals"
+      }
+    ]
   },
   {
     "title": "Antiseptics and Disinfectants",
-    "url": "https://www.merckvetmanual.com/pharmacology/antiseptics-and-disinfectants"
+    "url": "https://www.merckvetmanual.com/pharmacology/antiseptics-and-disinfectants",
+    "in_depth_links": [
+      {
+        "title": "Overview of Antiseptics and Disinfectants for Use With Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antiseptics-and-disinfectants/overview-of-antiseptics-and-disinfectants-for-use-with-animals"
+      },
+      {
+        "title": "Acids and Alkalies as Antiseptics and Disinfectants for Use With Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antiseptics-and-disinfectants/acids-and-alkalies-as-antiseptics-and-disinfectants-for-use-with-animals"
+      },
+      {
+        "title": "Alcohols as Antiseptics and Disinfectants for Use With Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antiseptics-and-disinfectants/alcohols-as-antiseptics-and-disinfectants-for-use-with-animals"
+      },
+      {
+        "title": "Biguanides as Antiseptics and Disinfectants for Use With Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antiseptics-and-disinfectants/biguanides-as-antiseptics-and-disinfectants-for-use-with-animals"
+      },
+      {
+        "title": "Oxidizing Agents as Antiseptics and Disinfectants for Use With Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antiseptics-and-disinfectants/oxidizing-agents-as-antiseptics-and-disinfectants-for-use-with-animals"
+      },
+      {
+        "title": "Heat as a Disinfectant for Use With Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antiseptics-and-disinfectants/heat-as-a-disinfectant-for-use-with-animals"
+      },
+      {
+        "title": "Metals as Antiseptics and Disinfectants for Use With Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antiseptics-and-disinfectants/metals-as-antiseptics-and-disinfectants-for-use-with-animals"
+      },
+      {
+        "title": "Phenols and Related Compounds as Antiseptics and Disinfectants for Use With Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antiseptics-and-disinfectants/phenols-and-related-compounds-as-antiseptics-and-disinfectants-for-use-with-animals"
+      },
+      {
+        "title": "Reducing Agents as Antiseptics and Disinfectants for Use With Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antiseptics-and-disinfectants/reducing-agents-as-antiseptics-and-disinfectants-for-use-with-animals"
+      },
+      {
+        "title": "Surface-active Compounds (Surfactants) as Antiseptics and Disinfectants for Use With Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antiseptics-and-disinfectants/surface-active-compounds-surfactants-as-antiseptics-and-disinfectants-for-use-with-animals"
+      },
+      {
+        "title": "Other Antimicrobial Agents for Use With Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antiseptics-and-disinfectants/other-antimicrobial-agents-for-use-with-animals"
+      },
+      {
+        "title": "Ultraviolet Light as Antiseptic and Disinfectant for Use With Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antiseptics-and-disinfectants/ultraviolet-light-as-antiseptic-and-disinfectant-for-use-with-animals"
+      },
+      {
+        "title": "Vapor-Phase Disinfectants for Use With Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antiseptics-and-disinfectants/vapor-phase-disinfectants-for-use-with-animals"
+      },
+      {
+        "title": "Practical Summary of Antiseptic and Disinfectant Use in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antiseptics-and-disinfectants/practical-summary-of-antiseptic-and-disinfectant-use-in-animals"
+      }
+    ]
   },
   {
     "title": "Antiviral Agents",
-    "url": "https://www.merckvetmanual.com/pharmacology/antiviral-agents"
+    "url": "https://www.merckvetmanual.com/pharmacology/antiviral-agents",
+    "in_depth_links": [
+      {
+        "title": "Overview of Antiviral Agents Used in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antiviral-agents/overview-of-antiviral-agents-used-in-animals"
+      },
+      {
+        "title": "Pyrimidine Nucleosides Used in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antiviral-agents/pyrimidine-nucleosides-used-in-animals"
+      },
+      {
+        "title": "Purine Nucleosides Used in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antiviral-agents/purine-nucleosides-used-in-animals"
+      },
+      {
+        "title": "Miscellaneous Antiviral Agents Used in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/antiviral-agents/miscellaneous-antiviral-agents-used-in-animals"
+      }
+    ]
   },
   {
     "title": "Ectoparasiticides",
-    "url": "https://www.merckvetmanual.com/pharmacology/ectoparasiticides"
+    "url": "https://www.merckvetmanual.com/pharmacology/ectoparasiticides",
+    "in_depth_links": [
+      {
+        "title": "Ectoparasiticides Used in Large Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/ectoparasiticides/ectoparasiticides-used-in-large-animals"
+      },
+      {
+        "title": "Ectoparasiticides Used in Small Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/ectoparasiticides/ectoparasiticides-used-in-small-animals"
+      }
+    ]
   },
   {
     "title": "Growth Promotants and Production Enhancers",
-    "url": "https://www.merckvetmanual.com/pharmacology/growth-promotants-and-production-enhancers"
+    "url": "https://www.merckvetmanual.com/pharmacology/growth-promotants-and-production-enhancers",
+    "in_depth_links": [
+      {
+        "title": "Overview of Growth Promotants and Production Enhancers in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/growth-promotants-and-production-enhancers/overview-of-growth-promotants-and-production-enhancers-in-animals"
+      },
+      {
+        "title": "Use of Steroid Hormones in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/growth-promotants-and-production-enhancers/use-of-steroid-hormones-in-animals"
+      },
+      {
+        "title": "Use of Growth Hormone in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/growth-promotants-and-production-enhancers/use-of-growth-hormone-in-animals"
+      },
+      {
+        "title": "Use of Beta-Adrenergic Receptor Agonists in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/growth-promotants-and-production-enhancers/use-of-beta-adrenergic-receptor-agonists-in-animals"
+      },
+      {
+        "title": "Antimicrobial Feed Additives for Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/growth-promotants-and-production-enhancers/antimicrobial-feed-additives-for-animals"
+      },
+      {
+        "title": "Probiotics for Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/growth-promotants-and-production-enhancers/probiotics-for-animals"
+      }
+    ]
   },
   {
     "title": "Inflammation",
-    "url": "https://www.merckvetmanual.com/pharmacology/inflammation"
+    "url": "https://www.merckvetmanual.com/pharmacology/inflammation",
+    "in_depth_links": [
+      {
+        "title": "Overview of Inflammation in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/inflammation/overview-of-inflammation-in-animals"
+      },
+      {
+        "title": "Pathophysiology of Inflammation in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/inflammation/pathophysiology-of-inflammation-in-animals"
+      },
+      {
+        "title": "Chemical Mediators of Inflammation in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/inflammation/chemical-mediators-of-inflammation-in-animals"
+      },
+      {
+        "title": "Antihistamines in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/inflammation/antihistamines-in-animals"
+      },
+      {
+        "title": "Corticosteroids in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/inflammation/corticosteroids-in-animals"
+      },
+      {
+        "title": "Nonsteroidal Anti-inflammatory Drugs in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/inflammation/nonsteroidal-anti-inflammatory-drugs-in-animals"
+      },
+      {
+        "title": "Chondroprotective Agents in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/inflammation/chondroprotective-agents-in-animals"
+      }
+    ]
   },
   {
     "title": "Vaccines and Immunotherapy",
-    "url": "https://www.merckvetmanual.com/pharmacology/vaccines-and-immunotherapy"
+    "url": "https://www.merckvetmanual.com/pharmacology/vaccines-and-immunotherapy",
+    "in_depth_links": [
+      {
+        "title": "Active Immunity in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/vaccines-and-immunotherapy/active-immunity-in-animals"
+      },
+      {
+        "title": "Types of Vaccines for Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/vaccines-and-immunotherapy/types-of-vaccines-for-animals"
+      },
+      {
+        "title": "Administration of Vaccines in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/vaccines-and-immunotherapy/administration-of-vaccines-in-animals"
+      },
+      {
+        "title": "Immunologic Adjuvants in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/vaccines-and-immunotherapy/immunologic-adjuvants-in-animals"
+      },
+      {
+        "title": "Vaccine Failure and Other Adverse Events in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/vaccines-and-immunotherapy/vaccine-failure-and-other-adverse-events-in-animals"
+      },
+      {
+        "title": "Production of Vaccines for Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/vaccines-and-immunotherapy/production-of-vaccines-for-animals"
+      },
+      {
+        "title": "Passive Immunity in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/vaccines-and-immunotherapy/passive-immunity-in-animals"
+      },
+      {
+        "title": "Tumor Immunotherapy in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/vaccines-and-immunotherapy/tumor-immunotherapy-in-animals"
+      },
+      {
+        "title": "Nonspecific Immunotherapy in Animals",
+        "url": "https://www.merckvetmanual.com/pharmacology/vaccines-and-immunotherapy/nonspecific-immunotherapy-in-animals"
+      }
+    ]
   }
 ]

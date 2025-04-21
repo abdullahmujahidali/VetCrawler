@@ -1,14 +1,88 @@
 [
   {
     "title": "Animal Welfare",
-    "url": "https://www.merckvetmanual.com/special-subjects/animal-welfare/animal-welfare"
+    "url": "https://www.merckvetmanual.com/special-subjects/animal-welfare/animal-welfare",
+    "in_depth_links": [
+      {
+        "title": "Laws and Regulations",
+        "url": "https://www.merckvetmanual.com/special-subjects/animal-welfare/animal-welfare#Laws-and-Regulations_v54245225"
+      },
+      {
+        "title": "Assessment",
+        "url": "https://www.merckvetmanual.com/special-subjects/animal-welfare/animal-welfare#Assessment_v54245233"
+      },
+      {
+        "title": "Livestock/Production Animals",
+        "url": "https://www.merckvetmanual.com/special-subjects/animal-welfare/animal-welfare#Livestock/Production-Animals_v54245244"
+      },
+      {
+        "title": "Dogs and Cats",
+        "url": "https://www.merckvetmanual.com/special-subjects/animal-welfare/animal-welfare#Dogs-and-Cats_v54245268"
+      },
+      {
+        "title": "Horses",
+        "url": "https://www.merckvetmanual.com/special-subjects/animal-welfare/animal-welfare#Horses_v54245282"
+      },
+      {
+        "title": "Exotic and Nontraditional Pets",
+        "url": "https://www.merckvetmanual.com/special-subjects/animal-welfare/animal-welfare#Exotic-and-Nontraditional-Pets_v54245299"
+      },
+      {
+        "title": "Captive Wildlife",
+        "url": "https://www.merckvetmanual.com/special-subjects/animal-welfare/animal-welfare#Captive-Wildlife_v54245310"
+      },
+      {
+        "title": "Laboratory Animals",
+        "url": "https://www.merckvetmanual.com/special-subjects/animal-welfare/animal-welfare#Laboratory-Animals_v54245327"
+      },
+      {
+        "title": "Selected Topics",
+        "url": "https://www.merckvetmanual.com/special-subjects/animal-welfare/animal-welfare#Selected-Topics_v54245340"
+      },
+      {
+        "title": "For More Information",
+        "url": "https://www.merckvetmanual.com/special-subjects/animal-welfare/animal-welfare#For-More-Information_v54245367"
+      }
+    ]
   },
   {
     "title": "Shelter Medicine",
-    "url": "https://www.merckvetmanual.com/special-subjects/shelter-medicine"
+    "url": "https://www.merckvetmanual.com/special-subjects/shelter-medicine",
+    "in_depth_links": [
+      {
+        "title": "Overview of Shelter Medicine",
+        "url": "https://www.merckvetmanual.com/special-subjects/shelter-medicine/overview-of-shelter-medicine"
+      },
+      {
+        "title": "Cleaning and Disinfection in Shelter Medicine",
+        "url": "https://www.merckvetmanual.com/special-subjects/shelter-medicine/cleaning-and-disinfection-in-shelter-medicine"
+      },
+      {
+        "title": "Management of Animals in Shelter Medicine",
+        "url": "https://www.merckvetmanual.com/special-subjects/shelter-medicine/management-of-animals-in-shelter-medicine"
+      },
+      {
+        "title": "Community-Facing Shelter Medicine",
+        "url": "https://www.merckvetmanual.com/special-subjects/shelter-medicine/community-facing-shelter-medicine"
+      },
+      {
+        "title": "Animal Control in Shelter Medicine",
+        "url": "https://www.merckvetmanual.com/special-subjects/shelter-medicine/animal-control-in-shelter-medicine"
+      },
+      {
+        "title": "Disaster and Emergency Response Planning in Shelter Medicine",
+        "url": "https://www.merckvetmanual.com/special-subjects/shelter-medicine/disaster-and-emergency-response-planning-in-shelter-medicine"
+      }
+    ]
   },
   {
     "title": "The Human-Animal Bond",
-    "url": "https://www.merckvetmanual.com/special-subjects/the-human-animal-bond"
+    "url": "https://www.merckvetmanual.com/special-subjects/the-human-animal-bond",
+    "in_depth_links": [
+      {
+        "title": "Overview of the Human-Animal Bond",
+        "url": "https://www.merckvetmanual.com/special-subjects/the-human-animal-bond/overview-of-the-human-animal-bond"
+      }
+    ]
   }
 ]

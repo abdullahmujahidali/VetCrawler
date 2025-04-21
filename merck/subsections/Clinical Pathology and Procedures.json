@@ -1,34 +1,96 @@
 [
   {
     "title": "Collection and Submission of Laboratory Samples",
-    "url": "https://www.merckvetmanual.com/clinical-pathology-and-procedures/collection-and-submission-of-laboratory-samples/collection-and-submission-of-laboratory-samples-from-animals"
+    "url": "https://www.merckvetmanual.com/clinical-pathology-and-procedures/collection-and-submission-of-laboratory-samples/collection-and-submission-of-laboratory-samples-from-animals",
+    "in_depth_links": []
   },
   {
     "title": "Diagnostic Procedures for the Private Practice Laboratory",
-    "url": "https://www.merckvetmanual.com/clinical-pathology-and-procedures/diagnostic-procedures-for-the-private-practice-laboratory"
+    "url": "https://www.merckvetmanual.com/clinical-pathology-and-procedures/diagnostic-procedures-for-the-private-practice-laboratory",
+    "in_depth_links": [
+      {
+        "title": "Overview of Diagnostic Procedures for the Private Practice Laboratory",
+        "url": "https://www.merckvetmanual.com/clinical-pathology-and-procedures/diagnostic-procedures-for-the-private-practice-laboratory/overview-of-diagnostic-procedures-for-the-private-practice-laboratory"
+      },
+      {
+        "title": "Clinical Biochemistry",
+        "url": "https://www.merckvetmanual.com/clinical-pathology-and-procedures/diagnostic-procedures-for-the-private-practice-laboratory/clinical-biochemistry"
+      },
+      {
+        "title": "Cytology",
+        "url": "https://www.merckvetmanual.com/clinical-pathology-and-procedures/diagnostic-procedures-for-the-private-practice-laboratory/cytology"
+      },
+      {
+        "title": "Clinical Hematology",
+        "url": "https://www.merckvetmanual.com/clinical-pathology-and-procedures/diagnostic-procedures-for-the-private-practice-laboratory/clinical-hematology"
+      },
+      {
+        "title": "Urinalysis",
+        "url": "https://www.merckvetmanual.com/clinical-pathology-and-procedures/diagnostic-procedures-for-the-private-practice-laboratory/urinalysis"
+      },
+      {
+        "title": "Parasitology",
+        "url": "https://www.merckvetmanual.com/clinical-pathology-and-procedures/diagnostic-procedures-for-the-private-practice-laboratory/parasitology"
+      },
+      {
+        "title": "Serologic Test Kits",
+        "url": "https://www.merckvetmanual.com/clinical-pathology-and-procedures/diagnostic-procedures-for-the-private-practice-laboratory/serologic-test-kits"
+      }
+    ]
   },
   {
     "title": "Diagnostic Imaging",
-    "url": "https://www.merckvetmanual.com/clinical-pathology-and-procedures/diagnostic-imaging"
+    "url": "https://www.merckvetmanual.com/clinical-pathology-and-procedures/diagnostic-imaging",
+    "in_depth_links": [
+      {
+        "title": "Overview of Diagnostic Imaging of Animals",
+        "url": "https://www.merckvetmanual.com/clinical-pathology-and-procedures/diagnostic-imaging/overview-of-diagnostic-imaging-of-animals"
+      },
+      {
+        "title": "Radiography of Animals",
+        "url": "https://www.merckvetmanual.com/clinical-pathology-and-procedures/diagnostic-imaging/radiography-of-animals"
+      },
+      {
+        "title": "Ultrasonography in Animals",
+        "url": "https://www.merckvetmanual.com/clinical-pathology-and-procedures/diagnostic-imaging/ultrasonography-in-animals"
+      },
+      {
+        "title": "Computed Tomography in Animals",
+        "url": "https://www.merckvetmanual.com/clinical-pathology-and-procedures/diagnostic-imaging/computed-tomography-in-animals"
+      },
+      {
+        "title": "Magnetic Resonance Imaging in Animals",
+        "url": "https://www.merckvetmanual.com/clinical-pathology-and-procedures/diagnostic-imaging/magnetic-resonance-imaging-in-animals"
+      },
+      {
+        "title": "Nuclear Medicine Imaging in Animals",
+        "url": "https://www.merckvetmanual.com/clinical-pathology-and-procedures/diagnostic-imaging/nuclear-medicine-imaging-in-animals"
+      }
+    ]
   },
   {
     "title": "Hemostasis and Fibrinolysis",
-    "url": "https://www.merckvetmanual.com/clinical-pathology-and-procedures/hemostasis-and-fibrinolysis/hemostasis-and-fibrinolysis-in-animals"
+    "url": "https://www.merckvetmanual.com/clinical-pathology-and-procedures/hemostasis-and-fibrinolysis/hemostasis-and-fibrinolysis-in-animals",
+    "in_depth_links": []
   },
   {
     "title": "Meat Inspection",
-    "url": "https://www.merckvetmanual.com/clinical-pathology-and-procedures/meat-inspection"
+    "url": "https://www.merckvetmanual.com/clinical-pathology-and-procedures/meat-inspection",
+    "in_depth_links": []
   },
   {
     "title": "Prepurchase Examination of Horses",
-    "url": "https://www.merckvetmanual.com/clinical-pathology-and-procedures/prepurchase-examination-of-horses/prepurchase-examination-of-horses"
+    "url": "https://www.merckvetmanual.com/clinical-pathology-and-procedures/prepurchase-examination-of-horses/prepurchase-examination-of-horses",
+    "in_depth_links": []
   },
   {
     "title": "Prepurchase Examination of Ruminants and Swine",
-    "url": "https://www.merckvetmanual.com/clinical-pathology-and-procedures/prepurchase-examination-of-ruminants-and-swine/prepurchase-examination-of-ruminants-and-swine"
+    "url": "https://www.merckvetmanual.com/clinical-pathology-and-procedures/prepurchase-examination-of-ruminants-and-swine/prepurchase-examination-of-ruminants-and-swine",
+    "in_depth_links": []
   },
   {
     "title": "Radiation Therapy",
-    "url": "https://www.merckvetmanual.com/clinical-pathology-and-procedures/radiation-therapy/radiation-therapy-in-animals"
+    "url": "https://www.merckvetmanual.com/clinical-pathology-and-procedures/radiation-therapy/radiation-therapy-in-animals",
+    "in_depth_links": []
   }
 ]
