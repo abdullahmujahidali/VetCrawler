@@ -1,22 +1,22 @@
-# Merck Vet Manual Scraper
+# Merck Veterinary Manual Crawler
 
-A Scrapy-based web scraper for extracting veterinary information from the Merck Veterinary Manual website.
+A web crawler for extracting veterinary information from the Merck Veterinary Manual website. The crawler is designed to extract all main sections and their subsections, and save them as JSON files.
 
 ## Features
 
-- Extracts all sections and topics from the Merck Veterinary Manual
-- Two scraper options:
-  - Basic scraper (`merck_vet_manual`): Extracts section and topic names with URLs
-  - Full scraper (`merck_vet_manual_full`): Also extracts content from each topic page
-- Organized output in JSON format
-- Respectful crawling with built-in delays and rate limiting
+- Extracts all main sections from the Merck Veterinary Manual
+- Uses Selenium to handle JavaScript-rendered content
+- Extracts subsections for each main section
+- Saves data in well-structured JSON format
+- Implements respectful crawling with rate limiting
+- Handles dynamic content loading
 
 ## Installation
 
 1. Clone this repository:
    ```
    git clone https://github.com/abdullahmujahidali/VetCrawler.git
-   cd merck-vet-scraper
+   cd crawler
    ```
 
 2. Create a virtual environment and activate it:
@@ -32,82 +32,88 @@ A Scrapy-based web scraper for extracting veterinary information from the Merck 
 
 ## Usage
 
-### Basic Scraper
+The crawler works in two steps:
 
-To run the basic scraper that extracts sections and topics:
+### Step 1: Extract Main Sections
 
-```bash
-cd merck_scraper
-scrapy crawl merck_vet_manual -o topics.json
-```
-
-### Full Scraper
-
-To run the full scraper that also extracts content from topic pages:
+First, run Scrapy to extract the main sections from the Merck Veterinary Manual:
 
 ```bash
-cd merck_scraper
-scrapy crawl merck_vet_manual_full -o full_topics.json
+cd merck
+scrapy crawl merckvetmanual
 ```
 
-### Using the Run Script
+This will create a `merck_sections.json` file containing all main sections with their URLs.
 
-For more options, use the included run script:
+### Step 2: Extract Subsections
+
+After extracting the main sections, use the Selenium-based crawler to extract subsections:
 
 ```bash
-cd merck_scraper
-python merck_scraper/run_scraper.py --full --format json --output custom_output.json
+python selenium_solution.py
 ```
 
-Options:
-- `--full`: Use the full scraper instead of the basic one
-- `--format`: Output format (json, csv, xml)
-- `--output`: Custom output file path
-- `--limit`: Limit the number of items to scrape
+This will:
+1. Read the `merck_sections.json` file
+2. Visit each URL with Selenium to render JavaScript content
+3. Extract all subsections for each main section
+4. Create a separate JSON file for each main section in the `merck/subsections/` directory
 
-## Debug Tool
+#### Test Mode
 
-To help debug CSS selectors, use the included debug tool:
+To test the subsection crawler on just one section (Circulatory System):
 
 ```bash
-python debug_selector.py --url "https://www.merckvetmanual.com/veterinary-topics" --selector "div#bodyContent a[href*='/']"
+python selenium_solution.py --test
 ```
 
-Options:
-- `--url`: URL to test selectors against
-- `--selector`: CSS selector to test
-- `--limit`: Limit the number of results to display
-- `--output`: Output file for full results
+This will only process the Circulatory System section, allowing you to verify the crawler works properly before running it on all sections.
 
 ## Output Structure
 
-The scraped data is saved in the following format:
+### Main Sections (merck_sections.json)
+
+The initial crawler saves main sections to `merck_sections.json`:
 
 ```json
-{
-  "Main Categories": [
-    {
-      "section": "Main Categories",
-      "topic_name": "Behavior",
-      "topic_url": "https://www.merckvetmanual.com/behavior"
-    },
-    ...
-  ],
-  "Behavior": [
-    {
-      "section": "Behavior",
-      "topic_name": "Normal Social Behavior",
-      "topic_url": "https://www.merckvetmanual.com/behavior/normal-social-behavior"
-    },
-    ...
-  ],
+[
+  {
+    "title": "Circulatory System",
+    "url": "https://www.merckvetmanual.com/circulatory-system"
+  },
+  {
+    "title": "Behavior",
+    "url": "https://www.merckvetmanual.com/behavior"
+  },
   ...
-}
+]
+```
+
+### Subsections (e.g., Circulatory_System.json)
+
+Each subsection file contains the subsections for a specific main section:
+
+```json
+[
+  {
+    "title": "Hematopoietic System Introduction",
+    "url": "https://www.merckvetmanual.com/circulatory-system/hematopoietic-system-introduction"
+  },
+  {
+    "title": "Anemia",
+    "url": "https://www.merckvetmanual.com/circulatory-system/anemia"
+  },
+  {
+    "title": "Blood Groups and Blood Transfusions in Dogs and Cats",
+    "url": "https://www.merckvetmanual.com/circulatory-system/blood-groups-and-blood-transfusions-in-dogs-and-cats"
+  },
+  ...
+]
 ```
 
 ## Troubleshooting
 
-If you encounter issues:
+If you encounter issues with the crawler:
 
 1. **No items scraped**: The website structure might have changed. Try using the debug tool to identify the correct CSS selectors.
 
