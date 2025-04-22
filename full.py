@@ -1,5 +1,3 @@
-# full.py
-
 import base64
 import json
 import os
@@ -21,64 +19,115 @@ from webdriver_manager.chrome import ChromeDriverManager
 def handle_cookie_consent(driver):
     """Handle cookie consent modals if they appear"""
     try:
-        cookie_selectors = [
+        selectors = [
             "button.Accept.All.Cookies",
             ".Accept.All.Cookies",
             "button[aria-label*='Accept All Cookies']",
+            "button:contains('Accept All')",
             "#onetrust-accept-btn-handler",
             ".accept-all-cookies",
+            ".accept-cookies-button",
+            "button.accept-cookies",
         ]
-
-        for selector in cookie_selectors:
+        for selector in selectors:
             try:
                 cookie_button = WebDriverWait(driver, 2).until(
                     EC.element_to_be_clickable((By.CSS_SELECTOR, selector))
                 )
-                print("  Found cookie consent button, clicking it...")
+                print(f"Found cookie button with selector: {selector}")
                 cookie_button.click()
                 time.sleep(1)
                 return True
             except:
                 continue
 
-        buttons = driver.find_elements(By.TAG_NAME, "button")
-        for button in buttons:
-            if "Accept All" in button.text:
-                print(f"  Found Accept All button with text: {button.text}")
-                button.click()
-                time.sleep(1)
-                return True
+        cookie_button_texts = [
+            "Accept All Cookies",
+            "Accept All",
+            "Accept",
+            "I Agree",
+            "OK",
+            "Got it",
+        ]
 
-        driver.execute_script(
-            """
-            var buttons = document.querySelectorAll('button');
-            for(var i=0; i<buttons.length; i++) {
-                if(buttons[i].textContent.indexOf('Accept All') !== -1) {
-                    buttons[i].click();
-                    return;
+        try:
+            buttons = driver.find_elements(By.TAG_NAME, "button")
+            for button in buttons:
+                button_text = button.text.strip()
+                if button_text and any(
+                    accept_text.lower() in button_text.lower()
+                    for accept_text in cookie_button_texts
+                ):
+                    print(f"Found cookie button with text: {button_text}")
+                    button.click()
+                    time.sleep(1)
+                    return True
+        except:
+            pass
+
+        try:
+            for consent_id in [
+                "#cookie-consent",
+                "#cookie-banner",
+                ".cookie-banner",
+                "#cookie-notice",
+            ]:
+                driver.execute_script(
+                    f"var element = document.querySelector('{consent_id}'); if(element) element.remove();"
+                )
+
+            driver.execute_script(
+                """
+                var buttons = document.querySelectorAll('button');
+                for(var i=0; i<buttons.length; i++) {
+                    if(buttons[i].textContent.indexOf('Accept') !== -1 || 
+                       buttons[i].textContent.indexOf('accept') !== -1 ||
+                       buttons[i].textContent.indexOf('Allow') !== -1) {
+                        buttons[i].click();
+                        return;
+                    }
                 }
-            }
-        """
-        )
+            """
+            )
 
-        return False
+            driver.execute_script(
+                """
+                document.cookie = "cookieConsent=true; path=/;";
+                document.cookie = "cookies_accepted=true; path=/;";
+            """
+            )
+
+            return True
+        except:
+            print("JavaScript attempts to handle cookie consent failed")
+            return False
+
     except Exception as e:
         print(f"  Error handling cookie consent: {e}")
         return False
 
 
-def save_page_as_pdf(driver, section_title, subsection_title=None, output_dir="pdfs"):
+def save_page_as_pdf(driver, title, url=None, output_dir="pdfs"):
     """Save the current page as a PDF using Chrome's built-in print functionality"""
     try:
         Path(output_dir).mkdir(exist_ok=True)
-        if subsection_title:
-            filename = f"{clean_filename(section_title)}_{clean_filename(subsection_title)}.pdf"
-        else:
-            filename = f"{clean_filename(section_title)}.pdf"
+        safe_title = clean_filename(title)
+        filepath = os.path.join(output_dir, f"{safe_title}.pdf")
 
-        filepath = os.path.join(output_dir, filename)
+        print(f"  Saving PDF for: {title}")
+        if url:
+            current_url = driver.current_url
+            if current_url != url:
+                driver.get(url)
+                handle_cookie_consent(driver)
+                try:
+                    WebDriverWait(driver, 10).until(
+                        EC.presence_of_element_located((By.TAG_NAME, "body"))
+                    )
+                except TimeoutException:
+                    print("    Timeout waiting for page to load. Continuing anyway...")
+                time.sleep(2)
 
-        print(f"  Saving PDF for: {filename}")
         pdf_data = driver.execute_cdp_cmd(
             "Page.printToPDF",
             {
@@ -99,12 +148,22 @@ def save_page_as_pdf(driver, section_title, subsection_title=None, output_dir="p
         return filepath
     except Exception as e:
         print(f"  Error saving PDF: {e}")
+        try:
+            screenshot_path = f"error_screenshot_{clean_filename(title)}.png"
+            driver.save_screenshot(screenshot_path)
+            print(f"  Error screenshot saved to: {screenshot_path}")
+        except:
+            pass
         return None
 
 
 def clean_filename(text):
     """Clean a string to be used as a filename"""
-    return re.sub(r'[\\/*?:"<>|]', "_", text).strip()
+    if len(text) > 150:
+        text = text[:150]
+    clean = re.sub(r'[\\/*?:"<>|]', "_", text).strip()
+    clean = re.sub(r"_+", "_", clean)
+    return clean
 
 
 def extract_content_from_page(driver, url, base_section_path):
@@ -152,6 +211,95 @@ def extract_content_from_page(driver, url, base_section_path):
     return content_links
 
 
+def download_all_in_depth_links(complete_data, output_dir="merck_data"):
+    """Download PDFs for all in-depth links in the complete data"""
+    print("\n=== Starting PDF downloads for all in-depth links ===")
+    pdf_dir = os.path.join(output_dir, "pdfs")
+    Path(pdf_dir).mkdir(exist_ok=True)
+    chrome_options = Options()
+    chrome_options.add_argument("--headless=new")
+    chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument("--window-size=1920,1080")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+    chrome_options.add_argument(
+        "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+    )
+    print("Initializing Chrome WebDriver for PDF downloads...")
+    driver = webdriver.Chrome(
+        service=Service(ChromeDriverManager().install()), options=chrome_options
+    )
+
+    try:
+        total_sections = len(complete_data)
+        total_links = 0
+        successful_downloads = 0
+        for section in complete_data:
+            for subsection in section.get("subsections", []):
+                total_links += len(subsection.get("in_depth_links", []))
+
+        print(
+            f"Found {total_links} in-depth links to download across {total_sections} sections"
+        )
+        for section_idx, section in enumerate(complete_data, 1):
+            section_title = section.get("title", "Unknown Section")
+            print(
+                f"\n[{section_idx}/{total_sections}] Processing section: {section_title}"
+            )
+
+            for subsection_idx, subsection in enumerate(
+                section.get("subsections", []), 1
+            ):
+                subsection_title = subsection.get("title", "Unknown Subsection")
+                in_depth_links = subsection.get("in_depth_links", [])
+
+                if in_depth_links:
+                    print(
+                        f"  Processing subsection {subsection_idx}: {subsection_title} ({len(in_depth_links)} links)"
+                    )
+
+                    for link_idx, link in enumerate(in_depth_links, 1):
+                        link_title = link.get("title", "Unknown Link")
+                        link_url = link.get("url")
+
+                        if not link_url:
+                            print(
+                                f"    [{link_idx}/{len(in_depth_links)}] Skipping {link_title} - no URL"
+                            )
+                            continue
+
+                        print(
+                            f"    [{link_idx}/{len(in_depth_links)}] Downloading PDF for: {link_title}"
+                        )
+                        full_title = (
+                            f"{section_title}__{subsection_title}__{link_title}"
+                        )
+                        pdf_path = save_page_as_pdf(
+                            driver, full_title, link_url, pdf_dir
+                        )
+
+                        if pdf_path:
+                            link["pdf_path"] = pdf_path
+                            successful_downloads += 1
+                            print(f"    ✓ PDF saved successfully")
+                        else:
+                            print(f"    ✗ Failed to download PDF")
+                        time.sleep(1)
+
+        print(f"\n=== PDF Download Summary ===")
+        print(f"Successfully downloaded: {successful_downloads}/{total_links} PDFs")
+        print(f"All PDFs saved to: {os.path.abspath(pdf_dir)}")
+        return complete_data
+
+    except Exception as e:
+        print(f"Error in download_all_in_depth_links: {e}")
+        return complete_data
+
+    finally:
+        driver.quit()
+        print("WebDriver closed")
+
+
 def extract_subsections_with_selenium(driver, url, section_title, save_pdfs=False):
     """
     Extract subsections and their in-depth content from Merck Veterinary Manual section
@@ -194,7 +342,6 @@ def extract_subsections_with_selenium(driver, url, section_title, save_pdfs=Fals
                 "in_depth_links": [],
                 "pdf_path": None,
             }
-
             try:
                 driver.get(subsection["url"])
                 handle_cookie_consent(driver)
@@ -209,7 +356,7 @@ def extract_subsections_with_selenium(driver, url, section_title, save_pdfs=Fals
                 time.sleep(2)
                 if save_pdfs:
                     pdf_path = save_page_as_pdf(
-                        driver, section_title, subsection["title"]
+                        driver, f"{section_title}__{subsection['title']}"
                     )
                     if pdf_path:
                         subsection_data["pdf_path"] = pdf_path
@@ -250,12 +397,8 @@ def extract_subsections_with_selenium(driver, url, section_title, save_pdfs=Fals
                                         )
 
                                     time.sleep(1)
-                                    in_depth_title = (
-                                        f"{subsection['title']}_{link['title']}"
-                                    )
-                                    pdf_path = save_page_as_pdf(
-                                        driver, section_title, in_depth_title
-                                    )
+                                    in_depth_title = f"{section_title}__{subsection['title']}__{link['title']}"
+                                    pdf_path = save_page_as_pdf(driver, in_depth_title)
                                     if pdf_path:
                                         link["pdf_path"] = pdf_path
                                 except Exception as e:
@@ -282,6 +425,8 @@ def extract_subsections_with_selenium(driver, url, section_title, save_pdfs=Fals
 def main():
     test_mode = "--test" in sys.argv
     save_pdfs = "--save-pdfs" in sys.argv
+    download_pdfs = "--download-pdfs" in sys.argv
+
     sections_path = "merck_sections.json"
     if not os.path.exists(sections_path):
         sections_path = os.path.join("merck", "clean_sections.json")
@@ -303,7 +448,6 @@ def main():
             pdf_dir = os.path.join(output_dir, "pdfs")
             Path(pdf_dir).mkdir(exist_ok=True)
             print(f"PDFs will be saved to {pdf_dir}")
-
         chrome_options = Options()
         chrome_options.add_argument("--headless=new")  # Use the new headless mode
         chrome_options.add_argument("--no-sandbox")
@@ -321,7 +465,6 @@ def main():
             print("Running in TEST mode - only processing Circulatory System")
         else:
             print(f"Preparing to extract subsections for {len(sections)} sections")
-
         processed = 0
         successful = 0
         if test_mode:
@@ -369,16 +512,16 @@ def main():
                 successful += 1
             else:
                 print(f"✗ No subsections found for {title}")
-
             if i < total_sections:
                 print("Waiting 2 seconds before next request...")
                 time.sleep(2)
+        if download_pdfs:
+            complete_data = download_all_in_depth_links(complete_data, output_dir)
         complete_output_path = os.path.join(output_dir, "merck_complete_data.json")
         with open(complete_output_path, "w", encoding="utf-8") as f:
             json.dump(complete_data, f, indent=2, ensure_ascii=False)
 
         print(f"\n✓ Saved complete data to {complete_output_path}")
-
         print(f"\n=== Summary ===")
         print(f"Processed: {processed}/{total_sections} sections")
         print(f"Successful: {successful}/{processed} sections")
