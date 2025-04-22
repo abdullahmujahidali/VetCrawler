@@ -1,11 +1,10 @@
-# full.py - Simplified version that downloads all PDFs with tracking, skipping specified sections
-
 import base64
 import json
 import os
 import re
 import time
 from pathlib import Path
+from urllib.parse import urlparse, urlunparse
 
 from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
@@ -16,7 +15,18 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 
+# List of sections to ignore
 IGNORED_SECTIONS = ["Behavior", "Poultry", "Special Subjects", "Public Health"]
+
+
+def strip_url_fragment(url):
+    """Remove the fragment part of a URL (everything after the #)"""
+    parsed = urlparse(url)
+    # Create a new URL without the fragment
+    clean_url = urlunparse(
+        (parsed.scheme, parsed.netloc, parsed.path, parsed.params, parsed.query, "")
+    )
+    return clean_url
 
 
 def handle_cookie_consent(driver):
@@ -70,7 +80,9 @@ def handle_cookie_consent(driver):
         except:
             pass
 
+        # JavaScript approach
         try:
+            # Remove consent dialogs
             for consent_id in [
                 "#cookie-consent",
                 "#cookie-banner",
@@ -81,6 +93,7 @@ def handle_cookie_consent(driver):
                     f"var element = document.querySelector('{consent_id}'); if(element) element.remove();"
                 )
 
+            # Click accept button
             driver.execute_script(
                 """
                 var buttons = document.querySelectorAll('button');
@@ -95,6 +108,7 @@ def handle_cookie_consent(driver):
             """
             )
 
+            # Set cookies directly
             driver.execute_script(
                 """
                 document.cookie = "cookieConsent=true; path=/;";
@@ -121,16 +135,24 @@ def save_page_as_pdf(driver, title, url, output_dir="pdfs"):
 
         print(f"Saving PDF for: {title}")
 
+        # Navigate to the URL
         driver.get(url)
+
+        # Handle cookie consent
         handle_cookie_consent(driver)
+
+        # Wait for page to load
         try:
             WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.TAG_NAME, "body"))
             )
         except TimeoutException:
             print("Timeout waiting for page to load. Continuing anyway...")
+
+        # Additional time for JavaScript rendering
         time.sleep(2)
 
+        # Generate PDF
         pdf_data = driver.execute_cdp_cmd(
             "Page.printToPDF",
             {
@@ -144,6 +166,7 @@ def save_page_as_pdf(driver, title, url, output_dir="pdfs"):
             },
         )
 
+        # Save the PDF
         with open(filepath, "wb") as file:
             file.write(base64.b64decode(pdf_data["data"]))
 
@@ -175,10 +198,22 @@ def extract_content_from_page(driver, url, base_section_path):
     content_links = []
     base_url = "https://www.merckvetmanual.com"
 
+    # Keep track of URLs we've already seen (without fragments)
+    seen_urls = set()
+
     for link in links:
         try:
             href = link.get_attribute("href")
             text = link.text.strip()
+
+            # Skip if already processed this link (without the fragment)
+            if href:
+                clean_href = strip_url_fragment(href)
+                if clean_href in seen_urls:
+                    continue
+                seen_urls.add(clean_href)
+
+            # Filter links: internal, non-empty text, related to the section, not navigation
             if (
                 href
                 and text
@@ -204,7 +239,14 @@ def extract_content_from_page(driver, url, base_section_path):
                 )
             ):
                 if base_section_path in href:
-                    content_links.append({"title": text, "url": href})
+                    # Store only the base URL without fragments
+                    content_links.append(
+                        {
+                            "title": text,
+                            "url": clean_href,
+                            "original_url": href,  # Keep original for reference
+                        }
+                    )
         except Exception as e:
             print(f"Error processing link: {e}")
             continue
@@ -214,10 +256,13 @@ def extract_content_from_page(driver, url, base_section_path):
 
 def download_pdfs_and_build_index():
     """Main function to download PDFs and build an index"""
+    # Create output directories
     output_dir = "merck_data"
     pdf_dir = os.path.join(output_dir, "pdfs")
     Path(output_dir).mkdir(exist_ok=True)
     Path(pdf_dir).mkdir(exist_ok=True)
+
+    # Initialize Chrome WebDriver
     chrome_options = Options()
     chrome_options.add_argument("--headless=new")
     chrome_options.add_argument("--disable-gpu")
@@ -232,15 +277,20 @@ def download_pdfs_and_build_index():
     driver = webdriver.Chrome(
         service=Service(ChromeDriverManager().install()), options=chrome_options
     )
+
+    # PDF tracking data
     pdf_index = []
 
     try:
+        # Check for existing index file
         index_path = os.path.join(output_dir, "pdf_index.json")
         if os.path.exists(index_path):
             print(f"Loading existing PDF index from {index_path}")
             with open(index_path, "r") as f:
                 pdf_index = json.load(f)
             print(f"Loaded {len(pdf_index)} existing entries")
+
+        # Load section data
         sections_path = "merck_sections.json"
         if not os.path.exists(sections_path):
             sections_path = os.path.join("merck", "clean_sections.json")
@@ -251,6 +301,7 @@ def download_pdfs_and_build_index():
         with open(sections_path, "r") as f:
             sections = json.load(f)
 
+        # Filter out ignored sections
         filtered_sections = [
             s for s in sections if s.get("title") not in IGNORED_SECTIONS
         ]
@@ -260,7 +311,12 @@ def download_pdfs_and_build_index():
             f"Starting the process with {len(filtered_sections)} sections (ignored {ignored_count} sections)"
         )
         print(f"Ignoring the following sections: {', '.join(IGNORED_SECTIONS)}")
-        processed_urls = {entry["url"] for entry in pdf_index}
+
+        # Create sets of processed URLs to avoid duplicates
+        # Remove fragments from existing URLs for comparison
+        processed_urls = {strip_url_fragment(entry["url"]) for entry in pdf_index}
+
+        # Process each section
         total_sections = len(filtered_sections)
         for section_idx, section in enumerate(filtered_sections, 1):
             section_title = section.get("title", "Unknown Section")
@@ -275,20 +331,27 @@ def download_pdfs_and_build_index():
             print(
                 f"\n[{section_idx}/{total_sections}] Processing section: {section_title}"
             )
-            if section_url not in processed_urls:
+
+            # Add section to index if not already processed
+            clean_section_url = strip_url_fragment(section_url)
+            if clean_section_url not in processed_urls:
+                # Download section PDF
                 section_pdf_path = save_page_as_pdf(
                     driver, section_title, section_url, pdf_dir
                 )
+
+                # Add to index
                 if section_pdf_path:
                     section_entry = {
                         "title": section_title,
-                        "url": section_url,
+                        "url": clean_section_url,
                         "pdf_path": section_pdf_path,
                         "type": "section",
                     }
                     pdf_index.append(section_entry)
-                    processed_urls.add(section_url)
+                    processed_urls.add(clean_section_url)
 
+                    # Save index after each PDF to prevent data loss
                     with open(index_path, "w", encoding="utf-8") as f:
                         json.dump(pdf_index, f, indent=2, ensure_ascii=False)
             else:
@@ -337,7 +400,8 @@ def download_pdfs_and_build_index():
                 )
 
                 # Add subsection to index if not already processed
-                if subsection_url not in processed_urls:
+                clean_subsection_url = strip_url_fragment(subsection_url)
+                if clean_subsection_url not in processed_urls:
                     # Download subsection PDF
                     subsection_pdf_path = save_page_as_pdf(
                         driver,
@@ -351,13 +415,13 @@ def download_pdfs_and_build_index():
                         subsection_entry = {
                             "title": subsection_title,
                             "full_title": f"{section_title} - {subsection_title}",
-                            "url": subsection_url,
+                            "url": clean_subsection_url,
                             "pdf_path": subsection_pdf_path,
                             "parent_section": section_title,
                             "type": "subsection",
                         }
                         pdf_index.append(subsection_entry)
-                        processed_urls.add(subsection_url)
+                        processed_urls.add(clean_subsection_url)
 
                         # Save index after each PDF
                         with open(index_path, "w", encoding="utf-8") as f:
@@ -384,21 +448,33 @@ def download_pdfs_and_build_index():
                 # Look for in-depth links
                 print("Looking for in-depth content...")
                 section_base_path = subsection_url.replace(base_url, "")
+                section_base_path = strip_url_fragment(
+                    section_base_path
+                )  # Remove any fragments
                 in_depth_links = extract_content_from_page(
                     driver, subsection_url, section_base_path
                 )
 
                 # Filter to valid in-depth links
                 filtered_links = []
+                seen_clean_urls = set()
+
                 for link in in_depth_links:
+                    clean_link_url = strip_url_fragment(link["url"])
+
+                    # Skip if we've already seen this base URL in the current subsection
+                    if clean_link_url in seen_clean_urls:
+                        continue
+
                     if (
-                        section_base_path in link["url"]
-                        and link["url"] != subsection_url
+                        section_base_path in clean_link_url
+                        and clean_link_url != strip_url_fragment(subsection_url)
                     ):
                         filtered_links.append(link)
+                        seen_clean_urls.add(clean_link_url)
 
                 print(
-                    f"Found {len(filtered_links)} in-depth links for {subsection_title}"
+                    f"Found {len(filtered_links)} unique in-depth links for {subsection_title}"
                 )
 
                 # Process each in-depth link
@@ -411,7 +487,8 @@ def download_pdfs_and_build_index():
                     )
 
                     # Add link to index if not already processed
-                    if link_url not in processed_urls:
+                    clean_link_url = strip_url_fragment(link_url)
+                    if clean_link_url not in processed_urls:
                         # Download in-depth link PDF
                         full_title = (
                             f"{section_title} - {subsection_title} - {link_title}"
@@ -425,14 +502,17 @@ def download_pdfs_and_build_index():
                             link_entry = {
                                 "title": link_title,
                                 "full_title": full_title,
-                                "url": link_url,
+                                "url": clean_link_url,
+                                "original_url": link.get(
+                                    "original_url", link_url
+                                ),  # Keep original URL with fragment
                                 "pdf_path": link_pdf_path,
                                 "parent_section": section_title,
                                 "parent_subsection": subsection_title,
                                 "type": "in_depth",
                             }
                             pdf_index.append(link_entry)
-                            processed_urls.add(link_url)
+                            processed_urls.add(clean_link_url)
 
                             # Save index after each PDF
                             with open(index_path, "w", encoding="utf-8") as f:
