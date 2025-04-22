@@ -1,263 +1,425 @@
-# Using Scrapy-Selenium
 import json
-import re
 import os
+import re
+import time
 from pathlib import Path
+from urllib.parse import urlparse
 
 import scrapy
 from scrapy_selenium import SeleniumRequest
+from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
 
 
 class MerckvetmanualSpider(scrapy.Spider):
     name = "merckvetmanual"
+    allowed_domains = ["merckvetmanual.com"]
+    base_url = "https://www.merckvetmanual.com"
 
-    # Define custom settings for this spider
     custom_settings = {
         "FEED_FORMAT": "json",
-        "FEED_URI": "merck_sections.json",
+        "FEED_URI": "merck_manual_complete.json",
         "FEED_EXPORT_ENCODING": "utf-8",
+        "DOWNLOAD_TIMEOUT": 30,
+        "DOWNLOAD_DELAY": 2,
+        "SELENIUM_DRIVER_ARGUMENTS": [
+            "--headless",
+            "--no-sandbox",
+            "--disable-dev-shm-usage",
+        ],
+        "CONCURRENT_REQUESTS": 2,
+        "CONCURRENT_REQUESTS_PER_DOMAIN": 2,
     }
 
-    def start_requests(self):
-        # First run: Scrape the main sections
-        if not hasattr(self, 'scrape_subsections') or not self.scrape_subsections:
-            yield SeleniumRequest(
-                url="https://www.merckvetmanual.com/veterinary-topics", 
-                callback=self.parse
-            )
-        # Second run: Scrape subsections from each section
-        else:
-            try:
-                # Read the sections JSON file
-                json_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'merck_sections.json')
-                with open(json_path, 'r', encoding='utf-8') as f:
-                    sections = json.load(f)
-                
-                # Create output directory if it doesn't exist
-                output_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'section_data')
-                Path(output_dir).mkdir(exist_ok=True)
-                
-                # Visit each section URL
-                for section in sections:
-                    title = section.get('title')
-                    url = section.get('url')
-                    if title and url:
-                        yield SeleniumRequest(
-                            url=url,
-                            callback=self.parse_section,
-                            meta={'section_title': title}
-                        )
-            except Exception as e:
-                self.log(f"Error loading sections: {e}")
+    def __init__(self, *args, **kwargs):
+        super(MerckvetmanualSpider, self).__init__(*args, **kwargs)
+        self.nav_patterns = [
+            "veterinary professionals",
+            "pet owners",
+            "resources",
+            "quizzes",
+            "about",
+            "login",
+            "register",
+            "search",
+            "home",
+            "contact",
+            "legal",
+            "privacy",
+            "advertise",
+            "careers",
+            "help",
+            "terms",
+            "support",
+            "faq",
+            "feedback",
+            "menu",
+            "share",
+            "print",
+            "cookie preferences",
+            "cookie",
+        ]
 
-    def parse(self, response):
-        # Look for the data in the __NEXT_DATA__ script tag
+        self.all_sections = {}
+        self.test_mode = kwargs.get("test", False)
+
+    def start_requests(self):
+        yield SeleniumRequest(
+            url="https://www.merckvetmanual.com/veterinary-topics",
+            callback=self.parse_main_page,
+            wait_time=10,
+            screenshot=False,
+            dont_filter=True,
+        )
+
+    def parse_main_page(self, response):
+        self.log("Parsing main veterinary topics page")
+        sections = self.extract_from_next_data(response)
+        if not sections:
+            self.log("Trying fallback extraction method using CSS selectors")
+            sections = self.extract_from_css(response)
+
+        if not sections:
+            self.log("No sections found using any method!")
+            return
+
+        self.log(f"Found {len(sections)} total sections")
+        if self.test_mode:
+            sections = sections[:3]
+            self.log(f"TEST MODE: Only processing {len(sections)} sections")
+
+        for section in sections:
+            self.all_sections[section["url"]] = {
+                "title": section["title"],
+                "url": section["url"],
+                "subsections": [],
+            }
+
+            yield SeleniumRequest(
+                url=section["url"],
+                callback=self.parse_section,
+                wait_time=8,
+                meta={"section_url": section["url"]},
+                dont_filter=True,
+            )
+
+    def extract_from_next_data(self, response):
+        """Extract sections from __NEXT_DATA__ script"""
+        try:
+            script_data = response.xpath('//script[@id="__NEXT_DATA__"]/text()').get()
+            if not script_data:
+                return []
+
+            data = json.loads(script_data)
+            section_data = (
+                data.get("props", {})
+                .get("pageProps", {})
+                .get("componentProps", {})
+                .get("eb190e7b-5914-4f3d-91a8-3fa8542b6178", {})
+                .get("data", [])
+            )
+            sections = []
+            for item in section_data:
+                title = item.get("titlecomputed_t", "")
+                path = item.get("relativeurlcomputed_s", "")
+
+                if title and path:
+                    url = f"{self.base_url}{path}"
+                    sections.append({"title": title, "url": url})
+                    self.log(f"Found section from JSON: {title}")
+
+            return sections
+
+        except Exception as e:
+            self.log(f"Error extracting from __NEXT_DATA__: {e}")
+            return []
+
+    def extract_from_css(self, response):
+        """Extract sections using CSS selectors as fallback"""
+        sections = []
+        section_items = response.css(
+            "div.SectionList_sectionListItem__NNP4c a, a.SectionList_sectionListItem__NNP4c"
+        )
+
+        if not section_items:
+            section_items = response.css(
+                "div[class*='section'] > a, a[href^='/'][class*='section']"
+            )
+
+        for link in section_items:
+            text = link.css("::text").get()
+            href = link.css("::attr(href)").get()
+
+            if text and href:
+                text = text.strip()
+                url = response.urljoin(href)
+                sections.append({"title": text, "url": url})
+                self.log(f"Found section from CSS: {text}")
+
+        return sections
+
+    def parse_section(self, response):
+        section_url = response.meta.get("section_url")
+        if section_url not in self.all_sections:
+            self.log(f"Section URL not found in data structure: {section_url}")
+            return
+
+        section = self.all_sections[section_url]
+        section_title = section["title"]
+        self.log(f"Parsing section: {section_title} - {section_url}")
+        subsections = self.extract_subsections(response, section_url)
+        self.all_sections[section_url]["subsections"] = subsections
+
+        self.log(f"Found {len(subsections)} subsections for {section_title}")
+        for subsection in subsections:
+            yield SeleniumRequest(
+                url=subsection["url"],
+                callback=self.parse_subsection,
+                wait_time=5,
+                meta={"section_url": section_url, "subsection_url": subsection["url"]},
+                dont_filter=True,
+            )
+            time.sleep(0.5)
+
+    def get_path_from_url(self, url):
+        """Safely extract path from URL"""
+        try:
+            if "merckvetmanual.com" in url:
+                parsed = urlparse(url)
+                return parsed.path.strip("/")
+            return ""
+        except Exception:
+            return ""
+
+    def extract_subsections(self, response, section_url):
+        """Extract subsections from a section page"""
+        section_path = self.get_path_from_url(section_url)
+        subsections = []
+        subsection_headers = response.css(
+            "div.SectionLayout_subsectionExpanded__SJT_i h2 a, "
+            "h2.SectionLayout_subsectionTitle__Lrw_e a, "
+            "div[class*='subsection'] h2 a, "
+            "h2[class*='subsection'] a"
+        )
+
+        for link in subsection_headers:
+            text = link.css("::text").get()
+            href = link.css("::attr(href)").get()
+
+            if text and href:
+                text = text.strip()
+                url = response.urljoin(href)
+                if url != section_url and text.lower() not in self.nav_patterns:
+                    url_path = self.get_path_from_url(url)
+                    if (
+                        section_path
+                        and section_path in url_path
+                        and section_path != url_path
+                    ):
+                        subsections.append(
+                            {"title": text, "url": url, "in_depth_links": []}
+                        )
+                        self.log(f"Found subsection from headers: {text}")
+        list_links = response.css("ul li a, ol li a")
+
+        for link in list_links:
+            text = link.css("::text").get()
+            href = link.css("::attr(href)").get()
+
+            if text and href:
+                text = text.strip()
+                url = response.urljoin(href)
+                if url != section_url and text.lower() not in self.nav_patterns:
+                    url_path = self.get_path_from_url(url)
+                    if (
+                        section_path
+                        and section_path in url_path
+                        and section_path != url_path
+                    ):
+                        if not any(s["url"] == url for s in subsections):
+                            subsections.append(
+                                {"title": text, "url": url, "in_depth_links": []}
+                            )
+                            self.log(f"Found subsection from lists: {text}")
         script_data = response.xpath('//script[@id="__NEXT_DATA__"]/text()').get()
 
         if script_data:
             try:
                 data = json.loads(script_data)
-                # Navigate to the section data in the JSON structure
-                section_data = (
-                    data.get("props", {})
-                    .get("pageProps", {})
-                    .get("componentProps", {})
-                    .get("eb190e7b-5914-4f3d-91a8-3fa8542b6178", {})
-                    .get("data", [])
+                component_props = (
+                    data.get("props", {}).get("pageProps", {}).get("componentProps", {})
                 )
 
-                # Extract the sections
-                for item in section_data:
-                    title = item.get("titlecomputed_t", "")
-                    path = item.get("relativeurlcomputed_s", "")
+                for key, value in component_props.items():
+                    if isinstance(value, dict) and "data" in value:
+                        items = value.get("data", [])
 
-                    if title and path:
-                        url = f"https://www.merckvetmanual.com{path}"
-                        yield {"title": title, "url": url}
-                        self.log(f"Found section: {title} - {url}")
+                        for item in items:
+                            title = item.get("titlecomputed_t", "")
+                            path = item.get("relativeurlcomputed_s", "")
 
-            except json.JSONDecodeError as e:
-                self.log(f"Failed to parse JSON data: {e}")
+                            if title and path:
+                                url = f"{self.base_url}{path}"
+                                if url != section_url:
+                                    url_path = path.strip("/")
+                                    if (
+                                        section_path
+                                        and section_path in url_path
+                                        and section_path != url_path
+                                    ):
+                                        if not any(
+                                            s["url"] == url for s in subsections
+                                        ):
+                                            subsections.append(
+                                                {
+                                                    "title": title,
+                                                    "url": url,
+                                                    "in_depth_links": [],
+                                                }
+                                            )
+                                            self.log(
+                                                f"Found subsection from JSON: {title}"
+                                            )
             except Exception as e:
-                self.log(f"An error occurred: {e}")
-
-        else:
-            self.log("Could not find __NEXT_DATA__ script")
-
-            # Fallback: Try to extract using CSS selectors
-            self.log("Trying fallback extraction method...")
-            section_items = response.css("div.SectionList_sectionListItem__NNP4c a")
-
-            if section_items:
-                for link in section_items:
-                    text = link.css("::text").get()
-                    href = link.css("::attr(href)").get()
-
-                    if text and href:
-                        text = text.strip()
-                        url = response.urljoin(href)
-                        yield {"title": text, "url": url}
-                        self.log(f"Found section (fallback): {text} - {url}")
-    
-    def parse_section(self, response):
-        section_title = response.meta.get('section_title')
-        self.log(f"Parsing subsections for: {section_title}")
-        
-        subsections = []
-        section_path = response.url.split("merckvetmanual.com")[1]
-        self.log(f"Processing URL: {response.url}, section path: {section_path}")
-        
-        # List of navigation text patterns to exclude
-        nav_patterns = ['veterinary professionals', 'pet owners', 'resources', 'quizzes', 'about', 
-                        'login', 'register', 'search', 'home', 'contact', 'legal', 'privacy', 
-                        'advertise', 'careers', 'help', 'terms', 'support', 'faq', 'feedback',
-                        'menu', 'share', 'print']
-        
-        # Based on the screenshot, we can see that subsections are structured as part of a list/tree
-        # First, try to get subsections from the main content area
-        
-        # 1. First approach - based on the screenshot structure
-        self.log("Method 1: Looking for subsection elements matching the screenshot structure")
-        
-        # Look for specific patterns like the ones in the screenshot
-        # These are the main sections like "Hematopoietic System Introduction", "Anemia", etc.
-        main_topic_links = response.css("div.SectionLayout_subsectionExpanded__SJT_i h2 a, h2.SectionLayout_subsectionTitle__Lrw_e a")
-        if not main_topic_links:
-            main_topic_links = response.css('[class*="section"] > h2 a, [class*="Section"] > h2 a')
-        
-        self.log(f"Found {len(main_topic_links)} main topic links")
-        for link in main_topic_links:
-            text = link.css("::text").get()
-            href = link.css("::attr(href)").get()
-            
-            if text and href:
-                text = text.strip()
-                url = response.urljoin(href)
-                # Only add if it's not a navigation link and contains the section path or is a related subsection
-                if (text.lower() not in nav_patterns and 
-                    len(text) > 3 and
-                    (section_path in href or href.startswith(f"/{section_path.lstrip('/')}"))):
-                    subsections.append({"title": text, "url": url})
-                    self.log(f"Method 1 - Found main subsection: {text}")
-        
-        # 2. Look for subsection links like "Overview of Hematopoietic System in Animals"
-        # These are usually under the main sections
-        self.log("Method 2: Looking for specific subsection links")
-        
-        # The subsections are often items in a list or have specific CSS classes
-        subtopic_links = response.css('[class*="subsection"] a, li a, ul a, ol a')
-        
-        for link in subtopic_links:
-            text = link.css("::text").get()
-            href = link.css("::attr(href)").get()
-            
-            if text and href:
-                text = text.strip()
-                url = response.urljoin(href)
-                
-                # Include only if:
-                # 1. It's not a navigation link
-                # 2. Contains the current section's path in the URL
-                # 3. Text length is reasonable for a topic (not too short)
-                is_nav = any(pattern in text.lower() for pattern in nav_patterns)
-                is_related = (section_path in href or 
-                             href.startswith(f"/{section_path.lstrip('/')}") or
-                             section_title.lower() in text.lower())
-                
-                if not is_nav and is_related and len(text) > 3:
-                    subsections.append({"title": text, "url": url})
-                    self.log(f"Method 2 - Found subsection: {text}")
-        
-        # 3. Use the __NEXT_DATA__ script - this might have structured data
+                self.log(f"Error extracting subsections from JSON: {e}")
         if not subsections:
-            self.log("Method 3: Checking for __NEXT_DATA__ structured data")
-            script_data = response.xpath('//script[@id="__NEXT_DATA__"]/text()').get()
-            
-            if script_data:
-                try:
-                    data = json.loads(script_data)
-                    self.log("Found __NEXT_DATA__ script")
-                    
-                    # Look for section data in the page props
-                    page_props = data.get("props", {}).get("pageProps", {})
-                    component_props = page_props.get("componentProps", {})
-                    
-                    # Iterate through the componentProps to find subsection data
-                    for key, value in component_props.items():
-                        if isinstance(value, dict) and "data" in value:
-                            data_items = value.get("data", [])
-                            for item in data_items:
-                                title = item.get("titlecomputed_t", "")
-                                path = item.get("relativeurlcomputed_s", "")
-                                
-                                # Make sure the path is related to this section
-                                if title and path and section_path in path:
-                                    url = f"https://www.merckvetmanual.com{path}"
-                                    subsections.append({"title": title, "url": url})
-                                    self.log(f"Method 3 - Found subsection from JSON: {title}")
-                except Exception as e:
-                    self.log(f"Failed to parse JSON data: {e}")
-        
-        # 4. As a fallback, look for all links within the main content area
-        # that might be subsections based on URL pattern
-        if not subsections:
-            self.log("Method 4: Fallback to find links with specific subsection patterns")
-            
-            # Look for links that have a URL pattern suggesting they're subsections
-            # Example: /circulatory-system/anemia
-            all_links = response.css("a[href^='/']")
-            section_pattern = section_path.strip("/")
-            
-            for link in all_links:
+            self.log("Trying more general link extraction for subsections")
+            general_links = response.css("a[href^='/']")
+
+            for link in general_links:
                 text = link.css("::text").get()
                 href = link.css("::attr(href)").get()
-                
-                if (text and href and 
-                    len(text) > 3 and 
-                    section_pattern in href and 
-                    href != section_path and
-                    not any(pattern in text.lower() for pattern in nav_patterns)):
-                    
-                    # Check if this is likely a subsection URL (contains more path segments)
-                    href_parts = href.strip("/").split("/")
-                    if len(href_parts) > 1:
-                        text = text.strip()
-                        url = response.urljoin(href)
-                        subsections.append({"title": text, "url": url})
-                        self.log(f"Method 4 - Found subsection by URL pattern: {text}")
-        
-        # Remove duplicates while preserving order
-        unique_subsections = []
+
+                if text and href and len(text.strip()) > 3:
+                    text = text.strip()
+                    url = response.urljoin(href)
+
+                    if url != section_url and text.lower() not in self.nav_patterns:
+                        url_path = self.get_path_from_url(url)
+                        if (
+                            section_path
+                            and section_path in url_path
+                            and section_path != url_path
+                        ):
+                            if not any(s["url"] == url for s in subsections):
+                                subsections.append(
+                                    {"title": text, "url": url, "in_depth_links": []}
+                                )
+                                self.log(f"Found subsection from general links: {text}")
+        clean_subsections = []
         seen_urls = set()
-        for item in subsections:
-            if item['url'] not in seen_urls:
-                # Final validation check to exclude navigation items
-                if not any(pattern in item['title'].lower() for pattern in nav_patterns):
-                    unique_subsections.append(item)
-                    seen_urls.add(item['url'])
-        
-        self.log(f"Found {len(unique_subsections)} unique subsections for {section_title}")
-        
-        # Save subsections to a JSON file named after the section
-        if unique_subsections:
-            try:
-                # Sanitize the title for use as a filename
-                safe_title = re.sub(r'[\\/*?:"<>|]', "_", section_title)
-                
-                # Ensure section_data directory exists
-                output_dir = os.path.join(
-                    os.path.dirname(os.path.dirname(os.path.dirname(__file__))),
-                    'section_data'
-                )
-                os.makedirs(output_dir, exist_ok=True)
-                
-                output_path = os.path.join(output_dir, f"{safe_title}.json")
-                
-                with open(output_path, 'w', encoding='utf-8') as f:
-                    json.dump(unique_subsections, f, indent=2, ensure_ascii=False)
-                
-                self.log(f"Successfully saved {len(unique_subsections)} subsections for {section_title} to {output_path}")
-            except Exception as e:
-                self.log(f"Error saving subsections for {section_title}: {e}")
-        else:
-            self.log(f"No subsections found for {section_title}")
+
+        for subsection in subsections:
+            if subsection["url"] not in seen_urls:
+                seen_urls.add(subsection["url"])
+                if subsection["url"] != section_url:
+                    clean_subsections.append(subsection)
+
+        return clean_subsections
+
+    def parse_subsection(self, response):
+        section_url = response.meta.get("section_url")
+        subsection_url = response.meta.get("subsection_url")
+        if section_url not in self.all_sections:
+            self.log(f"Section URL not found in data: {section_url}")
+            return
+        section = self.all_sections[section_url]
+        subsection_index = next(
+            (
+                i
+                for i, s in enumerate(section["subsections"])
+                if s["url"] == subsection_url
+            ),
+            None,
+        )
+
+        if subsection_index is None:
+            self.log(f"Subsection URL not found in data: {subsection_url}")
+            return
+
+        subsection = section["subsections"][subsection_index]
+
+        self.log(f"Parsing in-depth links for: {subsection['title']}")
+        in_depth_links = self.extract_in_depth_links(
+            response, section_url, subsection_url
+        )
+        self.all_sections[section_url]["subsections"][subsection_index][
+            "in_depth_links"
+        ] = in_depth_links
+
+        self.log(
+            f"Found {len(in_depth_links)} in-depth links for {subsection['title']}"
+        )
+
+    def extract_in_depth_links(self, response, section_url, subsection_url):
+        """Extract in-depth links from a subsection page"""
+        section_path = self.get_path_from_url(section_url)
+        in_depth_links = []
+        content_links = response.css(
+            "ul li a, ol li a, div[class*='content'] a, "
+            "div[class*='topic'] a, div[class*='subsection'] a"
+        )
+
+        for link in content_links:
+            text = link.css("::text").get()
+            href = link.css("::attr(href)").get()
+
+            if text and href:
+                text = text.strip()
+                url = response.urljoin(href)
+                link_path = self.get_path_from_url(url)
+                if (
+                    url != section_url
+                    and url != subsection_url
+                    and text.lower() not in self.nav_patterns
+                    and len(text) > 3
+                ):
+                    if (
+                        section_path
+                        and section_path in link_path
+                        and link_path != section_path
+                    ):
+                        in_depth_links.append({"title": text, "url": url})
+                        self.log(f"Found in-depth link: {text}")
+        clean_links = []
+        seen_urls = set()
+
+        for link in in_depth_links:
+            if link["url"] not in seen_urls:
+                seen_urls.add(link["url"])
+                clean_links.append(link)
+
+        return clean_links
+
+    def closed(self, reason):
+        """Called when the spider is closed"""
+        sections_list = list(self.all_sections.values())
+        non_empty_sections = [
+            section for section in sections_list if section.get("subsections")
+        ]
+
+        output_path = "merck_manual_final.json"
+        with open(output_path, "w", encoding="utf-8") as f:
+            json.dump(non_empty_sections, f, indent=2, ensure_ascii=False)
+        total_sections = len(sections_list)
+        non_empty_section_count = len(non_empty_sections)
+        total_subsections = sum(
+            len(section.get("subsections", [])) for section in sections_list
+        )
+        total_in_depth = sum(
+            sum(
+                len(subsection.get("in_depth_links", []))
+                for subsection in section.get("subsections", [])
+            )
+            for section in sections_list
+        )
+
+        self.log(f"\n==== Crawling Complete ====")
+        self.log(f"Total sections: {total_sections}")
+        self.log(f"Sections with subsections: {non_empty_section_count}")
+        self.log(f"Total subsections: {total_subsections}")
+        self.log(f"Total in-depth links: {total_in_depth}")
+        self.log(f"Final data saved to: {output_path}")
+        self.log(f"Reason for closing: {reason}")
