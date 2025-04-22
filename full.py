@@ -1,8 +1,9 @@
+# full.py - Simplified version that downloads all PDFs with tracking, skipping specified sections
+
 import base64
 import json
 import os
 import re
-import sys
 import time
 from pathlib import Path
 
@@ -14,6 +15,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
+
+IGNORED_SECTIONS = ["Behavior", "Poultry", "Special Subjects", "Public Health"]
 
 
 def handle_cookie_consent(driver):
@@ -29,6 +32,7 @@ def handle_cookie_consent(driver):
             ".accept-cookies-button",
             "button.accept-cookies",
         ]
+
         for selector in selectors:
             try:
                 cookie_button = WebDriverWait(driver, 2).until(
@@ -41,6 +45,7 @@ def handle_cookie_consent(driver):
             except:
                 continue
 
+        # Try looking for buttons with text
         cookie_button_texts = [
             "Accept All Cookies",
             "Accept All",
@@ -103,30 +108,28 @@ def handle_cookie_consent(driver):
             return False
 
     except Exception as e:
-        print(f"  Error handling cookie consent: {e}")
+        print(f"Error handling cookie consent: {e}")
         return False
 
 
-def save_page_as_pdf(driver, title, url=None, output_dir="pdfs"):
+def save_page_as_pdf(driver, title, url, output_dir="pdfs"):
     """Save the current page as a PDF using Chrome's built-in print functionality"""
     try:
         Path(output_dir).mkdir(exist_ok=True)
         safe_title = clean_filename(title)
         filepath = os.path.join(output_dir, f"{safe_title}.pdf")
 
-        print(f"  Saving PDF for: {title}")
-        if url:
-            current_url = driver.current_url
-            if current_url != url:
-                driver.get(url)
-                handle_cookie_consent(driver)
-                try:
-                    WebDriverWait(driver, 10).until(
-                        EC.presence_of_element_located((By.TAG_NAME, "body"))
-                    )
-                except TimeoutException:
-                    print("    Timeout waiting for page to load. Continuing anyway...")
-                time.sleep(2)
+        print(f"Saving PDF for: {title}")
+
+        driver.get(url)
+        handle_cookie_consent(driver)
+        try:
+            WebDriverWait(driver, 10).until(
+                EC.presence_of_element_located((By.TAG_NAME, "body"))
+            )
+        except TimeoutException:
+            print("Timeout waiting for page to load. Continuing anyway...")
+        time.sleep(2)
 
         pdf_data = driver.execute_cdp_cmd(
             "Page.printToPDF",
@@ -144,14 +147,14 @@ def save_page_as_pdf(driver, title, url=None, output_dir="pdfs"):
         with open(filepath, "wb") as file:
             file.write(base64.b64decode(pdf_data["data"]))
 
-        print(f"  PDF saved to: {filepath}")
+        print(f"PDF saved to: {filepath}")
         return filepath
     except Exception as e:
-        print(f"  Error saving PDF: {e}")
+        print(f"Error saving PDF: {e}")
         try:
             screenshot_path = f"error_screenshot_{clean_filename(title)}.png"
             driver.save_screenshot(screenshot_path)
-            print(f"  Error screenshot saved to: {screenshot_path}")
+            print(f"Error screenshot saved to: {screenshot_path}")
         except:
             pass
         return None
@@ -167,9 +170,7 @@ def clean_filename(text):
 
 
 def extract_content_from_page(driver, url, base_section_path):
-    """
-    Extract links from a page - works for both subsections and in-depth pages
-    """
+    """Extract links from a page that match criteria for being content"""
     links = driver.find_elements(By.TAG_NAME, "a")
     content_links = []
     base_url = "https://www.merckvetmanual.com"
@@ -205,16 +206,17 @@ def extract_content_from_page(driver, url, base_section_path):
                 if base_section_path in href:
                     content_links.append({"title": text, "url": href})
         except Exception as e:
-            print(f"  Error processing link: {e}")
+            print(f"Error processing link: {e}")
             continue
 
     return content_links
 
 
-def download_all_in_depth_links(complete_data, output_dir="merck_data"):
-    """Download PDFs for all in-depth links in the complete data"""
-    print("\n=== Starting PDF downloads for all in-depth links ===")
+def download_pdfs_and_build_index():
+    """Main function to download PDFs and build an index"""
+    output_dir = "merck_data"
     pdf_dir = os.path.join(output_dir, "pdfs")
+    Path(output_dir).mkdir(exist_ok=True)
     Path(pdf_dir).mkdir(exist_ok=True)
     chrome_options = Options()
     chrome_options.add_argument("--headless=new")
@@ -225,316 +227,255 @@ def download_all_in_depth_links(complete_data, output_dir="merck_data"):
     chrome_options.add_argument(
         "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
     )
-    print("Initializing Chrome WebDriver for PDF downloads...")
+
+    print("Initializing Chrome WebDriver...")
     driver = webdriver.Chrome(
         service=Service(ChromeDriverManager().install()), options=chrome_options
     )
+    pdf_index = []
 
     try:
-        total_sections = len(complete_data)
-        total_links = 0
-        successful_downloads = 0
-        for section in complete_data:
-            for subsection in section.get("subsections", []):
-                total_links += len(subsection.get("in_depth_links", []))
+        index_path = os.path.join(output_dir, "pdf_index.json")
+        if os.path.exists(index_path):
+            print(f"Loading existing PDF index from {index_path}")
+            with open(index_path, "r") as f:
+                pdf_index = json.load(f)
+            print(f"Loaded {len(pdf_index)} existing entries")
+        sections_path = "merck_sections.json"
+        if not os.path.exists(sections_path):
+            sections_path = os.path.join("merck", "clean_sections.json")
+            if not os.path.exists(sections_path):
+                print("Error: No sections file found")
+                return
+
+        with open(sections_path, "r") as f:
+            sections = json.load(f)
+
+        filtered_sections = [
+            s for s in sections if s.get("title") not in IGNORED_SECTIONS
+        ]
+        ignored_count = len(sections) - len(filtered_sections)
 
         print(
-            f"Found {total_links} in-depth links to download across {total_sections} sections"
+            f"Starting the process with {len(filtered_sections)} sections (ignored {ignored_count} sections)"
         )
-        for section_idx, section in enumerate(complete_data, 1):
+        print(f"Ignoring the following sections: {', '.join(IGNORED_SECTIONS)}")
+        processed_urls = {entry["url"] for entry in pdf_index}
+        total_sections = len(filtered_sections)
+        for section_idx, section in enumerate(filtered_sections, 1):
             section_title = section.get("title", "Unknown Section")
+            section_url = section.get("url")
+
+            if not section_url:
+                print(
+                    f"Skipping section {section_idx}/{total_sections}: {section_title} - missing URL"
+                )
+                continue
+
             print(
                 f"\n[{section_idx}/{total_sections}] Processing section: {section_title}"
             )
+            if section_url not in processed_urls:
+                section_pdf_path = save_page_as_pdf(
+                    driver, section_title, section_url, pdf_dir
+                )
+                if section_pdf_path:
+                    section_entry = {
+                        "title": section_title,
+                        "url": section_url,
+                        "pdf_path": section_pdf_path,
+                        "type": "section",
+                    }
+                    pdf_index.append(section_entry)
+                    processed_urls.add(section_url)
 
-            for subsection_idx, subsection in enumerate(
-                section.get("subsections", []), 1
-            ):
-                subsection_title = subsection.get("title", "Unknown Subsection")
-                in_depth_links = subsection.get("in_depth_links", [])
+                    with open(index_path, "w", encoding="utf-8") as f:
+                        json.dump(pdf_index, f, indent=2, ensure_ascii=False)
+            else:
+                print(f"Section already processed: {section_title}")
 
-                if in_depth_links:
-                    print(
-                        f"  Processing subsection {subsection_idx}: {subsection_title} ({len(in_depth_links)} links)"
+            # Extract subsections
+            section_path = section_url.split("merckvetmanual.com")[1]
+
+            # Navigate to the section page
+            driver.get(section_url)
+            handle_cookie_consent(driver)
+
+            # Wait for page to load
+            try:
+                WebDriverWait(driver, 10).until(
+                    EC.presence_of_element_located((By.TAG_NAME, "body"))
+                )
+            except TimeoutException:
+                print("Timeout waiting for section page to load. Continuing anyway...")
+
+            time.sleep(3)
+
+            # Extract links
+            print("Extracting subsections...")
+            subsections = extract_content_from_page(driver, section_url, section_path)
+
+            # Filter to valid subsections
+            base_url = "https://www.merckvetmanual.com"
+            filtered_subsections = []
+            for item in subsections:
+                relative_path = item["url"].replace(base_url, "")
+                parts = relative_path.strip("/").split("/")
+
+                if len(parts) > 1 and section_path.strip("/") == parts[0]:
+                    filtered_subsections.append(item)
+
+            print(f"Found {len(filtered_subsections)} subsections for {section_title}")
+
+            # Process each subsection
+            for sub_idx, subsection in enumerate(filtered_subsections, 1):
+                subsection_title = subsection["title"]
+                subsection_url = subsection["url"]
+
+                print(
+                    f"[{sub_idx}/{len(filtered_subsections)}] Processing subsection: {subsection_title}"
+                )
+
+                # Add subsection to index if not already processed
+                if subsection_url not in processed_urls:
+                    # Download subsection PDF
+                    subsection_pdf_path = save_page_as_pdf(
+                        driver,
+                        f"{section_title} - {subsection_title}",
+                        subsection_url,
+                        pdf_dir,
                     )
 
-                    for link_idx, link in enumerate(in_depth_links, 1):
-                        link_title = link.get("title", "Unknown Link")
-                        link_url = link.get("url")
+                    # Add to index
+                    if subsection_pdf_path:
+                        subsection_entry = {
+                            "title": subsection_title,
+                            "full_title": f"{section_title} - {subsection_title}",
+                            "url": subsection_url,
+                            "pdf_path": subsection_pdf_path,
+                            "parent_section": section_title,
+                            "type": "subsection",
+                        }
+                        pdf_index.append(subsection_entry)
+                        processed_urls.add(subsection_url)
 
-                        if not link_url:
-                            print(
-                                f"    [{link_idx}/{len(in_depth_links)}] Skipping {link_title} - no URL"
-                            )
-                            continue
+                        # Save index after each PDF
+                        with open(index_path, "w", encoding="utf-8") as f:
+                            json.dump(pdf_index, f, indent=2, ensure_ascii=False)
+                else:
+                    print(f"Subsection already processed: {subsection_title}")
 
-                        print(
-                            f"    [{link_idx}/{len(in_depth_links)}] Downloading PDF for: {link_title}"
-                        )
-                        full_title = (
-                            f"{section_title}__{subsection_title}__{link_title}"
-                        )
-                        pdf_path = save_page_as_pdf(
-                            driver, full_title, link_url, pdf_dir
-                        )
-
-                        if pdf_path:
-                            link["pdf_path"] = pdf_path
-                            successful_downloads += 1
-                            print(f"    ✓ PDF saved successfully")
-                        else:
-                            print(f"    ✗ Failed to download PDF")
-                        time.sleep(1)
-
-        print(f"\n=== PDF Download Summary ===")
-        print(f"Successfully downloaded: {successful_downloads}/{total_links} PDFs")
-        print(f"All PDFs saved to: {os.path.abspath(pdf_dir)}")
-        return complete_data
-
-    except Exception as e:
-        print(f"Error in download_all_in_depth_links: {e}")
-        return complete_data
-
-    finally:
-        driver.quit()
-        print("WebDriver closed")
-
-
-def extract_subsections_with_selenium(driver, url, section_title, save_pdfs=False):
-    """
-    Extract subsections and their in-depth content from Merck Veterinary Manual section
-    """
-    print(f"Extracting subsections for {section_title} from {url}")
-
-    try:
-        driver.get(url)
-        handle_cookie_consent(driver)
-        try:
-            WebDriverWait(driver, 10).until(
-                EC.presence_of_element_located((By.TAG_NAME, "body"))
-            )
-        except TimeoutException:
-            print("  Timeout waiting for page to load. Continuing anyway...")
-        time.sleep(3)
-        if save_pdfs:
-            save_page_as_pdf(driver, section_title)
-        section_path = url.split("merckvetmanual.com")[1]
-        base_url = "https://www.merckvetmanual.com"
-        print("Extracting first-level subsections...")
-        subsections = extract_content_from_page(driver, url, section_path)
-        filtered_subsections = []
-        for item in subsections:
-            relative_path = item["url"].replace(base_url, "")
-            parts = relative_path.strip("/").split("/")
-
-            if len(parts) > 1 and section_path.strip("/") == parts[0]:
-                filtered_subsections.append(item)
-                print(f"Found subsection: {item['title']}")
-        processed_subsections = []
-        for i, subsection in enumerate(filtered_subsections):
-            print(
-                f"Processing subsection {i+1}/{len(filtered_subsections)}: {subsection['title']}"
-            )
-
-            subsection_data = {
-                "title": subsection["title"],
-                "url": subsection["url"],
-                "in_depth_links": [],
-                "pdf_path": None,
-            }
-            try:
-                driver.get(subsection["url"])
+                # Find in-depth links in the subsection
+                # Navigate to the subsection page
+                driver.get(subsection_url)
                 handle_cookie_consent(driver)
+
                 try:
                     WebDriverWait(driver, 10).until(
                         EC.presence_of_element_located((By.TAG_NAME, "body"))
                     )
                 except TimeoutException:
                     print(
-                        "  Timeout waiting for subsection page to load. Continuing anyway..."
+                        "Timeout waiting for subsection page to load. Continuing anyway..."
                     )
+
                 time.sleep(2)
-                if save_pdfs:
-                    pdf_path = save_page_as_pdf(
-                        driver, f"{section_title}__{subsection['title']}"
-                    )
-                    if pdf_path:
-                        subsection_data["pdf_path"] = pdf_path
-                list_indicators = driver.find_elements(
-                    By.CSS_SELECTOR,
-                    "ul li a, div[class*='subsection'] a, div[class*='section'] a",
+
+                # Look for in-depth links
+                print("Looking for in-depth content...")
+                section_base_path = subsection_url.replace(base_url, "")
+                in_depth_links = extract_content_from_page(
+                    driver, subsection_url, section_base_path
                 )
 
-                in_depth_links = []
-                if list_indicators:
-                    print(f"  Found potential in-depth links on subsection page")
-                    section_base_path = subsection["url"].replace(base_url, "")
-                    in_depth_links = extract_content_from_page(
-                        driver, subsection["url"], section_base_path
+                # Filter to valid in-depth links
+                filtered_links = []
+                for link in in_depth_links:
+                    if (
+                        section_base_path in link["url"]
+                        and link["url"] != subsection_url
+                    ):
+                        filtered_links.append(link)
+
+                print(
+                    f"Found {len(filtered_links)} in-depth links for {subsection_title}"
+                )
+
+                # Process each in-depth link
+                for link_idx, link in enumerate(filtered_links, 1):
+                    link_title = link["title"]
+                    link_url = link["url"]
+
+                    print(
+                        f"[{link_idx}/{len(filtered_links)}] Processing link: {link_title}"
                     )
-                    filtered_links = []
-                    for link in in_depth_links:
-                        if (
-                            section_base_path in link["url"]
-                            and link["url"] != subsection["url"]
-                        ):
-                            link["pdf_path"] = None
-                            filtered_links.append(link)
-                            print(f"  Found in-depth link: {link['title']}")
-                            if save_pdfs:
-                                try:
-                                    driver.get(link["url"])
-                                    handle_cookie_consent(driver)
-                                    try:
-                                        WebDriverWait(driver, 10).until(
-                                            EC.presence_of_element_located(
-                                                (By.TAG_NAME, "body")
-                                            )
-                                        )
-                                    except TimeoutException:
-                                        print(
-                                            "  Timeout waiting for in-depth page to load. Continuing anyway..."
-                                        )
 
-                                    time.sleep(1)
-                                    in_depth_title = f"{section_title}__{subsection['title']}__{link['title']}"
-                                    pdf_path = save_page_as_pdf(driver, in_depth_title)
-                                    if pdf_path:
-                                        link["pdf_path"] = pdf_path
-                                except Exception as e:
-                                    print(f"  Error saving in-depth page as PDF: {e}")
+                    # Add link to index if not already processed
+                    if link_url not in processed_urls:
+                        # Download in-depth link PDF
+                        full_title = (
+                            f"{section_title} - {subsection_title} - {link_title}"
+                        )
+                        link_pdf_path = save_page_as_pdf(
+                            driver, full_title, link_url, pdf_dir
+                        )
 
-                    in_depth_links = filtered_links
+                        # Add to index
+                        if link_pdf_path:
+                            link_entry = {
+                                "title": link_title,
+                                "full_title": full_title,
+                                "url": link_url,
+                                "pdf_path": link_pdf_path,
+                                "parent_section": section_title,
+                                "parent_subsection": subsection_title,
+                                "type": "in_depth",
+                            }
+                            pdf_index.append(link_entry)
+                            processed_urls.add(link_url)
 
-                subsection_data["in_depth_links"] = in_depth_links
-                processed_subsections.append(subsection_data)
-                if i < len(filtered_subsections) - 1:
+                            # Save index after each PDF
+                            with open(index_path, "w", encoding="utf-8") as f:
+                                json.dump(pdf_index, f, indent=2, ensure_ascii=False)
+                    else:
+                        print(f"Link already processed: {link_title}")
+
+                    # Rate limiting
                     time.sleep(1)
 
-            except Exception as e:
-                print(f"  Error processing subsection {subsection['title']}: {e}")
-                processed_subsections.append(subsection_data)
+                # Rate limiting between subsections
+                time.sleep(1)
 
-        return processed_subsections
+            # Rate limiting between sections
+            time.sleep(2)
 
-    except Exception as e:
-        print(f"Error: {e}")
-        return []
+        # Final save of the index
+        with open(index_path, "w", encoding="utf-8") as f:
+            json.dump(pdf_index, f, indent=2, ensure_ascii=False)
 
-
-def main():
-    test_mode = "--test" in sys.argv
-    save_pdfs = "--save-pdfs" in sys.argv
-    download_pdfs = "--download-pdfs" in sys.argv
-
-    sections_path = "merck_sections.json"
-    if not os.path.exists(sections_path):
-        sections_path = os.path.join("merck", "clean_sections.json")
-        if not os.path.exists(sections_path):
-            print(
-                f"Error: Neither merck_sections.json nor merck/clean_sections.json found"
-            )
-            return
-
-    try:
-        with open(sections_path, "r") as f:
-            sections = json.load(f)
-
-        print(f"Loaded {len(sections)} sections from {sections_path}")
-        output_dir = "merck_data"
-        Path(output_dir).mkdir(exist_ok=True)
-
-        if save_pdfs:
-            pdf_dir = os.path.join(output_dir, "pdfs")
-            Path(pdf_dir).mkdir(exist_ok=True)
-            print(f"PDFs will be saved to {pdf_dir}")
-        chrome_options = Options()
-        chrome_options.add_argument("--headless=new")  # Use the new headless mode
-        chrome_options.add_argument("--no-sandbox")
-        chrome_options.add_argument("--disable-dev-shm-usage")
-        chrome_options.add_argument("--window-size=1920,1080")
-        chrome_options.add_argument(
-            "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-        )
-
-        print("Initializing Chrome WebDriver...")
-        driver = webdriver.Chrome(
-            service=Service(ChromeDriverManager().install()), options=chrome_options
-        )
-        if test_mode:
-            print("Running in TEST mode - only processing Circulatory System")
-        else:
-            print(f"Preparing to extract subsections for {len(sections)} sections")
-        processed = 0
-        successful = 0
-        if test_mode:
-            circulatory_section = next(
-                (
-                    s
-                    for s in sections
-                    if "title" in s and s["title"] == "Circulatory System"
-                ),
-                None,
-            )
-            if circulatory_section:
-                test_sections = [circulatory_section]
-                print("Found Circulatory System section for testing")
-            else:
-                test_sections = [sections[0]]
-                print(
-                    f"Circulatory System section not found, using first section: {test_sections[0].get('title', 'Unknown')}"
-                )
-        else:
-            test_sections = sections
-        total_sections = len(test_sections)
-        complete_data = []
-
-        for i, section in enumerate(test_sections, 1):
-            title = section.get("title")
-            url = section.get("url")
-
-            if not title or not url:
-                print(f"Skipping section {i} - missing title or URL")
-                continue
-
-            print(f"\n[{i}/{total_sections}] Processing: {title}")
-            subsections = extract_subsections_with_selenium(
-                driver, url, title, save_pdfs
-            )
-            processed += 1
-            section_data = {"title": title, "url": url, "subsections": subsections}
-            complete_data.append(section_data)
-
-            if subsections:
-                print(
-                    f"✓ Successfully processed {len(subsections)} subsections for {title}"
-                )
-                successful += 1
-            else:
-                print(f"✗ No subsections found for {title}")
-            if i < total_sections:
-                print("Waiting 2 seconds before next request...")
-                time.sleep(2)
-        if download_pdfs:
-            complete_data = download_all_in_depth_links(complete_data, output_dir)
-        complete_output_path = os.path.join(output_dir, "merck_complete_data.json")
-        with open(complete_output_path, "w", encoding="utf-8") as f:
-            json.dump(complete_data, f, indent=2, ensure_ascii=False)
-
-        print(f"\n✓ Saved complete data to {complete_output_path}")
         print(f"\n=== Summary ===")
-        print(f"Processed: {processed}/{total_sections} sections")
-        print(f"Successful: {successful}/{processed} sections")
-        print(f"All data has been saved to: {os.path.abspath(complete_output_path)}")
+        print(f"Total PDFs downloaded: {len(pdf_index)}")
+        print(f"PDF index saved to: {os.path.abspath(index_path)}")
+        print(f"All PDFs saved to: {os.path.abspath(pdf_dir)}")
 
     except Exception as e:
-        print(f"Error: {e}")
+        print(f"Error during processing: {e}")
+
+        # Save whatever we have in case of error
+        if pdf_index:
+            try:
+                with open(index_path, "w", encoding="utf-8") as f:
+                    json.dump(pdf_index, f, indent=2, ensure_ascii=False)
+                print(f"Saved partial index with {len(pdf_index)} entries")
+            except Exception as save_error:
+                print(f"Error saving index: {save_error}")
 
     finally:
+        # Clean up
         if "driver" in locals():
             driver.quit()
             print("WebDriver closed")
 
 
 if __name__ == "__main__":
-    main()
+    download_pdfs_and_build_index()
