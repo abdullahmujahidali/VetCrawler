@@ -1,4 +1,4 @@
-# full.py - With animal filtering to focus on cats and dogs
+# full.py - Combined crawler and downloader
 
 import base64
 import json
@@ -8,6 +8,8 @@ import time
 from pathlib import Path
 from urllib.parse import urlparse, urlunparse
 
+import requests
+from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.chrome.options import Options
@@ -94,6 +96,67 @@ EXCLUDED_ANIMALS = [
     "goldfish",
     "tropical fish",
 ]
+
+
+def scrape_merck_vet_manual_sections():
+    """Scrape the main sections from the Merck Veterinary Manual website"""
+    print("Crawling Merck Veterinary Manual for sections...")
+    url = "https://www.merckvetmanual.com/veterinary-topics"
+
+    # Send HTTP request to the website
+    try:
+        response = requests.get(url)
+
+        # Check if the request was successful
+        if response.status_code != 200:
+            print(f"Failed to retrieve the page: Status code {response.status_code}")
+            return []
+
+        # Look for the data in the __NEXT_DATA__ script tag
+        match = re.search(
+            r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>',
+            response.text,
+            re.DOTALL,
+        )
+
+        if not match:
+            print("Could not find __NEXT_DATA__ script")
+            return []
+
+        try:
+            data = json.loads(match.group(1))
+            # Navigate to the section data in the JSON structure
+            section_data = (
+                data.get("props", {})
+                .get("pageProps", {})
+                .get("componentProps", {})
+                .get("eb190e7b-5914-4f3d-91a8-3fa8542b6178", {})
+                .get("data", [])
+            )
+
+            # Extract the sections
+            sections = []
+            for item in section_data:
+                title = item.get("titlecomputed_t", "")
+                path = item.get("relativeurlcomputed_s", "")
+
+                if title and path:
+                    url = f"https://www.merckvetmanual.com{path}"
+                    sections.append({"title": title, "url": url})
+
+            print(f"Found {len(sections)} sections from the Merck Veterinary Manual")
+            return sections
+
+        except json.JSONDecodeError as e:
+            print(f"Failed to parse JSON data: {e}")
+            return []
+        except Exception as e:
+            print(f"An error occurred during scraping: {e}")
+            return []
+
+    except Exception as e:
+        print(f"Error during request: {e}")
+        return []
 
 
 def is_relevant_title(title):
@@ -377,6 +440,15 @@ def download_pdfs_and_build_index():
     Path(output_dir).mkdir(exist_ok=True)
     Path(pdf_dir).mkdir(exist_ok=True)
 
+    # First, crawl the website to get the sections
+    sections = scrape_merck_vet_manual_sections()
+
+    # Save the sections to a JSON file
+    sections_path = os.path.join(output_dir, "merck_sections.json")
+    with open(sections_path, "w", encoding="utf-8") as f:
+        json.dump(sections, f, indent=2, ensure_ascii=False)
+    print(f"Saved {len(sections)} sections to {sections_path}")
+
     # Initialize Chrome WebDriver
     chrome_options = Options()
     chrome_options.add_argument("--headless=new")
@@ -404,17 +476,6 @@ def download_pdfs_and_build_index():
             with open(index_path, "r") as f:
                 pdf_index = json.load(f)
             print(f"Loaded {len(pdf_index)} existing entries")
-
-        # Load section data
-        sections_path = "merck_sections.json"
-        if not os.path.exists(sections_path):
-            sections_path = os.path.join("merck", "clean_sections.json")
-            if not os.path.exists(sections_path):
-                print("Error: No sections file found")
-                return
-
-        with open(sections_path, "r") as f:
-            sections = json.load(f)
 
         # Filter out ignored sections
         filtered_sections = [
