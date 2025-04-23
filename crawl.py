@@ -1,9 +1,12 @@
+import json
+import re
+
 import requests
 from bs4 import BeautifulSoup
 
 
 def scrape_merck_vet_manual_sections():
-    url = "https://www.merckvetmanual.com/ear-disorders/deafness/deafness-in-animals"
+    url = "https://www.merckvetmanual.com/veterinary-topics"
 
     # Send HTTP request to the website
     response = requests.get(url)
@@ -13,39 +16,51 @@ def scrape_merck_vet_manual_sections():
         print(f"Failed to retrieve the page: Status code {response.status_code}")
         return
 
-    # Parse the HTML content
-    soup = BeautifulSoup(response.text, "html.parser")
-    print("soupp: ", soup)
-    # Find the sections container - this may need adjustment based on actual HTML structure
-    sections_container = soup.find("div", class_="sections") or soup.find(id="sections")
-    print("sections_container: ", sections_container)
-    # If we can't find the specific container, look for all links in the sections area
-    if not sections_container:
-        # Look for links that appear to be sections based on the URL pattern
-        section_links = soup.find_all(
-            "a", href=lambda href: href and "/veterinary-topics/" in href
+    # Look for the data in the __NEXT_DATA__ script tag
+    match = re.search(
+        r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>',
+        response.text,
+        re.DOTALL,
+    )
+
+    if not match:
+        print("Could not find __NEXT_DATA__ script")
+        return
+
+    try:
+        data = json.loads(match.group(1))
+        # Navigate to the section data in the JSON structure
+        section_data = (
+            data.get("props", {})
+            .get("pageProps", {})
+            .get("componentProps", {})
+            .get("eb190e7b-5914-4f3d-91a8-3fa8542b6178", {})
+            .get("data", [])
         )
-    else:
-        section_links = sections_container.find_all("a")
 
-    # Extract and store section titles and URLs
-    sections = []
-    for link in section_links:
-        title = link.text.strip()
-        url = link.get("href")
+        # Extract the sections
+        sections = []
+        for item in section_data:
+            title = item.get("titlecomputed_t", "")
+            path = item.get("relativeurlcomputed_s", "")
 
-        # If URL is relative, make it absolute
-        if url and not url.startswith("http"):
-            url = f"https://www.merckvetmanual.com{url}"
+            if title and path:
+                url = f"https://www.merckvetmanual.com{path}"
+                sections.append({"title": title, "url": url})
 
-        sections.append({"title": title, "url": url})
+        return sections
 
-    return sections
+    except json.JSONDecodeError as e:
+        print(f"Failed to parse JSON data: {e}")
+        return
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        return
 
 
 if __name__ == "__main__":
     sections = scrape_merck_vet_manual_sections()
-    print("se   : ", sections)
+
     if sections:
         print(f"Found {len(sections)} sections:")
         for section in sections:
