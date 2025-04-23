@@ -1,3 +1,5 @@
+# full.py - With animal filtering to focus on cats and dogs
+
 import base64
 import json
 import os
@@ -17,6 +19,118 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 # List of sections to ignore
 IGNORED_SECTIONS = ["Behavior", "Poultry", "Special Subjects", "Public Health"]
+
+# List of animal terms to exclude (these are animals we're NOT interested in)
+EXCLUDED_ANIMALS = [
+    "horse",
+    "horses",
+    "equine",
+    "pig",
+    "pigs",
+    "swine",
+    "sow",
+    "boar",
+    "hog",
+    "cow",
+    "cows",
+    "cattle",
+    "bovine",
+    "bull",
+    "heifer",
+    "calf",
+    "calves",
+    "sheep",
+    "lamb",
+    "lambs",
+    "ovine",
+    "goat",
+    "goats",
+    "caprine",
+    "chicken",
+    "chickens",
+    "poultry",
+    "hen",
+    "rooster",
+    "turkey",
+    "turkeys",
+    "bird",
+    "birds",
+    "avian",
+    "rabbit",
+    "rabbits",
+    "bunny",
+    "bunnies",
+    "rodent",
+    "rodents",
+    "rat",
+    "rats",
+    "mouse",
+    "mice",
+    "hamster",
+    "hamsters",
+    "gerbil",
+    "gerbils",
+    "ferret",
+    "ferrets",
+    "reptile",
+    "reptiles",
+    "lizard",
+    "lizards",
+    "snake",
+    "snakes",
+    "human",
+    "humans",
+    "people",
+    "person",
+    "people",
+    "camel",
+    "camels",
+    "llama",
+    "llamas",
+    "alpaca",
+    "alpacas",
+    "fish",
+    "fishes",
+    "goldfish",
+    "tropical fish",
+]
+
+
+def is_relevant_title(title):
+    """
+    Check if the title is relevant (does not explicitly mention excluded animals)
+    Returns True if the title is relevant (for cats/dogs or general), False otherwise
+    """
+    # Convert to lowercase for case-insensitive matching
+    lower_title = title.lower()
+
+    # If "cat", "cats", "dog", or "dogs" is in the title, it's definitely relevant
+    if any(
+        animal in lower_title
+        for animal in [
+            "cat",
+            "cats",
+            "dog",
+            "dogs",
+            "kitten",
+            "kittens",
+            "puppy",
+            "puppies",
+            "feline",
+            "canine",
+        ]
+    ):
+        return True
+
+    # Check if any excluded animal terms are in the title
+    for excluded in EXCLUDED_ANIMALS:
+        # Use word boundary matching to avoid partial matches (e.g., 'rat' in 'strategy')
+        pattern = r"\b" + re.escape(excluded) + r"\b"
+        if re.search(pattern, lower_title):
+            return False
+
+    # If no excluded animals found, it's likely general content, so include it
+    return True
 
 
 def strip_url_fragment(url):
@@ -238,7 +352,8 @@ def extract_content_from_page(driver, url, base_section_path):
                     ]
                 )
             ):
-                if base_section_path in href:
+                # Check if the title is relevant (includes cats/dogs or is general)
+                if is_relevant_title(text) and base_section_path in href:
                     # Store only the base URL without fragments
                     content_links.append(
                         {
@@ -311,10 +426,24 @@ def download_pdfs_and_build_index():
             f"Starting the process with {len(filtered_sections)} sections (ignored {ignored_count} sections)"
         )
         print(f"Ignoring the following sections: {', '.join(IGNORED_SECTIONS)}")
+        print(
+            f"Filtering content to focus on cats and dogs, excluding: {', '.join(EXCLUDED_ANIMALS[:10])}..."
+        )
 
         # Create sets of processed URLs to avoid duplicates
         # Remove fragments from existing URLs for comparison
         processed_urls = {strip_url_fragment(entry["url"]) for entry in pdf_index}
+
+        # Statistics tracking
+        stats = {
+            "sections_processed": 0,
+            "sections_downloaded": 0,
+            "subsections_processed": 0,
+            "subsections_downloaded": 0,
+            "in_depth_processed": 0,
+            "in_depth_downloaded": 0,
+            "skipped_irrelevant": 0,
+        }
 
         # Process each section
         total_sections = len(filtered_sections)
@@ -331,6 +460,7 @@ def download_pdfs_and_build_index():
             print(
                 f"\n[{section_idx}/{total_sections}] Processing section: {section_title}"
             )
+            stats["sections_processed"] += 1
 
             # Add section to index if not already processed
             clean_section_url = strip_url_fragment(section_url)
@@ -350,6 +480,7 @@ def download_pdfs_and_build_index():
                     }
                     pdf_index.append(section_entry)
                     processed_urls.add(clean_section_url)
+                    stats["sections_downloaded"] += 1
 
                     # Save index after each PDF to prevent data loss
                     with open(index_path, "w", encoding="utf-8") as f:
@@ -388,16 +519,25 @@ def download_pdfs_and_build_index():
                 if len(parts) > 1 and section_path.strip("/") == parts[0]:
                     filtered_subsections.append(item)
 
-            print(f"Found {len(filtered_subsections)} subsections for {section_title}")
+            print(
+                f"Found {len(filtered_subsections)} relevant subsections for {section_title}"
+            )
 
             # Process each subsection
             for sub_idx, subsection in enumerate(filtered_subsections, 1):
                 subsection_title = subsection["title"]
                 subsection_url = subsection["url"]
 
+                # Check if the title is relevant for cats/dogs
+                if not is_relevant_title(subsection_title):
+                    print(f"Skipping irrelevant subsection: {subsection_title}")
+                    stats["skipped_irrelevant"] += 1
+                    continue
+
                 print(
                     f"[{sub_idx}/{len(filtered_subsections)}] Processing subsection: {subsection_title}"
                 )
+                stats["subsections_processed"] += 1
 
                 # Add subsection to index if not already processed
                 clean_subsection_url = strip_url_fragment(subsection_url)
@@ -422,6 +562,7 @@ def download_pdfs_and_build_index():
                         }
                         pdf_index.append(subsection_entry)
                         processed_urls.add(clean_subsection_url)
+                        stats["subsections_downloaded"] += 1
 
                         # Save index after each PDF
                         with open(index_path, "w", encoding="utf-8") as f:
@@ -460,6 +601,11 @@ def download_pdfs_and_build_index():
                 seen_clean_urls = set()
 
                 for link in in_depth_links:
+                    # Skip if not relevant for cats/dogs
+                    if not is_relevant_title(link["title"]):
+                        stats["skipped_irrelevant"] += 1
+                        continue
+
                     clean_link_url = strip_url_fragment(link["url"])
 
                     # Skip if we've already seen this base URL in the current subsection
@@ -474,7 +620,7 @@ def download_pdfs_and_build_index():
                         seen_clean_urls.add(clean_link_url)
 
                 print(
-                    f"Found {len(filtered_links)} unique in-depth links for {subsection_title}"
+                    f"Found {len(filtered_links)} relevant in-depth links for {subsection_title}"
                 )
 
                 # Process each in-depth link
@@ -485,6 +631,7 @@ def download_pdfs_and_build_index():
                     print(
                         f"[{link_idx}/{len(filtered_links)}] Processing link: {link_title}"
                     )
+                    stats["in_depth_processed"] += 1
 
                     # Add link to index if not already processed
                     clean_link_url = strip_url_fragment(link_url)
@@ -513,6 +660,7 @@ def download_pdfs_and_build_index():
                             }
                             pdf_index.append(link_entry)
                             processed_urls.add(clean_link_url)
+                            stats["in_depth_downloaded"] += 1
 
                             # Save index after each PDF
                             with open(index_path, "w", encoding="utf-8") as f:
@@ -535,6 +683,16 @@ def download_pdfs_and_build_index():
 
         print(f"\n=== Summary ===")
         print(f"Total PDFs downloaded: {len(pdf_index)}")
+        print(
+            f"Sections processed: {stats['sections_processed']}, downloaded: {stats['sections_downloaded']}"
+        )
+        print(
+            f"Subsections processed: {stats['subsections_processed']}, downloaded: {stats['subsections_downloaded']}"
+        )
+        print(
+            f"In-depth links processed: {stats['in_depth_processed']}, downloaded: {stats['in_depth_downloaded']}"
+        )
+        print(f"Content skipped (irrelevant animals): {stats['skipped_irrelevant']}")
         print(f"PDF index saved to: {os.path.abspath(index_path)}")
         print(f"All PDFs saved to: {os.path.abspath(pdf_dir)}")
 
