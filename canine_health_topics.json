@@ -1,0 +1,1356 @@
+[
+    {
+        "title": "Advisories",
+        "subcategories": [
+            {
+                "title": "Canine respiratory disease outbreaks",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/canine-respiratory-disease-outbreaks"
+            },
+            {
+                "title": "Dog safety during poor air quality alerts or wildfire smoke",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/dog-safety-during-poor-air-quality-alerts-or-wildfire-smoke"
+            },
+            {
+                "title": "Highly Pathogenic Avian Influenza (Bird Flu) Resource Center",
+                "url": "https://www.vet.cornell.edu/highly-pathogenic-avian-influenza-bird-flu-resource-center"
+            },
+            {
+                "title": "Pet food and toy recalls",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/pet-food-and-toy-recalls"
+            },
+            {
+                "title": "Raw foods for dogs: Evidence-based advice from the Riney Canine Health Center",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/raw-foods-dogs-evidence-based-advice-riney-canine-health-center"
+            }
+        ]
+    },
+    {
+        "title": "Allergies",
+        "subcategories": [
+            {
+                "title": "Allergy testing and immunotherapy",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/allergy-testing-and-immunotherapy"
+            },
+            {
+                "title": "Atopic dermatitis (atopy)",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/atopic-dermatitis-atopy"
+            },
+            {
+                "title": "How to Clean Your Dog’s Ears",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/how-clean-your-dogs-ears"
+            },
+            {
+                "title": "The ABC’s of cannabidiol (CBD) from hemp",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/abcs-cannabidiol-cbd-hemp"
+            }
+        ]
+    },
+    {
+        "title": "Arthritis",
+        "subcategories": [
+            {
+                "title": "Canine hip dysplasia (CHD)",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/canine-hip-dysplasia-chd"
+            },
+            {
+                "title": "How joint supplements can help with orthopedic conditions",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/how-joint-supplements-can-help-orthopedic-conditions"
+            },
+            {
+                "title": "Managing osteoarthritis with monoclonal antibodies",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/managing-osteoarthritis-monoclonal-antibodies"
+            },
+            {
+                "title": "Obesity and weight loss in dogs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/obesity-and-weight-loss-dogs"
+            },
+            {
+                "title": "Osteoarthritis",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/osteoarthritis"
+            },
+            {
+                "title": "Recognizing pain in dogs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/recognizing-pain-dogs"
+            },
+            {
+                "title": "The ABC’s of cannabidiol (CBD) from hemp",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/abcs-cannabidiol-cbd-hemp"
+            }
+        ]
+    },
+    {
+        "title": "Behavior",
+        "subcategories": [
+            {
+                "title": "Anxious behavior: How to help your dog cope with unsettling situations",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/anxious-behavior-how-help-your-dog-cope-unsettling-situations"
+            },
+            {
+                "title": "Basket muzzle training",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/basket-muzzle-training"
+            },
+            {
+                "title": "Cognitive dysfunction syndrome",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/cognitive-dysfunction-syndrome"
+            },
+            {
+                "title": "Excessive barking",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/excessive-barking"
+            },
+            {
+                "title": "Fear of fireworks and thunderstorms",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/fear-fireworks-and-thunderstorms"
+            },
+            {
+                "title": "Fearful dogs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/fearful-dogs"
+            },
+            {
+                "title": "How long should puppies stay with their mother?",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/how-long-should-puppies-stay-their-mother"
+            },
+            {
+                "title": "How to make veterinary visits less stressful for dogs",
+                "url": "https://www.vet.cornell.edu/how-make-veterinary-visits-less-stressful-dogs"
+            },
+            {
+                "title": "How to medicate your dog",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/how-medicate-your-dog"
+            },
+            {
+                "title": "Managing reactive behavior",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/managing-reactive-behavior"
+            },
+            {
+                "title": "Moving to a new home with your dog",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/moving-new-home-your-dog"
+            },
+            {
+                "title": "Muzzle choices",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/muzzle-choices"
+            },
+            {
+                "title": "Recognizing pain in dogs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/recognizing-pain-dogs"
+            },
+            {
+                "title": "Senior dog dementia",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/senior-dog-dementia"
+            },
+            {
+                "title": "Senior dog enrichment",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/senior-dog-enrichment"
+            },
+            {
+                "title": "The ABC’s of cannabidiol (CBD) from hemp",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/abcs-cannabidiol-cbd-hemp"
+            },
+            {
+                "title": "The teenage years: Puppy-proofing and training tips",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/teenage-years-puppy-proofing-and-training-tips"
+            },
+            {
+                "title": "Training 'stay' vs. 'wait'",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/training-stay-vs-wait"
+            },
+            {
+                "title": "What are zoomies?",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/what-are-zoomies"
+            },
+            {
+                "title": "Wolves vs. dogs: Prosocial behavior study",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/wolves-vs-dogs-prosocial-behavior-study"
+            }
+        ]
+    },
+    {
+        "title": "Blood disorders",
+        "subcategories": [
+            {
+                "title": "Von Willebrand Disease",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/von-willebrand-disease"
+            }
+        ]
+    },
+    {
+        "title": "Cancer and tumors",
+        "subcategories": [
+            {
+                "title": "5 questions to ask about cancer therapies",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/5-questions-ask-about-cancer-therapies"
+            },
+            {
+                "title": "Diet decisions during cancer treatment",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/diet-decisions-during-cancer-treatment"
+            },
+            {
+                "title": "Difficult decisions",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/difficult-decisions"
+            },
+            {
+                "title": "Hemangiosarcoma in dogs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/hemangiosarcoma-dogs"
+            },
+            {
+                "title": "Immunotherapy treatment",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/immunotherapy-treatment"
+            },
+            {
+                "title": "Lipomas in dogs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/lipomas-dogs"
+            },
+            {
+                "title": "Mammary cancer",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/mammary-cancer"
+            },
+            {
+                "title": "Oral squamous cell carcinoma in dogs",
+                "url": "https://www.vet.cornell.edu/OSCC"
+            },
+            {
+                "title": "Osteosarcoma in dogs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/osteosarcoma-dogs"
+            },
+            {
+                "title": "Osteosarcoma: Human-canine genetic similarities",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/osteosarcoma-human-canine-genetic-similarities"
+            },
+            {
+                "title": "Soft tissue sarcomas in dogs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/soft-tissue-sarcomas-dogs"
+            }
+        ]
+    },
+    {
+        "title": "Cardiology",
+        "subcategories": [
+            {
+                "title": "Aortic stenosis",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/aortic-stenosis"
+            },
+            {
+                "title": "Dilated cardiomyopathy",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/dilated-cardiomyopathy"
+            },
+            {
+                "title": "Get a jump on heart murmurs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/get-jump-heart-murmurs"
+            }
+        ]
+    },
+    {
+        "title": "Dentistry & oral surgery",
+        "subcategories": [
+            {
+                "title": "Brushing your dog's teeth",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/brushing-your-dogs-teeth"
+            },
+            {
+                "title": "Dental disease and home dental care",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/dental-disease-and-home-dental-care"
+            },
+            {
+                "title": "Dental sprays",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/dental-sprays"
+            },
+            {
+                "title": "Oral squamous cell carcinoma in dogs",
+                "url": "https://www.vet.cornell.edu/OSCC"
+            },
+            {
+                "title": "Periodontal disease",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/periodontal-disease"
+            },
+            {
+                "title": "Risks from a fractured tooth",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/risks-fractured-tooth"
+            }
+        ]
+    },
+    {
+        "title": "Dermatological disorders",
+        "subcategories": [
+            {
+                "title": "Anal sac adenocarcinoma",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/anal-sac-adenocarcinoma"
+            },
+            {
+                "title": "Anal sac diseases",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/anal-sac-diseases"
+            },
+            {
+                "title": "Atopic dermatitis (atopy)",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/atopic-dermatitis-atopy"
+            },
+            {
+                "title": "Canine skin autoimmune diseases",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/canine-skin-autoimmune-diseases"
+            },
+            {
+                "title": "Hot spots",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/hot-spots"
+            },
+            {
+                "title": "How to Clean Your Dog’s Ears",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/how-clean-your-dogs-ears"
+            },
+            {
+                "title": "Itchy ear problems",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/itchy-ear-problems"
+            },
+            {
+                "title": "Sarcoptic mange (scabies)",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/sarcoptic-mange-scabies"
+            }
+        ]
+    },
+    {
+        "title": "Diabetes",
+        "subcategories": [
+            {
+                "title": "Diabetes in dogs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/diabetes-dogs"
+            },
+            {
+                "title": "Diets for diabetic dogs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/diets-diabetic-dogs"
+            },
+            {
+                "title": "Managing canine diabetes",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/managing-canine-diabetes"
+            }
+        ]
+    },
+    {
+        "title": "Emergency",
+        "subcategories": [
+            {
+                "title": "Chocolate toxicity: What should I do if my dog eats chocolate?",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/chocolate-toxicity-what-should-i-do-if-my-dog-eats-chocolate"
+            },
+            {
+                "title": "First-aid for poisonous substances",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/first-aid-poisonous-substances"
+            },
+            {
+                "title": "Gastric dilatation volvulus (GDV) or “bloat”",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/gastric-dilatation-volvulus-gdv-or-bloat"
+            },
+            {
+                "title": "Gastrointestinal foreign body obstruction in dogs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/gastrointestinal-foreign-body-obstruction-dogs"
+            },
+            {
+                "title": "Pyometra",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/pyometra"
+            },
+            {
+                "title": "Recognizing and responding to canine respiratory distress",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/recognizing-and-responding-canine-respiratory-distress"
+            },
+            {
+                "title": "What to do when your dog gets skunked",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/what-do-when-your-dog-gets-skunked"
+            }
+        ]
+    },
+    {
+        "title": "Endocrinology",
+        "subcategories": [
+            {
+                "title": "Addison's disease",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/addisons-disease"
+            },
+            {
+                "title": "Cushing's syndrome",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/cushings-syndrome"
+            },
+            {
+                "title": "Hypothyroidism",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/hypothyroidism"
+            },
+            {
+                "title": "Ovarian remnant syndrome (ORS)",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/ovarian-remnant-syndrome-ors"
+            }
+        ]
+    },
+    {
+        "title": "Environment",
+        "subcategories": [
+            {
+                "title": "Atopic dermatitis (atopy)",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/atopic-dermatitis-atopy"
+            },
+            {
+                "title": "Blue-green algae poisoning: Cyanobacteria toxicosis",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/blue-green-algae-poisoning-cyanobacteria-toxicosis"
+            },
+            {
+                "title": "Canine leptospirosis",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/canine-leptospirosis"
+            },
+            {
+                "title": "Dog crates: When to use them and how to pick one",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/dog-crates-when-use-them-and-how-pick-one"
+            },
+            {
+                "title": "Dog safety during poor air quality alerts or wildfire smoke",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/dog-safety-during-poor-air-quality-alerts-or-wildfire-smoke"
+            },
+            {
+                "title": "Fear of fireworks and thunderstorms",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/fear-fireworks-and-thunderstorms"
+            },
+            {
+                "title": "Flea and tick prevention",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/flea-and-tick-prevention"
+            },
+            {
+                "title": "Fleas",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/fleas"
+            },
+            {
+                "title": "Giardia: Infection, treatment and prevention",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/giardia-infection-treatment-and-prevention"
+            },
+            {
+                "title": "Heatstroke: A medical emergency",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/heatstroke-medical-emergency"
+            },
+            {
+                "title": "Lyme disease",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/lyme-disease"
+            },
+            {
+                "title": "Plants toxic to dogs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/plants-toxic-dogs"
+            },
+            {
+                "title": "Rabies infections and prevention",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/rabies-infections-and-prevention"
+            },
+            {
+                "title": "Roundworms",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/roundworms"
+            },
+            {
+                "title": "Summer heat safety tips for dogs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/summer-heat-safety-tips-dogs"
+            },
+            {
+                "title": "Summer safety tips",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/summer-safety-tips"
+            },
+            {
+                "title": "Tapeworms",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/tapeworms"
+            },
+            {
+                "title": "What to do when your dog gets skunked",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/what-do-when-your-dog-gets-skunked"
+            },
+            {
+                "title": "Winter safety tips",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/winter-safety-tips"
+            }
+        ]
+    },
+    {
+        "title": "Epilepsy",
+        "subcategories": [
+            {
+                "title": "Idiopathic epilepsy in dogs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/idiopathic-epilepsy-dogs"
+            },
+            {
+                "title": "Managing seizures",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/managing-seizures"
+            }
+        ]
+    },
+    {
+        "title": "First aid",
+        "subcategories": [
+            {
+                "title": "Diarrhea",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/diarrhea"
+            },
+            {
+                "title": "First-aid for poisonous substances",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/first-aid-poisonous-substances"
+            },
+            {
+                "title": "Hot spots",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/hot-spots"
+            },
+            {
+                "title": "How to medicate your dog",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/how-medicate-your-dog"
+            },
+            {
+                "title": "What to do when your dog gets skunked",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/what-do-when-your-dog-gets-skunked"
+            }
+        ]
+    },
+    {
+        "title": "Gastrointestinal disease",
+        "subcategories": [
+            {
+                "title": "Diarrhea",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/diarrhea"
+            },
+            {
+                "title": "Gastric dilatation volvulus (GDV) or “bloat”",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/gastric-dilatation-volvulus-gdv-or-bloat"
+            },
+            {
+                "title": "Gastrointestinal foreign body obstruction in dogs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/gastrointestinal-foreign-body-obstruction-dogs"
+            },
+            {
+                "title": "Inflammatory bowel disease (IBD)",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/inflammatory-bowel-disease-ibd"
+            },
+            {
+                "title": "Inflammatory bowel disease and the home-prepared diet",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/inflammatory-bowel-disease-and-home-prepared-diet"
+            }
+        ]
+    },
+    {
+        "title": "General tips",
+        "subcategories": [
+            {
+                "title": "5 questions to ask about cancer therapies",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/5-questions-ask-about-cancer-therapies"
+            },
+            {
+                "title": "Big Red Bark Chat",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/big-red-bark-chat"
+            },
+            {
+                "title": "Cornell Veterinary Biobank",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/cornell-veterinary-biobank"
+            },
+            {
+                "title": "Dog crates: When to use them and how to pick one",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/dog-crates-when-use-them-and-how-pick-one"
+            },
+            {
+                "title": "Excessive barking",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/excessive-barking"
+            },
+            {
+                "title": "Fear of fireworks and thunderstorms",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/fear-fireworks-and-thunderstorms"
+            },
+            {
+                "title": "Fireworks fears? Tips to protect your pets",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/fireworks-fears-tips-protect-your-pets"
+            },
+            {
+                "title": "Flea and tick prevention",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/flea-and-tick-prevention"
+            },
+            {
+                "title": "Holiday hazards for dogs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/holiday-hazards-dogs"
+            },
+            {
+                "title": "How long should puppies stay with their mother?",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/how-long-should-puppies-stay-their-mother"
+            },
+            {
+                "title": "How to Clean Your Dog’s Ears",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/how-clean-your-dogs-ears"
+            },
+            {
+                "title": "How to make veterinary visits less stressful for dogs",
+                "url": "https://www.vet.cornell.edu/how-make-veterinary-visits-less-stressful-dogs"
+            },
+            {
+                "title": "Moving to a new home with your dog",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/moving-new-home-your-dog"
+            },
+            {
+                "title": "Obesity and weight management tips",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/obesity-and-weight-management-tips"
+            },
+            {
+                "title": "Selecting a purebred puppy",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/selecting-purebred-puppy"
+            },
+            {
+                "title": "Summer heat safety tips for dogs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/summer-heat-safety-tips-dogs"
+            },
+            {
+                "title": "Vomiting",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/vomiting"
+            },
+            {
+                "title": "What to do when your dog gets skunked",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/what-do-when-your-dog-gets-skunked"
+            },
+            {
+                "title": "Winter safety tips",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/winter-safety-tips"
+            }
+        ]
+    },
+    {
+        "title": "Genetics",
+        "subcategories": [
+            {
+                "title": "Benefits of canine DNA testing",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/benefits-canine-dna-testing"
+            },
+            {
+                "title": "Canine hip dysplasia (CHD)",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/canine-hip-dysplasia-chd"
+            },
+            {
+                "title": "Chondrodystrophy and intervertebral disc disease (CDDY/IVDD)",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/chondrodystrophy-and-intervertebral-disc-disease-cddyivdd"
+            },
+            {
+                "title": "Cornell Veterinary Biobank",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/cornell-veterinary-biobank"
+            },
+            {
+                "title": "Cystinuria",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/cystinuria"
+            },
+            {
+                "title": "Degenerative myelopathy",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/degenerative-myelopathy"
+            },
+            {
+                "title": "Dilated cardiomyopathy",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/dilated-cardiomyopathy"
+            },
+            {
+                "title": "Drug sensitivity: MDR1",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/drug-sensitivity-mdr1"
+            },
+            {
+                "title": "Oral squamous cell carcinoma in dogs",
+                "url": "https://www.vet.cornell.edu/OSCC"
+            },
+            {
+                "title": "Progressive retinal atrophy",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/progressive-retinal-atrophy"
+            },
+            {
+                "title": "Selecting a purebred puppy",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/selecting-purebred-puppy"
+            },
+            {
+                "title": "Von Willebrand Disease",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/von-willebrand-disease"
+            }
+        ]
+    },
+    {
+        "title": "Hazards",
+        "subcategories": [
+            {
+                "title": "Blue-green algae poisoning: Cyanobacteria toxicosis",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/blue-green-algae-poisoning-cyanobacteria-toxicosis"
+            },
+            {
+                "title": "Chocolate toxicity: What should I do if my dog eats chocolate?",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/chocolate-toxicity-what-should-i-do-if-my-dog-eats-chocolate"
+            },
+            {
+                "title": "Dog safety during poor air quality alerts or wildfire smoke",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/dog-safety-during-poor-air-quality-alerts-or-wildfire-smoke"
+            },
+            {
+                "title": "Holiday hazards for dogs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/holiday-hazards-dogs"
+            },
+            {
+                "title": "Plants toxic to dogs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/plants-toxic-dogs"
+            },
+            {
+                "title": "Summer safety tips",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/summer-safety-tips"
+            },
+            {
+                "title": "Xylitol toxicities",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/xylitol-toxicities"
+            }
+        ]
+    },
+    {
+        "title": "Hemangiosarcoma",
+        "subcategories": [
+            {
+                "title": "Hemangiosarcoma Research Progresses",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/baker-institute/research-baker-institute/hemangiosarcoma-research-progresses"
+            }
+        ]
+    },
+    {
+        "title": "Human-animal bond",
+        "subcategories": [
+            {
+                "title": "Anxious behavior: How to help your dog cope with unsettling situations",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/anxious-behavior-how-help-your-dog-cope-unsettling-situations"
+            },
+            {
+                "title": "Basket muzzle training",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/basket-muzzle-training"
+            },
+            {
+                "title": "How long should puppies stay with their mother?",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/how-long-should-puppies-stay-their-mother"
+            },
+            {
+                "title": "How to make veterinary visits less stressful for dogs",
+                "url": "https://www.vet.cornell.edu/how-make-veterinary-visits-less-stressful-dogs"
+            },
+            {
+                "title": "Human animal bond",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/human-animal-bond"
+            },
+            {
+                "title": "Playing ball safely",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/playing-ball-safely"
+            },
+            {
+                "title": "Recognizing pain in dogs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/recognizing-pain-dogs"
+            },
+            {
+                "title": "Selecting a purebred puppy",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/selecting-purebred-puppy"
+            },
+            {
+                "title": "Senior dog enrichment",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/senior-dog-enrichment"
+            },
+            {
+                "title": "The teenage years: Puppy-proofing and training tips",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/teenage-years-puppy-proofing-and-training-tips"
+            }
+        ]
+    },
+    {
+        "title": "Infection",
+        "subcategories": [
+            {
+                "title": "Canine brucellosis",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/canine-brucellosis"
+            },
+            {
+                "title": "Canine distemper virus",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/canine-distemper-virus"
+            },
+            {
+                "title": "Coccidia in dogs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/coccidia-dogs"
+            },
+            {
+                "title": "Giardia: Infection, treatment and prevention",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/giardia-infection-treatment-and-prevention"
+            },
+            {
+                "title": "Hookworms in dogs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/hookworms-dogs"
+            },
+            {
+                "title": "Parvovirus: Transmission to treatment",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/parvovirus-transmission-treatment"
+            },
+            {
+                "title": "Pyometra",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/pyometra"
+            },
+            {
+                "title": "Whipworms in dogs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/whipworms-dogs"
+            }
+        ]
+    },
+    {
+        "title": "Inflammation",
+        "subcategories": [
+            {
+                "title": "Atopic dermatitis (atopy)",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/atopic-dermatitis-atopy"
+            }
+        ]
+    },
+    {
+        "title": "Kidney disease",
+        "subcategories": [
+            {
+                "title": "Canine leptospirosis",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/canine-leptospirosis"
+            },
+            {
+                "title": "Pyelonephritis",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/pyelonephritis"
+            }
+        ]
+    },
+    {
+        "title": "Liver disease",
+        "subcategories": [
+            {
+                "title": "Canine leptospirosis",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/canine-leptospirosis"
+            },
+            {
+                "title": "Copper hepatopathy and dietary management",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/copper-hepatopathy-and-dietary-management"
+            }
+        ]
+    },
+    {
+        "title": "Musculoskeletal disease",
+        "subcategories": [
+            {
+                "title": "Canine hip dysplasia (CHD)",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/canine-hip-dysplasia-chd"
+            },
+            {
+                "title": "Degenerative myelopathy",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/degenerative-myelopathy"
+            },
+            {
+                "title": "Diseased spinal disks",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/diseased-spinal-disks"
+            },
+            {
+                "title": "Intervertebral disc disease",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/intervertebral-disc-disease"
+            },
+            {
+                "title": "Managing osteoarthritis with monoclonal antibodies",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/managing-osteoarthritis-monoclonal-antibodies"
+            },
+            {
+                "title": "Myasthenia gravis",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/myasthenia-gravis"
+            },
+            {
+                "title": "Osteoarthritis",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/osteoarthritis"
+            },
+            {
+                "title": "Recognizing pain in dogs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/recognizing-pain-dogs"
+            },
+            {
+                "title": "Tracheal collapse",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/tracheal-collapse"
+            }
+        ]
+    },
+    {
+        "title": "Neurological disorder",
+        "subcategories": [
+            {
+                "title": "Canine distemper virus",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/canine-distemper-virus"
+            },
+            {
+                "title": "Cognitive dysfunction syndrome",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/cognitive-dysfunction-syndrome"
+            },
+            {
+                "title": "Degenerative myelopathy",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/degenerative-myelopathy"
+            },
+            {
+                "title": "Diseased spinal disks",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/diseased-spinal-disks"
+            },
+            {
+                "title": "Idiopathic epilepsy in dogs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/idiopathic-epilepsy-dogs"
+            },
+            {
+                "title": "Laryngeal paralysis",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/laryngeal-paralysis"
+            },
+            {
+                "title": "Managing seizures",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/managing-seizures"
+            },
+            {
+                "title": "Senior dog dementia",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/senior-dog-dementia"
+            }
+        ]
+    },
+    {
+        "title": "Nutrition",
+        "subcategories": [
+            {
+                "title": "Aging",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/aging"
+            },
+            {
+                "title": "CBD: What you need to know about its uses and efficacy",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/cbd-what-you-need-know-about-its-uses-and-efficacy"
+            },
+            {
+                "title": "Choosing food for your senior dog",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/choosing-food-your-senior-dog"
+            },
+            {
+                "title": "Copper hepatopathy and dietary management",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/copper-hepatopathy-and-dietary-management"
+            },
+            {
+                "title": "Diet decisions during cancer treatment",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/diet-decisions-during-cancer-treatment"
+            },
+            {
+                "title": "Diets to boost immunity",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/diets-boost-immunity"
+            },
+            {
+                "title": "Feeding your performance dog",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/feeding-your-performance-dog"
+            },
+            {
+                "title": "How joint supplements can help with orthopedic conditions",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/how-joint-supplements-can-help-orthopedic-conditions"
+            },
+            {
+                "title": "Inflammatory bowel disease and the home-prepared diet",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/inflammatory-bowel-disease-and-home-prepared-diet"
+            },
+            {
+                "title": "Obesity and weight loss in dogs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/obesity-and-weight-loss-dogs"
+            },
+            {
+                "title": "Raw foods for dogs: Evidence-based advice from the Riney Canine Health Center",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/raw-foods-dogs-evidence-based-advice-riney-canine-health-center"
+            },
+            {
+                "title": "Re-evaluating your dog’s diet",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/re-evaluating-your-dogs-diet"
+            },
+            {
+                "title": "Refusal to eat prescription food",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/refusal-eat-prescription-food"
+            },
+            {
+                "title": "The Biggest Health Problem in Canine Medicine: Obesity",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/biggest-health-problem-canine-medicine-obesity"
+            },
+            {
+                "title": "The power of probiotics",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/power-probiotics"
+            }
+        ]
+    },
+    {
+        "title": "Obesity",
+        "subcategories": [
+            {
+                "title": "Obesity and weight loss in dogs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/obesity-and-weight-loss-dogs"
+            },
+            {
+                "title": "Obesity and weight management tips",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/obesity-and-weight-management-tips"
+            },
+            {
+                "title": "The Biggest Health Problem in Canine Medicine: Obesity",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/biggest-health-problem-canine-medicine-obesity"
+            }
+        ]
+    },
+    {
+        "title": "Ophthalmology",
+        "subcategories": [
+            {
+                "title": "Canine cataracts",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/canine-cataracts"
+            },
+            {
+                "title": "Glaucoma",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/glaucoma"
+            },
+            {
+                "title": "Primary lens luxation",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/primary-lens-luxation"
+            },
+            {
+                "title": "Progressive retinal atrophy",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/progressive-retinal-atrophy"
+            }
+        ]
+    },
+    {
+        "title": "Orthopedia",
+        "subcategories": [
+            {
+                "title": "Canine hip dysplasia (CHD)",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/canine-hip-dysplasia-chd"
+            },
+            {
+                "title": "Elbow dysplasia",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/elbow-dysplasia"
+            },
+            {
+                "title": "How joint supplements can help with orthopedic conditions",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/how-joint-supplements-can-help-orthopedic-conditions"
+            },
+            {
+                "title": "Iliopsoas injury",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/iliopsoas-injury"
+            },
+            {
+                "title": "Osteoarthritis",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/osteoarthritis"
+            },
+            {
+                "title": "Patellar luxation",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/patellar-luxation"
+            },
+            {
+                "title": "Recognizing pain in dogs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/recognizing-pain-dogs"
+            }
+        ]
+    },
+    {
+        "title": "Pain",
+        "subcategories": [
+            {
+                "title": "Canine hip dysplasia (CHD)",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/canine-hip-dysplasia-chd"
+            },
+            {
+                "title": "How joint supplements can help with orthopedic conditions",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/how-joint-supplements-can-help-orthopedic-conditions"
+            },
+            {
+                "title": "Iliopsoas injury",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/iliopsoas-injury"
+            },
+            {
+                "title": "Managing osteoarthritis with monoclonal antibodies",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/managing-osteoarthritis-monoclonal-antibodies"
+            },
+            {
+                "title": "Osteoarthritis",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/osteoarthritis"
+            }
+        ]
+    },
+    {
+        "title": "Parasites",
+        "subcategories": [
+            {
+                "title": "Coccidia in dogs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/coccidia-dogs"
+            },
+            {
+                "title": "Flea and tick prevention",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/flea-and-tick-prevention"
+            },
+            {
+                "title": "Fleas",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/fleas"
+            },
+            {
+                "title": "Giardia: Infection, treatment and prevention",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/giardia-infection-treatment-and-prevention"
+            },
+            {
+                "title": "Heartworm disease",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/heartworm-disease"
+            },
+            {
+                "title": "Hookworms in dogs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/hookworms-dogs"
+            },
+            {
+                "title": "Roundworms",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/roundworms"
+            },
+            {
+                "title": "Sarcoptic mange (scabies)",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/sarcoptic-mange-scabies"
+            },
+            {
+                "title": "Tapeworms",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/tapeworms"
+            },
+            {
+                "title": "Whipworms in dogs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/whipworms-dogs"
+            }
+        ]
+    },
+    {
+        "title": "Rabies",
+        "subcategories": [
+            {
+                "title": "Rabies infections and prevention",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/rabies-infections-and-prevention"
+            }
+        ]
+    },
+    {
+        "title": "Regenerative medicine",
+        "subcategories": [
+            {
+                "title": "Stem cells generated from canine blood",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/stem-cells-generated-canine-blood"
+            }
+        ]
+    },
+    {
+        "title": "Reproduction",
+        "subcategories": [
+            {
+                "title": "Canine brucellosis",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/canine-brucellosis"
+            },
+            {
+                "title": "Dog estrous cycles",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/dog-estrous-cycles"
+            },
+            {
+                "title": "Ovarian remnant syndrome (ORS)",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/ovarian-remnant-syndrome-ors"
+            },
+            {
+                "title": "Pyometra",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/pyometra"
+            },
+            {
+                "title": "Selecting a purebred puppy",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/selecting-purebred-puppy"
+            },
+            {
+                "title": "The normal whelping process",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/normal-whelping-process"
+            }
+        ]
+    },
+    {
+        "title": "Respiratory disease",
+        "subcategories": [
+            {
+                "title": "Brachycephalic Obstructive Airway Syndrome (BOAS)",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/brachycephalic-obstructive-airway-syndrome-boas"
+            },
+            {
+                "title": "Laryngeal paralysis",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/laryngeal-paralysis"
+            },
+            {
+                "title": "Recognizing and responding to canine respiratory distress",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/recognizing-and-responding-canine-respiratory-distress"
+            },
+            {
+                "title": "Reverse Sneezing",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/reverse-sneezing"
+            },
+            {
+                "title": "The risks of kennel cough",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/risks-kennel-cough"
+            },
+            {
+                "title": "Tracheal collapse",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/tracheal-collapse"
+            }
+        ]
+    },
+    {
+        "title": "Shelter medicine",
+        "subcategories": [
+            {
+                "title": "Canine distemper virus",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/canine-distemper-virus"
+            }
+        ]
+    },
+    {
+        "title": "Sports medicine",
+        "subcategories": [
+            {
+                "title": "Iliopsoas injury",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/iliopsoas-injury"
+            },
+            {
+                "title": "Playing ball safely",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/playing-ball-safely"
+            },
+            {
+                "title": "Treadmill training for dogs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/treadmill-training-dogs"
+            }
+        ]
+    },
+    {
+        "title": "Tick-borne diseases",
+        "subcategories": [
+            {
+                "title": "Anaplasmosis",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/anaplasmosis"
+            },
+            {
+                "title": "Flea and tick prevention",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/flea-and-tick-prevention"
+            },
+            {
+                "title": "Lyme disease",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/lyme-disease"
+            }
+        ]
+    },
+    {
+        "title": "Toxins & poisons",
+        "subcategories": [
+            {
+                "title": "Blue-green algae poisoning: Cyanobacteria toxicosis",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/blue-green-algae-poisoning-cyanobacteria-toxicosis"
+            },
+            {
+                "title": "Chocolate toxicity: What should I do if my dog eats chocolate?",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/chocolate-toxicity-what-should-i-do-if-my-dog-eats-chocolate"
+            },
+            {
+                "title": "First-aid for poisonous substances",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/first-aid-poisonous-substances"
+            },
+            {
+                "title": "Holiday hazards for dogs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/holiday-hazards-dogs"
+            },
+            {
+                "title": "Plants toxic to dogs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/plants-toxic-dogs"
+            },
+            {
+                "title": "Summer safety tips",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/summer-safety-tips"
+            },
+            {
+                "title": "What to do when your dog gets skunked",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/what-do-when-your-dog-gets-skunked"
+            },
+            {
+                "title": "Xylitol toxicities",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/xylitol-toxicities"
+            }
+        ]
+    },
+    {
+        "title": "Urologic disorders",
+        "subcategories": [
+            {
+                "title": "Cystinuria",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/cystinuria"
+            },
+            {
+                "title": "Pyelonephritis",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/pyelonephritis"
+            },
+            {
+                "title": "Struvite bladder stones in dogs",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/struvite-bladder-stones-dogs"
+            },
+            {
+                "title": "Urinary tract infections",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/urinary-tract-infections"
+            }
+        ]
+    },
+    {
+        "title": "Vaccines",
+        "subcategories": [
+            {
+                "title": "Canine distemper virus",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/canine-distemper-virus"
+            },
+            {
+                "title": "Canine leptospirosis",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/canine-leptospirosis"
+            },
+            {
+                "title": "Parvovirus: Transmission to treatment",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/parvovirus-transmission-treatment"
+            },
+            {
+                "title": "Rabies infections and prevention",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/rabies-infections-and-prevention"
+            }
+        ]
+    },
+    {
+        "title": "Viruses",
+        "subcategories": [
+            {
+                "title": "Parvovirus: Transmission to treatment",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/parvovirus-transmission-treatment"
+            }
+        ]
+    },
+    {
+        "title": "Wellness",
+        "subcategories": [
+            {
+                "title": "Dental sprays",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/dental-sprays"
+            },
+            {
+                "title": "Drug sensitivity: MDR1",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/drug-sensitivity-mdr1"
+            },
+            {
+                "title": "How to make veterinary visits less stressful for dogs",
+                "url": "https://www.vet.cornell.edu/how-make-veterinary-visits-less-stressful-dogs"
+            }
+        ]
+    },
+    {
+        "title": "Zoonotic Diseases",
+        "subcategories": [
+            {
+                "title": "Canine brucellosis",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/canine-brucellosis"
+            },
+            {
+                "title": "Canine leptospirosis",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/canine-leptospirosis"
+            },
+            {
+                "title": "Fleas",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/fleas"
+            },
+            {
+                "title": "Giardia: Infection, treatment and prevention",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/giardia-infection-treatment-and-prevention"
+            },
+            {
+                "title": "Lyme disease",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/lyme-disease"
+            },
+            {
+                "title": "Roundworms",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/roundworms"
+            },
+            {
+                "title": "Sarcoptic mange (scabies)",
+                "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/sarcoptic-mange-scabies"
+            }
+        ]
+    }
+]

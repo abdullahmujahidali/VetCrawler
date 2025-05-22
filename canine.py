@@ -2,7 +2,7 @@ import base64
 import json
 import os
 import time
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse, parse_qs
 
 import requests
 from bs4 import BeautifulSoup
@@ -14,56 +14,98 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 def fetch_canine_health_data():
     BASE_URL = "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"
+    
+    all_categories = []
+    current_page = 0
+    
+    while True:
+        # Construct URL with page parameter
+        if current_page == 0:
+            page_url = BASE_URL
+        else:
+            page_url = f"{BASE_URL}?page={current_page}"
+        
+        print(f"Fetching page {current_page + 1}...")
+        
+        try:
+            response = requests.get(page_url)
+            response.raise_for_status()
+        except requests.RequestException as e:
+            print(f"Error fetching page {current_page}: {e}")
+            break
 
-    try:
-        response = requests.get(BASE_URL)
-        response.raise_for_status()
-    except requests.RequestException as e:
-        print(f"Error fetching the page: {e}")
-        return None
+        soup = BeautifulSoup(response.text, "html.parser")
+        
+        # Find the view content container
+        view_content = soup.find("div", class_="view-content cards")
+        if not view_content:
+            print(f"Could not find view-content on page {current_page}")
+            # Let's see what div classes are available
+            all_divs = soup.find_all("div", class_=True)
+            print(f"Available div classes: {[' '.join(div.get('class', [])) for div in all_divs[:10]]}")
+            break
 
-    soup = BeautifulSoup(response.text, "html.parser")
-    print("souop: ", soup)
+        # Find all h3 category headers and their associated content
+        current_category = None
+        category_items = []
+        
+        # Get all direct children and iterate through them
+        elements = list(view_content.children)
+        
+        for element in elements:
+            if element.name == "h3":
+                # Save previous category if exists
+                if current_category and category_items:
+                    # Check if this category already exists in our list
+                    existing_category = next((cat for cat in all_categories if cat["title"] == current_category), None)
+                    if existing_category:
+                        existing_category["subcategories"].extend(category_items)
+                    else:
+                        all_categories.append({"title": current_category, "subcategories": category_items})
+                
+                # Start new category
+                current_category = element.get_text(strip=True)
+                category_items = []
+                print(f"  Found category: {current_category}")
+                
+            elif element.name == "div" and element.get("class"):
+                element_classes = " ".join(element.get("class", []))
+                if "expander views-row card" in element_classes:
+                    # Find the link in this card
+                    link_element = element.find("a")
+                    if link_element and current_category:
+                        title = link_element.get_text(strip=True)
+                        href = link_element.get("href")
+                        if href:
+                            full_url = urljoin(BASE_URL, href)
+                            category_items.append({"title": title, "url": full_url})
+                            print(f"    Found item: {title}")
 
-    # Find the expandable sections that contain categories
-    expander = soup.find("div", class_="expander")
-    if not expander:
-        print("Could not find the expander div containing categories.")
-        return None
-
-    categories = []
-
-    # Each category has an h3 header followed by a div containing links
-    h3_elements = expander.find_all("h3")
-
-    for h3 in h3_elements:
-        category_title = h3.get_text(strip=True)
-
-        # Find the div that follows this h3 (contains the subcategories)
-        subcategory_div = h3.find_next_sibling("div")
-        if not subcategory_div:
-            continue
-
-        subcategories = []
-        # Get all links in this div
-        links = subcategory_div.find_all("a")
-
-        for link in links:
-            title = link.get_text(strip=True)
-            href = link.get("href")
-            if href:
-                full_url = urljoin(BASE_URL, href)
-                subcategories.append({"title": title, "url": full_url})
-
-        # Add this category and its subcategories to our list
-        categories.append({"title": category_title, "subcategories": subcategories})
-
-    return categories
+        # Save the last category
+        if current_category and category_items:
+            existing_category = next((cat for cat in all_categories if cat["title"] == current_category), None)
+            if existing_category:
+                existing_category["subcategories"].extend(category_items)
+            else:
+                all_categories.append({"title": current_category, "subcategories": category_items})
+        
+        # Check if there's a next page
+        pagination = soup.find("nav", class_="pager")
+        if pagination:
+            next_link = pagination.find("a", title=lambda x: x and "Go to next page" in x)
+            if next_link:
+                current_page += 1
+                continue
+        
+        # No more pages
+        break
+    
+    return all_categories
 
 
 def save_url_as_pdf(driver, url, pdf_path, timeout=30):
     """Save a URL as PDF using Chrome's built-in PDF printing capability"""
-
+    
     try:
         driver.get(url)
         time.sleep(5)
@@ -117,6 +159,7 @@ def save_pages_as_pdf(categories):
                     "youtube.com" in subcategory_url
                     or "goo.gl" in subcategory_url
                     or "veritasdvm.com" in subcategory_url
+                    or "bigredbarkchat.vet.cornell.edu" in subcategory_url
                 ):
                     print(f"  • Skipping external URL: {subcategory_title}")
                     processed_log.append(
@@ -186,11 +229,11 @@ def save_pages_as_pdf(categories):
 
 if __name__ == "__main__":
     data = fetch_canine_health_data()
-    print("data: ", data)
+    
     if data:
-        with open("feline_health_topics.json", "w", encoding="utf-8") as f:
+        with open("canine_health_topics.json", "w", encoding="utf-8") as f:
             json.dump(data, f, indent=4, ensure_ascii=False)
-        print(f"Data successfully saved to feline_health_topics.json")
+        print(f"Data successfully saved to canine_health_topics.json")
         print(
             f"Found {len(data)} categories with a total of {sum(len(cat['subcategories']) for cat in data)} subcategories"
         )
