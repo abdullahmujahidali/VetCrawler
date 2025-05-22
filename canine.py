@@ -2,21 +2,18 @@ import base64
 import json
 import os
 import time
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.ui import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 
 
-def fetch_feline_health_data():
-    BASE_URL = "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics"
+def fetch_canine_health_data():
+    BASE_URL = "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information"
 
     try:
         response = requests.get(BASE_URL)
@@ -26,6 +23,7 @@ def fetch_feline_health_data():
         return None
 
     soup = BeautifulSoup(response.text, "html.parser")
+    print("souop: ", soup)
 
     # Find the expandable sections that contain categories
     expander = soup.find("div", class_="expander")
@@ -67,13 +65,8 @@ def save_url_as_pdf(driver, url, pdf_path, timeout=30):
     """Save a URL as PDF using Chrome's built-in PDF printing capability"""
 
     try:
-        # Navigate to the page
         driver.get(url)
-
-        # Wait for the page to load (adjust as needed)
         time.sleep(5)
-
-        # Execute CDP command to print the page to PDF
         result = driver.execute_cdp_cmd(
             "Page.printToPDF",
             {
@@ -85,11 +78,7 @@ def save_url_as_pdf(driver, url, pdf_path, timeout=30):
                 "marginRight": 0,
             },
         )
-
-        # Decode the base64 encoded PDF
         pdf_data = base64.b64decode(result["data"])
-
-        # Write PDF data to file
         with open(pdf_path, "wb") as f:
             f.write(pdf_data)
 
@@ -100,33 +89,22 @@ def save_url_as_pdf(driver, url, pdf_path, timeout=30):
 
 
 def save_pages_as_pdf(categories):
-    # Create a PDF directory if it doesn't exist
-    pdf_dir = "feline_health_pdfs"
+    pdf_dir = "canine_health_pdfs"
     os.makedirs(pdf_dir, exist_ok=True)
-
-    # Set up Chrome options for headless PDF printing
     chrome_options = Options()
     chrome_options.add_argument("--headless")
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
-    chrome_options.add_argument(
-        "--window-size=1200,1200"
-    )  # Ensure good size for printing
-
-    # Initialize the WebDriver
+    chrome_options.add_argument("--window-size=1200,1200")
     service = Service(ChromeDriverManager().install())
     driver = webdriver.Chrome(service=service, options=chrome_options)
-
-    # Create a log of processed URLs
     processed_log = []
 
     try:
         for category in categories:
             category_title = category["title"]
             print(f"\nProcessing category: {category_title}")
-
-            # Create category directory
             category_dir = os.path.join(
                 pdf_dir, category_title.replace(" ", "_").replace("/", "_")
             )
@@ -135,8 +113,6 @@ def save_pages_as_pdf(categories):
             for subcategory in category["subcategories"]:
                 subcategory_title = subcategory["title"]
                 subcategory_url = subcategory["url"]
-
-                # YouTube playlists and external sites may cause issues, so handle them differently
                 if (
                     "youtube.com" in subcategory_url
                     or "goo.gl" in subcategory_url
@@ -153,8 +129,6 @@ def save_pages_as_pdf(categories):
                         }
                     )
                     continue
-
-                # Create a safe filename
                 safe_title = (
                     subcategory_title.replace(" ", "_")
                     .replace("/", "_")
@@ -163,11 +137,8 @@ def save_pages_as_pdf(categories):
                     .replace('"', "")
                 )
                 pdf_path = os.path.join(category_dir, f"{safe_title}.pdf")
-
                 print(f"  • Saving: {subcategory_title}")
-
                 try:
-                    # Save the page as PDF
                     if save_url_as_pdf(driver, subcategory_url, pdf_path):
                         processed_log.append(
                             {
@@ -199,15 +170,10 @@ def save_pages_as_pdf(categories):
                             "error": str(e),
                         }
                     )
-
-                # Add a small delay between requests to be gentle on the server
                 time.sleep(1)
 
     finally:
-        # Close the browser
         driver.quit()
-
-        # Save processing log
         with open(
             os.path.join(pdf_dir, "processing_log.json"), "w", encoding="utf-8"
         ) as f:
@@ -219,19 +185,15 @@ def save_pages_as_pdf(categories):
 
 
 if __name__ == "__main__":
-    data = fetch_feline_health_data()
-
+    data = fetch_canine_health_data()
+    print("data: ", data)
     if data:
-        # Save to a JSON file
         with open("feline_health_topics.json", "w", encoding="utf-8") as f:
             json.dump(data, f, indent=4, ensure_ascii=False)
-
         print(f"Data successfully saved to feline_health_topics.json")
         print(
             f"Found {len(data)} categories with a total of {sum(len(cat['subcategories']) for cat in data)} subcategories"
         )
-
-        # Ask user if they want to download PDFs
         proceed = input("Do you want to download PDFs for all subcategories? (y/n): ")
         if proceed.lower() == "y":
             save_pages_as_pdf(data)
